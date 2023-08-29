@@ -1,5 +1,78 @@
-[
-    {
-      "name": "creation json file"
-    }
+{
+  "ui": {
+    "layout": "",
+    "root": [
+      {
+        "id":"1",
+        "tag": "section",
+        "class": ["textcenter"],
+        "children": [{
+          "tag":"div",
+          "class":["background"],
+          "child": [{
+            "tag":"div",
+            "class":["fontstyle"]
+          }]
+        }]
+      },
+      {
+        "id":"2",
+        "tag": "section",
+        "class": ["textcenter2"],
+        "children": [{
+          "tag":"div",
+          "class":["text-bgcolor"],
+          "child": [{
+            "tag":"p",
+            "class":["template"]
+          }]
+        }]
+      }, {
+        "id":"3",
+        "tag": "section",
+        "class": ["textcenter3"],
+        "children": [{
+          "tag":"div",
+          "class":["text-height"],
+          "child": [{
+            "tag":"h1",
+            "class":["headline"]
+          }]
+        }]
+      }, {
+        "id":"4",
+        "tag": "section",
+        "class": ["textcenter4"],
+        "children": [{
+          "tag":"div",
+          "class":["paragraph"],
+          "child": [{
+            "tag":"h4",
+            "class":["lines"],
+            "childschild": [{
+              "tag":"h6",
+              "class":["sentance1"]
+          },{
+            "tag":"h2",
+            "class":["sentance2"]
+        },{
+          "tag":"span",
+          "class":["sentance3"],
+          "gs": [{
+            "tag":"footer",
+            "class":["footer-style"], 
+            "gschild": [{
+              "tag":"nav",
+              "class":["nav-style"]
+          }
+        ] 
+        }
+      ] 
+      }]
+        }]
+      }
+    ]
+  }
 ]
+  }
+  }
