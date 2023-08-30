@@ -6,6 +6,9 @@
         "id":"1",
         "tag": "section",
         "class": ["textcenter"],
+        "styles": {
+          "backgroundColor": "blue"
+        },
         "children": [{
           "tag":"div",
           "class":["background"],
@@ -43,6 +46,9 @@
         "id":"4",
         "tag": "section",
         "class": ["textcenter4"],
+        "styles": {
+          "backgroundColor": "brown" 
+        },
         "children": [{
           "tag":"div",
           "class":["paragraph"],
@@ -58,12 +64,22 @@
         },{
           "tag":"span",
           "class":["sentance3"],
+          "styles": {
+            "backgroundColor": "gray"
+           
+          },
           "gs": [{
             "tag":"footer",
             "class":["footer-style"], 
             "gschild": [{
               "tag":"nav",
-              "class":["nav-style"]
+              "class":["nav-style"],
+              "styles": {
+                "backgroundColor": "red",
+                "text-align":"right",
+                "color":"yellow"
+                
+              }
           }
         ] 
         }
