@@ -3,390 +3,415 @@
     "layout": "",
     "root": [
       {
-        "tag": "div",
+        "tag": "form",
+        "post":"post",
         "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
+          "max-width": "700px",
+          "margin": "0 auto",
+          "padding": "20px",
+          "background-color": "#fff",
+          "border-radius": "5px",
+          "box-shadow": "0 0 10px rgba(0, 0, 0, 0.1)",
+          "max-height": "95vh",
+          "overflow":"auto",
+          "text":"form"
         },
-        "children": [
+        "children1":[
           {
-            "tag": "label",
-            "for": "floating_email",
-            "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-             
-            },
-            "text": "Email address"
-          },
-          {
-            "tag": "input",
-            "type": "email",
-            "name": "floating_email",
-            "id": "floating_email",
-            "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
-              
-            
-            },
-            "placeholder": " "
+            "tag":"h1",
+             "text":"SignUp",
+             "class":
+             "font-bold text-xl py-5 bg-red-500 text-center"
           }
-        ]
-      },
-      {
-        "tag": "div",
-        "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
-        },
+        ],
         "children": [
+         
           {
-            "tag": "label",
-            "for": "floating_password",
+            "tag": "div",
             "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-            },
-            "text": "Password"
-          },
-          {
-            "tag": "input",
-            "type": "password",
-            "name": "floating_password",
-            "id": "floating_password",
-            "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
-             
-            },
-            "placeholder": " "
-          }
-        ]
-      },
-      {
-        "tag": "div",
-        "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
-        },
-        "children": [
-          {
-            "tag": "label",
-            "for": "floating_repeat_password",
-            "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-            },
-            "text": "Confirm password"
-          },
-          {
-            "tag": "input",
-            "type": "password",
-            "name": "floating_repeat_password",
-            "id": "floating_repeat_password",
-            "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
-           
-            },
-            "placeholder": " "
-          }
-        ]
-      },
-      {
-        "tag": "div",
-        "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
-        },
-        "children": [
-          {
-            "tag": "label",
-            "for": "floating_first_name",
-            "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-            },
-            "text": "First name"
-          },
-          {
-            "tag": "input",
-            "type": "text",
-            "name": "floating_first_name",
-            "id": "floating_first_name",
-            "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
+              "position": "relative",
+              "margin-bottom": "20px"
               
             },
-            "placeholder": " "
-          }
-        ]
-      },
-      {
-        "tag": "div",
-        "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
-        },
-        "children": [
-          {
-            "tag": "label",
-            "for": "floating_last_name",
-            "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-            },
-            "text": "Last name"
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_email",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "Email address"
+              },
+              {
+                "tag": "input",
+                "type": "email",
+                "name": "floating_email",
+                "id": "floating_email",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                },
+                "placeholder": ""
+              }
+            ]
           },
           {
-            "tag": "input",
-            "type": "text",
-            "name": "floating_last_name",
-            "id": "floating_last_name",
+            "tag": "div",
             "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
-            
+              "position": "relative",
+              "margin-bottom": "20px"
             },
-            "placeholder": " "
-          }
-        ]
-      },
-      {
-        "tag": "div",
-        "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
-        },
-        "children": [
-          {
-            "tag": "label",
-            "for": "floating_phone",
-            "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-            },
-            "text": "Phone number (123-456-7890)"
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_password",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "Password"
+              },
+              {
+                "tag": "input",
+                "type": "password",
+                "name": "floating_password",
+                "id": "floating_password",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                },
+                "placeholder": ""
+              }
+            ]
           },
           {
-            "tag": "input",
-            "type": "tel",
-            "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{4}",
-            "name": "floating_phone",
-            "id": "floating_phone",
+            "tag": "div",
             "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
-           
+              "position": "relative",
+              "margin-bottom": "20px"
             },
-            "placeholder": " "
-          }
-        ]
-      },
-      {
-        "tag": "div",
-        "styles": {
-          "position": "relative",
-          "z-index": "0",
-          "width": "100%",
-          "margin-bottom": "6px"
-        },
-        "children": [
-          {
-            "tag": "label",
-            "for": "floating_company",
-            "styles": {
-              "font-weight": "medium",
-              "position": "absolute",
-              "font-size": "20px",
-              "color": "#777",
-              "transition": "transform 300ms",
-              "transform": "translateY(-10px) scale(0.75)",
-              "top": "0",
-              "z-index": "0",
-              "width": "50%",
-              "margin":"-8px"
-
-            },
-            "text": "Company (Ex. Google)"
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_repeat_password",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "Confirm Password"
+              },
+              {
+                "tag": "input",
+                "type": "password",
+                "name": "floating_repeat_password",
+                "id": "floating_repeat_password",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                },
+                "placeholder": ""
+              }
+            ]
           },
           {
-            "tag": "input",
-            "type": "text",
-            "name": "floating_company",
-            "id": "floating_company",
+            "tag": "div",
             "styles": {
-              "display": "block",
-              "padding-top": "15px",
-              "padding-left": "0",
-              "width": "100%",
-              "font-size": "20px",
-              "color": "#333",
-              "background-color": "transparent",
-              "border": "none",
-              "border-bottom": "2px solid #ccc",
-              "outline": "none",
-              "border-bottom-color": "blue",
-              "transform": "translateY(6px) scale(0.75)",
-              "top": "0",
-              "z-index": "1"
-           
+              "position": "relative",
+              "margin-bottom": "20px"
             },
-            "placeholder": " "
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_first_name",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "First Name"
+              },
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "floating_first_name",
+                "id": "floating_first_name",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                },
+                "placeholder": ""
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "styles": {
+              "position": "relative",
+              "margin-bottom": "20px"
+            },
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_last_name",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "Last Name"
+              },
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "floating_last_name",
+                "id": "floating_last_name",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                 
+                },
+                "placeholder": ""
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "styles": {
+              "position": "relative",
+              "margin-bottom": "20px"
+            },
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_phone",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "Phone Number (123-456-7890)"
+              },
+              {
+                "tag": "input",
+                "type": "tel",
+                "name": "floating_phone",
+                "id": "floating_phone",
+                "pattern": "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                },
+                "placeholder": ""
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "styles": {
+              "position": "relative",
+              "margin-bottom": "20px"
+            },
+            "child": [
+              {
+                "tag": "label",
+                "for": "floating_company",
+                "styles": {
+                  "font-weight": "medium",
+                  "font-size": "18px",
+                  "color": "#777",
+                  "transition": "transform 300ms",
+                  "transform-origin": "left bottom",
+                  "top": "0",
+                  "z-index": "1",
+                  "width": "50%",
+                  "transform": "translateY(-18px) scale(0.75)",
+                  "margin-left": "8px",
+                  "background-color": "white",
+                  "padding": "0 4px"
+                },
+                "text": "Company (Ex. Google)"
+              },
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "floating_company",
+                "id": "floating_company",
+                "required":true,
+                "styles": {
+                  "display": "block",
+                  "padding-top": "30px",
+                  "padding-left": "0",
+                  "width": "100%",
+                  "font-size": "18px",
+                  "color": "#333",
+                  "background-color": "transparent",
+                  "border": "none",
+                  "border-bottom": "2px solid #ccc",
+                  "outline": "none",
+                  "border-bottom-color": "blue",
+                  "transform": "translateY(6px) scale(0.75)",
+                  "top": "0",
+                  "z-index": "2"
+                },
+                "placeholder": ""
+              }
+            ]
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "styles": {
+              "color": "white",
+              "background-color": "#0077CC",
+              "transition": "background-color 300ms",
+              "font-weight": "medium",
+              "font-size": "18px",
+              "width": "100%",
+              "padding": "10px 0",
+              "text-align": "center",
+              "border": "none",
+              "border-radius": "4px",
+              "outline": "none"
+            },
+            "text": "Submit"
           }
         ]
-      },
-      {
-        "tag": "button",
-        "type": "submit",
-        "styles": {
-          "color": "white",
-          "background-color": "#0077CC",
-          "transition": "background-color 300ms",
-          "font-weight": "medium",
-          "font-size": "20px",
-          "width": "100%",
-          "padding": "5px 10px",
-          "text-align": "center",
-          "border": "none",
-          "border-radius": "4px",
-          "outline": "none"
-        },
-        "text": "Submit"
       }
     ]
   }
