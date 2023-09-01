@@ -4,58 +4,726 @@
     "root": [
       {
         "tag": "div",
-        "id": 1,
-        "content": "Applied to",
-        "target": "Front End Developer",
-        "href": "#",
-        "date": "Sep 20",
-        "datetime": "2020-09-20",
-        "icon": "UserIcon",
-        "iconBackground": "bg-gray-400"
-      },
-      {
-        "tag": "h1",
-        "id": 2,
-        "content": "Advanced to phone screening by",
-        "target": "Bethany Blake",
-        "href": "#",
-        "date": "Sep 22",
-        "datetime": "2020-09-22",
-        "icon": "HandThumbUpIcon",
-        "iconBackground": "bg-blue-500"
-      },
-      {
-        "tag": "div",
-        "id": 3,
-        "content": "Completed phone screening with",
-        "target": "Martha Gardner",
-        "href": "#",
-        "date": "Sep 28",
-        "datetime": "2020-09-28",
-        "icon": "CheckIcon",
-        "iconBackground": "bg-green-500"
-      },
-      {
-        "tag": "h1",
-        "id": 4,
-        "content": "Advanced to interview by",
-        "target": "Bethany Blake",
-        "href": "#",
-        "date": "Sep 30",
-        "datetime": "2020-09-30",
-        "icon": "HandThumbUpIcon",
-        "iconBackground": "bg-blue-500"
-      },
-      {
-        "tag": "div",
-        "id": 5,
-        "content": "Completed interview with",
-        "target": "Katherine Snyder",
-        "href": "#",
-        "date": "Oct 4",
-        "datetime": "2020-10-04",
-        "icon": "CheckIcon",
-        "iconBackground": "bg-green-500"
+        "classes": "px-4 sm:px-6 lg:px-8 border py-4 rounder-lg",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "sm:flex sm:items-center",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "sm:flex-auto",
+                "children": [
+                  {
+                    "tag": "h1",
+                    "classes": "text-base font-semibold leading-6 text-gray-900",
+                    "text": "Users"
+                  },
+                  {
+                    "tag": "p",
+                    "classes": "mt-2 text-sm text-gray-700",
+                    "text": "A list of all the users in your account including their name, title, email, and role."
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "mt-4 sm:ml-16 sm:mt-0 sm:flex-none",
+                "children": [
+                  {
+                    "tag": "button",
+                    "type": "button",
+                    "classes": "block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+                    "text": "Add user"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "mt-8 flow-root",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8",
+                    "children": [
+                      {
+                        "tag": "table",
+                        "classes": "min-w-full divide-y divide-gray-300",
+                        "children": [
+                          {
+                            "tag": "thead",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "children": [
+                                  {
+                                    "tag": "th",
+                                    "scope": "col",
+                                    "classes": "py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0",
+                                    "text": "Name"
+                                  },
+                                  {
+                                    "tag": "th",
+                                    "scope": "col",
+                                    "classes": "px-3 py-3.5 text-left text-sm font-semibold text-gray-900",
+                                    "text": "Title"
+                                  },
+                                  {
+                                    "tag": "th",
+                                    "scope": "col",
+                                    "classes": "px-3 py-3.5 text-left text-sm font-semibold text-gray-900",
+                                    "text": "Status"
+                                  },
+                                  {
+                                    "tag": "th",
+                                    "scope": "col",
+                                    "classes": "px-3 py-3.5 text-left text-sm font-semibold text-gray-900",
+                                    "text": "Role"
+                                  },
+                                  {
+                                    "tag": "th",
+                                    "scope": "col",
+                                    "classes": "relative py-3.5 pl-3 pr-4 sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "sr-only",
+                                        "text": "Edit"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "tbody",
+                            "classes": "divide-y divide-gray-200 bg-white",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "key": "lindsay.walton@example.com",
+                                "children": [
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "flex items-center",
+                                        "children": [
+                                          {
+                                            "tag": "div",
+                                            "classes": " flex-shrink-0",
+                                            "children": [
+                                              {
+                                                "tag": "img",
+                                                "classes": "h-9 w-9 rounded-full",
+                                                "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                                                "alt": ""
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "tag": "div",
+                                            "classes": "ml-4",
+                                            "children": [
+                                              {
+                                                "tag": "div",
+                                                "classes": "font-medium text-gray-900",
+                                                "text": "Lindsay Walton"
+                                              },
+                                              {
+                                                "tag": "div",
+                                                "classes": "mt-1 text-gray-500",
+                                                "text": "lindsay.walton@example.com"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "text-gray-900",
+                                        "text": "Front-end Developer"
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "classes": "mt-1 text-gray-500",
+                                        "text": "Optimization"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20",
+                                        "text": "Active"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "text": "Member"
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "button",
+                                        "href": "#",
+                                        "classes": "text-indigo-600 hover:text-indigo-900",
+                                        "children": [
+                                          {
+                                            "tag": "span",
+                                            "text": "Edit"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },{
+                            "tag": "tbody",
+                            "classes": "divide-y divide-gray-200 bg-white",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "key": "courtney.henry@example.com",
+                                "children": [
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "flex items-center",
+                                        "children": [
+                                          {
+                                            "tag": "div",
+                                            "classes": "flex-shrink-0",
+                                            "children": [
+                                              {
+                                                "tag": "img",
+                                                "classes": " h-9 w-9 rounded-full",
+                                                "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                                                "alt": ""
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "tag": "div",
+                                            "classes": "ml-4",
+                                            "children": [
+                                              {
+                                                "tag": "div",
+                                                "classes": "font-medium text-gray-900",
+                                                "text": "Courtney Henry"
+                                              },
+                                              {
+                                                "tag": "div",
+                                                "classes": "mt-1 text-gray-500",
+                                                "text": "courtney.henry@example.com"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "text-gray-900",
+                                        "text": "Designer"
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "classes": "mt-1 text-gray-500",
+                                        "text": "Intranet"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20",
+                                        "text": "Active"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "text": "Admin"
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "button",
+                                        "href": "#",
+                                        "classes": "text-indigo-600 hover:text-indigo-900",
+                                        "children": [
+                                          {
+                                            "tag": "span",
+                                            "text": "Edit"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+
+
+                          },{
+                            "tag": "tbody",
+                            "classes": "divide-y divide-gray-200 bg-white",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "key": "tom.cook@example.com",
+                                "children": [
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "flex items-center",
+                                        "children": [
+                                          {
+                                            "tag": "div",
+                                            "classes": "h-11 w-11 flex-shrink-0",
+                                            "children": [
+                                              {
+                                                "tag": "img",
+                                                "classes": "h-9 w-9 rounded-full",
+                                                "src": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                                                "alt": ""
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "tag": "div",
+                                            "classes": "ml-4",
+                                            "children": [
+                                              {
+                                                "tag": "div",
+                                                "classes": "font-medium text-gray-900",
+                                                "text": "Tom Cook"
+                                              },
+                                              {
+                                                "tag": "div",
+                                                "classes": "mt-1 text-gray-500",
+                                                "text": "tom.cook@example.com"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "text-gray-900",
+                                        "text": "Director of Product"
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "classes": "mt-1 text-gray-500",
+                                        "text": "Directives"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20",
+                                        "text": "Active"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "text": "Member"
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "button",
+                                        "href": "#",
+                                        "classes": "text-indigo-600 hover:text-indigo-900",
+                                        "children": [
+                                          {
+                                            "tag": "span",
+                                            "text": "Edit"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+
+
+                          },{
+                            "tag": "tbody",
+                            "classes": "divide-y divide-gray-200 bg-white",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "key": "whitney.francis@example.com",
+                                "children": [
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "flex items-center",
+                                        "children": [
+                                          {
+                                            "tag": "div",
+                                            "classes": "h-11 w-11 flex-shrink-0",
+                                            "children": [
+                                              {
+                                                "tag": "img",
+                                                "classes": "h-9 w-9 rounded-full",
+                                                "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                                                "alt": ""
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "tag": "div",
+                                            "classes": "ml-4",
+                                            "children": [
+                                              {
+                                                "tag": "div",
+                                                "classes": "font-medium text-gray-900",
+                                                "text": "Whitney Francis"
+                                              },
+                                              {
+                                                "tag": "div",
+                                                "classes": "mt-1 text-gray-500",
+                                                "text": "whitney.francis@example.com"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "text-gray-900",
+                                        "text": "Copywriter"
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "classes": "mt-1 text-gray-500",
+                                        "text": "Program"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20",
+                                        "text": "Active"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "text": "Admin"
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "button",
+                                        "href": "#",
+                                        "classes": "text-indigo-600 hover:text-indigo-900",
+                                        "children": [
+                                          {
+                                            "tag": "span",
+                                            "text": "Edit"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+
+
+                          },{
+                            "tag": "tbody",
+                            "classes": "divide-y divide-gray-200 bg-white",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "key": "leonard.krasner@example.com",
+                                "children": [
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "flex items-center",
+                                        "children": [
+                                          {
+                                            "tag": "div",
+                                            "classes": "h-11 w-11 flex-shrink-0",
+                                            "children": [
+                                              {
+                                                "tag": "img",
+                                                "classes": "h-9 w-9 rounded-full",
+                                                "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                                                "alt": ""
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "tag": "div",
+                                            "classes": "ml-4",
+                                            "children": [
+                                              {
+                                                "tag": "div",
+                                                "classes": "font-medium text-gray-900",
+                                                "text": "Leonard Krasner"
+                                              },
+                                              {
+                                                "tag": "div",
+                                                "classes": "mt-1 text-gray-500",
+                                                "text": "leonard.krasner@example.com"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "text-gray-900",
+                                        "text": "Senior Designer"
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "classes": "mt-1 text-gray-500",
+                                        "text": "Mobility"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20",
+                                        "text": "Active"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "text": "Owner"
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "button",
+                                        "href": "#",
+                                        "classes": "text-indigo-600 hover:text-indigo-900",
+                                        "children": [
+                                          {
+                                            "tag": "span",
+                                            "text": "Edit"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+
+
+                          },{
+                            "tag": "tbody",
+                            "classes": "divide-y divide-gray-200 bg-white",
+                            "children": [
+                              {
+                                "tag": "tr",
+                                "key": "floyd.miles@example.com",
+                                "children": [
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "flex items-center",
+                                        "children": [
+                                          {
+                                            "tag": "div",
+                                            "classes": "h-11 w-11 flex-shrink-0",
+                                            "children": [
+                                              {
+                                                "tag": "img",
+                                                "classes": "h-9 w-9 rounded-full",
+                                                "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+                                                "alt": ""
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "tag": "div",
+                                            "classes": "ml-4",
+                                            "children": [
+                                              {
+                                                "tag": "div",
+                                                "classes": "font-medium text-gray-900",
+                                                "text": "Floyd Miles"
+                                              },
+                                              {
+                                                "tag": "div",
+                                                "classes": "mt-1 text-gray-500",
+                                                "text": "floyd.miles@example.com"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "classes": "text-gray-900",
+                                        "text": "Principal Designer"
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "classes": "mt-1 text-gray-500",
+                                        "text": "Security"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "classes": "inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20",
+                                        "text": "Active"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "whitespace-nowrap px-3 py-5 text-sm text-gray-500",
+                                    "text": "Member"
+                                  },
+                                  {
+                                    "tag": "td",
+                                    "classes": "relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
+                                    "children": [
+                                      {
+                                        "tag": "button",
+                                        "href": "#",
+                                        "classes": "text-indigo-600 hover:text-indigo-900",
+                                        "children": [
+                                          {
+                                            "tag": "span",
+                                            "text": "Edit"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+
+
+                          }
+
+
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
