@@ -4,15 +4,21 @@
     "root": [
       {
         "tag": "form",
-        "classes": "w-full  bg-white rounded-lg shadow md:flex-row md:max-w-xl hover:bg-green-800 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700",
+        "classes": "w-full bg-white rounded-lg shadow md:flex-row md:max-w-xl hover:bg-green-800 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700",
+        "onsubmit": "handleSubmit",
         "children": [
           {
+            "tag": "h1",
+            "classes": "font-bold py-4 text-xl bg-slate-200 text-center rounded-lg",
+            "text": "Sign Up"
+          },
+          {
             "tag": "div",
-            "classes": "relative z-0 w-full mb-6 group",
+            "classes": "relative z-0 w-full mb-6 group mt-4",
             "children": [
               {
-                "tag": "label", 
-                "text": "Email Address", 
+                "tag": "label",
+                "text": "Email Address",
                 "classes": "block text-sm text-gray-900 dark:text-white"
               },
               {
@@ -31,8 +37,8 @@
             "children": [
               {
                 "tag": "label",
-                "text": "Password", 
-                "classes": "block text-sm text-gray-900 dark:text-white" 
+                "text": "Password",
+                "classes": "block text-sm text-gray-900 dark:text-white"
               },
               {
                 "type": "password",
@@ -49,9 +55,9 @@
             "classes": "relative z-0 w-full mb-6 group",
             "children": [
               {
-                "tag": "label", 
-                "text": "Confirm Password", 
-                "classes": "block text-sm text-gray-900 dark:text-white" 
+                "tag": "label",
+                "text": "Confirm Password",
+                "classes": "block text-sm text-gray-900 dark:text-white"
               },
               {
                 "type": "password",
@@ -68,9 +74,9 @@
             "classes": "relative z-0 w-full mb-6 group",
             "children": [
               {
-                "tag": "label", 
-                "text": "First Name", 
-                "classes": "block text-sm text-gray-900 dark:text-white" 
+                "tag": "label",
+                "text": "First Name",
+                "classes": "block text-sm text-gray-900 dark:text-white"
               },
               {
                 "type": "text",
@@ -87,9 +93,9 @@
             "classes": "relative z-0 w-full mb-6 group",
             "children": [
               {
-                "tag": "label", 
-                "text": "Last Name", 
-                "classes": "block text-sm text-gray-900 dark:text-white" 
+                "tag": "label",
+                "text": "Last Name",
+                "classes": "block text-sm text-gray-900 dark:text-white"
               },
               {
                 "type": "text",
@@ -103,7 +109,7 @@
           },
           {
             "tag": "button",
-            "classes": "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
+            "classes": "py-4 mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
             "type": "submit",
             "text": "Submit"
           }

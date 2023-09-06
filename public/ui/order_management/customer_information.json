@@ -1,0 +1,434 @@
+
+{
+    "ui": {
+      "layout": "",
+      "root": [
+{
+    "tag": "form",
+    "classes":"bg-black px-4 py-4 rounded-lg w-full h-full overflow-y-auto",
+    "children": [
+          {
+            "tag": "div",
+            "classes": "border-b border-white/10 pb-12",
+            "children": [
+              {
+                "tag": "h1",
+                "classes": "text-base font-semibold leading-7 text-white text-xl",
+                "text": "Customer Information"
+              },
+              {
+                "tag": "div",
+                "classes": "mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-2",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "first-name",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "First name"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "first-name",
+                            "id": "first-name",
+                            "autoComplete": "given-name",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-2",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "Middle-name",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Middle name"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "Middle-name",
+                            "id": "Middle-name",
+                            "autoComplete": "given-name",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-2",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "last-name",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Last name"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "last-name",
+                            "id": "last-name",
+                            "autoComplete": "family-name",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-4",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "email",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Email address"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "email",
+                            "id": "email",
+                            "name": "email",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-3",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "dob",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "parent's DOB"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "type": "datetime-local",
+                            "name": "dob",
+                            "id": "dob",
+                            "autoComplete": "family-name",
+                            "classes": "block w-full rounded-md border-0 bg-white/5  py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-4",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "phone-number",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Phone Number"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "relative mt-2 rounded-md shadow-sm ",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "absolute inset-y-0 left-0 flex items-center",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "htmlFor": "country",
+                                "classes": "sr-only",
+                                "text": "Country"
+                              },
+                              {
+                                "tag": "select",
+                                "id": "country",
+                                "name": "country",
+                                "autoComplete": "country",
+                                "classes": "h-full rounded-md border-0 bg-white/5 py-0 pl-3 pr-7 text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm",
+                                "children": [
+                                  { "tag": "option", "text": "+1", "classes":"bg-black" },
+                                  { "tag": "option", "text": "+44", "classes":"bg-black" },
+                                  { "tag": "option", "text": "+91", "classes":"bg-black" }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "phone-number",
+                            "id": "phone-number",
+                            "classes": "block w-full rounded-md border-0 py-1.5 pl-16 pr-7  bg-white/5  shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6",
+                            "attributes": {
+                              "placeholder": "+1 (555) 987-6543"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-3",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "country",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Country"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "select",
+                            "id": "country",
+                            "name": "country",
+                            "autoComplete": "country-name",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6 [&_*]:text-black",
+                            "children": [
+                              {
+                                "tag": "option",
+                                "text": "United States",
+                                "classes":"bg-black"
+                                
+                              },
+                              {
+                                "tag": "option",
+                                "text": "Canada",
+                                "classes":"bg-black"
+                              },
+                              {
+                                "tag": "option",
+                                "text": "Mexico",
+                                "classes":"bg-black"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-4",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "phone-number",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Alternative Phone Number"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "relative mt-2 rounded-md shadow-sm ",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "absolute inset-y-0 left-0 flex items-center",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "htmlFor": "country",
+                                "classes": "sr-only",
+                                "text": "Country"
+                              },
+                              {
+                                "tag": "select",
+                                "id": "country",
+                                "name": "country",
+                                "autoComplete": "country",
+                                "classes": "h-full rounded-md border-0 bg-white/5 py-0 pl-3 pr-7 text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm",
+                                "children": [
+                                  { "tag": "option", "text": "+1", "classes":"bg-black" },
+                                  { "tag": "option", "text": "+44", "classes":"bg-black" },
+                                  { "tag": "option", "text": "+91", "classes":"bg-black" }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "phone-number",
+                            "id": "phone-number",
+                            "classes": "block w-full rounded-md border-0 py-1.5 pl-16 pr-7  bg-white/5  shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6",
+                            "attributes": {
+                              "placeholder": "+1 (555) 987-6543"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "col-span-full",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "street-address",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "Street address"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "textarea",
+                            "typeAttr": "text",
+                            "name": "street-address",
+                            "id": "street-address",
+                            "autoComplete": "street-address",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-6 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-2 sm:col-start-1",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "city",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "City"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "city",
+                            "id": "city",
+                            "autoComplete": "address-level2",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-2",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "region",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "State / Province"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "region",
+                            "id": "region",
+                            "autoComplete": "address-level1",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "sm:col-span-2",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "htmlFor": "postal-code",
+                        "classes": "block text-sm font-medium leading-6 text-white",
+                        "text": "ZIP / Postal code"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "mt-2",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "typeAttr": "text",
+                            "name": "postal-code",
+                            "id": "postal-code",
+                            "autoComplete": "postal-code",
+                            "classes": "block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+        
+          {
+            "tag": "div",
+            "classes": "pt-10 ",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "flex justify-end space-x-4",
+                "children": [
+                  {
+                    "tag": "button",
+                    "typeAttr": "submit",
+                    "classes": " mt-4 px-4 py-4 text-sm font-semibold text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500",
+                    "text": "Save"
+                  }
+                ]
+              }
+            ]
+          }
+    ]
+  }
+]
+    }
+}
+  

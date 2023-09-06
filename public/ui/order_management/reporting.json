@@ -1,5 +1,85 @@
-[
+{
+  "ui": {
+    "layout": "",
+    "root": [
+
+{
+  "tag": "div",
+  "classes": "sm:col-span-3",
+  "children": [
     {
-      "name": "reporting json file"
+      "tag": "label",
+      "htmlFor": "dob",
+      "classes": "block text-sm font-medium leading-6 text-black ",
+      "text": "parent's DOB"
+    },
+    {
+      "tag": "div",
+      "classes": "mt-2",
+      "children": [
+        {
+          "tag": "input",
+          "type": "datetime-local",
+          "name": "dob",
+          "id": "dob",
+          "autoComplete": "family-name",
+          "classes": "block w-full rounded-md border-0 bg-black py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "classes": "mt-2",
+      "children": [
+        {
+          "tag": "label",
+          "htmlFor": "ageGroup",
+          "classes": "block text-sm font-medium leading-6 text-black",
+          "text": "Age Group"
+        },
+        {
+          "tag": "div",
+          "classes": "mt-2",
+          "children": [
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "ageGroup",
+              "id": "age18",
+              "classes": "mr-2"
+            },
+            {
+              "tag": "label",
+              "htmlFor": "age18",
+              "text": "18"
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "ageGroup",
+              "id": "age18plus",
+              "classes": "mr-2"
+            },
+            {
+              "tag": "label",
+              "htmlFor": "age18plus",
+              "text": "18+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "classes": "mt-2",
+      "children": [
+        {
+          "tag": "div",
+          "id": "ageInputContainer"
+        }
+      ]
     }
-]
+  ]
+}
+    ]}
+}
