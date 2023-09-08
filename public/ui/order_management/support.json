@@ -4,186 +4,52 @@
     "root": [
       {
         "tag": "div",
-        "class": "px-4 sm:px-6 lg:px-8",
+        "class": "text-center",
         "children": [
           {
-            "tag": "div",
-            "class": "sm:flex sm:items-center",
-            "children": [
-              {
-                "tag": "div",
-                "class": "sm:flex-auto",
-                "children": [
-                  {
-                    "tag": "h1",
-                    "class": "text-base font-semibold leading-6 text-gray-900",
-                    "children": [],
-                    "text": "Users"
-                  },
-                  {
-                    "tag": "p",
-                    "class": "mt-2 text-sm text-gray-700",
-                    "children": [],
-                    "text": "A list of all the users in your account including their name, title, email and role."
-                  }
-                ],
-                "text": "Users\n    \n      A list of all the users in your account including their name, title, email and role."
-              },
-              {
-                "tag": "div",
-                "class": "mt-4 sm:ml-16 sm:mt-0 sm:flex-none",
-                "children": [
-                  {
-                    "tag": "button",
-                    "class": "block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
-                    "children": [],
-                    "text": "Add user"
-                  }
-                ],
-                "text": "Add user"
-              }
-            ],
-            "text": "Users\n    \n      A list of all the users in your account including their name, title, email and role.\n    \n  \n  \n    \n      Add user"
+            "tag": "p",
+            "class": "text-base font-semibold text-indigo-600",
+            "text": "404",
+            "children": []
+          },
+          {
+            "tag": "h1",
+            "class": "mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl",
+            "text": "Page not found",
+            "children": []
+          },
+          {
+            "tag": "p",
+            "class": "mt-6 text-base leading-7 text-gray-600",
+            "text": "Sorry, we couldn’t find the page you’re looking for.",
+            "children": []
           },
           {
             "tag": "div",
-            "class": "mt-8 flow-root",
+            "class": "mt-10 flex items-center justify-center gap-x-6",
             "children": [
               {
-                "tag": "div",
-                "class": "-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8",
+                "tag": "a",
+                "class": "rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+                "text": "Go back home",
+                "children": []
+              },
+              {
+                "tag": "a",
+                "class": "text-sm font-semibold text-gray-900",
+                "text": "Contact support",
                 "children": [
                   {
-                    "tag": "div",
-                    "class": "inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8",
-                    "children": [
-                      {
-                        "tag": "table",
-                        "class": "min-w-full divide-y divide-gray-300",
-                        "children": [
-                          {
-                            "tag": "thead",
-                            "class": "",
-                            "children": [
-                              {
-                                "tag": "tr",
-                                "class": "",
-                                "children": [
-                                  {
-                                    "tag": "th",
-                                    "class": "py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0",
-                                    "children": [],
-                                    "text": "Name"
-                                  },
-                                  {
-                                    "tag": "th",
-                                    "class": "px-3 py-3.5 text-left text-sm font-semibold text-gray-900",
-                                    "children": [],
-                                    "text": "Title"
-                                  },
-                                  {
-                                    "tag": "th",
-                                    "class": "px-3 py-3.5 text-left text-sm font-semibold text-gray-900",
-                                    "children": [],
-                                    "text": "Email"
-                                  },
-                                  {
-                                    "tag": "th",
-                                    "class": "px-3 py-3.5 text-left text-sm font-semibold text-gray-900",
-                                    "children": [],
-                                    "text": "Role"
-                                  },
-                                  {
-                                    "tag": "th",
-                                    "class": "relative py-3.5 pl-3 pr-4 sm:pr-0",
-                                    "children": [
-                                      {
-                                        "tag": "span",
-                                        "class": "sr-only",
-                                        "children": [],
-                                        "text": "Edit"
-                                      }
-                                    ],
-                                    "text": "Edit"
-                                  }
-                                ],
-                                "text": "Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit"
-                              }
-                            ],
-                            "text": "Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit"
-                          },
-                          {
-                            "tag": "tbody",
-                            "class": "divide-y divide-gray-200",
-                            "children": [
-                              {
-                                "tag": "tr",
-                                "class": "",
-                                "children": [
-                                  {
-                                    "tag": "td",
-                                    "class": "whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0",
-                                    "children": [],
-                                    "text": "{person.name}"
-                                  },
-                                  {
-                                    "tag": "td",
-                                    "class": "whitespace-nowrap px-3 py-4 text-sm text-gray-500",
-                                    "children": [],
-                                    "text": "{person.title}"
-                                  },
-                                  {
-                                    "tag": "td",
-                                    "class": "whitespace-nowrap px-3 py-4 text-sm text-gray-500",
-                                    "children": [],
-                                    "text": "{person.email}"
-                                  },
-                                  {
-                                    "tag": "td",
-                                    "class": "whitespace-nowrap px-3 py-4 text-sm text-gray-500",
-                                    "children": [],
-                                    "text": "{person.role}"
-                                  },
-                                  {
-                                    "tag": "td",
-                                    "class": "relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0",
-                                    "children": [
-                                      {
-                                        "tag": "a",
-                                        "class": "text-indigo-600 hover:text-indigo-900",
-                                        "children": [
-                                          {
-                                            "tag": "span",
-                                            "class": "sr-only",
-                                            "children": [],
-                                            "text": ", {person.name}"
-                                          }
-                                        ],
-                                        "text": "Edit, {person.name}"
-                                      }
-                                    ],
-                                    "text": "Edit, {person.name}"
-                                  }
-                                ],
-                                "text": "{person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
-                              }
-                            ],
-                            "text": "{person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
-                          }
-                        ],
-                        "text": "Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit\n            \n          \n        \n        \n              \n                {person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
-                      }
-                    ],
-                    "text": "{people.map((person) => (\n            \n          ))}\n        \n        \n          \n            \n              Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit\n            \n          \n        \n        \n              \n                {person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
+                    "tag": "span",
+                    "class": "",
+                    "text": "→",
+                    "children": []
                   }
-                ],
-                "text": "{people.map((person) => (\n            \n          ))}\n        \n        \n          \n            \n              Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit\n            \n          \n        \n        \n              \n                {person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
+                ]
               }
-            ],
-            "text": "{people.map((person) => (\n            \n          ))}\n        \n        \n          \n            \n              Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit\n            \n          \n        \n        \n              \n                {person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
+            ]
           }
-        ],
-        "text": "Users\n    \n      A list of all the users in your account including their name, title, email and role.\n    \n  \n  \n    \n      Add user\n    \n  \n\n\n  \n    \n      \n          {people.map((person) => (\n            \n          ))}\n        \n        \n          \n            \n              Name\n            \n            \n              Title\n            \n            \n              Email\n            \n            \n              Role\n            \n            \n              Edit\n            \n          \n        \n        \n              \n                {person.name}\n              \n              {person.title}\n              {person.email}\n              {person.role}\n              \n                \n                  Edit, {person.name}"
+        ]
       }
     ]
   }
