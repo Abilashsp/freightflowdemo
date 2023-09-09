@@ -1,5 +1,3320 @@
-[
-    {
-      "name": "integration json file"
-    }
-]
+{
+  "ui": {
+    "layout": "",
+    "root": [
+      {
+        "tag": "form",
+        "class": "w-full h-full overflow-y-auto py-4 px-4 bg-slate-100",
+        "children": [
+          
+          {
+            "tag": "div",
+            "class": "",
+            "children": [
+              {
+                "tag": "h2",
+                "class": "text-xl font-semibold leading-7 text-gray-900b bg-blue-200 py-6 px-4 rounded-xl",
+                "text": "Customer Information"
+              },
+              {
+                "tag": "div",
+                "class": "mt-5 space-y-8 border-b border-gray-900/10 pb-12 sm:space-y-0 sm:divide-y sm:divide-gray-900/10 sm:border-t sm:pb-0 border-2 px-2 py-2 rounded-xl",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6 ",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "First name",
+                        "for": "first-name"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "first-name",
+                            "id": "first-name",
+                            "autocomplete": "given-name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Middle name",
+                        "for": "middle-name"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "middle-name",
+                            "id": "middle-name",
+                            "autocomplete": "given-name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Last name",
+                        "for": "last-name"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "last-name",
+                            "id": "last-name",
+                            "autocomplete": "family-name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Email address",
+                        "for": "email"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-md sm:text-sm sm:leading-6",
+                            "id": "email",
+                            "name": "email",
+                            "type": "email",
+                            "autocomplete": "email"
+                          }
+                        ]
+                      }
+                    ]
+                  },  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Phone Number",
+                        "for": "phone-number"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "relative mt-2 rounded-md shadow-sm",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": " flex items-center ",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "sr-only",
+                                "text": "Country",
+                                "for": "country"
+                              },
+                              {
+                                "tag": "select",
+                                "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 bg-gray-200 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 ",
+                                "children": [
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Aland Islands (+358 18)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Afghanistan (+93)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Albania (+355)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Algeria (+213)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "American Samoa (+1 684)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Andorra (+376)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Angola (+244)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Anguilla (+1 264)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Antigua and Barbuda (+1 268)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Argentina (+54)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Armenia (+374)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Aruba (+297)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ascension Island (+247)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Australia (+61)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Australian Antarctic Territory (+672 1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Austria (+43)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Azerbaijan (+994)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bahamas (+1 242)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bahrain (+973)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bangladesh (+880)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Barbados (+1 246)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Belarus (+375)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Belgium (+32)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Belize (+501)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Benin (+229)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bermuda (+1 441)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bhutan (+975)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bolivia (+591)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bosnia and Herzegovina (+387)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Botswana (+267)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bouvet Island (+47)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Brazil (+55)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "British Indian Ocean Territory (+246)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "British Virgin Islands (+1 284)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Brunei (+673)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bulgaria (+359)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Burkina Faso (+226)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Burundi (+257)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cambodia (+855)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cameroon (+237)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Canada (+1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cape Verde (+238)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Caribbean Netherlands (+599)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cayman Islands (+1 345)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Central African Republic (+236)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Chad (+235)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Chile (+56)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "China (+86)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Christmas Island (+61 89164)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cocos (Keeling) Islands (+61 89162)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Colombia (+57)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Comoros (+269)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cook Islands (+682)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Costa Rica (+506)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Croatia (+385)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cuba (+53)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Curaçao (+599 9)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cyprus (+357)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Czech Republic (+420)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Democratic Republic of the Congo (+243)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Denmark (+45)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Djibouti (+253)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Dominica (+1 767)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Dominican Republic (+1 809, +1 829, +1 849)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "East Timor (+670)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ecuador (+593)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Egypt (+20)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "El Salvador (+503)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Equatorial Guinea (+240)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Eritrea (+291)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Estonia (+372)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Eswatini (+268)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ethiopia (+251)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Falkland Islands (Malvinas) (+500)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Faroe Islands (+298)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Fiji (+679)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Finland (+358)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "France (+33)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "French Guiana (+594)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "French Polynesia (+689)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "French Southern and Antarctic Lands (+262)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Gabon (+241)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Gambia (+220)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Georgia (+995)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Germany (+49)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ghana (+233)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Gibraltar (+350)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Greece (+30)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Greenland (+299)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Grenada (+1 473)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guadeloupe (+590)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guam (+1 671)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guatemala (+502)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guernsey (+44 1481, +44 7781, +44 7839, +44 7911)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guinea (+224)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guinea-Bissau (+245)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guyana (+592)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Haiti (+509)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Heard Island and McDonald Islands (+1 672)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Honduras (+504)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Hong Kong (+852)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Hungary (+36)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Iceland (+354)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "India (+91)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Indonesia (+62)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Iran (+98)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Iraq (+964)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ireland (+353)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Isle of Man (+44 1624, +44 7524, +44 7624, +44 7924)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Israel (+972)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Italy (+39)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ivory Coast (+225)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Jamaica (+1 876)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Japan (+81)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Jersey (+44 1534)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Jordan (+962)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kazakhstan (+7 6, +7 7)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kenya (+254)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kiribati (+686)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kosovo (+383)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kuwait (+965)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kyrgyzstan (+996)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Laos (+856)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Latvia (+371)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Lebanon (+961)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Lesotho (+266)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Liberia (+231)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Libya (+218)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Liechtenstein (+423)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Lithuania (+370)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Luxembourg (+352)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Macao (+853)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Madagascar (+261)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Malawi (+265)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Malaysia (+60)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Maldives (+960)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mali (+223)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Malta (+356)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Marshall Islands (+692)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Martinique (+596)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mauritania (+222)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mauritius (+230)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mayotte (+262 269, +262 639)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mexico (+52)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Micronesia (+691)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Moldova (+373)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Monaco (+377)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mongolia (+976)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Montenegro (+382)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Montserrat (+1 664)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Morocco (+212)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mozambique (+258)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Myanmar (+95)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Namibia (+264)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nauru (+674)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nepal (+977)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Netherlands (+31)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Netherlands Antilles (+599)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "New Caledonia (+687)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "New Zealand (+64)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nicaragua (+505)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Niger (+227)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nigeria (+234)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Niue (+683)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Norfolk Island (+672 3)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "North Korea (+850)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "North Macedonia (+389)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Northern Ireland (+44 28)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Northern Mariana Islands (+1 670)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Norway (+47)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Oman (+968)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Pakistan (+92)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Palau (+680)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Palestine (+970)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Panama (+507)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Papua New Guinea (+675)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Paraguay (+595)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Peru (+51)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Philippines (+63)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Pitcairn (+64)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Poland (+48)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Portugal (+351)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Puerto Rico (+1 787, +1 939)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Qatar (+974)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Réunion (+262)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Republic of the Congo (+242)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Romania (+40)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Russia (+7)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Rwanda (+250)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Barthélemy (+590)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Helena (+290)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Kitts and Nevis (+1 869)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Lucia (+1 758)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Martin (French part) (+590)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Pierre and Miquelon (+508)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Vincent and the Grenadines (+1 784)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Samoa (+685)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "San Marino (+378)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sao Tome and Principe (+239)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saudi Arabia (+966)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Senegal (+221)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Serbia (+381)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Seychelles (+248)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sierra Leone (+232)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Singapore (+65)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Slovakia (+421)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Slovenia (+386)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Solomon Islands (+677)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Somalia (+252)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Africa (+27)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Georgia and the South Sandwich Islands (+500)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Korea (+82)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Sudan (+211)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Spain (+34)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sri Lanka (+94)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sudan (+249)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Suriname (+597)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Svalbard and Jan Mayen (+47)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sweden (+46)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Switzerland (+41)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Syria (+963)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Taiwan (+886)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tajikistan (+992)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tanzania (+255)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Thailand (+66)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Togo (+228)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tokelau (+690)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tonga (+676)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Trinidad and Tobago (+1 868)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tristan da Cunha (+290 8)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tunisia (+216)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Turkey (+90)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Turkmenistan (+993)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Turks and Caicos Islands (+1 649)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tuvalu (+688)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Uganda (+256)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ukraine (+380)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "United Arab Emirates (+971)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "United Kingdom (+44)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "United States (+1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Uruguay (+598)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "US Minor Outlying Islands (+1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "US Virgin Islands (+1 340)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Uzbekistan (+998)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Vanuatu (+678)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Vatican City (+379)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Venezuela (+58)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Vietnam (+84)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Wallis and Futuna (+681)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Western Sahara (+212)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Yemen (+967)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Zambia (+260)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Zimbabwe (+263)"
+                                  }
+                                ],
+                                "id": "country",
+                                "name": "country",
+                                "autocomplete": "country"
+                              }
+                            ]
+                          },
+                          
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5  text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "phone-number",
+                            "id": "phone-number",
+                            "placeholder": "+1 (555) 987-6543"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Alternative Phone Number",
+                        "for": "Alternative-phone-number"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "relative mt-2 rounded-md shadow-sm",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": " flex items-center ",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "sr-only",
+                                "text": "Country",
+                                "for": "country"
+                              },
+                              {
+                                "tag": "select",
+                                "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 bg-gray-300 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 ",
+                                "children": [
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Aland Islands (+358 18)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Afghanistan (+93)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Albania (+355)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Algeria (+213)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "American Samoa (+1 684)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Andorra (+376)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Angola (+244)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Anguilla (+1 264)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Antigua and Barbuda (+1 268)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Argentina (+54)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Armenia (+374)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Aruba (+297)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ascension Island (+247)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Australia (+61)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Australian Antarctic Territory (+672 1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Austria (+43)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Azerbaijan (+994)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bahamas (+1 242)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bahrain (+973)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bangladesh (+880)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Barbados (+1 246)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Belarus (+375)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Belgium (+32)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Belize (+501)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Benin (+229)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bermuda (+1 441)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bhutan (+975)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bolivia (+591)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bosnia and Herzegovina (+387)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Botswana (+267)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bouvet Island (+47)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Brazil (+55)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "British Indian Ocean Territory (+246)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "British Virgin Islands (+1 284)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Brunei (+673)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Bulgaria (+359)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Burkina Faso (+226)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Burundi (+257)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cambodia (+855)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cameroon (+237)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Canada (+1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cape Verde (+238)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Caribbean Netherlands (+599)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cayman Islands (+1 345)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Central African Republic (+236)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Chad (+235)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Chile (+56)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "China (+86)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Christmas Island (+61 89164)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cocos (Keeling) Islands (+61 89162)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Colombia (+57)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Comoros (+269)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cook Islands (+682)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Costa Rica (+506)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Croatia (+385)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cuba (+53)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Curaçao (+599 9)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Cyprus (+357)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Czech Republic (+420)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Democratic Republic of the Congo (+243)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Denmark (+45)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Djibouti (+253)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Dominica (+1 767)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Dominican Republic (+1 809, +1 829, +1 849)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "East Timor (+670)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ecuador (+593)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Egypt (+20)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "El Salvador (+503)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Equatorial Guinea (+240)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Eritrea (+291)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Estonia (+372)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Eswatini (+268)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ethiopia (+251)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Falkland Islands (Malvinas) (+500)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Faroe Islands (+298)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Fiji (+679)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Finland (+358)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "France (+33)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "French Guiana (+594)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "French Polynesia (+689)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "French Southern and Antarctic Lands (+262)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Gabon (+241)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Gambia (+220)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Georgia (+995)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Germany (+49)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ghana (+233)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Gibraltar (+350)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Greece (+30)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Greenland (+299)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Grenada (+1 473)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guadeloupe (+590)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guam (+1 671)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guatemala (+502)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guernsey (+44 1481, +44 7781, +44 7839, +44 7911)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guinea (+224)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guinea-Bissau (+245)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Guyana (+592)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Haiti (+509)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Heard Island and McDonald Islands (+1 672)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Honduras (+504)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Hong Kong (+852)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Hungary (+36)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Iceland (+354)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "India (+91)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Indonesia (+62)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Iran (+98)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Iraq (+964)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ireland (+353)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Isle of Man (+44 1624, +44 7524, +44 7624, +44 7924)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Israel (+972)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Italy (+39)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ivory Coast (+225)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Jamaica (+1 876)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Japan (+81)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Jersey (+44 1534)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Jordan (+962)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kazakhstan (+7 6, +7 7)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kenya (+254)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kiribati (+686)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kosovo (+383)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kuwait (+965)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Kyrgyzstan (+996)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Laos (+856)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Latvia (+371)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Lebanon (+961)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Lesotho (+266)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Liberia (+231)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Libya (+218)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Liechtenstein (+423)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Lithuania (+370)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Luxembourg (+352)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Macao (+853)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Madagascar (+261)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Malawi (+265)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Malaysia (+60)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Maldives (+960)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mali (+223)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Malta (+356)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Marshall Islands (+692)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Martinique (+596)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mauritania (+222)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mauritius (+230)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mayotte (+262 269, +262 639)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mexico (+52)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Micronesia (+691)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Moldova (+373)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Monaco (+377)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mongolia (+976)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Montenegro (+382)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Montserrat (+1 664)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Morocco (+212)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Mozambique (+258)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Myanmar (+95)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Namibia (+264)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nauru (+674)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nepal (+977)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Netherlands (+31)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Netherlands Antilles (+599)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "New Caledonia (+687)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "New Zealand (+64)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nicaragua (+505)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Niger (+227)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Nigeria (+234)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Niue (+683)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Norfolk Island (+672 3)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "North Korea (+850)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "North Macedonia (+389)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Northern Ireland (+44 28)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Northern Mariana Islands (+1 670)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Norway (+47)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Oman (+968)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Pakistan (+92)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Palau (+680)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Palestine (+970)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Panama (+507)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Papua New Guinea (+675)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Paraguay (+595)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Peru (+51)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Philippines (+63)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Pitcairn (+64)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Poland (+48)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Portugal (+351)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Puerto Rico (+1 787, +1 939)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Qatar (+974)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Réunion (+262)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Republic of the Congo (+242)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Romania (+40)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Russia (+7)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Rwanda (+250)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Barthélemy (+590)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Helena (+290)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Kitts and Nevis (+1 869)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Lucia (+1 758)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Martin (French part) (+590)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Pierre and Miquelon (+508)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saint Vincent and the Grenadines (+1 784)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Samoa (+685)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "San Marino (+378)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sao Tome and Principe (+239)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Saudi Arabia (+966)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Senegal (+221)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Serbia (+381)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Seychelles (+248)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sierra Leone (+232)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Singapore (+65)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Slovakia (+421)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Slovenia (+386)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Solomon Islands (+677)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Somalia (+252)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Africa (+27)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Georgia and the South Sandwich Islands (+500)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Korea (+82)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "South Sudan (+211)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Spain (+34)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sri Lanka (+94)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sudan (+249)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Suriname (+597)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Svalbard and Jan Mayen (+47)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Sweden (+46)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Switzerland (+41)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Syria (+963)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Taiwan (+886)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tajikistan (+992)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tanzania (+255)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Thailand (+66)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Togo (+228)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tokelau (+690)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tonga (+676)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Trinidad and Tobago (+1 868)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tristan da Cunha (+290 8)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tunisia (+216)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Turkey (+90)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Turkmenistan (+993)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Turks and Caicos Islands (+1 649)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Tuvalu (+688)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Uganda (+256)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Ukraine (+380)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "United Arab Emirates (+971)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "United Kingdom (+44)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "United States (+1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Uruguay (+598)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "US Minor Outlying Islands (+1)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "US Virgin Islands (+1 340)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Uzbekistan (+998)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Vanuatu (+678)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Vatican City (+379)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Venezuela (+58)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Vietnam (+84)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Wallis and Futuna (+681)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Western Sahara (+212)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Yemen (+967)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Zambia (+260)"
+                                  },
+                                  {
+                                    "tag": "option",
+                                    "class": "",
+                                    "text": "Zimbabwe (+263)"
+                                  }
+                                ],
+                                "id": "country",
+                                "name": "country",
+                                "autocomplete": "country"
+                              }
+                            ]
+                          },
+                          
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5  text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "Alternative-phone-number",
+                            "id": "Alternative-phone-number",
+                            "placeholder": "+1 (555) 987-6543"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Company name",
+                        "for": "Company-name"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "Company-name",
+                            "id": "Company-name",
+                            "autocomplete": "given-name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Country",
+                        "for": "country"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "select",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "children": [
+                              {
+                                "tag": "option",
+                                "class": "",
+                                "text": "United States"
+                              },
+                              {
+                                "tag": "option",
+                                "class": "",
+                                "text": "Canada"
+                              },
+                              {
+                                "tag": "option",
+                                "class": "",
+                                "text": "Mexico"
+                              }
+                            ],
+                            "id": "country",
+                            "name": "country",
+                            "autocomplete": "country-name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Street address",
+                        "for": "street-address"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xl sm:text-sm sm:leading-6",
+                            "type": "textarea",
+                            "name": "street-address",
+                            "id": "street-address",
+                            "autocomplete": "street-address"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "City",
+                        "for": "city"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "city",
+                            "id": "city",
+                            "autocomplete": "address-level2"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "State / Province",
+                        "for": "region"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "region",
+                            "id": "region",
+                            "autocomplete": "address-level1"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "ZIP / Postal code",
+                        "for": "postal-code"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "postal-code",
+                            "id": "postal-code",
+                            "autocomplete": "postal-code"
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "tag": "div",
+                    "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6",
+                    "children": [
+                      {
+                        "tag": "label",
+                        "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                        "text": "Company Tax Identification",
+                        "for": "Company-tax-identification"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "mt-2 sm:col-span-2 sm:mt-0",
+                        "children": [
+                          {
+                            "tag": "input",
+                            "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                            "type": "text",
+                            "name": "Company-tax-identification",
+                            "id": "Company-tax-identification",
+                            "autocomplete": "given-name"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }, {
+            "tag": "div",
+            "class": "sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6 px-2 py-2",
+            "children": [
+              {
+                "tag": "label",
+                "class": "block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5",
+                "text": "Cover photo",
+                "for": "cover-photo"
+              },
+              {
+                "tag": "div",
+                "class": "mt-2 sm:col-span-2 sm:mt-0",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "flex max-w-2xl justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "class": "text-center",
+                        "children": [
+                          {
+                            "tag": "photoicon",
+                            "class": "mx-auto h-12 w-12 text-gray-300",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "mt-4 flex text-sm leading-6 text-gray-600",
+                                "children": [
+                                  {
+                                    "tag": "label",
+                                    "class": "relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500",
+                                    "children": [
+                                      {
+                                        "tag": "span",
+                                        "class": "",
+                                        "text": "Upload a file"
+                                      },
+                                      {
+                                        "tag": "input",
+                                        "class": "sr-only",
+                                        "id": "file-upload",
+                                        "name": "file-upload",
+                                        "type": "file"
+                                      }
+                                    ],
+                                    "for": "file-upload"
+                                  },
+                                  {
+                                    "tag": "p",
+                                    "class": "pl-1",
+                                    "text": "or drag and drop"
+                                  }
+                                ]
+                              },
+                              {
+                                "tag": "p",
+                                "class": "text-xs leading-5 text-gray-600",
+                                "text": "PNG, JPG, GIF up to 10MB"
+                              }
+                            ],
+                            "aria-hidden": "true"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "class": "px-2 py-2",
+            "children": [
+              {
+                "tag": "h2",
+                "class": "text-base font-semibold leading-7 text-gray-900",
+                "text": "Notifications"
+              },
+              {
+                "tag": "p",
+                "class": "mt-1 max-w-2xl text-sm leading-6 text-gray-600",
+                "text": "We'll always let you know about important changes, but you pick what else you want to hear about."
+              },
+              {
+                "tag": "div",
+                "class": "mt-10 space-y-10 border-b border-gray-900/10 pb-12 sm:space-y-0 sm:divide-y sm:divide-gray-900/10 sm:border-t sm:pb-0",
+                "children": [
+                  {
+                    "tag": "fieldset",
+                    "class": "",
+                    "children": [
+                      {
+                        "tag": "legend",
+                        "class": "sr-only",
+                        "text": "By Email"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "sm:grid sm:grid-cols-3 sm:gap-4 sm:py-6",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "text-sm font-semibold leading-6 text-gray-900",
+                            "text": "By Email",
+                            "aria-hidden": "true"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "mt-4 sm:col-span-2 sm:mt-0",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "max-w-lg space-y-6",
+                                "children": [
+                                  {
+                                    "tag": "div",
+                                    "class": "relative flex gap-x-3",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "class": "flex h-6 items-center",
+                                        "children": [
+                                          {
+                                            "tag": "input",
+                                            "class": "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600",
+                                            "id": "comments",
+                                            "name": "comments",
+                                            "type": "checkbox"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "class": "text-sm leading-6",
+                                        "children": [
+                                          {
+                                            "tag": "label",
+                                            "class": "font-medium text-gray-900",
+                                            "text": "Comments",
+                                            "for": "comments"
+                                          },
+                                          {
+                                            "tag": "p",
+                                            "class": "mt-1 text-gray-600",
+                                            "text": "Get notified when someones posts a comment on a posting."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "div",
+                                    "class": "relative flex gap-x-3",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "class": "flex h-6 items-center",
+                                        "children": [
+                                          {
+                                            "tag": "input",
+                                            "class": "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600",
+                                            "id": "candidates",
+                                            "name": "candidates",
+                                            "type": "checkbox"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "class": "text-sm leading-6",
+                                        "children": [
+                                          {
+                                            "tag": "label",
+                                            "class": "font-medium text-gray-900",
+                                            "text": "Candidates",
+                                            "for": "candidates"
+                                          },
+                                          {
+                                            "tag": "p",
+                                            "class": "mt-1 text-gray-600",
+                                            "text": "Get notified when a candidate applies for a job."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "tag": "div",
+                                    "class": "relative flex gap-x-3",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "class": "flex h-6 items-center",
+                                        "children": [
+                                          {
+                                            "tag": "input",
+                                            "class": "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600",
+                                            "id": "offers",
+                                            "name": "offers",
+                                            "type": "checkbox"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "class": "text-sm leading-6",
+                                        "children": [
+                                          {
+                                            "tag": "label",
+                                            "class": "font-medium text-gray-900",
+                                            "text": "Offers",
+                                            "for": "offers"
+                                          },
+                                          {
+                                            "tag": "p",
+                                            "class": "mt-1 text-gray-600",
+                                            "text": "Get notified when a candidate accepts or rejects an offer."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "fieldset",
+                    "class": "",
+                    "children": [
+                      {
+                        "tag": "legend",
+                        "class": "sr-only",
+                        "text": "Push Notifications"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "sm:grid sm:grid-cols-3 sm:items-baseline sm:gap-4 sm:py-6",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "text-sm font-semibold leading-6 text-gray-900",
+                            "text": "Push Notifications",
+                            "aria-hidden": "true"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "mt-1 sm:col-span-2 sm:mt-0",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "max-w-lg",
+                                "children": [
+                                  {
+                                    "tag": "p",
+                                    "class": "text-sm leading-6 text-gray-600",
+                                    "text": "These are delivered via SMS to your mobile phone."
+                                  },
+                                  {
+                                    "tag": "div",
+                                    "class": "mt-6 space-y-6",
+                                    "children": [
+                                      {
+                                        "tag": "div",
+                                        "class": "flex items-center gap-x-3",
+                                        "children": [
+                                          {
+                                            "tag": "input",
+                                            "class": "h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600",
+                                            "id": "push-everything",
+                                            "name": "push-notifications",
+                                            "type": "radio"
+                                          },
+                                          {
+                                            "tag": "label",
+                                            "class": "block text-sm font-medium leading-6 text-gray-900",
+                                            "text": "Everything",
+                                            "for": "push-everything"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "class": "flex items-center gap-x-3",
+                                        "children": [
+                                          {
+                                            "tag": "input",
+                                            "class": "h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600",
+                                            "id": "push-email",
+                                            "name": "push-notifications",
+                                            "type": "radio"
+                                          },
+                                          {
+                                            "tag": "label",
+                                            "class": "block text-sm font-medium leading-6 text-gray-900",
+                                            "text": "Same as email",
+                                            "for": "push-email"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "tag": "div",
+                                        "class": "flex items-center gap-x-3",
+                                        "children": [
+                                          {
+                                            "tag": "input",
+                                            "class": "h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600",
+                                            "id": "push-nothing",
+                                            "name": "push-notifications",
+                                            "type": "radio"
+                                          },
+                                          {
+                                            "tag": "label",
+                                            "class": "block text-sm font-medium leading-6 text-gray-900",
+                                            "text": "No push notifications",
+                                            "for": "push-nothing"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "pt-10 ",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "flex justify-end space-x-4",
+                "children": [
+                  {
+                    "tag": "button",
+                    "typeAttr": "cancel",
+                    "classes": " text-sm font-semibold leading-6 text-gray-900",
+                    "text": "Cancel"
+                  },
+                  {
+                    "tag": "button",
+                    "typeAttr": "submit",
+                    "classes": " inline-flex justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+                    "text": "Save"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

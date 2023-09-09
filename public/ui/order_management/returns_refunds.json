@@ -1,5 +1,277 @@
-[
-    {
-      "name": "return and refund json file"
-    }
-]
+{
+  "ui": {
+    "layout": "",
+    "root": [
+      {
+        "tag": "div",
+        "class": "space-y-10 divide-y divide-gray-900/10 overflow-y-auto py-4 px-4",
+        "children": [
+              {
+                "tag": "form",
+                "class": "bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "px-4 py-6 sm:p-8",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "class": "grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-3",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "First name",
+                                "for": "first-name"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "type": "text",
+                                    "name": "first-name",
+                                    "id": "first-name",
+                                    "autocomplete": "given-name"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-3",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "Last name",
+                                "for": "last-name"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "type": "text",
+                                    "name": "last-name",
+                                    "id": "last-name",
+                                    "autocomplete": "family-name"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-4",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "Email address",
+                                "for": "email"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "id": "email",
+                                    "name": "email",
+                                    "type": "email",
+                                    "autocomplete": "email"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-4",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "Country",
+                                "for": "country"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "select",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6",
+                                    "children": [
+                                      {
+                                        "tag": "option",
+                                        "class": "",
+                                        "text": "United States"
+                                      },
+                                      {
+                                        "tag": "option",
+                                        "class": "",
+                                        "text": "Canada"
+                                      },
+                                      {
+                                        "tag": "option",
+                                        "class": "",
+                                        "text": "Mexico"
+                                      }
+                                    ],
+                                    "id": "country",
+                                    "name": "country",
+                                    "autocomplete": "country-name"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "col-span-full",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "Street address",
+                                "for": "street-address"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "type": "text",
+                                    "name": "street-address",
+                                    "id": "street-address",
+                                    "autocomplete": "street-address"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-2 sm:col-start-1",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "City",
+                                "for": "city"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "type": "text",
+                                    "name": "city",
+                                    "id": "city",
+                                    "autocomplete": "address-level2"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-2",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "State / Province",
+                                "for": "region"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "type": "text",
+                                    "name": "region",
+                                    "id": "region",
+                                    "autocomplete": "address-level1"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "sm:col-span-2",
+                            "children": [
+                              {
+                                "tag": "label",
+                                "class": "block text-sm font-medium leading-6 text-gray-900",
+                                "text": "ZIP / Postal code",
+                                "for": "postal-code"
+                              },
+                              {
+                                "tag": "div",
+                                "class": "mt-2",
+                                "children": [
+                                  {
+                                    "tag": "input",
+                                    "class": "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    "type": "text",
+                                    "name": "postal-code",
+                                    "id": "postal-code",
+                                    "autocomplete": "postal-code"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "flex items-center justify-end gap-x-6 border-t border-gray-900/10 px-4 py-4 sm:px-8",
+                    "children": [
+                      {
+                        "tag": "button",
+                        "class": "text-sm font-semibold leading-6 text-gray-900",
+                        "text": "Cancel",
+                        "type": "button"
+                      },
+                      {
+                        "tag": "button",
+                        "class": "rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+                        "text": "Save",
+                        "type": "submit"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+         
+                
+                ]
+              }
+         
+          }
+     
