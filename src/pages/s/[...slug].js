@@ -102,6 +102,11 @@ export default function Page() {
                               Link
                             </a>
                           )}
+                            {h["Data Type"] === "Email" && (
+                            <a href={`mailto:${r[h["Field Name"]]}`} target="_blank">
+                              {r[h["Field Name"]]}
+                            </a>
+                          )}
                           {h["Data Type"] === "File Upload" && (
                             <a href={r[h["Field Name"]]} target="_blank">
                               {r[h["Field Name"]]}
