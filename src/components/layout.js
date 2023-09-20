@@ -1,13 +1,11 @@
-import Navbar from './navbar'
-import RightNav from './RightNav'
+import Navbar from "./navbar";
+import RightNav from "./RightNav";
 
- 
 export default function Layout({ children }) {
   return (
-  <div className="flex justify-between h-screen">
-      <Navbar/>
-      <main className='w-3/5 bg-white h-screen '>{children}</main>
-      <RightNav/>
-      </div>
-  )
+    <div className="flex justify-between h-screen">
+      <Navbar />
+      <main className="w-screen h-screen bg-white ">{children}</main>
+    </div>
+  );
 }
