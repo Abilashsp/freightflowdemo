@@ -1,0 +1,521 @@
+Page,Section,Field Name,Validate,Data Type,Sample Value,Size of Field,Tooltip,Prompt
+AirlineCoordination,Flight Operations,Flight Number,Mandatory,Text,FL123,10,Flight number,Enter the flight number
+AirlineCoordination,Flight Operations,Departure Airport,Mandatory,Dropdown,JFK,4,Departure airport,Select departure airport
+AirlineCoordination,Flight Operations,Arrival Airport,Mandatory,Dropdown,LAX,4,Arrival airport,Select arrival airport
+AirlineCoordination,Flight Operations,Departure Time,Mandatory,Time,14:30,,Departure time,Enter departure time
+AirlineCoordination,Flight Operations,Arrival Time,Mandatory,Time,17:45,,Arrival time,Enter arrival time
+AirlineCoordination,Flight Operations,Aircraft Type,Mandatory,Text,Boeing 737,20,Aircraft type,Enter aircraft type
+AirlineCoordination,Flight Operations,Status,Mandatory,Dropdown,Scheduled,,Flight status,Select flight status
+AirlineCoordination,Flight Operations,Gate Number,Optional,Number,5,3,Gate number,Enter gate number
+AirlineCoordination,Flight Operations,Terminal,Optional,Text,T1,5,Terminal,Enter terminal
+AirlineCoordination,Flight Operations,Estimated Time of Arrival,Optional,Time,18:00,5,ETA,Enter estimated arrival time
+AirlineCoordination,Flight Operations,In-flight Services,Optional,Text,"WiFi, Meals",,,Describe the in-flight services
+AirlineCoordination,Flight Operations,Crew Details,Optional,Text,,4,,Enter details about the crew
+AirlineCoordination,Flight Operations,Weather Conditions,Optional,Text,Sunny,,,Describe the weather conditions
+AirlineCoordination,Flight Operations,Actual Departure Time,Optional,Time,14:35,,,Enter the actual departure time
+AirlineCoordination,Flight Operations,Actual Arrival Time,Optional,Time,16:50,,,Enter the actual arrival time
+AirlineCoordination,Flight Operations,Status,Optional,Dropdown,Delayed,,,Select the current status
+AirlineCoordination,Flight Operations,Cargo,Optional,Text,,200,,Enter details about the cargo
+AirlineCoordination,Flight Operations,Passengers,Optional,Text,,150,,Enter the number and type of passengers
+AirlineCoordination,Flight Operations,Crew,Optional,Text,,4,,Enter the number and type of crew members
+AirlineCoordination,Flight Operations,Remarks,Optional,Text,,,,Enter any additional remarks
+AirlineCoordination,Cargo Management,Cargo Types,Mandatory,Dropdown,Perishable,20,Cargo Types,Select the type of cargo
+AirlineCoordination,Cargo Management,Cargo Handling Procedures,Mandatory,Text,Handle with care,50,Handling Procedures,Describe the handling procedures
+AirlineCoordination,Cargo Management,Storage Facilities,Mandatory,Text,Cold Storage,50,Storage Facilities,Describe the storage facilities
+AirlineCoordination,Cargo Management,Security Measures,Mandatory,Text,CCTV,20,Security Measures,Describe the security measures
+AirlineCoordination,Cargo Management,Tracking System,Mandatory,Text,GPS,20,Tracking System,Describe the tracking system
+AirlineCoordination,Cargo Management,Regulatory Compliance,Mandatory,Text,FAA Compliant,50,Regulatory Compliance,Enter compliance details
+AirlineCoordination,Cargo Management,Flight Number,Mandatory,Text,FL1234,10,Flight Number,Enter the flight number
+AirlineCoordination,Cargo Management,Cargo Type,Mandatory,Dropdown,Perishable,20,Cargo Type,Select the type of cargo
+AirlineCoordination,Cargo Management,Cargo Weight,Mandatory,Number,200kg,6,Cargo Weight,Enter the weight of the cargo
+AirlineCoordination,Cargo Management,Cargo Volume,Mandatory,Number,50m³,6,Cargo Volume,Enter the volume of the cargo
+AirlineCoordination,Cargo Management,Cargo Insurance,Optional,Text,Yes/No,10,Cargo Insurance,Is insurance available?
+AirlineCoordination,Cargo Management,Temperature Control,Optional,Text,4°C-8°C,20,Temperature Control,Describe temperature control
+AirlineCoordination,Cargo Management,Customs Clearance,Optional,Text,Required Docs,50,Customs Clearance,Describe customs clearance
+AirlineCoordination,Cargo Management,Special Services,Optional,Text,Expedited,20,Special Services,Describe any special services
+AirlineCoordination,Cargo Management,Third-Party Partnerships,Optional,Text,DHL,20,Third-Party Partnerships,Describe third-party partnerships
+AirlineCoordination,Cargo Management,Cargo Description,Optional,Text,Electronics,50,Cargo Description,Describe the cargo
+AirlineCoordination,Cargo Management,Cargo Shipper,Optional,Text,Company XYZ,30,Cargo Shipper,Enter the name of the shipper
+AirlineCoordination,Cargo Management,Cargo Consignee,Optional,Text,Company ABC,30,Cargo Consignee,Enter the name of the consignee
+AirlineCoordination,Cargo Management,Cargo Value,Optional,Number,$5000,10,Cargo Value,Enter the estimated value
+AirlineCoordination,Cargo Management,Cargo Hazard Class,Optional,Dropdown,Class 3,10,Cargo Hazard Class,Select the hazard class
+AirlineCoordination,Cargo Management,Cargo Handling Instructions,Optional,Text,Handle with care,50,Handling Instructions,Enter handling instructions
+AirlineCoordination,Cargo Management,Remarks,Optional,Text,,100,Remarks,Enter any additional remarks
+AirlineCoordination,Crew Management,Crew Roster,Mandatory,Text,"John, Emily",50,Crew Roster,Enter the names of the crew
+AirlineCoordination,Crew Management,Training Programs,Mandatory,Text,Safety,30,Training Programs,Enter the training programs
+AirlineCoordination,Crew Management,Certifications,Mandatory,Text,CPR,20,Certifications,Enter the certifications
+AirlineCoordination,Crew Management,Shift Schedules,Mandatory,Text,9am-5pm,20,Shift Schedules,Enter the shift schedules
+AirlineCoordination,Crew Management,Emergency Protocols,Mandatory,Text,Fire Safety,30,Emergency Protocols,Enter the emergency protocols
+AirlineCoordination,Crew Management,Flight Number,Mandatory,Text,FL1234,10,Flight Number,Enter the flight number
+AirlineCoordination,Crew Management,Crew Member Name,Mandatory,Text,John Doe,30,Crew Member Name,Enter the name of the crew member
+AirlineCoordination,Crew Management,Crew Member Type,Mandatory,Dropdown,Pilot,20,Crew Member Type,Select the type of crew member
+AirlineCoordination,Crew Management,Crew Member Position,Mandatory,Dropdown,Captain,20,Crew Member Position,Select the position of the crew member
+AirlineCoordination,Crew Management,Compliance Standards,Mandatory,Text,FAA,20,Compliance Standards,Enter the compliance standards
+AirlineCoordination,Crew Management,Crew Benefits,Optional,Text,Health Insurance,50,Crew Benefits,Describe the benefits offered
+AirlineCoordination,Crew Management,Crew Accommodations,Optional,Text,Hotel Stay,30,Crew Accommodations,Describe the accommodations
+AirlineCoordination,Crew Management,Performance Metrics,Optional,Text,Punctuality,30,Performance Metrics,Describe the performance metrics
+AirlineCoordination,Crew Management,Crew Feedback,Optional,Text,Positive,20,Crew Feedback,Enter any feedback
+AirlineCoordination,Crew Management,Third-Party Training,Optional,Text,Safety Course,30,Third-Party Training,Describe third-party training
+AirlineCoordination,Crew Management,Crew Member Date of Birth,Optional,Date,01/01/1980,,Date of Birth,Enter the date of birth
+AirlineCoordination,Crew Management,Crew Member Passport Number,Optional,Number,123456789,9,Passport Number,Enter the passport number
+AirlineCoordination,Crew Management,Crew Member License Number,Optional,Text,ABC123,10,License Number,Enter the license number
+AirlineCoordination,Crew Management,Crew Member Medical Certificate Number,Optional,Text,MED123,10,Medical Certificate No.,Enter the medical certificate number
+AirlineCoordination,Crew Management,Remarks,Optional,Text,,100,Remarks,Enter any additional remarks
+AirlineCoordination,Customer Service,Contact Information,Mandatory,Text,1-800-1234,20,Contact Information,Enter the contact details
+AirlineCoordination,Customer Service,Service Hours,Mandatory,Text,9am-5pm,20,Service Hours,Enter the service hours
+AirlineCoordination,Customer Service,FAQs,Mandatory,Text,,100,FAQs,Enter the FAQs
+AirlineCoordination,Customer Service,Complaint Procedures,Mandatory,Text,Online Form,30,Complaint Procedures,Describe the complaint procedures
+AirlineCoordination,Customer Service,Refund and Cancellation Policies,Mandatory,Text,Full Refund,50,Refund Policies,Describe the refund policies
+AirlineCoordination,Customer Service,Customer Name,Mandatory,Text,John Doe,30,Customer Name,Enter the customer's name
+AirlineCoordination,Customer Service,Customer Contact Information,Mandatory,Text,john@email.com,50,Customer Contact Info,Enter the customer's contact details
+AirlineCoordination,Customer Service,Flight Number,Mandatory,Text,FL1234,10,Flight Number,Enter the flight number
+AirlineCoordination,Customer Service,Live Chat Support,Optional,Text,,100,Live Chat Support,Click to start a live chat
+AirlineCoordination,Customer Service,Customer Testimonials,Optional,Text,Great Service,200,Customer Testimonials,Enter customer testimonials
+AirlineCoordination,Customer Service,Service Upgrades,Optional,Text,First Class,50,Service Upgrades,Describe available upgrades
+AirlineCoordination,Customer Service,Loyalty Programs,Optional,Text,Gold Member,50,Loyalty Programs,Describe loyalty programs
+AirlineCoordination,Customer Service,Accessibility Services,Optional,Text,Wheelchair,50,Accessibility Services,Describe accessibility services
+AirlineCoordination,Customer Service,Customer Address,Optional,Text,123 St,100,Customer Address,Enter the customer's address
+AirlineCoordination,Customer Service,Customer Remarks,Optional,Text,,100,Customer Remarks,Enter any customer remarks
+AirlineCoordination,Customer Service,Customer Service Request Type,Optional,Dropdown,Refund,,Request Type,Select the type of request
+AirlineCoordination,Customer Service,Customer Service Request Status,Optional,Dropdown,Open,,Request Status,Select the status of request
+AirlineCoordination,Customer Service,Customer Service Resolution,Optional,Text,Resolved,100,Service Resolution,Describe the resolution
+AirlineCoordination,Regulatory Compliance,Compliance Overview,Mandatory,Text,FAA Compliant,100,Compliance Overview,Enter a brief description
+AirlineCoordination,Regulatory Compliance,Safety Standards,Mandatory,Text,ISO 9001,100,Safety Standards,Describe safety standards
+AirlineCoordination,Regulatory Compliance,Environmental Regulations,Mandatory,Text,EPA Rules,100,Environmental Regs,Describe environmental regulations
+AirlineCoordination,Regulatory Compliance,Data Protection,Mandatory,Text,GDPR,100,Data Protection,Describe data protection measures
+AirlineCoordination,Regulatory Compliance,Licensing and Certifications,Mandatory,Text,FAA License,100,Licensing,Describe required licenses
+AirlineCoordination,Regulatory Compliance,Regulatory Compliance Type,Mandatory,Dropdown,Safety,,Compliance Type,Select the type of compliance
+AirlineCoordination,Regulatory Compliance,Regulatory Compliance Status,Mandatory,Dropdown,Compliant,,Compliance Status,Select the compliance status
+AirlineCoordination,Regulatory Compliance,Regulatory Compliance Reference No.,Mandatory,Text,RC1234,10,Reference Number,Enter the reference number
+AirlineCoordination,Regulatory Compliance,Audit Reports,Optional,File ,PDF,,Audit Reports,Upload audit reports
+AirlineCoordination,Regulatory Compliance,Sanctions and Penalties,Optional,Text,Fine,100,Sanctions,Enter sanctions or penalties
+AirlineCoordination,Regulatory Compliance,Third-Party Compliance,Optional,Text,Compliant,100,Third-Party Compliance,Describe third-party compliance
+AirlineCoordination,Regulatory Compliance,Updates and Amendments,Optional,Text,Updated,100,Updates,Describe updates or amendments
+AirlineCoordination,Regulatory Compliance,Compliance Training,Optional,Text,Online,100,Training,Describe compliance training
+AirlineCoordination,Regulatory Compliance,Regulatory Compliance Description,Optional,Text,FAA Rules,200,Description,Enter a detailed description
+AirlineCoordination,Regulatory Compliance,Regulatory Compliance Due Date,Optional,Date,2023-12-31,,Due Date,Select the due date
+AirlineCoordination,Regulatory Compliance,Regulatory Compliance Remarks,Optional,Text,,100,Remarks,Enter any additional remarks
+AirlineCoordination,Airlines,Airline Name,Mandatory,Text,Delta,50,Airline Name,Enter Name
+AirlineCoordination,Airlines,IATA/ICAO Codes,Mandatory,Text,DL/ DAL,10,Codes,Enter Codes
+AirlineCoordination,Airlines,Headquarters,Mandatory,Text,Atlanta,50,HQ Location,Enter Location
+AirlineCoordination,Airlines,Fleet Information,Mandatory,Text,200 Planes,100,Fleet Info,Enter Details
+AirlineCoordination,Airlines,Destinations Served,Mandatory,Text,"JFK, LAX",100,Destinations,Enter Airports
+AirlineCoordination,Airlines,Airline Name,Mandatory,Text,Delta,50,Airline Name,Enter Name
+AirlineCoordination,Airlines,Airline Code,Mandatory,Text,DL,10,Airline Code,Enter Code
+AirlineCoordination,Airlines,Airline Country,Mandatory,Text,USA,50,Country,Enter Country
+AirlineCoordination,Airlines,Alliance Membership,Optional,Text,Star Alliance,50,Membership,Enter Membership
+AirlineCoordination,Airlines,In-Flight Services,Optional,Text,"WiFi, Meals",100,Services,Enter Services
+AirlineCoordination,Airlines,Frequent Flyer Program,Optional,Text,SkyMiles,50,Program,Enter Program
+AirlineCoordination,Airlines,Customer Reviews,Optional,Text,4.5 Stars,10,Reviews,Enter Reviews
+AirlineCoordination,Airlines,Social Media Links,Optional,URL,twitter.com,100,Social Media,Enter URL
+AirlineCoordination,Airlines,Airline Address,Optional,Text,123 St,100,Address,Enter Address
+AirlineCoordination,Airlines,Airline Contact Info,Optional,Text,-799,20,Contact Info,Enter Contact
+AirlineCoordination,Airlines,Airline Website,Optional,URL,example.com,100,Website,Enter URL
+AirlineCoordination,Airlines,Airline Logo,Optional,File,logo.png,,Logo,Upload File
+AirlineCoordination,Airlines,Airline Fleet Size,Optional,Number,200,10,Fleet Size,Enter Size
+AirlineCoordination,Airlines,Airline Number of Employees,Optional,Number,5000,10,Employees,Enter Number
+AirlineCoordination,Airports,Airport Name,Mandatory,Text,JFK Airport,50,Enter the airport's name.,Enter Airport Name
+AirlineCoordination,Airports,IATA/ICAO Codes,Mandatory,Text,JFK/JFKK,10,Enter IATA or ICAO codes.,Enter IATA/ICAO
+AirlineCoordination,Airports,Location,Mandatory,Text,"New York, USA",100,Enter the airport's location.,Enter Location
+AirlineCoordination,Airports,Terminals,Mandatory,Number,4,2,Enter the number of terminals.,Enter Terminals
+AirlineCoordination,Airports,Runways,Mandatory,Number,2,2,Enter the number of runways.,Enter Runways
+AirlineCoordination,Airports,Airport Name,Mandatory,Text,JFK Airport,50,Enter the airport's name.,Enter Airport Name
+AirlineCoordination,Airports,Airport Code,Mandatory,Text,JFK,5,Enter the airport's code.,Enter Airport Code
+AirlineCoordination,Airports,Airport Country,Mandatory,Text,USA,50,Enter the country of the airport.,Enter Country
+AirlineCoordination,Airports,Airport Services,Optional,Text,"WiFi, Lounge",100,List of services available.,Enter Services
+AirlineCoordination,Airports,Parking Facilities,Optional,Text,"Lot A, Lot B",50,Describe parking facilities.,Enter Parking Info
+AirlineCoordination,Airports,Public Transport Links,Optional,Text,"Bus, Train",50,Public transport options.,Enter Transport
+AirlineCoordination,Airports,Airlines Operating,Optional,Text,"Delta, AA",50,List of airlines.,Enter Airlines
+AirlineCoordination,Airports,Customer Reviews,Optional,Text,4.5 stars,10,Customer reviews.,Enter Reviews
+AirlineCoordination,Airports,Airport Address,Optional,Text,"123 St, NY",100,Enter the airport's address.,Enter Address
+AirlineCoordination,Airports,Airport Contact Information,Optional,Text,-922,20,Contact information.,Enter Contact Info
+AirlineCoordination,Airports,Airport Website,Optional,URL,www.example.com,100,Enter the website URL.,Enter Website
+AirlineCoordination,Airports,Airport IATA Code,Optional,Text,JFK,5,Enter the IATA code.,Enter IATA Code
+AirlineCoordination,Airports,Airport ICAO Code,Optional,Text,JFKK,5,Enter the ICAO code.,Enter ICAO Code
+AirlineCoordination,Airports,Airport Elevation,Optional,Number,5000 ft,10,Elevation of the airport.,Enter Elevation
+AirlineCoordination,Airports,Airport Runway Length,Optional,Number,12000 ft,10,Length of the runway.,Enter Runway Length
+AirlineCoordination,Airports,Airport Number of Gates,Optional,Number,45,5,Number of gates.,Enter Number of Gates
+AirlineCoordination,Airports,Airport Terminal Capacity,Optional,Number,2000,10,Terminal capacity.,Enter Capacity
+AirlineCoordination,Airports,Airport Passenger Volume,Optional,Number,1M,10,Annual passenger volume.,Enter Passenger Volume
+AirlineCoordination,Airports,Airport Cargo Volume,Optional,Number,500K tons,10,Annual cargo volume.,Enter Cargo Volume
+AirlineCoordination,Airports,Airport Ground Handling Providers,Optional,Text,"ABC, XYZ",50,Ground handling providers.,Enter Providers
+AirlineCoordination,Airports,Airport Fuel Suppliers,Optional,Text,"DEF, GHI",50,Fuel suppliers.,Enter Suppliers
+AirlineCoordination,Airports,Airport Maintenance Providers,Optional,Text,"JKL, MNO",50,Maintenance providers.,Enter Providers
+AirlineCoordination,Airports,Airport Catering Providers,Optional,Text,"PQR, STU",50,Catering providers.,Enter Providers
+AirlineCoordination,Flights,Flight Number,Mandatory,Text,AA123,10,Enter the flight number,"e.g., AA123"
+AirlineCoordination,Flights,Departure Airport,Mandatory,Dropdown,JFK,50,Select the departure airport,"e.g., JFK"
+AirlineCoordination,Flights,Arrival Airport,Mandatory,Dropdown,LAX,50,Select the arrival airport,"e.g., LAX"
+AirlineCoordination,Flights,Departure Time,Mandatory,Time,14:30,,Enter the departure time,"e.g., 14:30"
+AirlineCoordination,Flights,Arrival Time,Mandatory,Time,16:45,,Enter the arrival time,"e.g., 16:45"
+AirlineCoordination,Flights,Aircraft Type,Mandatory,Dropdown,Boeing 737,50,Select the aircraft type,"e.g., Boeing 737"
+AirlineCoordination,Flights,Fare Classes,Mandatory,Checkbox,Economy,50,Select available fare classes,"e.g., Economy"
+AirlineCoordination,Flights,Registration Number,Mandatory,Text,N123AB,10,Enter the registration number,"e.g., N123AB"
+AirlineCoordination,Flights,Airline,Mandatory,Dropdown,Delta,50,Select the operating airline,"e.g., Delta"
+AirlineCoordination,Flights,Airport of Origin,Mandatory,Dropdown,JFK,50,Select the origin airport,"e.g., JFK"
+AirlineCoordination,Flights,Airport of Destination,Mandatory,Dropdown,LAX,50,Select the destination airport,"e.g., LAX"
+AirlineCoordination,Flights,Scheduled Departure Time,Mandatory,Time,14:30,,Enter the departure time,"e.g., 14:30"
+AirlineCoordination,Flights,Scheduled Arrival Time,Mandatory,Time,16:45,,Enter the arrival time,"e.g., 16:45"
+AirlineCoordination,Flights,Aircraft Type,Mandatory,Dropdown,Boeing 737,50,Select the aircraft type,"e.g., Boeing 737"
+AirlineCoordination,Flights,Registration Number,Mandatory,Text,N123AB,10,Enter the registration number,"e.g., N123AB"
+AirlineCoordination,Flights,In-Flight Amenities,Optional,Checkbox,Wi-Fi,100,Select in-flight amenities,"e.g., Wi-Fi"
+AirlineCoordination,Flights,Meal Options,Optional,Dropdown,Vegan,50,Select meal options,"e.g., Vegan"
+AirlineCoordination,Flights,Layovers and Stopovers,Optional,Text,Dubai,50,Enter layovers or stopovers,"e.g., Dubai"
+AirlineCoordination,Flights,Baggage Allowance,Optional,Number,23,10,Enter baggage allowance,"e.g., 23 kg"
+AirlineCoordination,Flights,Cancellation Policy,Optional,Text,Refundable,200,Enter cancellation policy,"e.g., Refundable"
+AirlineCoordination,Flights,Actual Departure Time,Optional,Time,14:35,,Enter the actual departure time,"e.g., 14:35"
+AirlineCoordination,Flights,Actual Arrival Time,Optional,Time,16:50,,Enter the actual arrival time,"e.g., 16:50"
+AirlineCoordination,Flights,Status,Optional,Dropdown,Delayed,20,Select the flight status,"e.g., Delayed"
+AirlineCoordination,Flights,Cargo,Optional,Text,Electronics,100,Enter cargo details,"e.g., Electronics"
+AirlineCoordination,Flights,Passengers,Optional,Number,200,10,Enter passenger details,"e.g., 200"
+AirlineCoordination,Flights,Crew,Optional,Number,5,10,Enter crew details,"e.g., 5"
+AirlineCoordination,Flights,Remarks,Optional,Text,On time,200,Enter any additional remarks,"e.g., On time"
+AirlineCoordination,Marketing and Promotions,Current Promotions,Mandatory,Text,Summer Sale,200,Enter current promotions,"e.g., Summer Sale"
+AirlineCoordination,Marketing and Promotions,Upcoming Campaigns,Mandatory,Text,Winter Fest,200,Enter upcoming campaigns,"e.g., Winter Fest"
+AirlineCoordination,Marketing and Promotions,Loyalty Programs,Mandatory,Text,SkyMiles,100,Enter loyalty programs,"e.g., SkyMiles"
+AirlineCoordination,Marketing and Promotions,Partnerships,Mandatory,Text,Visa,100,Enter partnerships,"e.g., Visa"
+AirlineCoordination,Marketing and Promotions,Terms and Conditions,Mandatory,Text,T&C Apply,500,Enter terms and conditions,"e.g., T&C Apply"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Name,Mandatory,Text,Summer2023,50,Enter campaign name,"e.g., Summer2023"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Start Date,Mandatory,Date,2023-06-01,,Enter campaign start date,"e.g., 2023-06-01"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign End Date,Mandatory,Date,2023-08-31,,Enter campaign end date,"e.g., 2023-08-31"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Budget,Mandatory,Number,50000,10,Enter campaign budget,"e.g., 50000"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Target Audience,Mandatory,Text,Adults,50,Enter target audience,"e.g., Adults"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Goals,Mandatory,Text,Increase Sales,200,Enter campaign goals,"e.g., Increase Sales"
+AirlineCoordination,Marketing and Promotions,Past Campaigns,Optional,Text,Summer 2022,200,Enter past campaigns,"e.g., Summer 2022"
+AirlineCoordination,Marketing and Promotions,Customer Testimonials,Optional,Text,Great Service,500,Enter customer testimonials,"e.g., Great Service"
+AirlineCoordination,Marketing and Promotions,Promotional Videos,Optional,URL,https://...,100,Enter promotional video URL,"e.g., https://..."
+AirlineCoordination,Marketing and Promotions,Newsletter Signup,Optional,Email,user@email.com,,Enter email for newsletter,"e.g., user@email.com"
+AirlineCoordination,Marketing and Promotions,Social Media Campaigns,Optional,Text,Twitter,100,Enter social media campaigns,"e.g., Twitter"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Channels,Optional,Text,Online,50,Enter marketing channels,"e.g., Online"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Creative Assets,Optional,File,image.jpg,,Upload creative assets,"e.g., image.jpg"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Performance Metrics,Optional,Text,"CTR, ROI",100,Enter performance metrics,"e.g., CTR, ROI"
+AirlineCoordination,Marketing and Promotions,Marketing Campaign Remarks,Optional,Text,Well Executed,200,Enter any remarks,"e.g., Well Executed"
+AirlineCoordination,Partners and Affiliates,Partner Organisations,Mandatory,Text,Airline Co.,200,Enter partner organizations,"e.g., Airline Co."
+AirlineCoordination,Partners and Affiliates,Affiliate Programs,Mandatory,Text,SkyMiles,200,Enter affiliate programs,"e.g., SkyMiles"
+AirlineCoordination,Partners and Affiliates,Collaborative Initiatives,Mandatory,Text,SkyShare,500,Enter collaborative initiatives,"e.g., SkyShare"
+AirlineCoordination,Partners and Affiliates,Contact Information,Mandatory,Email,info@air.com,,Enter contact information,"e.g., info@air.com"
+AirlineCoordination,Partners and Affiliates,Legal Agreements,Mandatory,File,agreement.pdf,,Upload legal agreements,"e.g., agreement.pdf"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Name,Mandatory,Text,SkyPartners,100,Enter partner/affiliate name,"e.g., SkyPartners"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Type,Mandatory,Dropdown,Airline,,Select partner/affiliate type,"e.g., Airline"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Contact Information,Mandatory,Email,contact@sky.com,,Enter specific contact information,"e.g., contact@sky.com"
+AirlineCoordination,Partners and Affiliates,Success Stories,Optional,Text,SkySuccess,500,Enter success stories,"e.g., SkySuccess"
+AirlineCoordination,Partners and Affiliates,Upcoming Collaborations,Optional,Text,SkyFuture,500,Enter upcoming collaborations,"e.g., SkyFuture"
+AirlineCoordination,Partners and Affiliates,Resource Sharing,Optional,Text,SkyResource,200,Enter resource sharing details,"e.g., SkyResource"
+AirlineCoordination,Partners and Affiliates,FAQs,Optional,Text,SkyFAQ,500,Enter FAQs,"e.g., SkyFAQ"
+AirlineCoordination,Partners and Affiliates,Media Coverage,Optional,URL,sky.com/news,100,Enter media coverage,"e.g., sky.com/news"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Website,Optional,URL,sky.com,100,Enter partner website,"e.g., sky.com"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Logo,Optional,File,logo.png,,Upload partner logo,"e.g., logo.png"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Status,Optional,Dropdown,Active,,Select partner status,"e.g., Active"
+AirlineCoordination,Partners and Affiliates,Partner/Affiliate Remarks,Optional,Text,SkyNote,200,Enter additional remarks,"e.g., SkyNote"
+AirlineCoordination,In-flight Services,Seat Classes,Mandatory,Dropdown,Economy,,Select seat class,Choose a seat class
+AirlineCoordination,In-flight Services,Meal Options,Mandatory,Dropdown,Vegan,,Select meal option,Choose a meal option
+AirlineCoordination,In-flight Services,Entertainment,Mandatory,Checkbox,Movies,,Select entertainment options,Choose entertainment
+AirlineCoordination,In-flight Services,Wi-Fi Services,Mandatory,Radio Group,Available,,Select Wi-Fi availability,Is Wi-Fi available?
+AirlineCoordination,In-flight Services,Safety Procedures,Mandatory,Text,Follow guidelines,,Enter safety procedures,Describe safety procedures
+AirlineCoordination,In-flight Services,In-flight service type,Mandatory,Text,Food Service,,Enter service type,Type of in-flight service
+AirlineCoordination,In-flight Services,In-flight service description,Mandatory,Text,Serving meals,,Enter service description,Describe the service
+AirlineCoordination,In-flight Services,In-flight service availability,Mandatory,Radio Group,Yes,,Is the service available?,Availability of the service
+AirlineCoordination,In-flight Services,In-flight service pricing (if applicable),Mandatory,Number,20,,Enter pricing,Cost of the service
+AirlineCoordination,In-flight Services,Special Services,Optional,Checkbox,WiFi,,Select special services,Choose any special services
+AirlineCoordination,In-flight Services,Duty-Free Shopping,Optional,Radio Group,Available,,Duty-free shopping available?,Is duty-free shopping available?
+AirlineCoordination,In-flight Services,Children Services,Optional,Checkbox,Childcare,,Select children services,Choose services for children
+AirlineCoordination,In-flight Services,Loyalty Program Benefits,Optional,Text,Extra Miles,,Enter loyalty benefits,Describe loyalty program benefits
+AirlineCoordination,In-flight Services,Customer Feedback,Optional,Text,Great service,,Enter customer feedback,Add customer reviews
+AirlineCoordination,In-flight Services,In-flight service images,Optional,File,image.jpg,,Upload images,Upload images of the service
+AirlineCoordination,In-flight Services,In-flight service videos,Optional,File,video.mp4,,Upload videos,Upload videos of the service
+AirlineCoordination,In-flight Services,In-flight service reviews,Optional,Text,Excellent,,Enter service reviews,Add reviews of the service
+AirlineCoordination,In-flight Services,In-flight service remarks,Optional,Text,On time,,Enter remarks,Add any additional remarks
+AirlineCoordination,Sustainability Initiatives,Sustainability Goals,Mandatory,Text,Reduce carbon by 20%,,Enter sustainability goals,Enter your goals here
+AirlineCoordination,Sustainability Initiatives,Carbon Offset Programs,Mandatory,Text,Tree planting,,Enter carbon offset programs,Describe the program
+AirlineCoordination,Sustainability Initiatives,Waste Management,Mandatory,Text,Recycling,,Enter waste management plans,Describe the plan
+AirlineCoordination,Sustainability Initiatives,Energy Efficiency,Mandatory,Text,LED lighting,,Enter energy efficiency measures,Describe the measures
+AirlineCoordination,Sustainability Initiatives,Regulatory Compliance,Mandatory,Text,EPA standards,,Enter regulatory compliances,Describe the compliance
+AirlineCoordination,Sustainability Initiatives,Sustainability Initiative Name,Mandatory,Text,GoGreen2023,,Enter initiative name,Name your initiative
+AirlineCoordination,Sustainability Initiatives,Sustainability Initiative Description,Mandatory,Text,Plant 1000 trees,,Describe the initiative,Describe in detail
+AirlineCoordination,Sustainability Initiatives,Sustainability Initiative Start Date,Mandatory,Date,01/01/2023,,Enter start date,Pick a start date
+AirlineCoordination,Sustainability Initiatives,Sustainability Initiative End Date,Mandatory,Date,12/31/2023,,Enter end date,Pick an end date
+AirlineCoordination,Sustainability Initiatives,Community Outreach,Optional,Text,Tree planting,500,Info on outreach,Describe your community outreach
+AirlineCoordination,Sustainability Initiatives,Sustainable Partnerships,Optional,Text,XYZ Corp,500,Info on partners,Describe your sustainable partnerships
+AirlineCoordination,Sustainability Initiatives,Innovation and R&D,Optional,Text,Solar planes,500,Info on R&D,Describe your R&D initiatives
+AirlineCoordination,Sustainability Initiatives,Awards and Recognition,Optional,Text,Green Award,500,Info on awards,List your awards and recognitions
+AirlineCoordination,Sustainability Initiatives,Employee Training,Optional,Text,Green Training,500,Info on training,Describe your employee training
+AirlineCoordination,Sustainability Initiatives,Goals,Optional,Text,Zero emissions,500,Info on goals,Describe your sustainability goals
+AirlineCoordination,Sustainability Initiatives,Progress,Optional,Text,50% complete,500,Info on progress,Describe the progress of initiatives
+AirlineCoordination,Sustainability Initiatives,Results,Optional,Text,Reduced waste,500,Info on results,Describe the results of initiatives
+AirlineCoordination,Sustainability Initiatives,Remarks,Optional,Text,Well done!,500,Additional info,Any additional remarks or information
+AirlineCoordination,Investor Relations,Investor Contacts,Mandatory,Text,John Doe,,,
+AirlineCoordination,Investor Relations,Financial Reports,Mandatory,File,Q1_Report.pdf,,,
+AirlineCoordination,Investor Relations,Stock Information,Mandatory,Number,150.25,,,
+AirlineCoordination,Investor Relations,Corporate Governance,Mandatory,File,Policy.pdf,,,
+AirlineCoordination,Investor Relations,Strategy,Mandatory,Text,Long-term,,,
+AirlineCoordination,Investor Relations,Name,Mandatory,Text,Jane Doe,,,
+AirlineCoordination,Investor Relations,Contact Email,Mandatory,Email,jane@email.com,,,
+AirlineCoordination,Investor Relations,Contact Phone,Mandatory,Number,1234567890,,,
+AirlineCoordination,Investor Relations,Stock Symbol,Mandatory,Text,XYZ,,,
+AirlineCoordination,Investor Relations,Stock Exchange,Mandatory,Dropdown,NYSE,,,
+AirlineCoordination,Investor Relations,Dividend Policy,Optional,Text,Quarterly,,,
+AirlineCoordination,Investor Relations,Investor Events,Optional,Date,01/01/2023,,,
+AirlineCoordination,Investor Relations,FAQs,Optional,Text,What is...?,,,
+AirlineCoordination,Investor Relations,Analyst Coverage,Optional,Text,John Smith,,,
+AirlineCoordination,Investor Relations,Sustainability Reports,Optional,File,Report.pdf,,,
+AirlineCoordination,Investor Relations,Website,Optional,URL,www.example.com,100,,
+AirlineCoordination,Investor Relations,Logo,Optional,File,logo.png,,,
+AirlineCoordination,Investor Relations,Presentations,Optional,File,presentation.pdf,,,
+AirlineCoordination,Investor Relations,Financial Reports,Optional,File,report.pdf,,,
+AirlineCoordination,Investor Relations,News Releases,Optional,Text,New Launch,,,
+AirlineCoordination,Investor Relations,Events Calendar,Optional,Date,01/01/2023,,,
+AirlineCoordination,Investor Relations,Remarks,Optional,Text,Good Q1,,,
+AirlineCoordination,Cargo,Cargo Types,Mandatory,Dropdown,"Perishable, Electronics",,Select the type of cargo,Please select the type of cargo
+AirlineCoordination,Cargo,Cargo Handling Procedures,Mandatory,Text,Handle with care,,Procedures for cargo,Enter cargo handling procedures
+AirlineCoordination,Cargo,Storage Facilities,Mandatory,Text,"Cold storage, General",,Available facilities,Describe available storage facilities
+AirlineCoordination,Cargo,Security Measures,Mandatory,Text,"CCTV, Guards",,Security measures,Enter security measures for cargo
+AirlineCoordination,Cargo,Tracking System,Mandatory,Dropdown,"GPS, RFID",,Type of tracking system,Select the tracking system
+AirlineCoordination,Cargo,Type,Mandatory,Text,Perishable,,Specific type,Enter the specific type of cargo
+AirlineCoordination,Cargo,Weight,Mandatory,Number,200kg,,Weight in kg,Enter the weight of the cargo
+AirlineCoordination,Cargo,Volume,Mandatory,Number,20m³,,Volume in m³,Enter the volume of the cargo
+AirlineCoordination,Cargo,Shipper,Mandatory,Text,Company A,,Name of shipper,Enter the name of the cargo shipper
+AirlineCoordination,Cargo,Consignee,Mandatory,Text,Company B,,Name of consignee,Enter the name of the cargo consignee
+AirlineCoordination,Cargo,Insurance,Optional,Text,Basic Cover,50,Insurance options,Choose your insurance type
+AirlineCoordination,Cargo,Temperature Control,Optional,Dropdown,-20°C,20,Temperature settings,Select temperature range
+AirlineCoordination,Cargo,Customs Clearance,Optional,Text,Standard,50,Customs info,Enter customs details
+AirlineCoordination,Cargo,Special Services,Optional,Checkbox,Expedited,,Available services,Select special services
+AirlineCoordination,Cargo,Third-Party Partnerships,Optional,Text,DHL,50,Partner companies,Enter partner names
+AirlineCoordination,Cargo,Description,Optional,Text,Electronics,100,Type of cargo,Describe the cargo
+AirlineCoordination,Cargo,Value,Optional,Number,1000,10,Cargo value,Enter cargo value
+AirlineCoordination,Cargo,Hazard Class,Optional,Dropdown,Class 1,20,Hazard class,Select hazard class
+AirlineCoordination,Cargo,Handling Instructions,Optional,Text,Handle with care,100,Handling instructions,Enter handling instructions
+AirlineCoordination,Cargo,Remarks,Optional,Text Area,,200,Additional info,Enter any remarks
+AirlineCoordination,Passengers,Name,Mandatory,Text,John Doe,50,,Enter full name
+AirlineCoordination,Passengers,Ticket Number,Mandatory,Number,123456,10,,Enter ticket number
+AirlineCoordination,Passengers,Seat Assignment,Mandatory,Text,12A,4,,Enter seat number
+AirlineCoordination,Passengers,Boarding Pass,Mandatory,Text,BP1234,10,,Scan or enter code
+AirlineCoordination,Passengers,Emergency Contact,Mandatory,Number,9876543210,15,,Enter contact number
+AirlineCoordination,Passengers,Type,Mandatory,Dropdown,Adult,,,Select type
+AirlineCoordination,Passengers,Date of Birth,Mandatory,Date,01/01/1990,,,Select DOB
+AirlineCoordination,Passengers,Passport Number,Conditional (for international flights),Text,P1234567,15,,Enter if applicable
+AirlineCoordination,Passengers,Meal Preferences,Optional,Dropdown,Vegan,,,
+AirlineCoordination,Passengers,Special Assistance,Optional,Checkbox,Wheelchair,,,
+AirlineCoordination,Passengers,Frequent Flyer Number,Optional,Text,123456,,,
+AirlineCoordination,Passengers,Travel Insurance,Optional,Radio Group,Yes/No,,,
+AirlineCoordination,Passengers,Feedback and Reviews,Optional,Text Area,Good Service,,,
+AirlineCoordination,Passengers,Contact Info,Optional,Text,example@email.com,,,
+AirlineCoordination,Passengers,Special Needs,Optional,Text,Diabetes,,,
+AirlineCoordination,Passengers,Remarks,Optional,Text,Extra Luggage,,,
+AirlineCoordination,Crew,Crew Roster,Mandatory,Text,"Crew A, Crew B",50,,List of assigned crew
+AirlineCoordination,Crew,Training Programs,Mandatory,Dropdown,"Safety, First Aid",30,,Select completed programs
+AirlineCoordination,Crew,Certifications,Mandatory,Checkbox,"CPR, AED",20,,Check all that apply
+AirlineCoordination,Crew,Shift Schedules,Mandatory,Time,09:00-17:00,11,,Enter shift timings
+AirlineCoordination,Crew,Emergency Protocols,Mandatory,Text,"Fire, Medical",50,,List of emergency protocols
+AirlineCoordination,Crew,Member Name,Mandatory,Text,John Doe,50,,Enter crew member's name
+AirlineCoordination,Crew,Member Type,Mandatory,Dropdown,"Pilot, Co-pilot",20,,Select crew member type
+AirlineCoordination,Crew,Member License Number,Mandatory,Number,123456,10,,Enter license number
+AirlineCoordination,Crew,Member Medical Certificate No,Mandatory,Number,789012,10,,Enter medical certificate
+AirlineCoordination,Crew,Benefits,Optional,Text,Health Care,50,,Enter crew benefits
+AirlineCoordination,Crew,Accommodations,Optional,Text,Hotel XYZ,50,,Enter crew accommodations
+AirlineCoordination,Crew,Performance Metrics,Optional,Number,95%,10,,Enter performance metrics
+AirlineCoordination,Crew,Feedback,Optional,Text,Good Work,100,,Enter feedback about crew
+AirlineCoordination,Crew,Third-Party Training,Optional,Text,Program A,50,,Enter third-party training
+AirlineCoordination,Crew,Member Contact Info,Optional,Text,123-456-7890,20,,Enter valid contact info
+AirlineCoordination,Crew,Member Date of Birth,Optional,Date,01/01/1980,10,,Enter date of birth
+AirlineCoordination,Crew,Member Passport Number,Optional,Number,A1234567,20,,Enter passport number
+AirlineCoordination,Crew,Member Remarks,Optional,Text,,100,,Enter any additional remarks
+BookingManagement,Customer Information,First Name,Mandatory,Text,John,50,,
+BookingManagement,Customer Information,Middle Name,Optional,Text,A,50,,
+BookingManagement,Customer Information,Last Name,Mandatory,Text,Doe,50,,
+BookingManagement,Customer Information,Email Address,Mandatory,Email,john.doe@example.com,100,,
+BookingManagement,Customer Information,Contact Number,Mandatory,Number,+1 123 456 7890,15,,
+BookingManagement,Customer Information,Country of Residence,Mandatory,Dropdown,USA,,,
+BookingManagement,Customer Information,Alternate Contact Number,Optional,Number,+1 098 765 4321,15,,
+BookingManagement,Customer Information,Company Name,Optional,Text,ABC Corp,100,,
+BookingManagement,Customer Information,Address,Optional,Text,123 Main St,200,,
+BookingManagement,Customer Information,Zip/Postal Code,Optional,Number,12345,10,,
+BookingManagement,Customer Information,Company (if applicable),Optional,Text,"ABC Corp, Dept 101",100,,
+BookingManagement,Customer Information,Customer Tax Identification,Optional,Text,12-3456789,20,,
+BookingManagement,Shipment Details,Origin,Mandatory,Dropdown,New York,,,
+BookingManagement,Shipment Details,Destination,Mandatory,Dropdown,Los Angeles,,,
+BookingManagement,Shipment Details,Type,Mandatory,Radio Group,Air,,,
+BookingManagement,Shipment Details,Date,Mandatory,Date,2023-09-15,,,
+BookingManagement,Shipment Details,Estimated Arrival Date,Mandatory,Date,2023-09-20,,,
+BookingManagement,Shipment Details,Freight Type,Mandatory,Dropdown,Container,,,
+BookingManagement,Shipment Details,Weight,Mandatory,Number,2000,10,,
+BookingManagement,Shipment Details,Dimensions (L*W*H),Optional,Text,10x10x10,20,,
+BookingManagement,Shipment Details,Hazardous Materials,Optional,Checkbox,Yes,,,
+BookingManagement,Shipment Details,Special Handling Requirements,Optional,Text,Handle with care,100,,
+BookingManagement,Shipment Details,Transit Stops,Optional,Text,Chicago,100,,
+BookingManagement,Shipment Details,Cargo Tracking Number,Optional,Text,CTN123456,20,,
+BookingManagement,Shipment Details,Airway Bill Number,Optional,Text,AWB789012,20,,
+BookingManagement,Shipment Details,Carrier Preference,Optional,Dropdown,FedEx,,,
+BookingManagement,Cargo Information,Weight,Mandatory,Number,2000 kg,10,,
+BookingManagement,Cargo Information,Dimensions,Mandatory,Text,10x10x10 cm,20,,
+BookingManagement,Cargo Information,Description,Mandatory,Text,Electronics,100,,
+BookingManagement,Cargo Information,Type,Mandatory,Dropdown,Electronics,,,
+BookingManagement,Cargo Information,Special Handling Instructions,Optional,Text,Handle with care,100,,
+BookingManagement,Cargo Information,Packaging Type,Optional,Dropdown,Pallet,,,
+BookingManagement,Cargo Information,Value,Optional,Number,$5000,10,,
+BookingManagement,Cargo Information,Temperature Requirements,Optional,Text,20°C - 25°C,20,,
+BookingManagement,Cargo Information,Fragile Indicator,Optional,Checkbox,Yes,,,
+BookingManagement,Cargo Information,Insurance,Optional,Text,Policy #12345,20,,
+BookingManagement,Cargo Information,Temperature Requirements,Optional,Text,15°C - 20°C,20,,
+BookingManagement,Cargo Information,Labeling Requirements,Optional,Text,Fragile,50,,
+BookingManagement,Cargo Information,Packaging Requirements,Optional,Text,Sealed Box,50,,
+BookingManagement,Payment Information,Payment Method,Mandatory,Dropdown,Credit Card,,,
+BookingManagement,Payment Information,Cardholder Name,Mandatory,Text,John Doe,50,,
+BookingManagement,Payment Information,Card Number,Mandatory,Text,4111111111111111,16,,
+BookingManagement,Payment Information,Expiry Date,Mandatory,Date,12/2023,,,
+BookingManagement,Payment Information,CVV/CVC Code,Mandatory,Number,123,3-4,,
+BookingManagement,Payment Information,Billing Name,Mandatory,Text,John Doe,50,,
+BookingManagement,Payment Information,Billing Address,Mandatory,Text,123 Main St,100,,
+BookingManagement,Payment Information,Billing Phone Number,Optional,Text,#ERROR!,15,,
+BookingManagement,Payment Information,Billing Email Address,Optional,Email,john.doe@example.com,50,,
+BookingManagement,Payment Information,Save Payment Information for Future Use,Optional,Checkbox,Yes,,,
+BookingManagement,Payment Information,Promo Code,Optional,Text,PROMO2023,20,,
+BookingManagement,Payment Information,Additional Payment Notes,Optional,Text,Pay before 15th,100,,
+BookingManagement,Payment Information,Alternate Payment Method,Optional,Dropdown,PayPal,,,
+BookingManagement,Terms and Conditions,Acceptance Checkbox for Terms and Conditions,Mandatory,Checkbox,Checked,,,
+BookingManagement,Terms and Conditions,Link to Full Terms and Conditions Document - ,Mandatory,URL,View Document,,,
+BookingManagement,Terms and Conditions,Acceptance Checkbox for Privacy Policy,Optional,Checkbox,Checked,,,
+BookingManagement,Terms and Conditions,Acceptance Checkbox for Cancellation Policy,Optional,Checkbox,Checked,,,
+BookingManagement,Terms and Conditions,Acceptance Checkbox for Additional Agreements,Optional,Checkbox,Checked,,,
+BookingManagement,Terms and Conditions,Digital Signature Field,Optional,File Upload,Signature.png,,,
+BookingManagement,Additional Services,Insurance,Optional,Checkbox,Checked,,,
+BookingManagement,Additional Services,Expedited Delivery,Optional,Checkbox,Checked,,,
+BookingManagement,Additional Services,None,Optional,Checkbox,Checked,,,
+BookingManagement,Additional Services,Insurance Coverage,Optional,Dropdown,Full Coverage,,,
+BookingManagement,Additional Services,Special Handling,Optional,Dropdown,Fragile,,,
+BookingManagement,Additional Services,Storage Options,Optional,Dropdown,Short-term,,,
+BookingManagement,Additional Services,Customs Clearance Assistance,Optional,Checkbox,Checked,,,
+BookingManagement,Additional Services,Cargo Tracking Service,Optional,Checkbox,Checked,,,
+BookingManagement,Special Instructions,Specific Handling or Delivery Instructions,Mandatory,Text,Handle with care,200,,
+BookingManagement,Special Instructions,Freight Insurance,Optional,Checkbox,Checked,,,
+BookingManagement,Special Instructions,COD (Cash on Delivery),Optional,Checkbox,Checked,,,
+BookingManagement,Special Instructions,Dedicated Pickup,Optional,Checkbox,Checked,,,
+BookingManagement,Special Instructions,Dedicated Delivery,Optional,Checkbox,Checked,,,
+BookingManagement,Special Instructions,Warehousing,Optional,Checkbox,Checked,,,
+BookingManagement,Special Instructions,Customs Clearance,Optional,Checkbox,Checked,,,
+BookingManagement,Loyalty Program,Membership ID (if applicable),Optional,Text,12345,10,,
+BookingManagement,Loyalty Program,Points per dollar spent,Mandatory,Number,5,,,
+BookingManagement,Loyalty Program,Rewards,Mandatory,Dropdown,$10 Gift Card,,,
+BookingManagement,Loyalty Program,Terms and conditions,Mandatory,Checkbox,Checked,,,
+BookingManagement,Loyalty Program,Membership ID or Number,Optional,Text,67890,10,,
+BookingManagement,Loyalty Program,Membership Tier,Optional,Dropdown,Gold,,,
+BookingManagement,Loyalty Program,Description,Optional,Text,Frequent flyer,100,,
+BookingManagement,Loyalty Program,Points Redeem Option,Optional,Dropdown,Gift Card,,,
+BookingManagement,Loyalty Program,Special Requests for Members,Optional,Text,Priority Handling,50,,
+BookingManagement,Loyalty Program,Referral Code,Optional,Text,REF2023,10,,
+BookingManagement,Promotions and Discounts,Coupon Code,Optional,Text,COUPON2023,10,,
+BookingManagement,Promotions and Discounts,Promotion Name,Optional,Text,Summer Sale,50,,
+BookingManagement,Promotions and Discounts,Discount Percentage,Optional,Number,20,,,
+BookingManagement,Promotions and Discounts,Start Date,Optional,Date,2023-06-01,,,
+BookingManagement,Promotions and Discounts,End Date,Optional,Date,2023-06-30,,,
+BookingManagement,Promotions and Discounts,Eligibility Criteria,Optional,Text,New Customers,100,,
+BookingManagement,Promotions and Discounts,Promo Code or Coupon Code,Optional,Text,PROMO2023,10,,
+BookingManagement,Promotions and Discounts,Loyalty Points Redemption,Optional,Number,1000,,,
+BookingManagement,Promotions and Discounts,Gift Card Number,Optional,Text,GIFT1234,10,,
+BookingManagement,Promotions and Discounts,Referral Code,Optional,Text,REF2023,10,,
+BookingManagement,Promotions and Discounts,Special Offer Selection,Optional,Dropdown,Early Bird Discount,,,
+BookingManagement,Promotions and Discounts,Description,Optional,Text,Limited Time Offer,100,,
+BookingManagement,Feedback,Overall Experience Rating,Optional,Dropdown,4 stars,,,
+BookingManagement,Feedback,Comments or Suggestions,Optional,Text,Great service!,200,,
+BookingManagement,Feedback,Would you recommend us?,Optional,Radio Group,Yes,,,
+BookingManagement,Feedback,What can we improve?,Optional,Text,Faster delivery,200,,
+BookingManagement,Feedback,Any specific issues encountered,Optional,Dropdown,Late delivery,,,
+Booking,Customer Information,First Name,first name,Mandatory,Text,John,50 characters,ID Proof,,
+Booking,Customer Information,Middle Name,middle name,Optional,Text,A,50 characters,ID Proof (if present),,
+Booking,Customer Information,Last Name,last name,Mandatory,Text,Doe,50 characters,ID Proof,,
+Booking,Customer Information,Email Address,email address,Mandatory,Email,john.doe@example.com,100 characters,Email Verification,,
+Booking,Customer Information,Contact Number,Land Line and Mobile,Mandatory,Number,+1 123 456 7890,15 digits,Phone Bill,,
+Booking,Customer Information,Country of Residence,country of residence,Mandatory,Dropdown,USA,N/A,Passport,,
+Booking,Customer Information,Alternate Contact Number,Alternate Land Line and Mobile,Optional,Number,+1 098 765 4321,15 digits,Phone Bill (if present),,
+Booking,Customer Information,Company Name,Name of the company,Optional,Text,ABC Corp,100 characters,Business License,,
+Booking,Customer Information,Address,address,Optional,Text,123 Main St,200 characters,Utility Bill,,
+Booking,Customer Information,Zip/Postal Code,zip or postal code,Optional,Number,12345,10 digits,Utility Bill,,
+Booking,Customer Information,Company (if applicable),Company details if customer represents one,Optional,Text,"ABC Corp, Dept 101",100 characters,Business License,,
+Booking,Customer Information,Customer Tax Identification,tax ID,Optional,Text,12-3456789,20 characters,Tax Documents,,
+Booking,Shipment Details,Origin,Starting location of the shipment,Mandatory,Dropdown,New York,N/A,Shipping Manifest,,
+Booking,Shipment Details,Destination,Final location of the shipment,Mandatory,Dropdown,Los Angeles,N/A,Shipping Manifest,,
+Booking,Shipment Details,Shipment Type,"Type of shipment (e.g., air, sea, land)",Mandatory,Radio Group,Air,N/A,Shipping Manifest,,
+Booking,Shipment Details,Shipment Date,Date of shipment,Mandatory,Date,2023-09-15,N/A,Shipping Manifest,,
+Booking,Shipment Details,Estimated Arrival Date,Estimated date of arrival,Mandatory,Date,2023-09-20,N/A,Shipping Manifest,,
+Booking,Shipment Details,Freight Type,"Type of freight (e.g., bulk, container)",Mandatory,Dropdown,Container,N/A,Shipping Manifest,,
+Booking,Shipment Details,Weight,Weight of the shipment,Mandatory,Number,2000,10 digits,Weight Certificate,,
+Booking,Shipment Details,Dimensions,Dimensions of the shipment,Optional,Text,10x10x10,20 characters,Shipping Manifest,,
+Booking,Shipment Details,Hazardous Materials,Any hazardous materials in the shipment,Optional,Checkbox,Yes,N/A,Hazardous Material Certificate,,
+Booking,Shipment Details,Special Handling Requirements,Special requirements for handling,Optional,Text,Handle with care,100 characters,Special Handling Certificate,,
+Booking,Shipment Details,Transit Stops,Stops during transit,Optional,Text,Chicago,100 characters,Shipping Manifest,,
+Booking,Shipment Details,Cargo Tracking Number,Tracking number for the cargo,Optional,Text,CTN123456,20 characters,Tracking Information,,
+Booking,Shipment Details,Airway Bill Number,Airway bill number for the shipment,Optional,Text,AWB789012,20 characters,Airway Bill,,
+Booking,Shipment Details,Carrier Preference,Preferred carrier for the shipment,Optional,Dropdown,FedEx,N/A,Carrier Agreement,,
+Booking,Cargo Information,Weight,Weight of the cargo,Mandatory,Number,2000 kg,10 digits,Weight Certificate,,
+Booking,Cargo Information,Dimensions,Dimensions of the cargo (LxWxH),Mandatory,Text,10x10x10 cm,20 characters,Dimension Certificate,,
+Booking,Cargo Information,Description,Description of the cargo,Mandatory,Text,Electronics,100 characters,Cargo Manifest,,
+Booking,Cargo Information,Cargo Type,"Type of cargo (e.g., perishable, electronics)",Mandatory,Dropdown,Electronics,N/A,Cargo Manifest,,
+Booking,Cargo Information,Special Handling Instructions,Special instructions for handling,Optional,Text,Handle with care,100 characters,Special Handling Certificate,,
+Booking,Cargo Information,Packaging Type,"Type of packaging (e.g., Pallet, Box, Crate)",Optional,Dropdown,Pallet,N/A,Packaging Certificate,,
+Booking,Cargo Information,Cargo Value,Monetary value of the cargo,Optional,Number,$5000,10 digits,Invoice,,
+Booking,Cargo Information,Temperature Requirements,Required temperature for the cargo,Optional,Text,20°C - 25°C,20 characters,Temperature Log,,
+Booking,Cargo Information,Fragile Indicator,Indicates if the cargo is fragile,Optional,Checkbox,Yes,N/A,Fragile Certificate,,
+Booking,Cargo Information,Cargo Insurance,Insurance details for the cargo,Optional,Text,Policy #12345,20 characters,Insurance Policy,,
+Booking,Cargo Information,Cargo Temperature Requirements,Specific temperature requirements,Optional,Text,15°C - 20°C,20 characters,Temperature Log,,
+Booking,Cargo Information,Cargo Labeling Requirements,Labeling requirements for the cargo,Optional,Text,Fragile,50 characters,Labeling Guidelines,,
+Booking,Cargo Information,Cargo Packaging Requirements,Packaging requirements for the cargo,Optional,Text,Sealed Box,50 characters,Packaging Certificate,,
+Booking,Payment Information,Field Name,Field Description,Mandatory / Optional,Data Type,Sample Value,Size of Field,Related Documents,,
+Booking,Payment Information,Payment Method,Preferred payment method,Mandatory,Dropdown,Credit Card,N/A,Payment Policy,,
+Booking,Payment Information,Cardholder Name,Name as it appears on the card,Mandatory,Text,John Doe,50 characters,Payment Policy,,
+Booking,Payment Information,Card Number,Card number associated with payment method,Mandatory,Text,4111111111111111,16 digits,Payment Policy,,
+Booking,Payment Information,Expiry Date,Expiration date of the card,Mandatory,Date,12/2023,N/A,Payment Policy,,
+Booking,Payment Information,CVV/CVC Code,Security code of the card,Mandatory,Number,123,3-4 digits,Payment Policy,,
+Booking,Payment Information,Billing Name,Name associated with the billing address,Mandatory,Text,John Doe,50 characters,Billing Policy,,
+Booking,Payment Information,Billing Address,Address where the card is registered,Mandatory,Text,123 Main St,100 characters,Billing Policy,,
+Booking,Payment Information,Billing Phone Number,Phone number associated with billing address,Optional,Text,#ERROR!,15 characters,Billing Policy,,
+Booking,Payment Information,Billing Email Address,Email address associated with billing address,Optional,Email,john.doe@example.com,50 characters,Billing Policy,,
+Booking,Payment Information,Save Payment Information for Future Use,Option to save payment information,Optional,Checkbox,Yes,N/A,Privacy Policy,,
+Booking,Payment Information,Promo Code,"Promotional code, if applicable",Optional,Text,PROMO2023,20 characters,Promo Policy,,
+Booking,Payment Information,Additional Payment Notes,Additional notes or instructions,Optional,Text,Pay before 15th,100 characters,Payment Policy,,
+Booking,Payment Information,Alternate Payment Method,"Alternate payment method, if any",Optional,Dropdown,PayPal,N/A,,,
+Booking,Terms and Conditions,Acceptance Checkbox for Terms and Conditions,Checkbox to agree to the Terms and Conditions,Mandatory,Checkbox,Checked,N/A,Terms and Conditions Document,,
+Booking,Terms and Conditions,Link to Full Terms and Conditions Document,Link to the full document of Terms and Conditions,Mandatory,URL,View Document,N/A,Terms and Conditions Document,,
+Booking,Terms and Conditions,Acceptance Checkbox for Privacy Policy,Checkbox to agree to the Privacy Policy,Optional,Checkbox,Checked,N/A,Privacy Policy Document,,
+Booking,Terms and Conditions,Acceptance Checkbox for Cancellation Policy,Checkbox to agree to the Cancellation Policy,Optional,Checkbox,Checked,N/A,Cancellation Policy Document,,
+Booking,Terms and Conditions,Acceptance Checkbox for Additional Agreements,"Checkbox to agree to additional agreements like Loyalty Program, Promotions",Optional,Checkbox,Checked,N/A,Additional Agreements Document,,
+Booking,Terms and Conditions,Digital Signature Field,Field to input digital signature,Optional,File Upload,Signature.png,N/A,Digital Signature Guidelines,,
+Booking,Additional Services,Insurance,Option to add insurance to the shipment,Optional,Checkbox,Checked,N/A,Insurance Policy,,
+Booking,Additional Services,Expedited Delivery,Option for faster delivery,Optional,Checkbox,Checked,N/A,Delivery Policy,,
+Booking,Additional Services,None,No additional services required,Optional,Checkbox,Checked,N/A,N/A,,
+Booking,Additional Services,Insurance Coverage,Type of insurance coverage,Optional,Dropdown,Full Coverage,N/A,Insurance Policy,,
+Booking,Additional Services,Special Handling,Special handling requirements,Optional,Dropdown,Fragile,N/A,Handling Guidelines,,
+Booking,Additional Services,Storage Options,Storage options for the shipment,Optional,Dropdown,Short-term,N/A,Storage Policy,,
+Booking,Additional Services,Customs Clearance Assistance,Assistance with customs clearance,Optional,Checkbox,Checked,N/A,Customs Policy,,
+Booking,Additional Services,Cargo Tracking Service,Option to add cargo tracking,Optional,Checkbox,Checked,N/A,Tracking Policy,,
+Booking,Special Instructions,Specific Handling or Delivery Instructions,Any specific instructions for handling or delivery,Mandatory,Text,Handle with care,200 characters,Handling Guidelines,,
+Booking,Special Instructions,Freight Insurance,Option to add freight insurance,Optional,Checkbox,Checked,N/A,Insurance Policy,,
+Booking,Special Instructions,COD (Cash on Delivery),Option for cash on delivery,Optional,Checkbox,Checked,N/A,Payment Policy,,
+Booking,Special Instructions,Dedicated Pickup,Option for dedicated pickup service,Optional,Checkbox,Checked,N/A,Pickup Policy,,
+Booking,Special Instructions,Dedicated Delivery,Option for dedicated delivery service,Optional,Checkbox,Checked,N/A,Delivery Policy,,
+Booking,Special Instructions,Warehousing,Option for warehousing services,Optional,Checkbox,Checked,N/A,Warehousing Policy,,
+Booking,Special Instructions,Customs Clearance,Option for customs clearance assistance,Optional,Checkbox,Checked,N/A,Customs Policy,,
+Booking,Loyalty Program,Membership ID (if applicable),ID for existing members,Optional,Text,12345,10 characters,Membership Policy,,
+Booking,Loyalty Program,Points per dollar spent,Points earned per dollar spent,Mandatory,Number,5,N/A,Points Policy,,
+Booking,Loyalty Program,Rewards,Available rewards,Mandatory,Dropdown,$10 Gift Card,N/A,Rewards Policy,,
+Booking,Loyalty Program,Terms and conditions,Terms and conditions of the program,Mandatory,Checkbox,Checked,N/A,Terms Document,,
+Booking,Loyalty Program,Membership ID or Number,Optional ID or Number for members,Optional,Text,67890,10 characters,Membership Policy,,
+Booking,Loyalty Program,Membership Tier,Membership level,Optional,Dropdown,Gold,N/A,Tier Policy,,
+Booking,Loyalty Program,Description,Additional information,Optional,Text,Frequent flyer,100 characters,N/A,,
+Booking,Loyalty Program,Points Redeem Option,Options for redeeming points,Optional,Dropdown,Gift Card,N/A,Redemption Policy,,
+Booking,Loyalty Program,Special Requests for Members,Special requests like priority handling,Optional,Text,Priority Handling,50 characters,Special Requests Policy,,
+Booking,Loyalty Program,Referral Code,Code for referring new members,Optional,Text,REF2023,10 characters,Referral Policy,,
+Booking,Promotions and Discounts,Coupon Code,Code for applying a coupon,Optional,Text,COUPON2023,10 characters,Coupon Policy,,
+Booking,Promotions and Discounts,Promotion Name,Name of the promotion,Optional,Text,Summer Sale,50 characters,Promotion Policy,,
+Booking,Promotions and Discounts,Discount Percentage,Percentage of discount offered,Optional,Number,20,N/A,Discount Policy,,
+Booking,Promotions and Discounts,Start Date,Start date of the promotion,Optional,Date,2023-06-01,N/A,Date Policy,,
+Booking,Promotions and Discounts,End Date,End date of the promotion,Optional,Date,2023-06-30,N/A,Date Policy,,
+Booking,Promotions and Discounts,Eligibility Criteria,Criteria for eligibility,Optional,Text,New Customers,100 characters,Eligibility Policy,,
+Booking,Promotions and Discounts,Promo Code or Coupon Code,Alternative code for promotion,Optional,Text,PROMO2023,10 characters,Promo Policy,,
+Booking,Promotions and Discounts,Loyalty Points Redemption,Points needed for redemption,Optional,Number,1000,N/A,Points Policy,,
+Booking,Promotions and Discounts,Gift Card Number,Number of the gift card,Optional,Text,GIFT1234,10 characters,Gift Card Policy,,
+Booking,Promotions and Discounts,Referral Code,Code for referring new customers,Optional,Text,REF2023,10 characters,Referral Policy,,
+Booking,Promotions and Discounts,Special Offer Selection,Type of special offer,Optional,Dropdown,Early Bird Discount,N/A,Special Offer Policy,,
+Booking,Promotions and Discounts,Description,Additional information,Optional,Text,Limited Time Offer,100 characters,N/A,,
+Booking,Feedback,Overall Experience Rating,Rating scale for overall experience,Optional,Dropdown,4 stars,N/A,Feedback Policy,,
+Booking,Feedback,Comments or Suggestions,Field for additional comments,Optional,Text,Great service!,200 characters,N/A,,
+Booking,Feedback,Would you recommend us?,Yes/No option for recommendation,Optional,Radio Group,Yes,N/A,N/A,,
+Booking,Feedback,What can we improve?,Field for specifying areas for improvement,Optional,Text,Faster delivery,200 characters,N/A,,
+Booking,Feedback,Any specific issues encountered,Dropdown for common issues,Optional,Dropdown,Late delivery,N/A,Issue Policy,,
