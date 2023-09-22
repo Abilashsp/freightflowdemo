@@ -39,9 +39,12 @@ export default function Page() {
           <div>
             {Object.keys(data).map((section) => {
               return (
-                <div key={section} className="p-12 border-b border-gray-900/10">
+                <div
+                  key={section}
+                  className="p-6 mt-6 border rounded border-gray-900/10"
+                >
                   <div>
-                    <h2 className="text-base font-semibold leading-7 text-gray-900">
+                    <h2 className="text-base font-semibold leading-7 text-gray-900 border-b-2 border-gray-900/10">
                       {section}
                     </h2>
                     <p className="mt-1 text-sm leading-6 text-gray-600"></p>
@@ -58,7 +61,7 @@ export default function Page() {
                         Prompt,
                       } = field;
                       return (
-                        <div key={Field_Name} className="sm:col-span-3">
+                        <div key={Field_Name} className="sm:col-span-2">
                           <label
                             htmlFor={Field_Name}
                             className="block text-sm font-medium leading-6 text-gray-900"
