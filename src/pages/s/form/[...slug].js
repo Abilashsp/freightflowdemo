@@ -67,9 +67,20 @@ export default function Page() {
                             className="block text-sm font-medium leading-6 text-gray-900"
                           >
                             {Field_Name}
+                            {Validate && (
+                              <span
+                                className="pl-1 text-xs text-red-500"
+                                title={Tooltip}
+                              >
+                                *
+                              </span>
+                            )}
                             {Tooltip && (
-                              <span className="text-xs" title={Tooltip}>
-                                ( ? )
+                              <span
+                                className="float-right text-xs text-blue-500 align-super"
+                                title={Tooltip}
+                              >
+                                !
                               </span>
                             )}
                           </label>
