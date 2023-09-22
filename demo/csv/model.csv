@@ -519,3 +519,1310 @@ Booking,Feedback,Comments or Suggestions,Field for additional comments,Optional,
 Booking,Feedback,Would you recommend us?,Yes/No option for recommendation,Optional,Radio Group,Yes,N/A,N/A,,
 Booking,Feedback,What can we improve?,Field for specifying areas for improvement,Optional,Text,Faster delivery,200 characters,N/A,,
 Booking,Feedback,Any specific issues encountered,Dropdown for common issues,Optional,Dropdown,Late delivery,N/A,Issue Policy,,
+PackagingSolutions,Shipment Details,Airway Bill Number,Mandatory,Text,AWB123456,Short,Enter Airway Bill Number,Enter AWB
+PackagingSolutions,Shipment Details,Flight Number,Mandatory,Text,FL123,Short,Enter Flight Number,Enter Flight
+PackagingSolutions,Shipment Details,Carrier Name,Mandatory,Text,FedEx,Short,Enter Carrier Name,Enter Carrier
+PackagingSolutions,Shipment Details,Departure Airport,Mandatory,Dropdown,JFK,Short,Select Departure Airport,Select Airport
+PackagingSolutions,Shipment Details,Arrival Airport,Mandatory,Dropdown,LAX,Short,Select Arrival Airport,Select Airport
+PackagingSolutions,Shipment Details,Estimated Departure Time,Mandatory,Time,14:30,Short,Select Departure Time,Select Time
+PackagingSolutions,Shipment Details,Estimated Arrival Time,Mandatory,Time,18:45,Short,Select Arrival Time,Select Time
+PackagingSolutions,Shipment Details,Shipment Type,Mandatory,Dropdown,Perishable,Short,Select Shipment Type,Select Type
+PackagingSolutions,Shipment Details,Shipment Weight,Mandatory,Number,200,Short,Enter Shipment Weight,Enter Weight
+PackagingSolutions,Shipment Details,Number of Packages,Mandatory,Number,5,Short,Enter Number of Packages,Enter Number
+PackagingSolutions,Shipment Details,Shipment Number,Mandatory,Text,SHP123,Short,Enter Shipment Number,Enter Number
+PackagingSolutions,Shipment Details,Shipment Date,Mandatory,Date,2023-09-15,Short,Select Shipment Date,Select Date
+PackagingSolutions,Shipment Details,Ship-To Party,Mandatory,Text,John Doe,Short,Enter Ship-To Party,Enter Receiver
+PackagingSolutions,Shipment Details,Shipping Method,Mandatory,Dropdown,Air,Short,Select Shipping Method,Select Method
+PackagingSolutions,Shipment Details,Carrier,Mandatory,Dropdown,FedEx,Short,Select Carrier,Select Carrier
+PackagingSolutions,Shipment Details,Shipment Value,Optional,Number,$2000,Short,Enter Shipment Value,Enter Value
+PackagingSolutions,Shipment Details,Shipment Status,Optional,Dropdown,In Transit,Short,Select Shipment Status,Select Status
+PackagingSolutions,Shipment Details,Tracking Number,Optional,Text,TRK123,Short,Enter Tracking Number,Enter Tracking
+PackagingSolutions,Shipment Details,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Shipment Details,Bill-To Party,Optional,Text,Jane Doe,Short,Enter Bill-To Party,Enter Bill-To
+PackagingSolutions,Shipment Details,Payment Terms,Optional,Dropdown,Net 30,Short,Select Payment Terms,Select Terms
+PackagingSolutions,Shipment Details,Shipment Comments,Optional,Text,Fragile items included,Medium,Enter Shipment Comments,Enter Comments
+PackagingSolutions,Packing List,Item Name,Mandatory,Text,Laptop,Short,Enter Item Name,Enter Name
+PackagingSolutions,Packing List,Item Description,Mandatory,Text,Dell Laptop,Medium,Enter Item Description,Enter Description
+PackagingSolutions,Packing List,Quantity,Mandatory,Number,10,Short,Enter Quantity,Enter Qty
+PackagingSolutions,Packing List,Weight per Item,Mandatory,Number,1.5 kg,Short,Enter Weight per Item,Enter Weight
+PackagingSolutions,Packing List,Total Weight,Mandatory,Number,15 kg,Short,Enter Total Weight,Enter Total Weight
+PackagingSolutions,Packing List,Dimensions,Mandatory,Text,15x10x5 cm,Short,Enter Dimensions,Enter Dimensions
+PackagingSolutions,Packing List,Material,Mandatory,Text,Plastic,Short,Enter Material,Enter Material
+PackagingSolutions,Packing List,Hazardous Material Indicator,Mandatory,Checkbox,No,Short,Check if Hazardous,Check if Hazardous
+PackagingSolutions,Packing List,Packing List Number,Mandatory,Text,PL123,Short,Enter Packing List Number,Enter Number
+PackagingSolutions,Packing List,Shipment Number,Mandatory,Text,SH123,Short,Enter Shipment Number,Enter Shipment No
+PackagingSolutions,Packing List,Item Number,Mandatory,Text,IT123,Short,Enter Item Number,Enter Item No
+PackagingSolutions,Packing List,Description,Mandatory,Text,Electronics,Medium,Enter Additional Description,Enter Additional Desc
+PackagingSolutions,Packing List,Quantity,Mandatory,Number,10,Short,Enter Additional Quantity,Enter Additional Qty
+PackagingSolutions,Packing List,Unit of Measure,Mandatory,Dropdown,Kg,Short,Select Unit of Measure,Select Unit
+PackagingSolutions,Packing List,SKU,Optional,Text,SKU123,Short,Enter SKU,Enter SKU
+PackagingSolutions,Packing List,Barcode,Optional,Text,123456789,Short,Enter Barcode,Enter Barcode
+PackagingSolutions,Packing List,Serial Number,Optional,Text,SN123,Short,Enter Serial Number,Enter Serial No.
+PackagingSolutions,Packing List,Batch Number,Optional,Text,BN123,Short,Enter Batch Number,Enter Batch No.
+PackagingSolutions,Packing List,Expiration Date,Optional,Date,2023-12-31,Short,Enter Expiration Date,Enter Expiry Date
+PackagingSolutions,Packing List,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Packing List,Customs Code,Optional,Text,CC123,Short,Enter Customs Code,Enter Customs Code
+PackagingSolutions,Packing List,Country of Origin,Optional,Text,USA,Short,Enter Country of Origin,Enter Country
+PackagingSolutions,Packing List,Value per Item,Optional,Number,100,Short,Enter Value per Item,Enter Value
+PackagingSolutions,Packing List,Dimensions,Optional,Text,20x15x10 cm,Short,Enter Additional Dimensions,Enter Dimensions
+PackagingSolutions,Packing List,Weight,Optional,Number,2 kg,Short,Enter Additional Weight,Enter Weight
+PackagingSolutions,Packing List,Package Number,Optional,Text,PN123,Short,Enter Package Number,Enter Package No.
+PackagingSolutions,Packing List,Package Type,Optional,Dropdown,Box,Short,Select Package Type,Select Type
+PackagingSolutions,Packing List,Package Dimensions,Optional,Text,25x20x15 cm,Short,Enter Package Dimensions,Enter Dimensions
+PackagingSolutions,Packing List,Package Weight,Optional,Number,5 kg,Short,Enter Package Weight,Enter Weight
+PackagingSolutions,Packing List,Package Comments,Optional,Text,Fragile,Medium,NA,NA
+PackagingSolutions,Sender Information,Sender's Full Name,Mandatory,Text,John Doe,Medium,Enter Sender's Full Name,Enter Full Name
+PackagingSolutions,Sender Information,Contact Number,Mandatory,Number,1234567890,Short,Enter Contact Number,Enter Contact No.
+PackagingSolutions,Sender Information,Email Address,Mandatory,Email,john.doe@example.com,Medium,Enter Email Address,Enter Email
+PackagingSolutions,Sender Information,Street Address,Mandatory,Text,123 Main St,Medium,Enter Street Address,Enter Address
+PackagingSolutions,Sender Information,City,Mandatory,Text,New York,Short,Enter City,Enter City
+PackagingSolutions,Sender Information,State/Province,Mandatory,Text,NY,Short,Enter State/Province,Enter State
+PackagingSolutions,Sender Information,Postal Code,Mandatory,Text,10001,Short,Enter Postal Code,Enter Zip Code
+PackagingSolutions,Sender Information,Country,Mandatory,Text,USA,Short,Enter Country,Enter Country
+PackagingSolutions,Sender Information,Sender Name,Mandatory,Text,John Doe,Medium,Enter Sender's Name,Enter Name
+PackagingSolutions,Sender Information,Sender Address Line 1,Mandatory,Text,123 Main St,Medium,Enter Address Line 1,Enter Address Line 1
+PackagingSolutions,Sender Information,Sender City,Mandatory,Text,New York,Short,Enter Sender's City,Enter City
+PackagingSolutions,Sender Information,Sender State,Mandatory,Text,NY,Short,Enter Sender's State,Enter State
+PackagingSolutions,Sender Information,Sender Zip Code,Mandatory,Text,10001,Short,Enter Zip Code,Enter Zip Code
+PackagingSolutions,Sender Information,Sender Country,Mandatory,Text,USA,Short,Enter Sender's Country,Enter Country
+PackagingSolutions,Sender Information,Alternate Contact Number,Optional,Number,987654321,Short,Enter Alternate Contact Number,Enter Alt. Contact No.
+PackagingSolutions,Sender Information,Company Name,Optional,Text,ABC Corp.,Medium,Enter Company Name,Enter Company
+PackagingSolutions,Sender Information,Department,Optional,Text,Logistics,Short,Enter Department,Enter Department
+PackagingSolutions,Sender Information,Fax Number,Optional,Number,1234567891,Short,Enter Fax Number,Enter Fax No.
+PackagingSolutions,Sender Information,Website,Optional,URL,www.abccorp.com,Medium,Enter Website,Enter Website URL
+PackagingSolutions,Sender Information,VAT/Tax ID,Optional,Text,VAT12345,Short,Enter VAT/Tax ID,Enter Tax ID
+PackagingSolutions,Sender Information,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Sender Information,Sender Address Line 2,Optional,Text,Apt 101,Medium,Enter Address Line 2,Enter Address Line 2
+PackagingSolutions,Sender Information,Sender Phone Number,Optional,Number,987654321,Short,Enter Sender's Phone Number,Enter Phone No.
+PackagingSolutions,Sender Information,Sender Email Address,Optional,Email,john.alt@example.com,Medium,Enter Sender's Email Address,Enter Alt. Email
+PackagingSolutions,Receiver Information,Receiver's Full Name,Mandatory,Text,John Doe,Medium,Enter Receiver's Full Name,Enter Full Name
+PackagingSolutions,Receiver Information,Contact Number,Mandatory,Number,1234567890,Short,Enter Receiver's Contact Number,Enter Contact No.
+PackagingSolutions,Receiver Information,Email Address,Mandatory,Email,john@example.com,Medium,Enter Receiver's Email Address,Enter Email
+PackagingSolutions,Receiver Information,Street Address,Mandatory,Text,123 Main St,Medium,Enter Receiver's Street Address,Enter Street Address
+PackagingSolutions,Receiver Information,City,Mandatory,Text,New York,Short,Enter Receiver's City,Enter City
+PackagingSolutions,Receiver Information,State/Province,Mandatory,Text,NY,Short,Enter Receiver's State/Province,Enter State
+PackagingSolutions,Receiver Information,Postal Code,Mandatory,Text,10001,Short,Enter Receiver's Postal Code,Enter Zip Code
+PackagingSolutions,Receiver Information,Country,Mandatory,Text,USA,Short,Enter Receiver's Country,Enter Country
+PackagingSolutions,Receiver Information,Receiver Name,Mandatory,Text,John Doe,Medium,Enter Receiver's Name,Enter Name
+PackagingSolutions,Receiver Information,Receiver Address Line 1,Mandatory,Text,123 Main St,Medium,Enter Receiver's Address Line 1,Enter Address Line 1
+PackagingSolutions,Receiver Information,Receiver City,Mandatory,Text,New York,Short,Enter Receiver's City,Enter City
+PackagingSolutions,Receiver Information,Receiver State,Mandatory,Text,NY,Short,Enter Receiver's State,Enter State
+PackagingSolutions,Receiver Information,Receiver Zip Code,Mandatory,Text,10001,Short,Enter Receiver's Zip Code,Enter Zip Code
+PackagingSolutions,Receiver Information,Receiver Country,Mandatory,Text,USA,Short,Enter Receiver's Country,Enter Country
+PackagingSolutions,Receiver Information,Alternate Contact Number,Optional,Number,987654321,Short,Enter Alternate Contact Number,Enter Alt. Contact No.
+PackagingSolutions,Receiver Information,Company Name,Optional,Text,ABC Corp,Medium,Enter Company Name,Enter Company
+PackagingSolutions,Receiver Information,Department,Optional,Text,Logistics,Short,Enter Department,Enter Dept.
+PackagingSolutions,Receiver Information,Fax Number,Optional,Number,1234567891,Short,Enter Fax Number,Enter Fax No.
+PackagingSolutions,Receiver Information,Website,Optional,URL,www.abccorp.com,Medium,Enter Website,Enter URL
+PackagingSolutions,Receiver Information,VAT/Tax ID,Optional,Text,123-456-789,Short,Enter VAT/Tax ID,Enter Tax ID
+PackagingSolutions,Receiver Information,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Receiver Information,Receiver Company Name,Optional,Text,ABC Corp,Medium,Enter Receiver's Company Name,Enter Company
+PackagingSolutions,Receiver Information,Receiver Department,Optional,Text,Logistics,Short,Enter Receiver's Department,Enter Dept.
+PackagingSolutions,Receiver Information,Receiver Attention,Optional,Text,John Doe,Medium,Enter Receiver's Attention,Enter Attention To
+PackagingSolutions,Receiver Information,Receiver Fax Number,Optional,Number,987654321,Short,Enter Receiver's Fax Number,Enter Fax No.
+PackagingSolutions,Receiver Information,Receiver Website,Optional,URL,www.abccorp.com,Medium,Enter Receiver's Website,Enter URL
+PackagingSolutions,Receiver Information,Receiver Address Line 2,Optional,Text,Apt 101,Medium,Enter Receiver's Address Line 2,Enter Address Line 2
+PackagingSolutions,Receiver Information,Receiver Email Address,Optional,Email,john.doe@example.com,Medium,Enter Receiver's Email Address,Enter Email
+PackagingSolutions,Receiver Information,Receiver Phone Number,Optional,Number,987654321,Short,Enter Receiver's Phone Number,Enter Phone No.
+PackagingSolutions,Customs Declaration,Declaration Type,Mandatory,Dropdown,Import,Short,Select Declaration Type,Select Type
+PackagingSolutions,Customs Declaration,Commodity Code,Mandatory,Text,1234,Short,Enter Commodity Code,Enter Code
+PackagingSolutions,Customs Declaration,Item Description,Mandatory,Text,Electronics,Medium,Enter Item Description,Enter Description
+PackagingSolutions,Customs Declaration,Quantity,Mandatory,Number,10,Short,Enter Quantity,Enter Qty
+PackagingSolutions,Customs Declaration,Total Value,Mandatory,Number,1000,Short,Enter Total Value,Enter Value
+PackagingSolutions,Customs Declaration,Country of Origin,Mandatory,Dropdown,USA,Short,Select Country of Origin,Select Country
+PackagingSolutions,Customs Declaration,Destination Country,Mandatory,Dropdown,Canada,Short,Select Destination Country,Select Destination
+PackagingSolutions,Customs Declaration,Importer/Exporter Name,Mandatory,Text,John Doe,Medium,Enter Importer/Exporter Name,Enter Name
+PackagingSolutions,Customs Declaration,Exporter Name,Mandatory,Text,John Doe,Medium,Enter Exporter Name,Enter Exporter
+PackagingSolutions,Customs Declaration,Exporter Address,Mandatory,Text,123 Main St,Medium,Enter Exporter Address,Enter Address
+PackagingSolutions,Customs Declaration,Importer Name,Mandatory,Text,Jane Doe,Medium,Enter Importer Name,Enter Importer
+PackagingSolutions,Customs Declaration,Importer Address,Mandatory,Text,456 Elm St,Medium,Enter Importer Address,Enter Address
+PackagingSolutions,Customs Declaration,Commodity Description,Mandatory,Text,Electronics,Medium,Enter Commodity Description,Enter Description
+PackagingSolutions,Customs Declaration,Quantity,Mandatory,Number,10,Short,Enter Quantity,Enter Qty
+PackagingSolutions,Customs Declaration,Unit of Measure,Mandatory,Dropdown,kg,Short,Select Unit of Measure,Select Unit
+PackagingSolutions,Customs Declaration,Value,Mandatory,Number,1000,Short,Enter Value,Enter Value
+PackagingSolutions,Customs Declaration,Country of Origin,Mandatory,Dropdown,USA,Short,Select Country of Origin,Select Country
+PackagingSolutions,Customs Declaration,HS Code,Mandatory,Text,1234,Short,Enter HS Code,Enter HS Code
+PackagingSolutions,Customs Declaration,Invoice Number,Optional,Text,INV1234,Short,Enter Invoice Number,Enter Invoice
+PackagingSolutions,Customs Declaration,Licence Number,Optional,Text,LIC5678,Short,Enter Licence Number,Enter Licence
+PackagingSolutions,Customs Declaration,Duty Paid,Optional,Dropdown,Yes,Short,Select Duty Paid Status,Select Status
+PackagingSolutions,Customs Declaration,VAT/Tax ID,Optional,Text,123-456-789,Short,Enter VAT/Tax ID,Enter ID
+PackagingSolutions,Customs Declaration,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Customs Declaration,Additional Documents,Optional,File Upload,Document.pdf,Medium,Upload Additional Documents,Upload Documents
+PackagingSolutions,Customs Declaration,Certificate Number,Optional,Text,CERT123,Short,Enter Certificate Number,Enter Certificate
+PackagingSolutions,Customs Declaration,Marks and Numbers,Optional,Text,M&N001,Short,Enter Marks and Numbers,Enter Marks
+PackagingSolutions,Customs Declaration,Net Weight,Optional,Number,100,Short,Enter Net Weight,Enter Weight
+PackagingSolutions,Customs Declaration,Gross Weight,Optional,Number,110,Short,Enter Gross Weight,Enter Weight
+PackagingSolutions,Customs Declaration,Shipping Marks,Optional,Text,SM001,Short,Enter Shipping Marks,Enter Marks
+PackagingSolutions,Customs Declaration,Special Handling Instruction,Optional,Text,Fragile,Medium,Enter Special Handling Instructions,Enter Instructions
+PackagingSolutions,Terms and Conditions,Acceptance Checkbox,Mandatory,Checkbox,Checked,Short,Check to Accept,Accept Terms
+PackagingSolutions,Terms and Conditions,Terms and Conditions Text,Mandatory,Text,Terms and Conditions,Long,Read Carefully,Read Terms
+PackagingSolutions,Terms and Conditions,Digital Signature,Mandatory,Text,John Doe,Short,Enter Digital Signature,Sign Here
+PackagingSolutions,Terms and Conditions,Packing List Terms and Conditions,Mandatory,Text,Packing List Terms,Long,Read Carefully,Read Packing List Terms
+PackagingSolutions,Terms and Conditions,Packing List Validity,Mandatory,Date,01/01/2023-31/12/2023,Short,Enter Validity Period,Enter Validity
+PackagingSolutions,Terms and Conditions,Packing List Accuracy,Mandatory,Text,Accurate,Medium,Read Carefully,Read Accuracy Statement
+PackagingSolutions,Terms and Conditions,Packing List Liability,Mandatory,Text,Liability Terms,Medium,Read Carefully,Read Liability Terms
+PackagingSolutions,Terms and Conditions,Packing List Amendments,Mandatory,Text,Amendment Terms,Medium,Read Carefully,Read Amendment Terms
+PackagingSolutions,Terms and Conditions,Packing List Governing Law,Mandatory,Text,Governing Law,Medium,Read Carefully,Read Governing Law
+PackagingSolutions,Terms and Conditions,Packing List Entire Agreements,Mandatory,Text,Entire Agreements,Medium,Read Carefully,Read Entire Agreements
+PackagingSolutions,Terms and Conditions,Packing List Severability,Mandatory,Text,Severability,Medium,Read Carefully,Read Severability
+PackagingSolutions,Terms and Conditions,Packing List Waiver,Mandatory,Text,Waiver Terms,Medium,Read Carefully,Read Waiver Terms
+PackagingSolutions,Terms and Conditions,Packing List Notices,Mandatory,Text,Notice Terms,Medium,Read Carefully,Read Notice Terms
+PackagingSolutions,Terms and Conditions,Date of Acceptance,Optional,Date,09/14/2023,Short,Enter Date of Acceptance,Enter Date
+PackagingSolutions,Terms and Conditions,Version Number,Optional,Number,1,Short,Enter Version Number,Enter Version
+PackagingSolutions,Terms and Conditions,Privacy Policy Acceptance,Optional,Checkbox,Checked,Short,Check to Accept,Accept Policy
+PackagingSolutions,Terms and Conditions,Links to Related Documents,Optional,URL,http://example.com,Medium,Enter Related Document Links,Enter Links
+PackagingSolutions,Packaging,Packaging Type,Mandatory,Dropdown,Box,Short,Select Packaging Type,Select Type
+PackagingSolutions,Packaging,Material Used,Mandatory,Dropdown,Cardboard,Short,Select Material Used,Select Material
+PackagingSolutions,Packaging,Dimensions,Mandatory,Text,10x10x10,Short,Enter Dimensions,Enter LxWxH
+PackagingSolutions,Packaging,Weight,Mandatory,Number,5,Short,Enter Weight,Enter Weight
+PackagingSolutions,Packaging,Seal Type,Mandatory,Dropdown,Adhesive,Short,Select Seal Type,Select Seal
+PackagingSolutions,Packaging,Packaging Material,Mandatory,Dropdown,Plastic,Short,Select Packaging Material,Select Material
+PackagingSolutions,Packaging,Quantity,Mandatory,Number,2,Short,Enter Quantity,Enter Quantity
+PackagingSolutions,Packaging,Dimensions,Mandatory,Text,15x15x15,Short,Enter Dimensions,Enter LxWxH
+PackagingSolutions,Packaging,Weight,Mandatory,Number,10,Short,Enter Weight,Enter Weight
+PackagingSolutions,Packaging,Color,Optional,Text,Red,Short,Enter Color,Enter Color
+PackagingSolutions,Packaging,Brand,Optional,Text,BrandX,Short,Enter Brand,Enter Brand
+PackagingSolutions,Packaging,Recyclable Indicator,Optional,Radio Group,Yes,Short,Is it Recyclable?,Yes/No
+PackagingSolutions,Packaging,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Packaging,Barcode,Optional,Text,1234567890,Short,Enter Barcode,Enter Barcode
+PackagingSolutions,Packaging,QR Code,Optional,File Upload,[Sample QR Code],Medium,Upload QR Code,Upload File
+PackagingSolutions,Packaging,Special Instructions,Optional,Text,Fragile,Medium,Enter Additional Instructions,Enter Instructions
+PackagingSolutions,Temperature Control,Temperature Range,Mandatory,Text,2-8°C,Short,Enter Temp Range,Enter Range
+PackagingSolutions,Temperature Control,Temperature Unit,Mandatory,Dropdown,°C,Short,Select Temp Unit,°C/°F
+PackagingSolutions,Temperature Control,Monitoring Device,Mandatory,Text,DeviceX,Short,Enter Monitoring Device,Enter Device
+PackagingSolutions,Temperature Control,Temperature Range,Mandatory,Text,2-8°C,Short,Enter Temp Range,Enter Range
+PackagingSolutions,Temperature Control,Temperature Control Method,Mandatory,Text,Cooling Packs,Short,Enter Control Method,Enter Method
+PackagingSolutions,Temperature Control,Humidity Level,Optional,Text,40-60%,Short,Enter Humidity Level,Enter Range
+PackagingSolutions,Temperature Control,Ventilation Requirements,Optional,Text,Moderate,Short,Enter Ventilation Req.,Enter Requirement
+PackagingSolutions,Temperature Control,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Temperature Control,Monitoring Device Brand,Optional,Text,BrandX,Short,Enter Device Brand,Enter Brand
+PackagingSolutions,Temperature Control,Monitoring Device Serial Number,Optional,Text,SN12345,Short,Enter Serial Number,Enter Serial No.
+PackagingSolutions,Temperature Control,Special Instructions,Optional,Text,Keep Dry,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Packaging Material,Primary Material,Mandatory,Dropdown,Cardboard,Short,Select Primary Material,Select Material
+PackagingSolutions,Packaging Material,Secondary Material,Mandatory,Dropdown,Plastic,Short,Select Secondary Material,Select Material
+PackagingSolutions,Packaging Material,Cushioning Material,Mandatory,Dropdown,Bubble Wrap,Short,Select Cushioning Material,Select Material
+PackagingSolutions,Packaging Material,Packaging Material,Mandatory,Text,"Cardboard, Plastic",Medium,Enter Packaging Materials,Enter Materials
+PackagingSolutions,Packaging Material,Quantity,Mandatory,Number,10,Short,Enter Quantity,Enter Quantity
+PackagingSolutions,Packaging Material,Dimensions,Mandatory,Text,10x10x10,Short,Enter Dimensions,Enter Dimensions
+PackagingSolutions,Packaging Material,Weight,Mandatory,Number,5,Short,Enter Weight,Enter Weight
+PackagingSolutions,Packaging Material,Tape Material,Optional,Dropdown,Duct Tape,Short,Select Tape Material,Select Material
+PackagingSolutions,Packaging Material,Tape Width,Optional,Number,2,Short,Enter Tape Width,Enter Width
+PackagingSolutions,Packaging Material,Recyclable Indicator,Optional,Checkbox,Checked,Short,Is it Recyclable?,Check if Yes
+PackagingSolutions,Packaging Material,Biodegradable Indicator,Optional,Checkbox,Unchecked,Short,Is it Biodegradable?,Check if Yes
+PackagingSolutions,Packaging Material,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Packaging Material,Supplier Information,Optional,Text,XYZ Corp.,Medium,Enter Supplier Information,Enter Supplier Info
+PackagingSolutions,Labelling,Label Type,Mandatory,Dropdown,Shipping,Short,Select Label Type,Select Type
+PackagingSolutions,Labelling,Barcode,Mandatory,Text,123456789,Short,Enter Barcode,Enter Barcode
+PackagingSolutions,Labelling,QR Code,Mandatory,File Upload,QR123.png,Medium,Upload QR Code,Upload Code
+PackagingSolutions,Labelling,Recipient Address,Mandatory,Text,123 Main St,Medium,Enter Recipient Address,Enter Address
+PackagingSolutions,Labelling,Label Number,Mandatory,Text,LBL123,Short,Enter Label Number,Enter Number
+PackagingSolutions,Labelling,Shipping Mark,Mandatory,Text,Fragile,Short,Enter Shipping Mark,Enter Mark
+PackagingSolutions,Labelling,Hazardous Materials Label,Mandatory,Checkbox,Checked,Short,Is it Hazardous?,Check if Yes
+PackagingSolutions,Labelling,Sender Address,Optional,Text,789 Main St,Medium,Enter Sender Address,Enter Address
+PackagingSolutions,Labelling,Tracking Number,Optional,Text,TRK123,Short,Enter Tracking Number,Enter Number
+PackagingSolutions,Labelling,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Labelling,Label Color,Optional,Dropdown,Red,Short,Select Label Color,Select Color
+PackagingSolutions,Labelling,Label Size,Optional,Number,10,Short,Enter Label Size,Enter Size
+PackagingSolutions,Labelling,Additional Logos,Optional,File Upload,logo.png,Medium,Upload Additional Logos,Upload Logos
+PackagingSolutions,Labelling,Special Handling Instructions,Optional,Text,Do not bend,Medium,Enter Special Handling Instructions,Enter Instructions
+PackagingSolutions,Regulatory Compliance,Compliance Type,Mandatory,Dropdown,Export,Short,Select Compliance Type,Select Type
+PackagingSolutions,Regulatory Compliance,Compliance Certificate,Mandatory,File Upload,certificate.pdf,Medium,Upload Compliance Certificate,Upload Certificate
+PackagingSolutions,Regulatory Compliance,Compliance Code,Mandatory,Text,COM123,Short,Enter Compliance Code,Enter Code
+PackagingSolutions,Regulatory Compliance,Expiration Date,Mandatory,Date,2023-12-31,Short,Select Expiration Date,Select Date
+PackagingSolutions,Regulatory Compliance,Export Control Classification Number (ECCN),Mandatory,Text,EAR99,Short,Enter ECCN,Enter ECCN
+PackagingSolutions,Regulatory Compliance,Issuing Authority,Optional,Text,FDA,Short,Enter Issuing Authority,Enter Authority
+PackagingSolutions,Regulatory Compliance,Additional Documents,Optional,File Upload,add_docs.pdf,Medium,Upload Additional Documents,Upload Documents
+PackagingSolutions,Regulatory Compliance,Compliance Checklist,Optional,File Upload,checklist.pdf,Medium,Upload Compliance Checklist,Upload Checklist
+PackagingSolutions,Regulatory Compliance,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Regulatory Compliance,Verification Status,Optional,Dropdown,Verified,Short,Select Verification Status,Select Status
+PackagingSolutions,Regulatory Compliance,Licence Number,Optional,Text,LIC123,Short,Enter Licence Number,Enter Licence
+PackagingSolutions,Regulatory Compliance,Certificate Number,Optional,Text,CERT123,Short,Enter Certificate Number,Enter Certificate
+PackagingSolutions,Regulatory Compliance,Marks and Numbers,Optional,Text,M&N123,Short,Enter Marks and Numbers,Enter Marks
+PackagingSolutions,Regulatory Compliance,Net Weight,Optional,Number,20,Short,Enter Net Weight,Enter Weight
+PackagingSolutions,Regulatory Compliance,Gross Weight,Optional,Number,25,Short,Enter Gross Weight,Enter Weight
+PackagingSolutions,Regulatory Compliance,Shipping Marks,Optional,Text,SHIP123,Short,Enter Shipping Marks,Enter Marks
+PackagingSolutions,Regulatory Compliance,Special Handling Instructions,Optional,Text,Fragile,Medium,Enter Special Handling Instructions,Enter Instructions
+PackagingSolutions,Label Details,Label Format,Mandatory,Dropdown,PDF,Short,Select Label Format,Select Format
+PackagingSolutions,Label Details,Label Orientation,Mandatory,Dropdown,Portrait,Short,Select Label Orientation,Select Orientation
+PackagingSolutions,Label Details,Label Dimensions,Mandatory,Text,4x6,Short,Enter Label Dimensions,Enter Dimensions
+PackagingSolutions,Label Details,Text Font,Mandatory,Dropdown,Arial,Short,Select Text Font,Select Font
+PackagingSolutions,Label Details,Label Type,Mandatory,Dropdown,Shipping,Short,Select Label Type,Select Type
+PackagingSolutions,Label Details,Label Number,Mandatory,Text,LBL123,Short,Enter Label Number,Enter Number
+PackagingSolutions,Label Details,Barcode,Mandatory,Text,1234567890,Short,Enter Barcode,Enter Barcode
+PackagingSolutions,Label Details,Shipping Mark,Mandatory,Text,SHIP123,Short,Enter Shipping Mark,Enter Mark
+PackagingSolutions,Label Details,Hazardous Materials Label,Mandatory,Dropdown,Yes,Short,Select if Hazardous Materials Label is needed,Select Option
+PackagingSolutions,Label Details,Text Size,Optional,Number,12,Short,Enter Text Size,Enter Size
+PackagingSolutions,Label Details,Text Color,Optional,Text,Black,Short,Enter Text Color,Enter Color
+PackagingSolutions,Label Details,Background Color,Optional,Text,White,Short,Enter Background Color,Enter Color
+PackagingSolutions,Label Details,Border Style,Optional,Dropdown,Solid,Short,Select Border Style,Select Style
+PackagingSolutions,Label Details,Additional Graphics,Optional,File Upload,logo.png,Medium,Upload Additional Graphics,Upload File
+PackagingSolutions,Label Details,Special Instructions,Optional,Text,Handle with care,Medium,Enter Special Instructions,Enter Instructions
+PackagingSolutions,Label Details,Special Handling Instructions,Optional,Text,Fragile,Medium,Enter Special Handling Instructions,Enter Instructions
+PackagingSolutions,Standard Packaging Options Details,Package Type,Mandatory,Dropdown,Box,Short,Select Package Type,Select Type
+PackagingSolutions,Standard Packaging Options Details,Dimensions,Mandatory,Text,10x10x10,Short,Enter Dimensions,Enter Dimensions
+PackagingSolutions,Standard Packaging Options Details,Weight Limit,Mandatory,Number,50,Short,Enter Weight Limit,Enter Weight
+PackagingSolutions,Standard Packaging Options Details,Material,Mandatory,Text,Cardboard,Short,Enter Material,Enter Material
+PackagingSolutions,Standard Packaging Options Details,Cost,Mandatory,Number,5,Short,Enter Cost,Enter Cost
+PackagingSolutions,Standard Packaging Options Details,Availability,Mandatory,Dropdown,In Stock,Short,Select Availability,Select Availability
+PackagingSolutions,Standard Packaging Options Details,Packing option ID,Mandatory,Text,OPT001,Short,Enter Packing Option ID,Enter ID
+PackagingSolutions,Standard Packaging Options Details,Name,Mandatory,Text,Standard Box,Short,Enter Name,Enter Name
+PackagingSolutions,Standard Packaging Options Details,Description,Mandatory,Text,Standard cardboard box,Medium,Enter Description,Enter Description
+PackagingSolutions,Standard Packaging Options Details,"Dimensions (length, width, height)",Mandatory,Text,10x10x10,Short,Enter Specific Dimensions,Enter Dimensions
+PackagingSolutions,Standard Packaging Options Details,Weight,Mandatory,Number,2,Short,Enter Weight,Enter Weight
+PackagingSolutions,Standard Packaging Options Details,Maximum quantity,Mandatory,Number,100,Short,Enter Maximum Quantity,Enter Quantity
+PackagingSolutions,Standard Packaging Options Details,Color Options,Optional,Dropdown,"Red, Blue, Green",Short,Select Color Options,Select Color
+PackagingSolutions,Standard Packaging Options Details,Customization Options,Optional,Text,"Logo, Text",Short,Enter Customization Options,Enter Customization
+PackagingSolutions,Standard Packaging Options Details,Environmental Impact,Optional,Text,Biodegradable,Short,Enter Environmental Impact,Enter Impact
+PackagingSolutions,Standard Packaging Options Details,Additional Features,Optional,Text,Waterproof,Short,Enter Additional Features,Enter Features
+PackagingSolutions,Standard Packaging Options Details,Bulk Order Discounts,Optional,Text,5% off for 100+,Short,Enter Bulk Order Discounts,Enter Discounts
+PackagingSolutions,Standard Packaging Options Details,Lead Time,Optional,Number,3 days,Short,Enter Lead Time,Enter Time
+PackagingSolutions,Standard Packaging Options Details,Image,Optional,File Upload,image.jpg,Medium,Upload Image,Upload Image
+PackagingSolutions,Standard Packaging Options Details,Is mandatory,Optional,Checkbox,Checked/Unchecked,Short,Check if Mandatory,Check if Mandatory
+PackagingSolutions,Standard Packaging Options Details,Recommended for,Optional,Text,Fragile Items,Short,Enter Recommended Uses,Enter Recommendation
+PackagingSolutions,Specialized Packaging Options Details,Specialised Package Type,Mandatory,Dropdown,"Fragile, Liquid",Short,Select Specialized Package Type,Select Type
+PackagingSolutions,Specialized Packaging Options Details,Dimensions,Mandatory,Text,10x10x10,Short,Enter Dimensions,Enter Dimensions
+PackagingSolutions,Specialized Packaging Options Details,Weight Limit,Mandatory,Number,50 kg,Short,Enter Weight Limit,Enter Weight
+PackagingSolutions,Specialized Packaging Options Details,Material,Mandatory,Text,Cardboard,Short,Enter Material,Enter Material
+PackagingSolutions,Specialized Packaging Options Details,Cost,Mandatory,Number,$10,Short,Enter Cost,Enter Cost
+PackagingSolutions,Specialized Packaging Options Details,Availability,Mandatory,Text,In Stock,Short,Enter Availability,Enter Availability
+PackagingSolutions,Specialized Packaging Options Details,Use Case,Mandatory,Text,Fragile Items,Short,Enter Use Case,Enter Use Case
+PackagingSolutions,Specialized Packaging Options Details,Packing option ID,Mandatory,Text,SP001,Short,Enter Packing Option ID,Enter ID
+PackagingSolutions,Specialized Packaging Options Details,Name,Mandatory,Text,Fragile Box,Short,Enter Name,Enter Name
+PackagingSolutions,Specialized Packaging Options Details,Description,Mandatory,Text,For fragile items,Medium,Enter Description,Enter Description
+PackagingSolutions,Specialized Packaging Options Details,"Dimensions (length, width, height)",Mandatory,Text,10x10x10,Short,Enter Dimensions,Enter Dimensions
+PackagingSolutions,Specialized Packaging Options Details,Maximum quantity,Mandatory,Number,100,Short,Enter Maximum Quantity,Enter Quantity
+PackagingSolutions,Specialized Packaging Options Details,Is mandatory,Mandatory,Checkbox,Checked/Unchecked,Short,Check if Mandatory,Check if Mandatory
+PackagingSolutions,Specialized Packaging Options Details,Color Options,Optional,Dropdown,"Red, Blue, Green",Short,Select Color Option,Select Color
+PackagingSolutions,Specialized Packaging Options Details,Customization Options,Optional,Dropdown,"Logo, Text",Short,Select Customization Option,Select Customization
+PackagingSolutions,Specialized Packaging Options Details,Environmental Impact,Optional,Text,Biodegradable,Short,Enter Environmental Impact,Enter Impact
+PackagingSolutions,Specialized Packaging Options Details,Additional Features,Optional,Text,Waterproof,Short,Enter Additional Features,Enter Features
+PackagingSolutions,Specialized Packaging Options Details,Bulk Order Discounts,Optional,Text,10% off for 100+,Short,Enter Bulk Order Discounts,Enter Discounts
+PackagingSolutions,Specialized Packaging Options Details,Lead Time,Optional,Text,2-3 weeks,Short,Enter Lead Time,Enter Time
+PackagingSolutions,Specialized Packaging Options Details,Image,Optional,File Upload,image.jpg,Medium,Upload Image,Upload Image
+PackagingSolutions,Specialized Packaging Options Details,Recommended for,Optional,Text,Electronics,Short,Enter Recommended Use,Enter Recommendation
+PackagingSolutions,Packaging Design & Customization Details,Design Options,Mandatory,Dropdown,"Abstract, Floral",Short,Select Design Option,Select Design
+PackagingSolutions,Packaging Design & Customization Details,Material Choices,Mandatory,Dropdown,"Plastic, Cardboard",Short,Select Material Option,Select Material
+PackagingSolutions,Packaging Design & Customization Details,Minimum Order Quantity,Mandatory,Number,50,Short,Enter Minimum Order Quantity,Enter MOQ
+PackagingSolutions,Packaging Design & Customization Details,Lead Time,Mandatory,Text,2-3 weeks,Short,Enter Lead Time,Enter Time
+PackagingSolutions,Packaging Design & Customization Details,Cost,Mandatory,Text,$20,Short,Enter Cost,Enter Cost
+PackagingSolutions,Packaging Design & Customization Details,File Format for Design,Mandatory,Text,"JPEG, PNG",Short,Enter File Format,Enter Format
+PackagingSolutions,Packaging Design & Customization Details,Packing option ID,Mandatory,Text,PO123,Short,Enter Packing Option ID,Enter ID
+PackagingSolutions,Packaging Design & Customization Details,Name,Mandatory,Text,Eco-Pack,Short,Enter Name,Enter Name
+PackagingSolutions,Packaging Design & Customization Details,Description,Mandatory,Text,Eco-friendly pack,Medium,Enter Description,Enter Description
+PackagingSolutions,Packaging Design & Customization Details,Dimensions,Mandatory,Text,10x10x10,Short,Enter Dimensions,Enter Dimensions
+PackagingSolutions,Packaging Design & Customization Details,Maximum quantity,Mandatory,Number,500,Short,Enter Maximum Quantity,Enter Max Quantity
+PackagingSolutions,Packaging Design & Customization Details,Is mandatory,Mandatory,Checkbox,Checked,Short,Check if Mandatory,Check if Mandatory
+PackagingSolutions,Packaging Design & Customization Details,Color Palette,Optional,Dropdown,"Red, Blue",Short,Select Color Palette,Select Color
+PackagingSolutions,Packaging Design & Customization Details,Text Customization,Optional,Dropdown,"Bold, Italic",Short,Select Text Customization,Select Text Option
+PackagingSolutions,Packaging Design & Customization Details,Special Features,Optional,Text,Waterproof,Short,Enter Special Features,Enter Features
+PackagingSolutions,Packaging Design & Customization Details,Sample Availability,Optional,Checkbox,Checked,Short,Check for Sample Availability,Check for Sample
+PackagingSolutions,Packaging Design & Customization Details,Bulk Discount,Optional,Text,10% for 100+,Short,Enter Bulk Discount,Enter Discount
+PackagingSolutions,Packaging Design & Customization Details,Sustainability Options,Optional,Dropdown,"Recyclable, Biodegradable",Short,Select Sustainability Options,Select Option
+PackagingSolutions,Packaging Design & Customization Details,Image,Optional,File Upload,image.jpg,Medium,Upload Image,Upload Image
+PackagingSolutions,Packaging Design & Customization Details,Recommended for,Optional,Text,Fragile Items,Short,Enter Recommended Uses,Enter Recommendation
+PackagingSolutions,Packaging Compliance & Regulations Details,Compliance Standards,Mandatory,Text,ISO 9001,Medium,Enter Compliance Standards,Enter Standards
+PackagingSolutions,Packaging Compliance & Regulations Details,Certifications,Mandatory,Text,"CE, FDA",Medium,Enter Certifications,Enter Certifications
+PackagingSolutions,Packaging Compliance & Regulations Details,Material Safety Data Sheet (MSDS),Mandatory,File Upload,msds.pdf,Medium,Upload MSDS,Upload MSDS
+PackagingSolutions,Packaging Compliance & Regulations Details,Recycling Information,Mandatory,Text,Recyclable,Short,Enter Recycling Information,Enter Information
+PackagingSolutions,Packaging Compliance & Regulations Details,Legal Disclaimers,Mandatory,Text,Not for food storage,Medium,Enter Legal Disclaimers,Enter Disclaimers
+PackagingSolutions,Packaging Compliance & Regulations Details,Country,Mandatory,Dropdown,USA,Short,Select Country,Select Country
+PackagingSolutions,Packaging Compliance & Regulations Details,Regulation,Mandatory,Text,FDA 21 CFR,Medium,Enter Regulation,Enter Regulation
+PackagingSolutions,Packaging Compliance & Regulations Details,Requirement,Mandatory,Text,Must be sealed,Medium,Enter Requirement,Enter Requirement
+PackagingSolutions,Packaging Compliance & Regulations Details,Third-Party Testing,Optional,Text,Tested by XYZ Labs,Medium,Enter Third-Party Testing Info,Enter Testing Info
+PackagingSolutions,Packaging Compliance & Regulations Details,Environmental Impact,Optional,Text,Biodegradable,Short,Enter Environmental Impact Info,Enter Impact Info
+PackagingSolutions,Packaging Compliance & Regulations Details,Regulatory Updates,Optional,Text,Updated on 01/01/23,Medium,Enter Regulatory Updates,Enter Updates
+PackagingSolutions,Packaging Compliance & Regulations Details,FAQs on Compliance,Optional,Text,What is MSDS?,Medium,Enter FAQs on Compliance,Enter FAQs
+PackagingSolutions,Packaging Compliance & Regulations Details,Contact for Compliance Queries,Optional,Email,compliance@example.com,Short,Enter Contact for Compliance Queries,Enter Contact Info
+PackagingSolutions,Packaging Cost Estimation Details,Base Price,Mandatory,Number,$10,Short,Enter the Base Price,Enter Base Price
+PackagingSolutions,Packaging Cost Estimation Details,Material Cost,Mandatory,Number,$5,Short,Enter the Material Cost,Enter Material Cost
+PackagingSolutions,Packaging Cost Estimation Details,Labour Cost,Mandatory,Number,$3,Short,Enter the Labour Cost,Enter Labour Cost
+PackagingSolutions,Packaging Cost Estimation Details,Additional Features Cost,Mandatory,Number,$2,Short,Enter the Additional Features Cost,Enter Additional Cost
+PackagingSolutions,Packaging Cost Estimation Details,Shipping Cost,Mandatory,Number,$4,Short,Enter the Shipping Cost,Enter Shipping Cost
+PackagingSolutions,Packaging Cost Estimation Details,Tax Information,Mandatory,Text,10% Sales Tax,Medium,Enter Tax Information,Enter Tax Info
+PackagingSolutions,Packaging Cost Estimation Details,Total Estimated Cost,Mandatory,Number,$24,Short,Enter the Total Estimated Cost,Enter Total Cost
+PackagingSolutions,Packaging Cost Estimation Details,Packing option ID,Mandatory,Text,OPT123,Short,Enter the Packing Option ID,Enter Option ID
+PackagingSolutions,Packaging Cost Estimation Details,Quantity,Mandatory,Number,100,Short,Enter the Quantity,Enter Quantity
+PackagingSolutions,Packaging Cost Estimation Details,Shipping method,Mandatory,Dropdown,Air,Short,Select the Shipping Method,Select Method
+PackagingSolutions,Packaging Cost Estimation Details,Destination country,Mandatory,Dropdown,USA,Short,Select the Destination Country,Select Country
+PackagingSolutions,Packaging Cost Estimation Details,Volume Discount,Optional,Number,5%,Short,Enter the Volume Discount,Enter Discount
+PackagingSolutions,Packaging Cost Estimation Details,Special Offers,Optional,Text,Buy 1 Get 1 Free,Medium,Enter any Special Offers,Enter Offers
+PackagingSolutions,Packaging Cost Estimation Details,Cost Breakdown,Optional,Text,Material: $5,Medium,Enter the Cost Breakdown,Enter Breakdown
+PackagingSolutions,Packaging Cost Estimation Details,Currency Options,Optional,Dropdown,"USD, EUR",Short,Select the Currency Options,Select Currency
+PackagingSolutions,Packaging Cost Estimation Details,Payment Plans,Optional,Dropdown,Monthly,Short,Select the Payment Plans,Select Plan
+PackagingSolutions,Packaging Cost Estimation Details,Contact for Custom Quote,Optional,Text,email@example.com,Medium,Enter the Contact for Custom Quote,Enter Contact
+PackagingSolutions,Packaging Cost Estimation Details,Insurance,Optional,Text,Optional,Medium,Enter the Insurance Information,Enter Insurance
+PackagingSolutions,Packaging Cost Estimation Details,Taxes,Optional,Text,VAT: 10%,Medium,Enter the Additional Tax Info,Enter Tax Info
+PackagingSolutions,Packaging Cost Estimation Details,Other costs,Optional,Number,$1,Short,Enter any Other Costs,Enter Other Costs
+PackagingSolutions,Packaging Tracking & Inventory Details,Inventory Levels,Mandatory,Number,100,Short,Enter the Inventory Levels,Enter Inventory
+PackagingSolutions,Packaging Tracking & Inventory Details,Reorder Point,Mandatory,Number,20,Short,Enter the Reorder Point,Enter Reorder Point
+PackagingSolutions,Packaging Tracking & Inventory Details,Lead Time for Replenishment,Mandatory,Number,7 days,Short,Enter the Lead Time for Replenishment,Enter Lead Time
+PackagingSolutions,Packaging Tracking & Inventory Details,Tracking Number,Mandatory,Text,TRK12345,Medium,Enter the Tracking Number,Enter Tracking No.
+PackagingSolutions,Packaging Tracking & Inventory Details,Location,Mandatory,Text,Warehouse,Medium,Enter the Current Location,Enter Location
+PackagingSolutions,Packaging Tracking & Inventory Details,Status,Mandatory,Dropdown,In Transit,Short,Select the Current Status,Select Status
+PackagingSolutions,Packaging Tracking & Inventory Details,Packing option ID,Mandatory,Text,OPT123,Short,Enter the Packing Option ID,Enter Option ID
+PackagingSolutions,Packaging Tracking & Inventory Details,Quantity,Mandatory,Number,10,Short,Enter the Quantity,Enter Quantity
+PackagingSolutions,Packaging Tracking & Inventory Details,Location,Mandatory,Text,Shelf A,Medium,Enter the Storage Location,Enter Storage Loc.
+PackagingSolutions,Packaging Tracking & Inventory Details,Estimated Arrival Time,Optional,Date and Time,09/15/2023 12:00 PM,Medium,Enter the Estimated Arrival Time,Enter Arrival Time
+PackagingSolutions,Packaging Tracking & Inventory Details,Backorder Options,Optional,Text,Available,Short,Enter the Backorder Options,Enter Backorder Opt.
+PackagingSolutions,Packaging Tracking & Inventory Details,Batch Numbers,Optional,Text,BCH123,Short,Enter the Batch Numbers,Enter Batch No.
+PackagingSolutions,Packaging Tracking & Inventory Details,Expiration Dates,Optional,Date,12/31/2023,Short,Enter the Expiration Dates,Enter Expiry Date
+PackagingSolutions,Packaging Tracking & Inventory Details,Contact for Inventory Queries,Optional,Email,contact@example.com,Medium,Enter the Contact for Inventory Queries,Enter Contact Email
+PackagingSolutions,Packaging Tracking & Inventory Details,Historical Data,Optional,Text,See logs,Medium,Enter any Historical Data,Enter History
+PackagingSolutions,Packaging Tracking & Inventory Details,Status,Optional,Dropdown,In Transit,Short,Select the Current Status,Select Status
+PackagingSolutions,Packaging Tracking & Inventory Details,Date created,Optional,Date,09/01/2023,Short,Enter the Date Created,Enter Creation Date
+PackagingSolutions,Packaging Tracking & Inventory Details,Date updated,Optional,Date,09/14/2023,Short,Enter the Date Updated,Enter Update Date
+PackagingSolutions,Packaging Sustainability Options Details,Sustainable Materials,Mandatory,Text,Recycled Plastic,Medium,Enter the types of sustainable materials used,Enter Materials
+PackagingSolutions,Packaging Sustainability Options Details,Recycling Information,Mandatory,Text,Recyclable,Medium,Enter recycling information,Enter Recycling Info
+PackagingSolutions,Packaging Sustainability Options Details,Certifications,Mandatory,Text,ISO 14001,Short,Enter any certifications,Enter Certifications
+PackagingSolutions,Packaging Sustainability Options Details,Carbon Footprint,Mandatory,Number,20,Short,Enter the carbon footprint,Enter Carbon Footprint
+PackagingSolutions,Packaging Sustainability Options Details,Supply Chain Ethics,Mandatory,Text,Fair Trade,Medium,Enter information on supply chain ethics,Enter Ethics
+PackagingSolutions,Packaging Sustainability Options Details,Sustainability option ID,Mandatory,Text,SUST123,Short,Enter the Sustainability Option ID,Enter Option ID
+PackagingSolutions,Packaging Sustainability Options Details,Name,Mandatory,Text,Eco-Pack,Short,Enter the name of the sustainability option,Enter Option Name
+PackagingSolutions,Packaging Sustainability Options Details,Description,Mandatory,Text,Eco-friendly pack,Medium,Enter a detailed description,Enter Description
+PackagingSolutions,Packaging Sustainability Options Details,Benefits,Mandatory,Text,Low Carbon,Medium,Enter the benefits,Enter Benefits
+PackagingSolutions,Packaging Sustainability Options Details,Drawbacks,Mandatory,Text,Higher Cost,Medium,Enter the drawbacks,Enter Drawbacks
+PackagingSolutions,Packaging Sustainability Options Details,Local Sourcing,Optional,Text,Locally Sourced,Medium,Enter information on local sourcing,Enter Local Sourcing
+PackagingSolutions,Packaging Sustainability Options Details,Reuse Options,Optional,Text,Reusable,Medium,Enter options for reusing the packaging,Enter Reuse Options
+PackagingSolutions,Packaging Sustainability Options Details,End-of-Life Programs,Optional,Text,Recycle Program,Medium,Enter end-of-life programs,Enter Programs
+PackagingSolutions,Packaging Sustainability Options Details,Environmental Partnerships,Optional,Text,Greenpeace,Medium,Enter environmental partnerships,Enter Partnerships
+PackagingSolutions,Packaging Sustainability Options Details,Customer Testimonials,Optional,Text,Great product!,Medium,Enter customer testimonials,Enter Testimonials
+PackagingSolutions,Packaging Sustainability Options Details,FAQs on Sustainability,Optional,Text,Is it recyclable?,Medium,Enter FAQs on sustainability,Enter FAQs
+PackagingSolutions,Packaging Sustainability Options Details,Image,Optional,File Upload,image.jpg,Large,Upload an image,Upload Image
+PackagingSolutions,Packaging Sustainability Options Details,Recommended for,Optional,Text,Eco-conscious,Short,Enter recommendations,Enter Recommendations
+PackagingSolutions,Packaging Support & Consultation Details,Contact Information,Mandatory,Text,Support Team,Medium,Enter general contact information,Enter Contact Info
+PackagingSolutions,Packaging Support & Consultation Details,Hours of Operation,Mandatory,Text,9am-5pm,Short,Enter hours of operation,Enter Hours
+PackagingSolutions,Packaging Support & Consultation Details,Types of Support,Mandatory,Dropdown,"Chat, Email",Short,Enter types of support offered,Enter Support Types
+PackagingSolutions,Packaging Support & Consultation Details,Consultation Process,Mandatory,Text,Step-by-Step,Medium,Enter the consultation process,Enter Process
+PackagingSolutions,Packaging Support & Consultation Details,FAQs,Mandatory,Text,How to contact?,Medium,Enter frequently asked questions,Enter FAQs
+PackagingSolutions,Packaging Support & Consultation Details,Contact name,Mandatory,Text,John Doe,Short,Enter the name of the contact person,Enter Contact Name
+PackagingSolutions,Packaging Support & Consultation Details,Contact email,Mandatory,Email,john@example.com,Short,Enter the email of the contact person,Enter Contact Email
+PackagingSolutions,Packaging Support & Consultation Details,Contact phone number,Mandatory,Number,123-456-7890,Short,Enter the phone number of the contact person,Enter Contact Phone
+PackagingSolutions,Packaging Support & Consultation Details,Live Chat,Optional,Checkbox,Checked/Unchecked,Short,Enable for live chat support,Enable Live Chat
+PackagingSolutions,Packaging Support & Consultation Details,Appointment Booking,Optional,Checkbox,Checked/Unchecked,Short,Enable for appointment booking,Enable Booking
+PackagingSolutions,Packaging Support & Consultation Details,Customer Reviews,Optional,Text,Great Service!,Medium,Enter customer reviews,Enter Reviews
+PackagingSolutions,Packaging Support & Consultation Details,Support Resources,Optional,URL,www.example.com,Medium,Enter support resources,Enter Resources
+PackagingSolutions,Packaging Support & Consultation Details,Language Options,Optional,Dropdown,"English, Spanish",Short,Enter available languages,Enter Languages
+PackagingSolutions,Packaging Support & Consultation Details,Response Time,Optional,Text,Within 24 hours,Short,Enter average response time,Enter Response Time
+PackagingSolutions,Packaging Support & Consultation Details,Company name,Optional,Text,XYZ Corp,Short,Enter the name of the company,Enter Company Name
+PackagingSolutions,Packaging Support & Consultation Details,Company address,Optional,Text,123 Main St,Medium,Enter the address of the company,Enter Address
+PackagingSolutions,Packaging Support & Consultation Details,Company website,Optional,URL,www.xyz.com,Medium,Enter the website of the company,Enter Website
+Page,Section,Field Name,Validate,Data Type,Sample Value,Size of Field,Tooltip,Prompt
+TransportationServices,Transport Options,Tracking Preferences,Optional,Checkbox,,Small,,
+TransportationServices,Transport Options,Additional Services,Optional,Checkbox,,Small,,
+TransportationServices,Pickup Locations,Accessibility Features,Mandatory,Checkbox,Wheelchair Access,Small,,
+TransportationServices,Insurance Options,Insurance Waiver,Optional,Checkbox,"""Unchecked""",Small,"""Check to waive""","""Waive insurance?"""
+TransportationServices,Special Services,Hazardous Materials,Mandatory,Checkbox,"""Unchecked""",Small,"""Check if applicable""","""Hazardous materials"""
+TransportationServices,Special Services,Fragile Items,Mandatory,Checkbox,"""Unchecked""",Small,"""Check if applicable""","""Fragile items"""
+TransportationServices,Special Services,Oversized Cargo,Mandatory,Checkbox,"""Unchecked""",Small,"""Check if applicable""","""Oversized cargo"""
+TransportationServices,Special Services,Live Animals,Optional,Checkbox,"""Unchecked""",Small,"""Check if applicable""","""Live animals"""
+TransportationServices,Special Services,Temperature-Controlled,Optional,Checkbox,"""Unchecked""",Small,"""Check if applicable""","""Temperature control"""
+TransportationServices,Special Services,Customs Clearance,Optional,Checkbox,"""Unchecked""",Small,"""Check if applicable""","""Customs clearance"""
+TransportationServices,Vehicle Options,Amenities,Mandatory,Checkbox,"""Wi-Fi, AC""",Medium,"""Select amenities""","""Amenities"""
+TransportationServices,Vehicle Options,Safety Features,Optional,Checkbox,"""Airbags, ABS""",Medium,"""Select safety features""","""Safety Features"""
+TransportationServices,Feedback and Reviews,Tags,Optional,Checkbox,"""Positive, Quick""",Medium,"""Select tags""","""Tags"""
+TransportationServices,Pickup Scheduling Details,Additional Services,Optional,Checkbox,"""Gift wrap, Insurance""",Medium,"""Select additional services""","""Additional Services"""
+TransportationServices,Vehicle Selection & Management,Vehicle Features,Mandatory,Checkbox,"""Air Conditioning, GPS""",Medium,"""Select vehicle features""","""Vehicle Features"""
+TransportationServices,Vehicle Selection & Management,Safety Features,Optional,Checkbox,"""Airbags, ABS""",Medium,"""Select safety features""","""Safety Features"""
+TransportationServices,Vehicle Selection & Management,Air Conditioning,Optional,Checkbox,"""Available""",Small,"""Air conditioning available""","""Air Conditioning"""
+TransportationServices,Vehicle Selection & Management,GPS,Optional,Checkbox,"""Available""",Small,"""GPS available""","""GPS"""
+TransportationServices,Vehicle Selection & Management,Liftgate,Optional,Checkbox,"""Available""",Small,"""Liftgate available""","""Liftgate"""
+TransportationServices,Vehicle Selection & Management,Cargo Insurance,Optional,Checkbox,"""Available""",Small,"""Cargo insurance available""","""Cargo Insurance"""
+TransportationServices,Vehicle Selection & Management,Tracking,Optional,Checkbox,"""Available""",Small,"""Tracking available""","""Tracking"""
+TransportationServices,Route Planning & Optimization,Safety Measures,Mandatory,Checkbox,"""Seatbelts, Airbags""",Medium,"""Select safety measures""","""Safety Measures"""
+TransportationServices,Route Planning & Optimization,Hazardous Materials,Optional,Checkbox,"""Flammable, Toxic""",Medium,"""Select hazardous materials""","""Hazardous Materials"""
+TransportationServices,Transportation Cost Estimation,Hazardous Materials,Mandatory,Checkbox,Yes/No,-,Hazardous goods,Check if applicable
+TransportationServices,Transportation Cost Estimation,Dynamic Pricing,Optional,Checkbox,Yes/No,-,Dynamic pricing,Check if applicable
+TransportationServices,Transportation Support & Assistance,Chat Support,Optional,Checkbox,Checked/Unchecked,-,Chat support,Enable chat
+TransportationServices,Transportation Support & Assistance,Live Chat,Optional,Checkbox,Checked/Unchecked,-,Live chat,Enable live chat
+TransportationServices,Transport Options,Estimated Delivery Date,Mandatory,Date,"""2023-10-01""",Short,"""Select the estimated delivery date""","""Select Delivery Date"""
+TransportationServices,Insurance Options,Policy Duration,Mandatory,Date,"""1 year""",Small,,"""Enter duration"""
+TransportationServices,Customer Testimonials,Date,Mandatory,Date,"""2023-09-14""",Small,"""Select date""","""Date of testimonial"""
+TransportationServices,Customer Testimonials,Date,Optional,Date,"""2023-09-14""",Small,"""Select date""","""Date of testimonial"""
+TransportationServices,Special Offers,Validity Period,Mandatory,Date,"""2023-09-30""",Small,"""Select date""","""Validity period"""
+TransportationServices,Special Offers,Start Date,Mandatory,Date,"""2023-09-01""",Small,"""Select date""","""Start date"""
+TransportationServices,Special Offers,End Date,Mandatory,Date,"""2023-09-30""",Small,"""Select date""","""End date"""
+TransportationServices,Feedback and Reviews,Date,Mandatory,Date,"""2023-09-14""",Small,"""Select date""","""Date"""
+TransportationServices,Feedback and Reviews,Date,Optional,Date,"""2023-09-14""",Small,"""Select date""","""Date"""
+TransportationServices,Resource Center,Last Updated,Mandatory,Date,"""2023-09-14""",Small,"""Select last updated date""","""Last Updated"""
+TransportationServices,Resource Center,Date Published,Optional,Date,"""2023-01-01""",Small,"""Select published date""","""Date Published"""
+TransportationServices,Promotions and Offers,Validity Period,Mandatory,Date,"""2023-12-31""",Small,"""Select validity period""","""Validity Period"""
+TransportationServices,Promotions and Offers,Start Date,Mandatory,Date,"""2023-01-01""",Small,"""Select start date""","""Start Date"""
+TransportationServices,Promotions and Offers,End Date,Mandatory,Date,"""2023-12-31""",Small,"""Select end date""","""End Date"""
+TransportationServices,Frequently Asked Questions,Last Updated,Optional,Date,"""2023-09-14""",Small,"""Enter last updated date""","""Last Updated"""
+TransportationServices,Frequently Asked Questions,Date Added,Optional,Date,"""2023-01-01""",Small,"""Enter date added""","""Date Added"""
+TransportationServices,Frequently Asked Questions,Last Update,Optional,Date,"""2023-09-14""",Small,"""Enter last update date""","""Last Update"""
+TransportationServices,Pickup Scheduling Details,Pickup Date,Mandatory,Date,"""2023-09-15""",Small,"""Select pickup date""","""Pickup Date"""
+TransportationServices,Specialized Transportation Options,Availability,Optional,Date,01/01/2023,-,Availability,Select date
+TransportationServices,Pickup Scheduling Details,Pickup Date and Time,Mandatory,Date ,"""2023-09-15 14:30""",Medium,"""Select date and time""","""Pickup Date and Time"""
+TransportationServices,Route Planning & Optimization,Date and Time,Mandatory,Date ,"""2023-09-15 12:00 PM""",Medium,"""Select date and time""","""Date and Time"""
+TransportationServices,Transportation Cost Estimation,Date and Time,Mandatory,Date ,"""2023-09-14 12:00""",-,Date and Time,Select date-time
+TransportationServices,Transport Options,Transport Type,Mandatory,Dropdown,"""Air""",Short,"""Select the type of transport""","""Select Transport Type"""
+TransportationServices,Transport Options,Temperature Control,Optional,Dropdown,20-25°C,Small,,
+TransportationServices,Transport Options,Distribution,Optional,Dropdown,Air,Small,,
+TransportationServices,Transport Options,Logistics Solutions,Optional,Dropdown,3PL,Small,,
+TransportationServices,Insurance Options,Insurance Type,Mandatory,Dropdown,"""Liability""",Medium,,"""Select type"""
+TransportationServices,Special Services,Service Type,Mandatory,Dropdown,"""VIP""",Small,"""Select service""","""Choose a service"""
+TransportationServices,Customer Testimonials,Service Used,Mandatory,Dropdown,"""Cargo""",Small,"""Select service""","""Service used"""
+TransportationServices,Customer Testimonials,Rating,Optional,Dropdown,"""5""",Small,"""Select rating""","""Your rating"""
+TransportationServices,Customer Testimonials,Rating,Optional,Dropdown,"""5""",Small,"""Select rating""","""Your rating"""
+TransportationServices,Vehicle Options,Vehicle Type,Mandatory,Dropdown,"""Sedan""",Medium,"""Select vehicle type""","""Vehicle Type"""
+TransportationServices,Vehicle Options,Availability,Mandatory,Dropdown,"""Available""",Medium,"""Select availability""","""Availability"""
+TransportationServices,Vehicle Options,Fuel Type,Optional,Dropdown,"""Diesel""",Medium,"""Select fuel type""","""Fuel Type"""
+TransportationServices,Vehicle Options,Air Conditioning,Optional,Dropdown,"""Available""",Medium,"""Select AC availability""","""Air Conditioning"""
+TransportationServices,Vehicle Options,GPS,Optional,Dropdown,"""Available""",Medium,"""Select GPS availability""","""GPS"""
+TransportationServices,Vehicle Options,Liftgate,Optional,Dropdown,"""Available""",Medium,"""Select liftgate availability""","""Liftgate"""
+TransportationServices,Vehicle Options,Cargo Insurance,Optional,Dropdown,"""Available""",Medium,"""Select insurance availability""","""Cargo Insurance"""
+TransportationServices,Feedback and Reviews,Service Used,Mandatory,Dropdown,"""Cargo""",Medium,"""Select service used""","""Service Used"""
+TransportationServices,Feedback and Reviews,Rating,Mandatory,Dropdown,"""5""",Small,"""Select your rating""","""Rating"""
+TransportationServices,Feedback and Reviews,Rating,Optional,Dropdown,"""4""",Small,"""Select your rating""","""Rating"""
+TransportationServices,Resource Center,Resource Type,Mandatory,Dropdown,"""PDF""",Small,"""Select resource type""","""Resource Type"""
+TransportationServices,Resource Center,Language,Optional,Dropdown,"""English""",Small,"""Select language""","""Language"""
+TransportationServices,Frequently Asked Questions,Category,Mandatory,Dropdown,"""Pricing""",Small,"""Select category""","""Category"""
+TransportationServices,Frequently Asked Questions,Category,Optional,Dropdown,"""Pricing""",Small,"""Select category""","""Category"""
+TransportationServices,Pickup Scheduling Details,Payment Method,Mandatory,Dropdown,"""Credit Card""",Small,"""Select payment method""","""Payment Method"""
+TransportationServices,Pickup Scheduling Details,Vehicle Preference,Optional,Dropdown,"""Sedan""",Small,"""Select preferred vehicle""","""Vehicle Preference"""
+TransportationServices,Pickup Scheduling Details,Payment Method,Optional,Dropdown,"""PayPal""",Small,"""Select alternate payment""","""Alternate Payment Method"""
+TransportationServices,Vehicle Selection & Management,Vehicle Type,Mandatory,Dropdown,"""Sedan""",Small,"""Select vehicle type""","""Vehicle Type"""
+TransportationServices,Vehicle Selection & Management,Availability,Mandatory,Dropdown,"""Available""",Small,"""Select availability status""","""Availability"""
+TransportationServices,Vehicle Selection & Management,Fuel Type,Optional,Dropdown,"""Diesel""",Small,"""Select fuel type""","""Fuel Type"""
+TransportationServices,Route Planning & Optimization,Route Options,Mandatory,Dropdown,"""Fastest, Scenic""",Small,"""Select a route option""","""Route Options"""
+TransportationServices,Route Planning & Optimization,Alternate Routes,Optional,Dropdown,"""Scenic, Shortest""",Small,"""Select an alternate route""","""Alternate Routes"""
+TransportationServices,Transportation Cost Estimation,Estimation Method,Mandatory,Dropdown,"""Flat rate, Dynamic rate""",-,Select method,Choose method
+TransportationServices,Transportation Cost Estimation,Payment Options,Optional,Dropdown,"""Credit Card, Cash""",-,Payment options,Choose method
+TransportationServices,Transportation Cost Estimation,Transportation Mode,Optional,Dropdown,"""Car, Train""",-,Mode of transport,Choose mode
+TransportationServices,Transportation Cost Estimation,Insurance,Optional,Dropdown,"""Full, Partial""",-,Insurance options,Choose option
+TransportationServices,Transportation Support & Assistance,Support Type,Mandatory,Dropdown,"""Technical, Billing""",-,Support type,Choose type
+TransportationServices,Transportation Support & Assistance,Self-Service Options,Optional,Dropdown,"""FAQ, Guide""",-,Self-service,Choose option
+TransportationServices,Transportation Support & Assistance,Language Support,Optional,Dropdown,"""English, Spanish""",-,Language support,Choose language
+TransportationServices,Pickup Locations,Email Address,Optional,Email,example@email.com,Medium,,
+TransportationServices,Pickup Locations,Pickup Contact Email Address,Optional,Email,contact@email.com,Medium,,
+TransportationServices,Contact Information,Email,Mandatory,Email,john.doe@example.com,Medium,,
+TransportationServices,Contact Information,Email Address,Optional,Email,info@example.com,Medium,,
+TransportationServices,Transportation Support & Assistance,Customer Support Email Address,Mandatory,Email,"""support@example.com""",50 characters,Email address,Enter email
+TransportationServices,Vehicle Selection & Management,Vehicle Images,Optional,File,,Medium,"""Upload vehicle images""","""Choose File"""
+TransportationServices,Transportation Compliance,Compliance Certificates,Mandatory,File,"""certificate.pdf""",Medium,"""Upload compliance certificates""","""Compliance Certificates"""
+TransportationServices,Transportation Compliance,Audit Records,Mandatory,File,"""audit_record.pdf""",Medium,"""Upload audit records""","""Audit Records"""
+TransportationServices,Specialized Transportation Options,Service Images,Optional,File,"""image.jpg""",Medium,"""Upload service images""","""Service Images"""
+TransportationServices,Specialized Transportation Options,Service Images,Optional,File,"JPEG, PNG",5MB,Upload images,Choose files
+TransportationServices,Special Services,Required Documents,Optional,File,"""PDF""",Medium,"""Upload documents""","""Required documents"""
+TransportationServices,Special Services,Documentation,Optional,File,"""PDF""",Medium,"""Upload documents""","""Additional docs"""
+TransportationServices,Customer Testimonials,Customer Photo,Optional,File,"""image.jpg""",Medium,"""Upload photo""","""Customer's photo"""
+TransportationServices,Customer Testimonials,Video Testimonial,Optional,File,"""video.mp4""",Large,"""Upload video""","""Your video"""
+TransportationServices,Customer Testimonials,Image,Optional,File,"""image2.jpg""",Medium,"""Upload image""","""Additional image"""
+TransportationServices,Special Offers,Image,Optional,File,"""image.jpg""",,"""Upload image""","""Offer image"""
+TransportationServices,Feedback and Reviews,Customer Photo,Optional,File,"""john_doe.jpg""",Medium,"""Upload your photo""","""Customer Photo"""
+TransportationServices,Feedback and Reviews,Image,Optional,File,"""review_image.jpg""",Medium,"""Upload an image""","""Image"""
+TransportationServices,Promotions and Offers,Image,Optional,File,"""offer.jpg""",Large,"""Upload image""","""Image"""
+TransportationServices,Transport Options,Weight,Mandatory,Number,"""200""",Short,"""Enter the weight in kg""","""Enter Weight"""
+TransportationServices,Pickup Locations,Contact Number,Mandatory,Number,#ERROR!,Medium,,
+TransportationServices,Pickup Locations,Pickup Zip Code,Mandatory,Number,10001,Small,,
+TransportationServices,Pickup Locations,Pickup Contact Phone Number,Optional,Number,#ERROR!,Medium,,
+TransportationServices,Airport Destinations,Contact Number,Mandatory,Number,#ERROR!,Medium,,
+TransportationServices,Airport Destinations,GMT Offset,Optional,Number,,Small,,
+TransportationServices,Airport Destinations,Elevation,Optional,Number,13m,Small,,
+TransportationServices,Insurance Options,Coverage Amount,Mandatory,Number,"""100000""",Small,,"""Enter amount"""
+TransportationServices,Insurance Options,Insurance Cost,Mandatory,Number,"""200""",Small,,"""Enter cost"""
+TransportationServices,Insurance Options,Deductibles,Optional,Number,"""500""",Small,"""Enter deductible""","""Your deductible"""
+TransportationServices,Insurance Options,Insurance Deductible,Optional,Number,"""1000""",Small,"""Enter deductible""","""Specific deductible"""
+TransportationServices,Special Services,Pricing,Mandatory,Number,"""200""",Small,"""Enter price""","""Cost of service"""
+TransportationServices,Special Services,Additional Costs,Optional,Number,"""50""",Small,"""Enter extra cost""","""Additional costs"""
+TransportationServices,Special Offers,Discount Percentage,Optional,Number,"""10""",Small,"""Enter percentage""","""Discount %"""
+TransportationServices,Special Offers,Discount,Optional,Number,"""20""",Small,"""Enter amount""","""Discount amount"""
+TransportationServices,Vehicle Options,Seating Capacity,Mandatory,Number,"""4""",Small,"""Enter seating capacity""","""Seating Capacity"""
+TransportationServices,Vehicle Options,Luggage Capacity,Mandatory,Number,"""2""",Small,"""Enter luggage capacity""","""Luggage Capacity"""
+TransportationServices,Vehicle Options,Capacity,Mandatory,Number,"""4""",Small,"""Enter overall capacity""","""Overall Capacity"""
+TransportationServices,Vehicle Options,Pricing,Optional,Number,"""50""",Small,"""Enter pricing""","""Pricing"""
+TransportationServices,Resource Center,User Ratings,Optional,Number,"""4.5""",Small,"""Enter user ratings""","""User Ratings"""
+TransportationServices,Promotions and Offers,Discount Percentage,Optional,Number,"""50""",Small,"""Enter discount %""","""Discount Percentage"""
+TransportationServices,Promotions and Offers,Discount,Optional,Number,"""10""",Small,"""Enter discount amount""","""Discount"""
+TransportationServices,Frequently Asked Questions,User Ratings,Optional,Number,"""4.5""",Small,"""Enter user ratings""","""User Ratings"""
+TransportationServices,Pickup Scheduling Details,Contact Number,Mandatory,Number,"""123-456-7890""",Medium,"""Enter contact number""","""Contact Number"""
+TransportationServices,Pickup Scheduling Details,Contact Phone Number,Mandatory,Number,"""098-765-4321""",Medium,"""Enter phone number""","""Contact Phone Number"""
+TransportationServices,Vehicle Selection & Management,Pricing,Mandatory,Number,"""50""",Small,"""Enter pricing details""","""Pricing"""
+TransportationServices,Vehicle Selection & Management,Capacity,Mandatory,Number,"""5""",Small,"""Enter vehicle capacity""","""Capacity"""
+TransportationServices,Vehicle Selection & Management,Fuel Efficiency,Optional,Number,"""25 MPG""",Small,"""Enter fuel efficiency""","""Fuel Efficiency"""
+TransportationServices,Route Planning & Optimization,Cost Estimates,Mandatory,Number,"""$50""",Small,"""Enter cost estimates""","""Cost Estimates"""
+TransportationServices,Route Planning & Optimization,Weight and Dimensions,Optional,Number,"""200 lbs, 4x4 ft""",Small,"""Enter weight and dimensions""","""Weight and Dimensions"""
+TransportationServices,Route Planning & Optimization,Budget,Optional,Number,"""$1000""",Small,"""Enter budget""","""Budget"""
+TransportationServices,Real-Time Tracking & Monitoring,Speed Monitoring,Optional,Number,"""60""",Small,"""Enter current speed""","""Speed Monitoring"""
+TransportationServices,Specialized Transportation Options,Pricing,Optional,Number,100,-,Pricing,Enter amount
+TransportationServices,Transportation Cost Estimation,Base Fare,Mandatory,Number,50,-,Base fare,Enter amount
+TransportationServices,Transportation Cost Estimation,Additional Costs,Mandatory,Number,10,-,Additional costs,Enter amount
+TransportationServices,Transportation Cost Estimation,Discounts,Mandatory,Number,5,-,Discounts,Enter amount
+TransportationServices,Transportation Cost Estimation,Total Estimated Cost,Mandatory,Number,65,-,Total cost,Enter amount
+TransportationServices,Transportation Support & Assistance,Customer Support Phone Number,Mandatory,Number,"""123-456-7890""",12 characters,Phone number,Enter number
+TransportationServices,Transport Options,Origin,Mandatory,Text,"""New York""",Medium,"""Enter the origin location""","""Enter Origin"""
+TransportationServices,Transport Options,Destination,Mandatory,Text,"""San Francisco""",Medium,"""Enter the destination location""","""Enter Destination"""
+TransportationServices,Transport Options,Dimensions,Mandatory,Text,"""10x10x10""",Short,"""Enter dimensions in LxWxH format""","""Enter Dimensions"""
+TransportationServices,Transport Options,Freight Forwarder,Mandatory,Text,"""XYZ Freight""",Medium,"""Enter the name of the freight forwarder""","""Enter Forwarder Name"""
+TransportationServices,Transport Options,Special Instructions,Optional,Text,,Medium,,
+TransportationServices,Transport Options,Insurance Coverage,Optional,Text,Basic,Small,,
+TransportationServices,Transport Options,Warehouse,Optional,Text,WH123,Small,,
+TransportationServices,Pickup Locations,Location Name,Mandatory,Text,Main Warehouse,Medium,,
+TransportationServices,Pickup Locations,Address,Mandatory,Text,123 Main St,Large,,
+TransportationServices,Pickup Locations,Operating Hours,Mandatory,Text,9:00 AM - 5:00 PM,Medium,,
+TransportationServices,Pickup Locations,Pickup Location Name,Mandatory,Text,Secondary Warehouse,Medium,,
+TransportationServices,Pickup Locations,Pickup Address,Mandatory,Text,456 Secondary St,Large,,
+TransportationServices,Pickup Locations,Pickup City,Mandatory,Text,New York,Medium,,
+TransportationServices,Pickup Locations,Pickup State,Mandatory,Text,NY,Small,,
+TransportationServices,Pickup Locations,Map Coordinates,Optional,Text,"40.7128, -74.0060",Medium,,
+TransportationServices,Pickup Locations,Special Instructions,Optional,Text,Near the back door,Large,,
+TransportationServices,Pickup Locations,Pickup Contact Name,Optional,Text,John Doe,Medium,,
+TransportationServices,Airport Destinations,Airport Name,Mandatory,Text,JFK International,Medium,,
+TransportationServices,Airport Destinations,Airport Code,Mandatory,Text,JFK,Small,,
+TransportationServices,Airport Destinations,Address,Mandatory,Text,123 Airport Rd,Large,,
+TransportationServices,Airport Destinations,Operating Hours,Mandatory,Text,9:00 AM - 5:00 PM,Medium,,
+TransportationServices,Airport Destinations,City,Mandatory,Text,New York,Medium,,
+TransportationServices,Airport Destinations,State,Mandatory,Text,New York,Medium,,
+TransportationServices,Airport Destinations,Country,Mandatory,Text,USA,Medium,,
+TransportationServices,Airport Destinations,Terminal Information,Optional,Text,"Terminal 1, 2, 3",Medium,,
+TransportationServices,Airport Destinations,Special Instructions,Optional,Text,Follow signs,Medium,,
+TransportationServices,Airport Destinations,Parking Options,Optional,Text,"Short-term, Long-term",Medium,,
+TransportationServices,Airport Destinations,Accessibility Features,Optional,Text,Wheelchair access,Medium,,
+TransportationServices,Airport Destinations,Nearby Amenities,Optional,Text,"Hotels, Restaurants",Medium,,
+TransportationServices,Airport Destinations,IATA Code,Optional,Text,JFK,Small,,
+TransportationServices,Airport Destinations,ICAO Code,Optional,Text,KJFK,Small,,
+TransportationServices,Airport Destinations,Timezone,Optional,Text,EST,Small,,
+TransportationServices,Airport Destinations,Time Zone,Optional,Text,Eastern Time,Medium,,
+TransportationServices,Contact Information,Location Name,Mandatory,Text,Main Office,Medium,,
+TransportationServices,Contact Information,Address,Mandatory,Text,123 Main St,Medium,,
+TransportationServices,Contact Information,Operating Hours,Mandatory,Text,9am-5pm,Medium,,
+TransportationServices,Contact Information,Contact Number,Mandatory,Text,#ERROR!,Medium,,
+TransportationServices,Contact Information,Accessibility Features,Mandatory,Text,Wheelchair access,Medium,,
+TransportationServices,Contact Information,Name,Mandatory,Text,John Doe,Medium,,
+TransportationServices,Contact Information,Map Coordinates,Optional,Text,"40.7128, -74.0060",Medium,,
+TransportationServices,Contact Information,Special Instructions,Optional,Text,Near the back entrance,Medium,,
+TransportationServices,Contact Information,Social Media Links,Optional,Text,@example,Medium,,
+TransportationServices,Contact Information,Phone Number,Optional,Text,#ERROR!,Medium,,
+TransportationServices,Contact Information,Company Name,Optional,Text,Example Corp.,Medium,,
+TransportationServices,Contact Information,Address,Optional,Text,456 Secondary St,Medium,,
+TransportationServices,Contact Information,City,Optional,Text,New York,Medium,,
+TransportationServices,Contact Information,State,Optional,Text,NY,Medium,,
+TransportationServices,Contact Information,Zip Code,Optional,Text,10001,Medium,,
+TransportationServices,Contact Information,Country,Optional,Text,USA,Medium,,
+TransportationServices,Terms and Conditions,Introduction,Mandatory,Text,Welcome to our service,Large,,
+TransportationServices,Terms and Conditions,Scope of Services,Mandatory,Text,We offer XYZ,Large,,
+TransportationServices,Terms and Conditions,Payment Terms,Mandatory,Text,Pay within 30 days,Large,,
+TransportationServices,Terms and Conditions,Cancellation Policy,Mandatory,Text,No refunds after 24h,Large,,
+TransportationServices,Terms and Conditions,Liability Limitations,Mandatory,Text,Not liable for XYZ,Large,,
+TransportationServices,Terms and Conditions,Governing Law,Mandatory,Text,Laws of NY apply,Medium,,
+TransportationServices,Terms and Conditions,Shipping Policy,Mandatory,Text,Ships within 3 days,Large,,
+TransportationServices,Terms and Conditions,Refund Policy,Mandatory,Text,Refunds within 7 days,Large,,
+TransportationServices,Terms and Conditions,Privacy Policy,Mandatory,Text,We protect your data,Large,,
+TransportationServices,Terms and Conditions,Security Policy,Mandatory,Text,Secure servers used,Large,,
+TransportationServices,Terms and Conditions,Privacy Policy,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Dispute Resolution,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Amendment Clause,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Force Majeure,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Customer Responsibilities,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Dispute Resolution Policy,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Warranty Policy,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Force Majeure Clause,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Terms and Conditions,Other Terms and Conditions,Optional,Text,"""Read More""",Medium,,"""Click to read"""
+TransportationServices,Insurance Options,Exclusions,Mandatory,Text,,Medium,,"""Enter exclusions"""
+TransportationServices,Insurance Options,Claim Process,Mandatory,Text,"""Online""",Medium,,"""Enter process"""
+TransportationServices,Insurance Options,Insurance Coverage,Mandatory,Text,"""Full""",Medium,,"""Enter coverage"""
+TransportationServices,Insurance Options,Additional Coverage,Optional,Text,"""Flood""",Medium,"""Enter coverage""","""Additional options"""
+TransportationServices,Insurance Options,Discounts,Optional,Text,"""Early bird""",Small,"""Enter discounts""","""Available discounts"""
+TransportationServices,Insurance Options,FAQs,Optional,Text,,Large,"""Enter FAQs""","""FAQs about policy"""
+TransportationServices,Insurance Options,Contact for Queries,Optional,Text,"""Email""",Medium,"""Enter contact""","""Contact details"""
+TransportationServices,Insurance Options,Insurance Limitations,Optional,Text,,Medium,"""Enter limitations""","""Policy limitations"""
+TransportationServices,Special Services,Eligibility Criteria,Mandatory,Text,"""Membership""",Medium,"""Enter criteria""","""Eligibility rules"""
+TransportationServices,Special Services,Booking Process,Mandatory,Text,"""Online""",Medium,"""Enter process""","""How to book"""
+TransportationServices,Special Services,Limitations,Mandatory,Text,"""Weight""",Medium,"""Enter limitations""","""Service limitations"""
+TransportationServices,Special Services,Availability,Optional,Text,"""24/7""",Small,"""Enter availability""","""Available times"""
+TransportationServices,Special Services,Customer Reviews,Optional,Text,"""Good""",Medium,"""Enter reviews""","""Customer reviews"""
+TransportationServices,Special Services,Contact for More Info,Optional,Text,"""Email""",Small,"""Enter contact""","""More info contact"""
+TransportationServices,Customer Testimonials,Customer Name,Mandatory,Text,"""John Doe""",Small,"""Enter your name""","""Customer's name"""
+TransportationServices,Customer Testimonials,Testimonial Text,Mandatory,Text,"""Great service""",Medium,"""Enter testimonial""","""Your testimonial"""
+TransportationServices,Customer Testimonials,Customer Name,Mandatory,Text,"""John Doe""",Small,"""Enter your name""","""Customer's name"""
+TransportationServices,Customer Testimonials,Testimonial,Mandatory,Text,"""Great service""",Medium,"""Enter testimonial""","""Your testimonial"""
+TransportationServices,Customer Testimonials,Location,Optional,Text,"""New York""",Small,"""Enter location""","""Your location"""
+TransportationServices,Customer Testimonials,Company Name,Optional,Text,"""ABC Corp""",Small,"""Enter company""","""Company name"""
+TransportationServices,Customer Testimonials,Job Title,Optional,Text,"""Manager""",Small,"""Enter title""","""Your title"""
+TransportationServices,Special Offers,Offer Title,Mandatory,Text,"""Summer Sale""",Medium,"""Enter title""","""Offer title"""
+TransportationServices,Special Offers,Offer Description,Mandatory,Text,"""50% off""",Large,"""Enter description""","""Offer description"""
+TransportationServices,Special Offers,Terms and Conditions,Mandatory,Text,"""T&C Apply""",Large,"""Enter terms""","""Terms & Conditions"""
+TransportationServices,Special Offers,Offer Name,Mandatory,Text,"""Summer2023""",Medium,"""Enter name""","""Offer name"""
+TransportationServices,Special Offers,Description,Mandatory,Text,"""Discounts""",Medium,"""Enter description""","""Brief description"""
+TransportationServices,Special Offers,Promo Code,Optional,Text,"""SUMMER21""",Small,"""Enter code""","""Promo code"""
+TransportationServices,Special Offers,Eligibility Criteria,Optional,Text,"""New Users""",Medium,"""Enter criteria""","""Eligibility"""
+TransportationServices,Special Offers,Additional Benefits,Optional,Text,"""Free shipping""",Medium,"""Enter benefits""","""Additional benefits"""
+TransportationServices,Special Offers,How to Redeem,Optional,Text,"""Use code""",Large,"""Enter steps""","""How to redeem"""
+TransportationServices,Special Offers,Conditions,Optional,Text,"""Min. purchase""",Medium,"""Enter conditions""","""Offer conditions"""
+TransportationServices,Special Offers,Restrictions,Optional,Text,"""Not on sale""",Medium,"""Enter restrictions""","""Offer restrictions"""
+TransportationServices,Safety Measures,Safety Protocols,Mandatory,Text,"""Wear masks""",Medium,"""Enter protocols""","""Safety protocols"""
+TransportationServices,Safety Measures,Vehicle Sanitization,Mandatory,Text,"""Daily cleaning""",Medium,"""Enter sanitization""","""Vehicle sanitization"""
+TransportationServices,Safety Measures,Driver Training,Mandatory,Text,"""First Aid""",Medium,"""Enter training""","""Driver training"""
+TransportationServices,Safety Measures,Passenger Guidelines,Mandatory,Text,"""No smoking""",Medium,"""Enter guidelines""","""Passenger guidelines"""
+TransportationServices,Safety Measures,Emergency Contact,Mandatory,Text,"""911""",Small,"""Enter contact""","""Emergency contact"""
+TransportationServices,Safety Measures,Hazardous Materials,Mandatory,Text,"""Flammable""",Medium,"""Enter materials""","""Hazardous materials"""
+TransportationServices,Safety Measures,Fragile Items,Mandatory,Text,"""Handle with care""",Medium,"""Enter items""","""Fragile items"""
+TransportationServices,Safety Measures,Oversized Cargo,Mandatory,Text,"""Extra fees""",Medium,"""Enter cargo""","""Oversized cargo"""
+TransportationServices,Safety Measures,Safety Precautions,Mandatory,Text,"""Seat belts""",Medium,"""Enter precautions""","""Safety precautions"""
+TransportationServices,Safety Measures,Emergency Contact Information,Mandatory,Text,"""Fire Dept.""",Medium,"""Enter emergency info""","""Emergency contact info"""
+TransportationServices,Safety Measures,Certifications,Optional,Text,"""ISO 9001""",Medium,"""Enter certifications""","""Certifications"""
+TransportationServices,Safety Measures,Equipment,Optional,Text,"""Fire extinguisher""",Medium,"""Enter equipment""","""Equipment"""
+TransportationServices,Safety Measures,Inspections,Optional,Text,"""Monthly""",Medium,"""Enter inspections""","""Inspections"""
+TransportationServices,Safety Measures,Customer Reviews,Optional,Text,"""Excellent""",Medium,"""Enter reviews""","""Customer reviews"""
+TransportationServices,Safety Measures,FAQs,Optional,Text,"""What is the protocol?""",Medium,"""Enter FAQs""","""FAQs"""
+TransportationServices,Safety Measures,Live Animals,Optional,Text,"""Not allowed""",Medium,"""Enter policy""","""Live animals"""
+TransportationServices,Safety Measures,Temperature-Controlled,Optional,Text,"""Yes""",Medium,"""Enter features""","""Temperature-Controlled"""
+TransportationServices,Safety Measures,Customs Clearance,Optional,Text,"""Required""",Medium,"""Enter procedures""","""Customs clearance"""
+TransportationServices,Safety Measures,Documentation,Optional,Text,"""Safety manual""",Medium,"""Enter documentation""","""Documentation"""
+TransportationServices,Vehicle Options,Dimensions,Mandatory,Text,"""L: 5m, W: 2m, H: 2m""",Medium,"""Enter dimensions""","""Dimensions"""
+TransportationServices,Vehicle Options,Fuel Efficiency,Optional,Text,"""30 MPG""",Small,"""Enter fuel efficiency""","""Fuel Efficiency"""
+TransportationServices,Vehicle Options,Special Requirements,Optional,Text,"""Child seat""",Medium,"""Enter special requirements""","""Special Requirements"""
+TransportationServices,Vehicle Options,Customer Reviews,Optional,Text,"""Great service!""",Large,"""Enter customer reviews""","""Customer Reviews"""
+TransportationServices,Feedback and Reviews,Customer Name,Mandatory,Text,"""John Doe""",Small,"""Enter your name""","""Customer Name"""
+TransportationServices,Feedback and Reviews,Feedback/Review Text,Mandatory,Text,"""Great service!""",Large,"""Enter your feedback""","""Feedback/Review Text"""
+TransportationServices,Feedback and Reviews,Name,Mandatory,Text,"""Jane Doe""",Small,"""Enter your name""","""Name"""
+TransportationServices,Feedback and Reviews,Review,Mandatory,Text,"""Excellent service!""",Large,"""Enter your review""","""Review"""
+TransportationServices,Feedback and Reviews,Location,Optional,Text,"""New York, NY""",Small,"""Enter your location""","""Location"""
+TransportationServices,Feedback and Reviews,Response from Company,Optional,Text,"""Thank you for your feedback!""",Large,"""Company's response""","""Response from Company"""
+TransportationServices,Feedback and Reviews,Company Name,Optional,Text,"""TechCorp""",Small,"""Enter company name""","""Company Name"""
+TransportationServices,Feedback and Reviews,Job Title,Optional,Text,"""Manager""",Small,"""Enter your job title""","""Job Title"""
+TransportationServices,Resource Center,Resource Title,Mandatory,Text,"""Safety Guide""",Medium,"""Enter resource title""","""Resource Title"""
+TransportationServices,Resource Center,Description,Mandatory,Text,"""A guide on safety""",Large,"""Enter description""","""Description"""
+TransportationServices,Resource Center,Download/Access Link,Mandatory,Text,"""https://example.com""",Medium,"""Enter download link""","""Download/Access Link"""
+TransportationServices,Resource Center,Resource Name,Mandatory,Text,"""Guide1""",Small,"""Enter resource name""","""Resource Name"""
+TransportationServices,Resource Center,Description,Mandatory,Text,"""Safety protocols""",Large,"""Enter additional description""","""Additional Description"""
+TransportationServices,Resource Center,Link,Mandatory,Text,"""https://altlink.com""",Medium,"""Enter alternate link""","""Alternate Link"""
+TransportationServices,Resource Center,Author/Source,Optional,Text,"""John Doe""",Small,"""Enter author/source""","""Author/Source"""
+TransportationServices,Resource Center,Tags,Optional,Text,"""Safety, Guide""",Small,"""Enter tags""","""Tags"""
+TransportationServices,Resource Center,Related Resources,Optional,Text,"""https://related.com""",Medium,"""Enter related resources""","""Related Resources"""
+TransportationServices,Resource Center,Author,Optional,Text,"""J. Doe""",Small,"""Enter alternate author name""","""Alternate Author"""
+TransportationServices,Promotions and Offers,Promotion/Offer Title,Mandatory,Text,"""Winter Sale""",Medium,"""Enter promotion title""","""Promotion/Offer Title"""
+TransportationServices,Promotions and Offers,Description,Mandatory,Text,"""50% off on all items""",Medium,"""Enter description""","""Description"""
+TransportationServices,Promotions and Offers,Terms and Conditions,Mandatory,Text,"""T&C Apply""",Large,"""Enter terms""","""Terms and Conditions"""
+TransportationServices,Promotions and Offers,Offer Name,Mandatory,Text,"""Winter2023""",Small,"""Enter offer name""","""Offer Name"""
+TransportationServices,Promotions and Offers,Description,Mandatory,Text,"""Half Price Sale""",Medium,"""Enter description""","""Description"""
+TransportationServices,Promotions and Offers,Promo Code,Optional,Text,"""WINTER50""",Small,"""Enter promo code""","""Promo Code"""
+TransportationServices,Promotions and Offers,Eligibility Criteria,Optional,Text,"""New Users Only""",Medium,"""Enter criteria""","""Eligibility Criteria"""
+TransportationServices,Promotions and Offers,Additional Benefits,Optional,Text,"""Free Shipping""",Medium,"""Enter benefits""","""Additional Benefits"""
+TransportationServices,Promotions and Offers,How to Redeem,Optional,Text,"""Use Code at Checkout""",Medium,"""Enter redeem steps""","""How to Redeem"""
+TransportationServices,Promotions and Offers,Conditions,Optional,Text,"""Min Purchase $50""",Medium,"""Enter conditions""","""Conditions"""
+TransportationServices,Promotions and Offers,Restrictions,Optional,Text,"""Not Valid on Sale""",Medium,"""Enter restrictions""","""Restrictions"""
+TransportationServices,Frequently Asked Questions,Question,Mandatory,Text,"""What is your refund policy?""",Medium,"""Enter question""","""Question"""
+TransportationServices,Frequently Asked Questions,Answer,Mandatory,Text,"""We offer a 30-day refund policy.""",Large,"""Enter answer""","""Answer"""
+TransportationServices,Frequently Asked Questions,Question,Mandatory,Text,"""How do I contact support?""",Medium,"""Enter question""","""Question"""
+TransportationServices,Frequently Asked Questions,Answer,Mandatory,Text,"""You can contact us at support@example.com.""",Large,"""Enter answer""","""Answer"""
+TransportationServices,Frequently Asked Questions,Related Questions,Optional,Text,"""See also: Refund Policy""",Medium,"""Enter related questions""","""Related Questions"""
+TransportationServices,Frequently Asked Questions,Tags,Optional,Text,"""Pricing, Refund""",Small,"""Enter tags""","""Tags"""
+TransportationServices,Frequently Asked Questions,Source,Optional,Text,"""Customer Service""",Medium,"""Enter source""","""Source"""
+TransportationServices,Frequently Asked Questions,Tags,Optional,Text,"""Support, Contact""",Small,"""Enter tags""","""Tags"""
+TransportationServices,Pickup Scheduling Details,Pickup Location,Mandatory,Text,"""123 Main St""",Medium,"""Enter pickup location""","""Pickup Location"""
+TransportationServices,Pickup Scheduling Details,Contact Name,Mandatory,Text,"""John Doe""",Medium,"""Enter contact name""","""Contact Name"""
+TransportationServices,Pickup Scheduling Details,Package Details,Mandatory,Text,"""2 boxes, fragile""",Large,"""Enter package details""","""Package Details"""
+TransportationServices,Pickup Scheduling Details,Contact Person,Mandatory,Text,"""Jane Doe""",Medium,"""Enter contact person""","""Contact Person"""
+TransportationServices,Pickup Scheduling Details,Special Instructions,Optional,Text,"""Handle with care""",Medium,"""Enter special instructions""","""Special Instructions"""
+TransportationServices,Pickup Scheduling Details,Alternate Contact,Optional,Text,"""Emily""",Medium,"""Enter alternate contact""","""Alternate Contact"""
+TransportationServices,Pickup Scheduling Details,Promo Code,Optional,Text,"""PROMO123""",Small,"""Enter promo code""","""Promo Code"""
+TransportationServices,Pickup Scheduling Details,Pickup Instructions,Optional,Text,"""Ring doorbell""",Medium,"""Enter pickup instructions""","""Pickup Instructions"""
+TransportationServices,Pickup Scheduling Details,Additional Information,Optional,Text,"""2 large boxes""",Large,"""Enter additional info""","""Additional Information"""
+TransportationServices,Vehicle Selection & Management,Booking Process,Mandatory,Text,"""Online Booking""",Medium,"""Enter booking process""","""Booking Process"""
+TransportationServices,Vehicle Selection & Management,Dimensions,Mandatory,Text,"""5x2x2 meters""",Medium,"""Enter vehicle dimensions""","""Dimensions"""
+TransportationServices,Vehicle Selection & Management,Special Requirements,Optional,Text,"""Pet-friendly""",Medium,"""Enter special requirements""","""Special Requirements"""
+TransportationServices,Vehicle Selection & Management,Customer Reviews,Optional,Text,"""Great service!""",Large,"""Enter customer reviews""","""Customer Reviews"""
+TransportationServices,Vehicle Selection & Management,Maintenance Schedule,Optional,Text,"""Bi-weekly""",Medium,"""Enter maintenance schedule""","""Maintenance Schedule"""
+TransportationServices,Vehicle Selection & Management,Driver Information,Optional,Text,"""John Doe, 5 years exp""",Medium,"""Enter driver information""","""Driver Information"""
+TransportationServices,Route Planning & Optimization,Estimated Time,Mandatory,Text,"""2 hrs 30 mins""",Small,"""Enter estimated time""","""Estimated Time"""
+TransportationServices,Route Planning & Optimization,Traffic Conditions,Mandatory,Text,"""Moderate""",Small,"""Enter traffic conditions""","""Traffic Conditions"""
+TransportationServices,Route Planning & Optimization,Start Location,Mandatory,Text,"""New York""",Medium,"""Enter start location""","""Start Location"""
+TransportationServices,Route Planning & Optimization,End Location,Mandatory,Text,"""San Francisco""",Medium,"""Enter end location""","""End Location"""
+TransportationServices,Route Planning & Optimization,Peak Hours,Optional,Text,"""5 PM - 7 PM""",Small,"""Enter peak hours""","""Peak Hours"""
+TransportationServices,Route Planning & Optimization,Fuel Stops,Optional,Text,"""Gas Station A""",Small,"""Enter fuel stops""","""Fuel Stops"""
+TransportationServices,Route Planning & Optimization,Rest Stops,Optional,Text,"""Rest Area 1""",Small,"""Enter rest stops""","""Rest Stops"""
+TransportationServices,Route Planning & Optimization,Customer Reviews,Optional,Text,"""Good service""",Medium,"""Enter customer reviews""","""Customer Reviews"""
+TransportationServices,Route Planning & Optimization,Intermediate Locations,Optional,Text,"""City A, City B""",Medium,"""Enter intermediate locations""","""Intermediate Locations"""
+TransportationServices,Route Planning & Optimization,Time Sensitivity,Optional,Text,"""Perishable""",Small,"""Enter time sensitivity""","""Time Sensitivity"""
+TransportationServices,Route Planning & Optimization,Preferences,Optional,Text,"""No toll roads""",Small,"""Enter preferences""","""Preferences"""
+TransportationServices,Real-Time Tracking & Monitoring,Vehicle ID,Mandatory,Text,"""VH1234""",Small,"""Enter the vehicle ID""","""Vehicle ID"""
+TransportationServices,Real-Time Tracking & Monitoring,Current Location,Mandatory,Text,"""New York""",Small,"""Enter current location""","""Current Location"""
+TransportationServices,Real-Time Tracking & Monitoring,Status Updates,Mandatory,Text,"""On Route""",Small,"""Enter status updates""","""Status Updates"""
+TransportationServices,Real-Time Tracking & Monitoring,Tracking Number,Mandatory,Text,"""TRK123""",Small,"""Enter the tracking number""","""Tracking Number"""
+TransportationServices,Real-Time Tracking & Monitoring,Current Location,Mandatory,Text,"""Los Angeles""",Small,"""Enter current location""","""Current Location"""
+TransportationServices,Real-Time Tracking & Monitoring,Driver Contact,Optional,Text,"""555-555-5555""",Small,"""Enter driver's contact""","""Driver Contact"""
+TransportationServices,Real-Time Tracking & Monitoring,Route History,Optional,Text,"""Route A -> Route B""",Medium,"""Enter route history""","""Route History"""
+TransportationServices,Real-Time Tracking & Monitoring,Safety Alerts,Optional,Text,"""Seatbelt Alert""",Small,"""Enter safety alerts""","""Safety Alerts"""
+TransportationServices,Real-Time Tracking & Monitoring,Customer Support,Optional,Text,"""support@example.com""",Small,"""Enter customer support""","""Customer Support"""
+TransportationServices,Real-Time Tracking & Monitoring,Historical Locations,Optional,Text,"""New York, LA""",Medium,"""Enter historical locations""","""Historical Locations"""
+TransportationServices,Real-Time Tracking & Monitoring,Status,Optional,Text,"""Active""",Small,"""Enter current status""","""Status"""
+TransportationServices,Real-Time Tracking & Monitoring,Events,Optional,Text,"""Refuel, Break""",Medium,"""Enter significant events""","""Events"""
+TransportationServices,Real-Time Tracking & Monitoring,Notifications,Optional,Text,"""Arrival Alert""",Small,"""Enter notifications""","""Notifications"""
+TransportationServices,Transportation Compliance,Regulatory Bodies,Mandatory,Text,"""DOT, EPA""",Small,"""Enter regulatory bodies""","""Regulatory Bodies"""
+TransportationServices,Transportation Compliance,Compliance Checklist,Mandatory,Text,"""Item 1, Item 2""",Medium,"""Enter compliance checklist""","""Compliance Checklist"""
+TransportationServices,Transportation Compliance,Penalties & Violations,Mandatory,Text,"""Fine: $200""",Medium,"""Enter penalties & violations""","""Penalties & Violations"""
+TransportationServices,Transportation Compliance,Industry,Mandatory,Text,"""Logistics""",Small,"""Enter industry type""","""Industry"""
+TransportationServices,Transportation Compliance,Regulations,Mandatory,Text,"""Regulation A""",Small,"""Enter applicable regulations""","""Regulations"""
+TransportationServices,Transportation Compliance,Compliance Plan,Mandatory,Text,"""Plan details""",Large,"""Enter compliance plan""","""Compliance Plan"""
+TransportationServices,Transportation Compliance,Compliance Officer Contact,Optional,Text,"""John Doe, 555-5555""",Small,"""Enter officer contact""","""Compliance Officer Contact"""
+TransportationServices,Transportation Compliance,FAQs on Compliance,Optional,Text,"""What is compliance?""",Medium,"""Enter FAQs""","""FAQs on Compliance"""
+TransportationServices,Transportation Compliance,Updates & Changes,Optional,Text,"""Update 1, Change A""",Medium,"""Enter updates & changes""","""Updates & Changes"""
+TransportationServices,Transportation Compliance,Customer Reviews,Optional,Text,"""Good compliance""",Medium,"""Enter customer reviews""","""Customer Reviews"""
+TransportationServices,Transportation Compliance,Training,Optional,Text,"""Training A""",Small,"""Enter training details""","""Training"""
+TransportationServices,Transportation Compliance,Audits,Optional,Text,"""Audit A""",Small,"""Enter audit details""","""Audits"""
+TransportationServices,Transportation Compliance,Incidents,Optional,Text,"""Incident A""",Medium,"""Enter compliance incidents""","""Incidents"""
+TransportationServices,Specialized Transportation Options,Customer Testimonials,Optional,Text,"""Great service!""",Medium,"""Enter customer testimonials""","""Customer Testimonials"""
+TransportationServices,Specialized Transportation Options,Additional Features,Optional,Text,"""Feature A, Feature B""",Small,"""Enter additional features""","""Additional Features"""
+TransportationServices,Specialized Transportation Options,Availability,Optional,Text,"""24/7""",Small,"""Enter availability details""","""Availability"""
+TransportationServices,Specialized Transportation Options,Equipment Used,Optional,Text,"""Equipment A""",Small,"""Enter equipment used""","""Equipment Used"""
+TransportationServices,Specialized Transportation Options,Training Requirements,Optional,Text,"""Training A""",Small,"""Enter training requirements""","""Training Requirements"""
+TransportationServices,Specialized Transportation Options,Compliance Requirements,Optional,Text,"""Standard A""",Small,"""Enter compliance requirements""","""Compliance Requirements"""
+TransportationServices,Specialized Transportation Options,Pricing,Optional,Text,"""$100""",Small,"""Enter pricing details""","""Pricing"""
+TransportationServices,Specialized Transportation Options,Contact Information,Optional,Text,"""info@example.com""",Small,"""Enter contact information""","""Contact Information"""
+TransportationServices,Specialized Transportation Options,Customer Testimonials,Optional,Text,"""Great Service""",200 characters,Customer reviews,Enter text
+TransportationServices,Specialized Transportation Options,Additional Features,Optional,Text,"""Wifi, TV""",100 characters,Extra features,Enter text
+TransportationServices,Specialized Transportation Options,Equipment Used,Optional,Text,"""GPS, Radio""",100 characters,Equipment used,Enter text
+TransportationServices,Specialized Transportation Options,Training Requirements,Optional,Text,"""License""",100 characters,Training needed,Enter text
+TransportationServices,Specialized Transportation Options,Compliance Requirements,Optional,Text,"""ISO 9001""",100 characters,Compliance,Enter text
+TransportationServices,Specialized Transportation Options,Contact Information,Optional,Text,"""info@example.com""",,Contact info,Enter contact
+TransportationServices,Transportation Cost Estimation,Start Location,Mandatory,Text,"""New York""",100 characters,Start location,Enter location
+TransportationServices,Transportation Cost Estimation,End Location,Mandatory,Text,"""Boston""",100 characters,End location,Enter location
+TransportationServices,Transportation Cost Estimation,Weight and Dimensions,Mandatory,Text,"""50kg, 3x4x5""",100 characters,Weight/Dimensions,Enter details
+TransportationServices,Transportation Cost Estimation,Cost Breakdown,Optional,Text,"""Base: $50, Toll: $10""",200 characters,Cost details,Enter details
+TransportationServices,Transportation Cost Estimation,Cancellation Policy,Optional,Text,"""No refunds after 24 hrs""",200 characters,Cancellation policy,Enter policy
+TransportationServices,Transportation Cost Estimation,Customer Reviews,Optional,Text,"""Excellent service""",200 characters,Customer reviews,Enter review
+TransportationServices,Transportation Cost Estimation,Additional Services,Optional,Text,"""Wifi, Snacks""",200 characters,Additional services,Enter services
+TransportationServices,Transportation Cost Estimation,Payment Terms,Optional,Text,"""Net 30""",100 characters,Payment terms,Enter terms
+TransportationServices,Transportation Support & Assistance,Contact Information,Mandatory,Text,"""123 Main St""",200 characters,Contact info,Enter address
+TransportationServices,Transportation Support & Assistance,Operating Hours,Mandatory,Text,"""9am-5pm""",50 characters,Operating hours,Enter hours
+TransportationServices,Transportation Support & Assistance,Response Time,Mandatory,Text,"""Within 24 hrs""",100 characters,Response time,Enter time
+TransportationServices,Transportation Support & Assistance,FAQs,Mandatory,Text,"""How to book?""",200 characters,FAQs,Enter questions
+TransportationServices,Transportation Support & Assistance,Emergency Contact,Optional,Text,"""911""",50 characters,Emergency contact,Enter number
+TransportationServices,Transportation Support & Assistance,Customer Reviews,Optional,Text,"""Great service!""",200 characters,Customer reviews,Enter review
+TransportationServices,Transportation Support & Assistance,FAQs,Optional,Text,"""How to book?""",200 characters,FAQs,Enter questions
+TransportationServices,Transportation Support & Assistance,Knowledge Base,Optional,Text,"""How to book?""",200 characters,Knowledge base,Enter info
+TransportationServices,Pickup Scheduling Details,Pickup Time,Mandatory,Time,"""14:30""",Small,"""Select pickup time""","""Pickup Time"""
+TransportationServices,Real-Time Tracking & Monitoring,Estimated Time of Arrival (ETA),Mandatory,Time,"""5:30 PM""",Small,"""Enter ETA""","""Estimated Time of Arrival"""
+TransportationServices,Real-Time Tracking & Monitoring,Estimated Arrival Time,Mandatory,Time,"""6:00 PM""",Small,"""Enter estimated arrival time""","""Estimated Arrival Time"""
+TransportationServices,Pickup Locations,Website URL,Optional,URL,http://example.com,Medium,,
+TransportationServices,Pickup Locations,Social Media Links,Optional,URL,http://twitter.com,Large,,
+TransportationServices,Contact Information,Website URL,Optional,URL,www.example.com,Medium,,
+TransportationServices,Customer Testimonials,Social Media Links,Optional,URL,"""https://...""",Medium,"""Enter URL""","""Social Media URL"""
+TransportationServices,Real-Time Tracking & Monitoring,Tracking Link,Mandatory,URL,"""http://tracking.com""",Medium,"""Enter the tracking URL""","""Tracking Link"""
+TransportationServices,Transportation Compliance,External Resources,Optional,URL,"""http://example.com""",Small,"""Enter external resources""","""External Resources"""
+TransportationServices,Transportation Support & Assistance,Social Media,Optional,URL,"""www.facebook.com""",100 characters,Social media,Enter URL
+Page,Section,Field Name,Validate,Data Type,Sample Value,Size of Field,Tooltip,Prompt
+,Flight Operations,Flight Number,Mandatory,Text,FN1234,10,Enter Flight Number,Required Field
+,Flight Operations,Departure Airport,Mandatory,Dropdown,JFK,50,Select Departure Airport,Required Field
+,Flight Operations,Arrival Airport,Mandatory,Dropdown,LAX,50,Select Arrival Airport,Required Field
+FlightandAirTransit,Flight Operations,Departure Time,Mandatory,Time,14:30,,Enter Departure Time,Required Field
+FlightandAirTransit,Flight Operations,Arrival Time,Mandatory,Time,16:45,,Enter Arrival Time,Required Field
+FlightandAirTransit,Flight Operations,Aircraft Type,Mandatory,Dropdown,Boeing 737,50,Select Aircraft Type,Required Field
+FlightandAirTransit,Flight Operations,Flight Status,Mandatory,Dropdown,On Time,,Select Flight Status,Required Field
+FlightandAirTransit,Flight Operations,Gate Number,Optional,Text,12A,,Enter Gate Number,Optional Field
+FlightandAirTransit,Flight Operations,Terminal,Optional,Text,T3,,Enter Terminal,Optional Field
+FlightandAirTransit,Flight Operations,Estimated Time of Arrival (ETA),Optional,Time,16:50,,Enter ETA,Optional Field
+FlightandAirTransit,Flight Operations,In-flight Services,Optional,Text,"WiFi, Meals",,Enter Services,Optional Field
+FlightandAirTransit,Flight Operations,Crew Details,Optional,Text,"John, Emily",,Enter Crew,Optional Field
+FlightandAirTransit,Flight Operations,Weather Conditions,Optional,Text,Sunny,,Enter Weather,Optional Field
+FlightandAirTransit,Flight Operations,Baggage Claim Information,Optional,Text,Belt 5,,Enter Baggage,Optional Field
+FlightandAirTransit,Flight Operations,Ground Transportation Information,Optional,Text,"Taxi, Bus",,Enter Transport,Optional Field
+FlightandAirTransit,Flight Operations,Estimated Delay or Cancellation Time,Conditional,Time,17:30,,Enter Time,Conditional Field
+FlightandAirTransit,Flight Operations,Reason for Delay or Cancellation,Conditional,Text,Weather,,Enter Reason,Conditional Field
+FlightandAirTransit,Flight Operations,Pilot in Command (PIC),Optional,Text,Capt. Smith,,Enter PIC,Optional Field
+FlightandAirTransit,Flight Operations,First Officer (FO),Optional,Text,Lt. Johnson,,Enter FO,Optional Field
+FlightandAirTransit,Flight Operations,Flight Attendant(s),Optional,Text,"Emily, John",,Enter Names,Optional Field
+FlightandAirTransit,Flight Operations,Meal Options,Optional,Text,"Vegan, Chicken",,Enter Meals,Optional Field
+FlightandAirTransit,Flight Operations,Disability Assistance Needs,Optional,Text,Wheelchair,,Enter Needs,Optional Field
+FlightandAirTransit,Flight Operations,Special Requests,Optional,Text,Window Seat,,Enter Requests,Optional Field
+FlightandAirTransit,Flight Operations,Contact Information for Next of Kin,Conditional,Text,555-1234,,Enter Contact,Conditional Field
+FlightandAirTransit,Flight Operations,Additional Notes,Optional,Text,Extra Blanket,,Enter Notes,Optional Field
+FlightandAirTransit,Flight Information,Flight Number,Mandatory,Text,AA1234,10,Flight Number,Required Field
+FlightandAirTransit,Flight Information,Airline,Mandatory,Text,American Air,50,Airline Name,Required Field
+FlightandAirTransit,Flight Information,Departure Airport,Mandatory,Text,JFK,50,Departure Airport,Required Field
+FlightandAirTransit,Flight Information,Arrival Airport,Mandatory,Text,LAX,50,Arrival Airport,Required Field
+FlightandAirTransit,Flight Information,Scheduled Departure Time,Mandatory,Date,2023-09-15 09:00,,Departure Time,Required Field
+FlightandAirTransit,Flight Information,Scheduled Arrival Time,Mandatory,Date,2023-09-15 12:00,,Arrival Time,Required Field
+FlightandAirTransit,Flight Information,Arrival Time,Mandatory,Date,2023-09-15 12:15,,Actual Arrival Time,Required Field
+FlightandAirTransit,Flight Information,Aircraft Model,Mandatory,Text,Boeing 737,50,Aircraft Model,Required Field
+FlightandAirTransit,Flight Information,Aircraft Type,Mandatory,Text,Commercial,50,Aircraft Type,Required Field
+FlightandAirTransit,Flight Information,Actual Departure Time,Optional,Date,2023-09-15 09:05,,Actual Departure Time,Optional Field
+FlightandAirTransit,Flight Information,Actual Arrival Time,Optional,Date,2023-09-15 12:05,,Actual Arrival Time,Optional Field
+FlightandAirTransit,Flight Information,Gate Number,Optional,Number,12,5,Gate Number,Optional Field
+FlightandAirTransit,Flight Information,Terminal Information,Optional,Text,Terminal 1,50,Terminal Info,Optional Field
+FlightandAirTransit,Flight Information,Seat Availability,Optional,Number,25,4,Seat Availability,Optional Field
+FlightandAirTransit,Flight Information,In-flight Amenities,Optional,Text,"WiFi, Meals",100,In-flight Amenities,Optional Field
+FlightandAirTransit,Flight Information,Baggage Allowance,Optional,Text,23 kg,50,Baggage Allowance,Optional Field
+FlightandAirTransit,Flight Information,Status,Optional,Text,On Time,50,Flight Status,Optional Field
+FlightandAirTransit,Flight Information,Baggage Information,Optional,Text,Carousel 3,100,Baggage Info,Optional Field
+FlightandAirTransit,Flight Information,Seat Assignment,Optional,Text,12A,5,Seat Assignment,Optional Field
+FlightandAirTransit,Flight Information,Meal Preferences,Optional,Text,Vegetarian,50,Meal Preferences,Optional Field
+FlightandAirTransit,Flight Information,Disability Assistance Needs,Optional,Text,Wheelchair,100,Disability Needs,Optional Field
+FlightandAirTransit,Flight Information,Special Requests,Optional,Text,Extra Legroom,100,Special Requests,Optional Field
+FlightandAirTransit,Passenger Services,Passenger Name,Mandatory,Text,John Doe,50,Passenger Name,Mandatory Field
+FlightandAirTransit,Passenger Services,Seat Number,Mandatory,Text,12A,5,Seat Number,Mandatory Field
+FlightandAirTransit,Passenger Services,Boarding Time,Mandatory,Date,2023-09-15 08:30,,Boarding Time,Mandatory Field
+FlightandAirTransit,Passenger Services,Boarding Gate,Mandatory,Number,5,5,Boarding Gate,Mandatory Field
+FlightandAirTransit,Passenger Services,Ticket Type,Mandatory,Text,Economy,20,Ticket Type,Mandatory Field
+FlightandAirTransit,Passenger Services,Special Requirements,Mandatory,Text,Wheelchair,100,Special Requirements,Mandatory Field
+FlightandAirTransit,Passenger Services,Passport Number,Mandatory,Text,P1234567,20,Passport Number,Mandatory Field
+FlightandAirTransit,Passenger Services,Visa Number,Mandatory,Text,V1234567,20,Visa Number,Mandatory Field
+FlightandAirTransit,Passenger Services,Date of Birth,Mandatory,Date,1990-01-01,,Date of Birth,Mandatory Field
+FlightandAirTransit,Passenger Services,Contact Information,Mandatory,Email,john@example.com,50,Contact Info,Mandatory Field
+FlightandAirTransit,Passenger Services,Frequent Flyer Number,Optional,Text,FF12345,20,Frequent Flyer,Optional Field
+FlightandAirTransit,Passenger Services,Meal Preferences,Optional,Text,Vegetarian,50,Meal Pref,Optional Field
+FlightandAirTransit,Passenger Services,In-Flight Entertainment Options,Optional,Text,Movies,100,Entertainment,Optional Field
+FlightandAirTransit,Passenger Services,Checked Baggage Details,Optional,Text,2 bags,100,Checked Baggage,Optional Field
+FlightandAirTransit,Passenger Services,Carry-On Baggage Details,Optional,Text,1 bag,100,Carry-On Baggage,Optional Field
+FlightandAirTransit,Passenger Services,Additional Services,Optional,Text,WiFi,100,Additional Services,Optional Field
+FlightandAirTransit,Passenger Services,Disability Assistance Needs,Optional,Text,Wheelchair,100,Disability Assistance,Optional Field
+FlightandAirTransit,Passenger Services,Special Requests,Optional,Text,Window seat,100,Special Requests,Optional Field
+FlightandAirTransit,Transit Facilities,Transit Airport,Mandatory,Text,JFK,50,Transit Airport,Mandatory Field
+FlightandAirTransit,Transit Facilities,Layover Duration,Mandatory,Number,120,3,Layover,Mandatory Field
+FlightandAirTransit,Transit Facilities,Connecting Flight Number,Mandatory,Text,AA123,20,Connecting Flight,Mandatory Field
+FlightandAirTransit,Transit Facilities,Transit Terminal,Mandatory,Text,T1,20,Transit Terminal,Mandatory Field
+FlightandAirTransit,Transit Facilities,Transit Gate,Mandatory,Text,G5,10,Transit Gate,Mandatory Field
+FlightandAirTransit,Transit Facilities,Name of the transit facility,Mandatory,Text,Lounge,50,Facility Name,Mandatory Field
+FlightandAirTransit,Transit Facilities,Type of transit facility,Mandatory,Text,Lounge,50,Facility Type,Mandatory Field
+FlightandAirTransit,Transit Facilities,Location (address),Mandatory,Text,123 Main St,100,Location,Mandatory Field
+FlightandAirTransit,Transit Facilities,Hours of operation,Mandatory,Text,9am-5pm,50,Operating Hours,Mandatory Field
+FlightandAirTransit,Transit Facilities,Contact information,Mandatory,Text,555-1234,100,Contact Info,Mandatory Field
+FlightandAirTransit,Transit Facilities,Lounge Access,Optional,Text,"Yes, with membership",100,Lounge Access,Optional Field
+FlightandAirTransit,Transit Facilities,Transit Visa Requirements,Optional,Text,Required for 24+ hrs,100,Visa Requirements,Optional Field
+FlightandAirTransit,Transit Facilities,Duty-Free Shopping Options,Optional,Text,Available,100,Duty-Free Shopping,Optional Field
+FlightandAirTransit,Transit Facilities,Nearby Amenities,Optional,Text,"Restaurants, Hotels",100,Nearby Amenities,Optional Field
+FlightandAirTransit,Transit Facilities,Special Assistance Services,Optional,Text,Wheelchair Access,100,Special Assistance,Optional Field
+FlightandAirTransit,Transit Facilities,Website,Optional,URL,www.example.com,100,Website,Optional Field
+FlightandAirTransit,Transit Facilities,Amenities,Optional,Text,Free Wi-Fi,100,Amenities,Optional Field
+FlightandAirTransit,Transit Facilities,Transportation options to and from the transit facility,Optional,Text,"Taxi, Bus",100,Transportation,Optional Field
+FlightandAirTransit,Safety Protocols,Emergency Exit Locations,Mandatory,Text,"Front, Middle, Rear",100,Emergency Exits,Mandatory Field
+FlightandAirTransit,Safety Protocols,Oxygen Mask Usage,Mandatory,Text,Pull and Inhale,100,Oxygen Mask,Mandatory Field
+FlightandAirTransit,Safety Protocols,Life Vest Instructions,Mandatory,Text,Inflate and Wear,100,Life Vest,Mandatory Field
+FlightandAirTransit,Safety Protocols,Fire Extinguisher Locations,Mandatory,Text,"Front, Middle",100,Fire Extinguisher,Mandatory Field
+FlightandAirTransit,Safety Protocols,In-Flight Safety Video,Mandatory,URL,www.safetyvideo.com,100,Safety Video,Mandatory Field
+FlightandAirTransit,Safety Protocols,Name of the safety protocol,Mandatory,Text,Fire Safety,100,Protocol Name,Mandatory Field
+FlightandAirTransit,Safety Protocols,Description of the safety protocol,Mandatory,Text,Prevent Fires,100,Protocol Description,Mandatory Field
+FlightandAirTransit,Safety Protocols,Purpose of the safety protocol,Mandatory,Text,Safety,100,Protocol Purpose,Mandatory Field
+FlightandAirTransit,Safety Protocols,Frequency of the safety protocol,Mandatory,Text,Monthly,100,Protocol Frequency,Mandatory Field
+FlightandAirTransit,Safety Protocols,Person responsible for the safety protocol,Mandatory,Text,John Doe,100,Responsible Person,Mandatory Field
+FlightandAirTransit,Safety Protocols,COVID-19 Safety Measures,Optional,Text,"Masks, Sanitizers",100,COVID Measures,Optional Field
+FlightandAirTransit,Safety Protocols,Turbulence Procedures,Optional,Text,Fasten Seatbelts,100,Turbulence,Optional Field
+FlightandAirTransit,Safety Protocols,Medical Kit Locations,Optional,Text,"Front, Middle",100,Medical Kits,Optional Field
+FlightandAirTransit,Safety Protocols,Crew Safety Training,Optional,Text,Monthly Training,100,Crew Training,Optional Field
+FlightandAirTransit,Safety Protocols,Child Safety Measures,Optional,Text,Child Seats,100,Child Safety,Optional Field
+FlightandAirTransit,Safety Protocols,Additional Information,Optional,Text,Extra Life Vests,100,Additional Info,Optional Field
+FlightandAirTransit,Safety Protocols,Links to Relevant Resources,Optional,URL,www.safetytips.com,100,Safety Links,Optional Field
+FlightandAirTransit,Customer Support,Customer Service Hotline,Mandatory,Text,-5489,15,Customer Hotline,Mandatory Field
+FlightandAirTransit,Customer Support,Email Support,Mandatory,Email,support@email.com,50,Support Email,Mandatory Field
+FlightandAirTransit,Customer Support,Live Chat Support,Mandatory,URL,www.livechat.com,100,Live Chat,Mandatory Field
+FlightandAirTransit,Customer Support,FAQ Section,Mandatory,URL,www.faq.com,100,FAQ Section,Mandatory Field
+FlightandAirTransit,Customer Support,Complaint Resolution Procedure,Mandatory,Text,5-step procedure,200,Complaint Procedure,Mandatory Field
+FlightandAirTransit,Customer Support,Contact Information,Mandatory,Text,123 Main St.,100,Contact Info,Mandatory Field
+FlightandAirTransit,Customer Support,Hours of Operation,Mandatory,Text,9am-5pm,50,Operating Hours,Mandatory Field
+FlightandAirTransit,Customer Support,Supported Languages,Mandatory,Text,"English, Spanish",50,Supported Languages,Mandatory Field
+FlightandAirTransit,Customer Support,Social Media Contacts,Optional,URL,www.twitter.com,100,Social Media,Optional Field
+FlightandAirTransit,Customer Support,Feedback Form,Optional,URL,www.feedback.com,100,Feedback Form,Optional Field
+FlightandAirTransit,Customer Support,Service Hours,Optional,Text,6pm-9pm,50,Service Hours,Optional Field
+FlightandAirTransit,Customer Support,Multilingual Support,Optional,Text,"French, German",50,Multilingual Support,Optional Field
+FlightandAirTransit,Customer Support,VIP Customer Service Line,Optional,Text,-11797,15,VIP Line,Optional Field
+FlightandAirTransit,Customer Support,Self-service options,Optional,URL,www.selfserve.com,100,Self-service,Optional Field
+FlightandAirTransit,Customer Support,Social media links,Optional,URL,www.instagram.com,100,Additional Social Media,Optional Field
+FlightandAirTransit,Customer Support,Feedback form,Optional,URL,www.feedback2.com,100,Additional Feedback,Optional Field
+FlightandAirTransit,Passenger Information,Full Name,Mandatory,Text,John Doe,100,Full Name,Mandatory Field
+FlightandAirTransit,Passenger Information,Date of Birth,Mandatory,Date,1990-01-01,,Date of Birth,Mandatory Field
+FlightandAirTransit,Passenger Information,Passport/ID Number,Mandatory,Text,P1234567,20,Passport/ID Number,Mandatory Field
+FlightandAirTransit,Passenger Information,Nationality,Mandatory,Text,American,50,Nationality,Mandatory Field
+FlightandAirTransit,Passenger Information,Contact Number,Mandatory,Text,-5489,15,Contact Number,Mandatory Field
+FlightandAirTransit,Passenger Information,Emergency Contact Details,Mandatory,Text,"Jane Doe, +1-800-765-4321",100,Emergency Contact,Mandatory Field
+FlightandAirTransit,Passenger Information,Name,Mandatory,Text,Jane Doe,100,Additional Name,Mandatory Field
+FlightandAirTransit,Passenger Information,Passport number,Mandatory,Text,P7654321,20,Additional Passport,Mandatory Field
+FlightandAirTransit,Passenger Information,Visa number,Mandatory,Text,V1234567,20,Visa Number,Mandatory Field
+FlightandAirTransit,Passenger Information,Date of birth,Mandatory,Date,1995-12-12,,Additional DOB,Mandatory Field
+FlightandAirTransit,Passenger Information,Contact information,Mandatory,Text,johndoe@email.com,100,Additional Contact,Mandatory Field
+FlightandAirTransit,Passenger Information,Frequent Flyer Number,Optional,Text,FF123456,20,Frequent Flyer No.,Optional Field
+FlightandAirTransit,Passenger Information,Meal Preferences,Optional,Text,Vegetarian,50,Meal Preferences,Optional Field
+FlightandAirTransit,Passenger Information,Special Assistance Requirements,Optional,Text,Wheelchair Access,100,Special Assistance,Optional Field
+FlightandAirTransit,Passenger Information,Travel Insurance Details,Optional,Text,Policy #12345,100,Insurance Details,Optional Field
+FlightandAirTransit,Passenger Information,Additional Contact Methods,Optional,Text,Skype: johndoe,100,Additional Contact,Optional Field
+FlightandAirTransit,Passenger Information,Meal preferences,Optional,Text,Vegan,50,Additional Meal Pref,Optional Field
+FlightandAirTransit,Passenger Information,Disability assistance needs,Optional,Text,Hearing Aid,100,Additional Disability,Optional Field
+FlightandAirTransit,Passenger Information,Special requests,Optional,Text,Extra Leg Room,100,Special Requests,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Lounge Locations,Mandatory,Text,"Terminal 1, 2, 3",100,Lounge Locations,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Access Criteria,Mandatory,Text,Business Class,100,Access Criteria,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Operating Hours,Mandatory,Text,9 AM - 9 PM,50,Operating Hours,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Basic Amenities,Mandatory,Text,"WiFi, Food",100,Basic Amenities,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Name of the lounge or VIP service,Mandatory,Text,Sky Lounge,50,Lounge Name,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Location (address),Mandatory,Text,123 Airport Rd,100,Location,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Hours of operation,Mandatory,Text,10 AM - 10 PM,50,Hours of Operation,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Contact information,Mandatory,Text,#ERROR!,100,Contact Info,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Eligibility requirements,Mandatory,Text,Membership Card,100,Eligibility,Mandatory Field
+FlightandAirTransit,Lounge and VIP Services,Guest Policy,Optional,Text,2 Guests Allowed,100,Guest Policy,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Premium Amenities,Optional,Text,"Spa, Private Rooms",100,Premium Amenities,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Special Offers and Promotions,Optional,Text,20% off on Food,100,Special Offers,Optional Field
+FlightandAirTransit,Lounge and VIP Services,VIP Services,Optional,Text,Personal Attendant,100,VIP Services,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Membership Tiers and Benefits,Optional,Text,"Gold, Silver, Bronze",100,Membership Tiers,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Amenities,Optional,Text,"WiFi, Food",100,Amenities,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Accessibility information,Optional,Text,Wheelchair Access,100,Accessibility Info,Optional Field
+FlightandAirTransit,Lounge and VIP Services,Transportation options to and from the lounge or VIP service,Optional,Text,Shuttle Service,100,Transportation,Optional Field
+FlightandAirTransit,Special Needs Services,Types of Assistance Available,Mandatory,Text,"Wheelchair, Interpreter",100,Types of Assistance,Mandatory Field
+FlightandAirTransit,Special Needs Services,Pre-Booking Requirements,Mandatory,Text,48 hours prior,100,Pre-Booking Requirements,Mandatory Field
+FlightandAirTransit,Special Needs Services,Contact Information for Special Needs Services,Mandatory,Text,1-800-123-4567,100,Contact Information,Mandatory Field
+FlightandAirTransit,Special Needs Services,Onboard Facilities,Mandatory,Text,Accessible Restrooms,100,Onboard Facilities,Mandatory Field
+FlightandAirTransit,Special Needs Services,Type of special needs,Mandatory,Text,Hearing Impaired,100,Type of Special Needs,Mandatory Field
+FlightandAirTransit,Special Needs Services,Description of the special needs,Mandatory,Text,Requires Sign Language Interpreter,100,Description,Mandatory Field
+FlightandAirTransit,Special Needs Services,Any special equipment or accommodations that are required,Mandatory,Text,Sign Language Interpreter,100,Special Equipment,Mandatory Field
+FlightandAirTransit,Special Needs Services,Service Animals Policy,Optional,Text,Allowed with documentation,100,Service Animals Policy,Optional Field
+FlightandAirTransit,Special Needs Services,Medical Equipment Policy,Optional,Text,Allowed with prior notice,100,Medical Equipment Policy,Optional Field
+FlightandAirTransit,Special Needs Services,Priority Boarding Options,Optional,Text,Front of the plane,100,Priority Boarding,Optional Field
+FlightandAirTransit,Special Needs Services,In-flight Assistance Services,Optional,Text,Sign language interpreter,100,In-flight Assistance,Optional Field
+FlightandAirTransit,Special Needs Services,Feedback and Complaints Procedure,Optional,Text,Online form,100,Feedback and Complaints,Optional Field
+FlightandAirTransit,Special Needs Services,Contact information for the passenger with special needs,Optional,Text,1-800-123-4567,100,Contact Information,Optional Field
+FlightandAirTransit,Special Needs Services,Contact information for the passenger's caregiver or companion,Optional,Text,1-800-987-6543,100,Caregiver's Contact,Optional Field
+FlightandAirTransit,Special Needs Services,Additional information,Optional,Text,Requires aisle seat,100,Additional Information,Optional Field
+FlightandAirTransit,Real-Time Updates,Flight Status,Mandatory,Dropdown,On Time,50,Current Flight Status,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Estimated Time of Departure,Mandatory,Time,15:30,5,Estimated Departure,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Estimated Time of Arrival,Mandatory,Time,18:45,5,Estimated Arrival,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Gate Changes,Mandatory,Text,Gate A3 to A5,100,Gate Changes,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Terminal Information,Mandatory,Text,Terminal 1,100,Terminal Information,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Flight Number,Mandatory,Text,AA123,10,Flight Number,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Departure Airport,Mandatory,Text,JFK,100,Departure Airport,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Arrival Airport,Mandatory,Text,LAX,100,Arrival Airport,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Departure Date and Time,Mandatory,Date,2023-09-15 15:30,16,Departure Date & Time,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Arrival Date and Time,Mandatory,Date,2023-09-15 18:45,16,Arrival Date & Time,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Status,Mandatory,Text,On Schedule,100,Additional Status,Mandatory Field
+FlightandAirTransit,Real-Time Updates,Weather Conditions at Departure and Arrival Airports,Optional,Text,"Sunny at JFK, Rainy at LAX",200,Weather Conditions,Optional Field
+FlightandAirTransit,Real-Time Updates,In-Flight Tracking Map,Optional,URL,Tracking Map URL,500,In-Flight Map,Optional Field
+FlightandAirTransit,Real-Time Updates,Service Disruptions,Optional,Text,Engine issue,200,Service Disruptions,Optional Field
+FlightandAirTransit,Real-Time Updates,Alternate Flight Options,Optional,Text,Flight AA124,200,Alternate Flights,Optional Field
+FlightandAirTransit,Real-Time Updates,Push Notifications for Updates,Optional,Checkbox,Checked,,Push Notifications,Optional Field
+FlightandAirTransit,Real-Time Updates,Estimated Delay or Cancellation Time,Optional,Time,2 hours,10,Estimated Delay,Optional Field
+FlightandAirTransit,Real-Time Updates,Reason for Delay or Cancellation,Optional,Text,Weather,200,Reason for Delay,Optional Field
+FlightandAirTransit,Real-Time Updates,Gate Number,Optional,Text,A5,10,Gate Number,Optional Field
+FlightandAirTransit,Real-Time Updates,Terminal,Optional,Text,Terminal 1,50,Terminal,Optional Field
+FlightandAirTransit,Real-Time Updates,Baggage Claim Information,Optional,Text,Carousel 3,100,Baggage Claim,Optional Field
+FlightandAirTransit,Real-Time Updates,Ground Transportation Information,Optional,Text,"Taxi, Bus",100,Ground Transport,Optional Field
+FlightandAirTransit,Real-Time Updates,Additional Information,Optional,Text,Free WiFi,200,Additional Info,Optional Field
+FlightandAirTransit,Travel Tips,Packing Guidelines,Mandatory,Text,Pack liquids in a separate bag.,500,Packing Guidelines,Mandatory Field
+FlightandAirTransit,Travel Tips,Check-in Procedures,Mandatory,Text,Check-in 2 hours before flight.,500,Check-in Procedures,Mandatory Field
+FlightandAirTransit,Travel Tips,Security Check Tips,Mandatory,Text,Remove metal items.,500,Security Tips,Mandatory Field
+FlightandAirTransit,Travel Tips,Customs and Immigration Information,Mandatory,Text,Declare all items.,500,Customs Information,Mandatory Field
+FlightandAirTransit,Travel Tips,Title of the Travel Tip,Mandatory,Text,"""Security Check 101""",100,Travel Tip Title,Mandatory Field
+FlightandAirTransit,Travel Tips,Description of the Travel Tip,Mandatory,Text,"""Always pack a spare set of clothes.""",500,Travel Tip Description,Mandatory Field
+FlightandAirTransit,Travel Tips,Currency Exchange Tips,Optional,Text,Use local banks.,500,Currency Tips,Optional Field
+FlightandAirTransit,Travel Tips,Local Transportation Options,Optional,Text,Use public transit.,500,Transportation Tips,Optional Field
+FlightandAirTransit,Travel Tips,Recommended Apps for Travel,Optional,Text,Google Maps.,500,Recommended Apps,Optional Field
+FlightandAirTransit,Travel Tips,Health and Safety Tips,Optional,Text,Carry a first-aid kit.,500,Health Tips,Optional Field
+FlightandAirTransit,Travel Tips,Seasonal Travel Advice,Optional,Text,Avoid monsoon season.,500,Seasonal Advice,Optional Field
+FlightandAirTransit,Travel Tips,Author of the Travel Tip,Optional,Text,John Doe,100,Author Name,Optional Field
+FlightandAirTransit,Travel Tips,Date the Travel Tip was Published,Optional,Date,2023-09-14,,Published Date,Optional Field
+FlightandAirTransit,Travel Tips,Category of the Travel Tip,Optional,Text,Budget Travel,100,Tip Category,Optional Field
+FlightandAirTransit,Travel Tips,Links to Related Travel Tips or Resources,Optional,URL,www.travel-tips.com,,Related Links,Optional Field
+FlightandAirTransit,Promotions and Offers,Offer Title,Mandatory,Text,Summer Sale,100,Offer Title,Mandatory Field
+FlightandAirTransit,Promotions and Offers,Offer Description,Mandatory,Text,50% off on all flights.,500,Offer Description,Mandatory Field
+FlightandAirTransit,Promotions and Offers,Validity Period,Mandatory, Range,2023-09-01 to 2023-12-31,,Validity Period,Mandatory Field
+FlightandAirTransit,Promotions and Offers,Terms and Conditions,Mandatory,Text,No refunds.,1000,Terms and Conditions,Mandatory Field
+FlightandAirTransit,Promotions and Offers,How to Redeem,Mandatory,Text,Use code SUMMER50.,500,How to Redeem,Mandatory Field
+FlightandAirTransit,Promotions and Offers,Title of the promotion or offer,Mandatory,Text,"""Summer Sale""",Medium,"""Enter the title""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Description of the promotion or offer,Mandatory,Text Area,"""50% off on all flights""",Large,"""Describe the offer""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Terms and conditions of the promotion or offer,Mandatory,Text Area,"""Valid until Dec 31""",Large,"""Enter T&C""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Promo Code,Optional,Text,"""SUMMER21""",Small,"""Enter the promo code here""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Eligibility Criteria,Optional,Text Area,"""Above 18 years""",Medium,"""Criteria for this offer""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Participating Locations,Optional,Text Area,"""All US Airports""",Medium,"""Valid at these locations""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Exclusions,Optional,Text Area,"""Alcohol""",Medium,"""Exclusions apply""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Related Offers,Optional,Text Area,"""Winter Sale""",Medium,"""See related offers""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Start date and end date of the promotion or offer,Optional,Date,"""01/01/23 - 01/02/23""",Medium,"""Offer duration""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Eligibility requirements,Optional,Text Area,"""Membership needed""",Medium,"""Additional requirements""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Discount code,Optional,Text,"""EXTRA10""",Small,"""Extra discount code""",Mandatory Field
+FlightandAirTransit,Promotions and Offers,Link to book the promotion or offer,Optional,URL,"""http://booknow.com""",Medium,"""Booking link""",Mandatory Field
+FlightandAirTransit,Additional Flight Information,Airline Partnerships,Mandatory,Dropdown,"Delta, AA",Medium,Select an airline,Select an airline
+FlightandAirTransit,Additional Flight Information,Code-Share Flights,Mandatory,Dropdown,Flight 123,Medium,Select a flight,Select a flight
+FlightandAirTransit,Additional Flight Information,Layover Airports,Mandatory,Text,"JFK, LAX",Medium,Enter airports,Enter airports
+FlightandAirTransit,Additional Flight Information,Aircraft Age,Mandatory,Number,5,Small,Enter age,Enter age
+FlightandAirTransit,Additional Flight Information,In-Flight Connectivity,Mandatory,Checkbox,Checked,Small,Check if available,Check if available
+FlightandAirTransit,Additional Flight Information,Onboard Shopping Catalogue,Optional,File,PDF,Medium,Upload catalogue,Upload catalogue
+FlightandAirTransit,Additional Flight Information,In-Flight Magazine,Optional,Text,"""SkyMiles Magazine""",Medium,Enter magazine name,Enter magazine name
+FlightandAirTransit,Additional Flight Information,Airline Awards and Recognitions,Optional,Text,"""Best Airline 2021""",Medium,Enter awards,Enter awards
+FlightandAirTransit,Additional Flight Information,Sustainability Initiatives,Optional,Text,"""Carbon offset program""",Medium,Enter initiatives,Enter initiatives
+FlightandAirTransit,Additional Flight Information,Customer Testimonials,Optional,Text,"""Great service!""",Medium,Enter testimonials,Enter testimonials
+FlightandAirTransit,Additional Flight Information,Gate Number,Optional,Number,"""12A""",Small,Enter gate number,Enter gate number
+FlightandAirTransit,Additional Flight Information,Terminal,Optional,Text,"""T3""",Small,Enter terminal,Enter terminal
+FlightandAirTransit,Additional Flight Information,Status,Optional,Dropdown,"""On Time""",Small,Select status,Select status
+FlightandAirTransit,Additional Flight Information,Baggage Claim Information,Optional,Text,"""Carousel 3""",Small,Enter baggage info,Enter baggage info
+FlightandAirTransit,Additional Flight Information,Ground Transportation Information,Optional,Text,"""Taxi, Bus""",Medium,Enter transport options,Enter transport options
+FlightandAirTransit,Additional Flight Information,Estimated Delay or Cancellation Time,Optional,Time,"""15:30""",Small,Enter time,Enter time
+FlightandAirTransit,Additional Flight Information,Reason for Delay or Cancellation,Optional,Text,"""Weather""",Medium,Enter reason,Enter reason
+FlightandAirTransit,Additional Flight Information,Aircraft Type,Optional,Text,"""Boeing 737""",Medium,Enter aircraft type,Enter aircraft type
+FlightandAirTransit,Additional Flight Information,Seat Map,Optional,File,PDF,Medium,Upload seat map,Upload seat map
+FlightandAirTransit,Additional Flight Information,In-flight Amenities,Optional,Text,"""Wi-Fi, Food""",Medium,Enter amenities,Enter amenities
+FlightandAirTransit,Additional Passenger Information,Frequent Flyer Status,Mandatory,Dropdown,"""Gold""",Small,Select frequent flyer status,Select frequent flyer status
+FlightandAirTransit,Additional Passenger Information,Travel History,Mandatory,Text,"""USA, Canada""",Medium,Enter travel history,Enter travel history
+FlightandAirTransit,Additional Passenger Information,Payment Method,Mandatory,Dropdown,"""Credit Card""",Small,Select payment method,Select payment method
+FlightandAirTransit,Additional Passenger Information,Next of Kin Contact Information,Mandatory,Text,"""John, +1 123 456 7890""",Medium,Enter next of kin contact,Enter next of kin contact
+FlightandAirTransit,Additional Passenger Information,Travel Purpose,Mandatory,Dropdown,"""Business""",Small,Select travel purpose,Select travel purpose
+FlightandAirTransit,Additional Passenger Information,Dietary Restrictions,Optional,Dropdown,"""Vegan""",Small,Select dietary restrictions,Select dietary restrictions
+FlightandAirTransit,Additional Passenger Information,Previous Flight Ratings or Reviews,Optional,Text,"""5 stars, excellent service""",Medium,Enter previous ratings,Enter previous ratings
+FlightandAirTransit,Additional Passenger Information,Preferred Seat Type,Optional,Dropdown,"""Window""",Small,Select preferred seat type,Select preferred seat type
+FlightandAirTransit,Additional Passenger Information,Additional Languages Spoken,Optional,Text,"""Spanish""",Small,Enter additional languages,Enter additional languages
+FlightandAirTransit,Additional Passenger Information,Special Occasions,Optional,Text,"""Birthday""",Small,Enter special occasions,Enter special occasions
+FlightandAirTransit,Additional Passenger Information,Frequent Flyer Number,Optional,Number,"""123456""",Small,Enter frequent flyer number,Enter frequent flyer number
+FlightandAirTransit,Additional Passenger Information,Known Traveller Number,Optional,Number,"""789012""",Small,Enter known traveller number,Enter known traveller number
+FlightandAirTransit,Additional Passenger Information,Meal Preferences,Optional,Dropdown,"""Vegetarian""",Small,Select meal preferences,Select meal preferences
+FlightandAirTransit,Additional Passenger Information,Disability Assistance Needs,Optional,Checkbox,"""Wheelchair Access""",Small,Select disability needs,Select disability needs
+FlightandAirTransit,Additional Passenger Information,Special Requests,Optional,Text,"""Extra Pillow""",Medium,Enter special requests,Enter special requests
+FlightandAirTransit,Additional Passenger Information,Contact Information for Next of Kin,Optional,Text,"""Jane, +1 987 654 3210""",Medium,Enter next of kin contact,Enter next of kin contact
+FlightandAirTransit,Air Transit Information,Transit Airport Name,Mandatory,Text,"""JFK Airport""",Medium,Enter transit airport name,Enter transit airport name
+FlightandAirTransit,Air Transit Information,Minimum Connection Time,Mandatory,Number,"""45""",Small,Enter minimum connection time,Enter minimum connection time
+FlightandAirTransit,Air Transit Information,Transit Visa Requirements,Mandatory,Text,"""Not Required""",Medium,Enter visa requirements,Enter visa requirements
+FlightandAirTransit,Air Transit Information,Transit Terminal Information,Mandatory,Text,"""Terminal 3""",Medium,Enter terminal information,Enter terminal information
+FlightandAirTransit,Air Transit Information,Baggage Reclaim and Check-in Procedures,Mandatory,Text,"""Follow signs to Baggage Claim""",Large,Enter baggage procedures,Enter baggage procedures
+FlightandAirTransit,Air Transit Information,Name of the Air Transit Service,Mandatory,Text,"""AirTransit Co.""",Medium,Enter service name,Enter service name
+FlightandAirTransit,Air Transit Information,Type of Air Transit Service,Mandatory,Dropdown,"""Shuttle""",Small,Select service type,Select service type
+FlightandAirTransit,Air Transit Information,Route Information,Mandatory,Text,"""NYC to LAX""",Medium,Enter route information,Enter route information
+FlightandAirTransit,Air Transit Information,Schedule Information,Mandatory,Text,"""Every 2 hours""",Medium,Enter schedule information,Enter schedule information
+FlightandAirTransit,Air Transit Information,Fare Information,Mandatory,Text,"""$50""",Small,Enter fare information,Enter fare information
+FlightandAirTransit,Air Transit Information,Duty-Free and Shopping Options,Optional,Text,"""Duty-Free available""",Medium,Info on duty-free and shopping,Info on duty-free and shopping
+FlightandAirTransit,Air Transit Information,Lounge Access Information,Optional,Text,"""VIP Lounge""",Medium,Info on lounge access,Info on lounge access
+FlightandAirTransit,Air Transit Information,Nearby Amenities,Optional,Text,"""Restaurants""",Medium,Info on nearby amenities,Info on nearby amenities
+FlightandAirTransit,Air Transit Information,Local Transportation Options,Optional,Text,"""Taxi, Bus""",Medium,Info on local transportation,Info on local transportation
+FlightandAirTransit,Air Transit Information,Special Assistance Services,Optional,Text,"""Wheelchair""",Medium,Info on special assistance,Info on special assistance
+FlightandAirTransit,Air Transit Information,Ticket Purchase Information,Optional,Text,"""Online, Kiosk""",Medium,Info on ticket purchase,Info on ticket purchase
+FlightandAirTransit,Air Transit Information,Luggage Information,Optional,Text,"""2 bags allowed""",Medium,Info on luggage policies,Info on luggage policies
+FlightandAirTransit,Air Transit Information,Accessibility Information,Optional,Text,"""Ramps available""",Medium,Info on accessibility,Info on accessibility
+FlightandAirTransit,Air Transit Information,Contact Information,Optional,Text,"""1-800-123-4567""",Medium,Contact details,Contact details
+FlightandAirTransit,Additional Flight Information,Airline Partnerships,Mandatory,Text,"""Airline A, Airline B""",Medium,List of airline partnerships,List of airline partnerships
+FlightandAirTransit,Additional Flight Information,Code-Share Flights,Mandatory,Text,"""Flight A-123""",Medium,Info on code-share flights,Info on code-share flights
+FlightandAirTransit,Additional Flight Information,Layover Airports,Mandatory,Text,"""Airport X, Airport Y""",Medium,Airports for layovers,Airports for layovers
+FlightandAirTransit,Additional Flight Information,Aircraft Age,Mandatory,Number,"""5 years""",Small,Age of the aircraft,Age of the aircraft
+FlightandAirTransit,Additional Flight Information,In-Flight Connectivity,Mandatory,Text,"""Wi-Fi available""",Medium,Info on in-flight connectivity,Info on in-flight connectivity
+FlightandAirTransit,Additional Flight Information,Onboard Shopping Catalogue,Optional,File,PDF file,Large,Onboard shopping catalogue,Onboard shopping catalogue
+FlightandAirTransit,Additional Flight Information,In-Flight Magazine,Optional,File,PDF file,Large,In-flight magazine,In-flight magazine
+FlightandAirTransit,Additional Flight Information,Airline Awards and Recognitions,Optional,Text,"""Airline of the Year 2022""",Medium,Airline awards and recognitions,Airline awards and recognitions
+FlightandAirTransit,Additional Flight Information,Sustainability Initiatives,Optional,Text,"""Carbon offset program""",Medium,Sustainability initiatives,Sustainability initiatives
+FlightandAirTransit,Additional Flight Information,Customer Testimonials,Optional,Text,"""Great service!""",Medium,Customer testimonials,Customer testimonials
+FlightandAirTransit,Additional Flight Information,Gate Number,Optional,Number,"""12""",Small,Gate number,Gate number
+FlightandAirTransit,Additional Flight Information,Terminal,Optional,Text,"""Terminal A""",Small,Terminal information,Terminal information
+FlightandAirTransit,Additional Flight Information,Status,Optional,Dropdown,"""On Time""",Small,Current flight status,Current flight status
+FlightandAirTransit,Additional Flight Information,Baggage Claim Information,Optional,Text,"""Claim at Belt 3""",Small,Baggage claim information,Baggage claim information
+FlightandAirTransit,Additional Flight Information,Ground Transportation Information,Optional,Text,"""Taxi, Bus""",Medium,Ground transportation information,Ground transportation information
+FlightandAirTransit,Additional Flight Information,Estimated Delay or Cancellation Time,Optional,Time,"""15 minutes""",Small,Estimated delay or cancellation time,Estimated delay or cancellation time
+FlightandAirTransit,Additional Flight Information,Reason for Delay or Cancellation,Optional,Text,"""Technical issue""",Medium,Reason for delay or cancellation,Reason for delay or cancellation
+FlightandAirTransit,Additional Flight Information,Aircraft Type,Optional,Text,"""Boeing 737""",Small,Aircraft type,Aircraft type
+FlightandAirTransit,Additional Flight Information,Seat Map,Optional,File,PDF file,Large,Seat map,Seat map
+FlightandAirTransit,Additional Flight Information,In-Flight Amenities,Optional,Text,"""Wi-Fi, Meals""",Medium,In-flight amenities,In-flight amenities
+FlightandAirTransit,Additional Flight Information,Special Instructions for Passengers,Optional,Text,"""Wear a mask""",Medium,Special instructions for passengers,Special instructions for passengers
+FlightandAirTransit,Additional Flight Information,COVID-19 Information,Optional,Text,"""Masks required""",Medium,COVID-19 information,COVID-19 information
+FlightandAirTransit,Additional Flight Information,Environmental Impact Information,Optional,Text,"""Carbon offset available""",Medium,Environmental impact information,Environmental impact information
+FlightandAirTransit,Additional Passenger Info,Frequent Flyer Status,Mandatory,Text,Gold,Medium,Frequent Flyer Info,Enter your status
+FlightandAirTransit,Additional Passenger Info,Travel History,Mandatory,Text Area,"USA, Europe",Large,Past Travels,List countries
+FlightandAirTransit,Additional Passenger Info,Payment Method,Mandatory,Dropdown,Credit Card,Small,Payment Method,Choose payment
+FlightandAirTransit,Additional Passenger Info,Next of Kin Contact Info,Mandatory,Text,123-456-7890,Medium,Next of Kin,Enter contact no.
+FlightandAirTransit,Additional Passenger Info,Travel Purpose,Mandatory,Text Area,Business,Medium,Purpose of Travel,State reason
+FlightandAirTransit,Additional Passenger Info,Dietary Restrictions,Optional,Text Area,Vegan,Medium,Dietary Info,Enter preferences
+FlightandAirTransit,Additional Passenger Info,Previous Flight Ratings,Optional,Number,4,Small,Past Ratings,Rate 1-5
+FlightandAirTransit,Additional Passenger Info,Preferred Seat Type,Optional,Dropdown,Window,Small,Seat Preference,Choose seat
+FlightandAirTransit,Additional Passenger Info,Additional Languages Spoken,Optional,Text,Spanish,Medium,Languages,List languages
+FlightandAirTransit,Additional Passenger Info,Special Occasions,Optional,Text,Birthday,Medium,Special Occasions,Describe occasion
+FlightandAirTransit,Additional Passenger Info,Frequent Flyer Number,Optional,Text,FF12345,Medium,Frequent Flyer No.,Enter number
+FlightandAirTransit,Additional Passenger Info,Known Traveller Number,Optional,Text,KTN12345,Medium,Known Traveller,Enter number
+FlightandAirTransit,Additional Passenger Info,Disability Assistance Needs,Optional,Text Area,Wheelchair,Medium,Assistance Needs,Describe needs
+FlightandAirTransit,Additional Passenger Info,Special Requests,Optional,Text Area,Extra Pillow,Medium,Special Requests,Describe requests
+FlightandAirTransit,Additional Passenger Info,Contact Information for Next of Kin,Optional,Text,123-456-7890,Medium,Next of Kin,Enter contact
+FlightandAirTransit,Additional Passenger Info,COVID-19 Vaccination Status,Optional,Dropdown,Vaccinated,Small,Vaccination Status,Choose status
+FlightandAirTransit,Additional Passenger Info,Dietary Restrictions,Optional,Text Area,Vegan,Medium,Dietary Info,Enter preferences
+FlightandAirTransit,Additional Passenger Info,Environmental Impact Preferences,Optional,Dropdown,Carbon Offset,Small,Eco Preferences,Choose preference
+FlightandAirTransit,Air Transit Info,Transit Airport Name,Mandatory,Text,JFK,Medium,Transit Airport,Enter airport
+FlightandAirTransit,Air Transit Info,Minimum Connection Time,Mandatory,Number,60,Small,Min Connection,Enter time
+FlightandAirTransit,Air Transit Info,Transit Visa Requirements,Mandatory,Text Area,Visa Required,Medium,Visa Requirements,Enter requirements
+FlightandAirTransit,Air Transit Info,Transit Terminal Information,Mandatory,Text Area,Terminal 3,Medium,Terminal Info,Enter terminal
+FlightandAirTransit,Air Transit Info,Baggage Reclaim and Check-in Procedures,Mandatory,Text Area,Reclaim at T3,Medium,Baggage Procedures,Enter procedures
+FlightandAirTransit,Air Transit Info,Name of the Air Transit Service,Mandatory,Text,AirTransitX,Medium,Service Name,Enter name
+FlightandAirTransit,Air Transit Info,Type of Air Transit Service,Mandatory,Dropdown,Shuttle,Small,Service Type,Choose type
+FlightandAirTransit,Air Transit Info,Route Information,Mandatory,Text Area,JFK to LAX,Medium,Route Info,Enter route
+FlightandAirTransit,Air Transit Info,Schedule Information,Mandatory,Text Area,10am-4pm,Medium,Schedule Info,Enter schedule
+FlightandAirTransit,Air Transit Info,Fare Information,Mandatory,Text Area,$200,Medium,Fare Info,Enter fare
+FlightandAirTransit,Air Transit Info,Duty-Free and Shopping Options,Optional,Text Area,Duty-Free at T3,Medium,Duty-Free Info,Enter info
+FlightandAirTransit,Air Transit Info,Lounge Access Information,Optional,Text Area,VIP Lounge,Medium,Lounge Info,Enter info
+FlightandAirTransit,Air Transit Info,Nearby Amenities,Optional,Text Area,Coffee Shop,Medium,Amenities Info,Enter info
+FlightandAirTransit,Air Transit Info,Local Transportation Options,Optional,Text Area,"Taxi, Bus",Medium,Transport Info,Enter info
+FlightandAirTransit,Air Transit Info,Special Assistance Services,Optional,Text Area,Wheelchair,Medium,Assistance Info,Enter info
+FlightandAirTransit,Air Transit Info,Ticket Purchase Information,Optional,Text Area,Online,Medium,Ticket Info,Enter info
+FlightandAirTransit,Air Transit Info,Luggage Information,Optional,Text Area,23kg limit,Medium,Luggage Info,Enter info
+FlightandAirTransit,Air Transit Info,Accessibility Information,Optional,Text Area,Ramps,Medium,Accessibility Info,Enter info
+FlightandAirTransit,Air Transit Info,Contact Information,Optional,Text Area,1800-123,Medium,Contact Info,Enter info
+FlightandAirTransit,Air Transit Info,COVID-19 Information,Optional,Text Area,Masks,Medium,COVID-19 Info,Enter info
+FlightandAirTransit,Air Transit Info,Environmental Impact Information,Optional,Text Area,Carbon offset,Medium,Environmental Info,Enter info
+FlightandAirTransit,Flight Planning & Scheduling,Flight Number,Mandatory,Text,AA123,Small,Flight Number,Enter Flight No.
+FlightandAirTransit,Flight Planning & Scheduling,Departure and Arrival Airports,Mandatory,Text,"JFK, LAX",Medium,Airports,Enter Airports
+FlightandAirTransit,Flight Planning & Scheduling,Scheduled Departure Time,Mandatory,Time,14:30,Small,Departure Time,Enter Time
+FlightandAirTransit,Flight Planning & Scheduling,Scheduled Arrival Time,Mandatory,Time,17:45,Small,Arrival Time,Enter Time
+FlightandAirTransit,Flight Planning & Scheduling,Aircraft Type,Mandatory,Dropdown,Boeing 737,Small,Aircraft Type,Select Type
+FlightandAirTransit,Flight Planning & Scheduling,Flight Duration,Mandatory,Text,3h 15m,Small,Flight Duration,Enter Duration
+FlightandAirTransit,Flight Planning & Scheduling,Departure Airport,Mandatory,Text,JFK,Medium,Departure Airport,Enter Airport
+FlightandAirTransit,Flight Planning & Scheduling,Arrival Airport,Mandatory,Text,LAX,Medium,Arrival Airport,Enter Airport
+FlightandAirTransit,Flight Planning & Scheduling,Departure Date and Time,Mandatory,Date,2023-09-14 14:30,Medium,Departure Date/Time,Enter Date/Time
+FlightandAirTransit,Flight Planning & Scheduling,Arrival Date and Time,Mandatory,Date ,2023-09-14 17:45,Medium,Arrival Date/Time,Enter Date/Time
+FlightandAirTransit,Flight Planning & Scheduling,Aircraft Type,Mandatory,Dropdown,Airbus A320,Small,Aircraft Type,Select Type
+FlightandAirTransit,Flight Planning & Scheduling,Alternate Flight Options,Optional,Text,Flight AA124,Medium,Alternate Options,Enter Options
+FlightandAirTransit,Flight Planning & Scheduling,Seasonal Schedules,Optional,Text,"Summer, Winter",Medium,Seasonal Schedules,Enter Schedules
+FlightandAirTransit,Flight Planning & Scheduling,Peak Travel Times,Optional,Text,9am-12pm,Small,Peak Times,Enter Times
+FlightandAirTransit,Flight Planning & Scheduling,Layover Information,Optional,Text,2h in JFK,Medium,Layover Info,Enter Info
+FlightandAirTransit,Flight Planning & Scheduling,Codeshare Partners,Optional,Text,"Delta, United",Small,Codeshare Partners,Enter Partners
+FlightandAirTransit,Flight Planning & Scheduling,Flight Number,Optional,Text,AA125,Small,Flight Number,Enter Flight No.
+FlightandAirTransit,Flight Planning & Scheduling,Number of Passengers,Optional,Number,150,Small,No. of Passengers,Enter Number
+FlightandAirTransit,Flight Planning & Scheduling,Number of Crew Members,Optional,Number,10,Small,No. of Crew,Enter Number
+FlightandAirTransit,Flight Planning & Scheduling,Cargo Weight,Optional,Number,2000 kg,Small,Cargo Weight,Enter Weight
+FlightandAirTransit,Flight Planning & Scheduling,Fuel Requirements,Optional,Number,5000 L,Small,Fuel Requirements,Enter Requirement
+FlightandAirTransit,Flight Planning & Scheduling,Alternate Airports,Optional,Text,"LGA, EWR",Small,Alternate Airports,Enter Airports
+FlightandAirTransit,Flight Planning & Scheduling,Special Requirements,Optional,Text,Wheelchair access,Medium,Special Needs,Enter Needs
+FlightandAirTransit,In-Flight Cargo Monitoring,Cargo Type,Mandatory,Dropdown,Electronics,Small,Cargo Type,Select Type
+FlightandAirTransit,In-Flight Cargo Monitoring,Cargo Weight and Dimensions,Mandatory,Text,"200kg, 2x2x2",Medium,Weight & Dimensions,Enter W & D
+FlightandAirTransit,In-Flight Cargo Monitoring,Temperature and Humidity Monitoring,Mandatory,Text,"25°C, 60%",Small,Temp & Humidity,Enter T & H
+FlightandAirTransit,In-Flight Cargo Monitoring,Security Measures,Mandatory,Text,"CCTV, Sealed",Medium,Security Measures,Enter Measures
+FlightandAirTransit,In-Flight Cargo Monitoring,Real-Time Tracking Information,Mandatory,Text,Live GPS,Medium,Real-Time Tracking,Enter Tracking
+FlightandAirTransit,In-Flight Cargo Monitoring,Cargo Tracking ID,Mandatory,Text,CARGO1234,Small,Tracking ID,Enter ID
+FlightandAirTransit,In-Flight Cargo Monitoring,Cargo Type (Duplicate),Mandatory,Dropdown,Food,Small,Cargo Type,Select Type
+FlightandAirTransit,In-Flight Cargo Monitoring,Weight,Mandatory,Number,200,Small,Weight,Enter Weight
+FlightandAirTransit,In-Flight Cargo Monitoring,Dimensions,Mandatory,Text,2x2x2,Small,Dimensions,Enter Dimensions
+FlightandAirTransit,In-Flight Cargo Monitoring,Departure Airport,Mandatory,Text,JFK,Small,Departure Airport,Enter Airport
+FlightandAirTransit,In-Flight Cargo Monitoring,Arrival Airport,Mandatory,Text,LAX,Small,Arrival Airport,Enter Airport
+FlightandAirTransit,In-Flight Cargo Monitoring,Departure Date and Time,Mandatory,Date,2023-09-14 10:00,Medium,Departure Date/Time,Enter Date/Time
+FlightandAirTransit,In-Flight Cargo Monitoring,Arrival Date and Time,Mandatory,Date,2023-09-14 14:00,Medium,Arrival Date/Time,Enter Date/Time
+FlightandAirTransit,In-Flight Cargo Monitoring,Current Location,Mandatory,Text,Over Atlantic,Small,Current Location,Enter Location
+FlightandAirTransit,In-Flight Cargo Monitoring,Status,Mandatory,Dropdown,In-Transit,Small,Status,Select Status
+FlightandAirTransit,In-Flight Cargo Monitoring,Special Handling Requirements,Optional,Text,Handle with care,Medium,Special Handling,Enter Requirements
+FlightandAirTransit,In-Flight Cargo Monitoring,Customs and Import/Export Regulations,Optional,Text,No hazardous items,Medium,Customs & Regulations,Enter Regulations
+FlightandAirTransit,In-Flight Cargo Monitoring,Emergency Contact for Cargo Issues,Optional,Text,-5489,Small,Emergency Contact,Enter Contact
+FlightandAirTransit,In-Flight Cargo Monitoring,Estimated Time of Cargo Arrival,Optional,Date,2023-09-14 14:00,Medium,ETA,Enter ETA
+FlightandAirTransit,In-Flight Cargo Monitoring,Insurance and Liability Information,Optional,Text,Insured,Medium,Insurance Info,Enter Info
+FlightandAirTransit,In-Flight Cargo Monitoring,Temperature,Optional,Number,25,Small,Temperature,Enter Temperature
+FlightandAirTransit,In-Flight Cargo Monitoring,Humidity,Optional,Number,60,Small,Humidity,Enter Humidity
+FlightandAirTransit,In-Flight Cargo Monitoring,Vibration,Optional,Number,5,Small,Vibration,Enter Vibration
+FlightandAirTransit,In-Flight Cargo Monitoring,Shock,Optional,Number,2,Small,Shock,Enter Shock
+FlightandAirTransit,In-Flight Cargo Monitoring,Light Exposure,Optional,Number,10,Small,Light Exposure,Enter Exposure
+FlightandAirTransit,In-Flight Cargo Monitoring,Pressure,Optional,Number,1000,Small,Pressure,Enter Pressure
+FlightandAirTransit,In-Flight Cargo Monitoring,Additional Sensors,Optional,Text,"GPS, RFID",Small,Additional Sensors,Enter Sensors
+FlightandAirTransit,Transit & Layover Coordination,Transit Airport(s),Mandatory,Text,"JFK, LAX",Medium,Transit Airports,Enter Airports
+FlightandAirTransit,Transit & Layover Coordination,Minimum Connection Time,Mandatory,Number,45,Small,Min. Connection Time,Enter Time
+FlightandAirTransit,Transit & Layover Coordination,Gate Information for Connecting Flights,Mandatory,Text,Gate A3,Small,Gate Info,Enter Gate Info
+FlightandAirTransit,Transit & Layover Coordination,Baggage Transfer Procedures,Mandatory,Text,Auto-transfer,Medium,Baggage Procedures,Enter Procedures
+FlightandAirTransit,Transit & Layover Coordination,Transit Visa Requirements,Mandatory,Text,Required for USA,Medium,Visa Requirements,Enter Requirements
+FlightandAirTransit,Transit & Layover Coordination,Flight Number,Mandatory,Text,AA123,Small,Flight Number,Enter Number
+FlightandAirTransit,Transit & Layover Coordination,Arrival Airport,Mandatory,Text,JFK,Small,Arrival Airport,Enter Airport
+FlightandAirTransit,Transit & Layover Coordination,Arrival Date and Time,Mandatory,Date,2023-09-14 14:00,Medium,Arrival Time,Enter Time
+FlightandAirTransit,Transit & Layover Coordination,Departure Airport,Mandatory,Text,LAX,Small,Departure Airport,Enter Airport
+FlightandAirTransit,Transit & Layover Coordination,Departure Date and Time,Mandatory,Date,2023-09-15 10:00,Medium,Departure Time,Enter Time
+FlightandAirTransit,Transit & Layover Coordination,Number of Passengers,Mandatory,Number,200,Small,No. of Passengers,Enter Number
+FlightandAirTransit,Transit & Layover Coordination,Number of Crew Members,Mandatory,Number,10,Small,No. of Crew,Enter Number
+FlightandAirTransit,Transit & Layover Coordination,Baggage Information,Mandatory,Text,2 bags per person,Medium,Baggage Info,Enter Info
+FlightandAirTransit,Transit & Layover Coordination,Special Requests,Mandatory,Text,Wheelchair access,Medium,Special Requests,Enter Requests
+FlightandAirTransit,Transit & Layover Coordination,Lounge Access for Layovers,Optional,Text,VIP Lounge,Medium,Lounge Access,Enter Lounge Info
+FlightandAirTransit,Transit & Layover Coordination,Nearby Amenities,Optional,Text,Coffee Shop,Medium,Nearby Amenities,Enter Amenities
+FlightandAirTransit,Transit & Layover Coordination,Special Assistance Services,Optional,Text,Wheelchair,Medium,Special Assistance,Enter Services
+FlightandAirTransit,Transit & Layover Coordination,Local Transportation Options,Optional,Text,"Taxi, Bus",Medium,Local Transport,Enter Options
+FlightandAirTransit,Transit & Layover Coordination,Emergency Contact for Transit Issues,Optional,Text,#ERROR!,Small,Emergency Contact,Enter Contact
+FlightandAirTransit,Transit & Layover Coordination,Contact for Ground Handling at Arrival,Optional,Text,#ERROR!,Small,Ground Handling,Enter Contact
+FlightandAirTransit,Transit & Layover Coordination,Contact for Ground Handling at Departure,Optional,Text,#ERROR!,Small,Ground Handling,Enter Contact
+FlightandAirTransit,Transit & Layover Coordination,Contact for Airline Rep at Arrival,Optional,Text,#ERROR!,Small,Airline Rep,Enter Contact
+FlightandAirTransit,Transit & Layover Coordination,Contact for Airline Rep at Departure,Optional,Text,#ERROR!,Small,Airline Rep,Enter Contact
+FlightandAirTransit,Transit & Layover Coordination,Additional Notes,Optional,Text,Extra leg room,Large,Additional Notes,Enter Notes
+FlightandAirTransit,Flight Crew Coordination,Crew Member Names and Roles,Mandatory,Text,John Doe (Pilot),Large,Crew Members,Enter Names
+FlightandAirTransit,Flight Crew Coordination,Flight Hours and Experience,Mandatory,Number,5000,Small,Flight Hours,Enter Hours
+FlightandAirTransit,Flight Crew Coordination,Emergency Procedures Training,Mandatory,Text,"CPR, Fire Safety",Medium,Emergency Training,Enter Training
+FlightandAirTransit,Flight Crew Coordination,Language Proficiency,Mandatory,Text,"English, Spanish",Small,Language,Enter Languages
+FlightandAirTransit,Flight Crew Coordination,Contact Information for Crew Coordination,Mandatory,Text,#ERROR!,Small,Contact Info,Enter Contact
+FlightandAirTransit,Flight Crew Coordination,Flight Number,Mandatory,Text,AA123,Small,Flight Number,Enter Number
+FlightandAirTransit,Flight Crew Coordination,Departure Airport,Mandatory,Text,JFK,Small,Departure Airport,Enter Airport
+FlightandAirTransit,Flight Crew Coordination,Arrival Airport,Mandatory,Text,LAX,Small,Arrival Airport,Enter Airport
+FlightandAirTransit,Flight Crew Coordination,Departure Date and Time,Mandatory,Date,2023-09-15 12:00,Medium,Departure Time,Enter Time
+FlightandAirTransit,Flight Crew Coordination,Arrival Date and Time,Mandatory,Date,2023-09-15 15:00,Medium,Arrival Time,Enter Time
+FlightandAirTransit,Flight Crew Coordination,Aircraft Type,Mandatory,Text,Boeing 737,Small,Aircraft Type,Enter Type
+FlightandAirTransit,Flight Crew Coordination,Pilot in Command (PIC),Mandatory,Text,John Doe,Small,PIC,Enter PIC
+FlightandAirTransit,Flight Crew Coordination,First Officer (FO),Mandatory,Text,Jane Doe,Small,FO,Enter FO
+FlightandAirTransit,Flight Crew Coordination,Flight Attendant(s),Mandatory,Text,"Emily, Mark",Large,Attendants,Enter Names
+FlightandAirTransit,Flight Crew Coordination,Crew Certifications and Licences,Optional,Text,FAA License,Large,Certifications,Enter Certificates
+FlightandAirTransit,Flight Crew Coordination,Special Skills,Optional,Text,CPR Certified,Medium,Special Skills,Enter Skills
+FlightandAirTransit,Flight Crew Coordination,Previous Flight Routes,Optional,Text,JFK-LAX,Large,Past Routes,Enter Routes
+FlightandAirTransit,Flight Crew Coordination,Crew Feedback and Reviews,Optional,Text,Excellent Service,Large,Feedback,Enter Feedback
+FlightandAirTransit,Flight Crew Coordination,Crew Availability for Future Flights,Optional,Text,Available,Medium,Availability,Enter Availability
+FlightandAirTransit,Flight Crew Coordination,Flight Dispatch Information,Optional,Text,All Clear,Medium,Dispatch Info,Enter Info
+FlightandAirTransit,Flight Crew Coordination,Weather Conditions,Optional,Text,Clear Skies,Small,Weather,Enter Weather
+FlightandAirTransit,Flight Crew Coordination,Traffic Information,Optional,Text,Low Traffic,Small,Traffic Info,Enter Traffic
+FlightandAirTransit,Flight Crew Coordination,Special Requirements,Optional,Text,Extra Fuel,Medium,Special Req,Enter Requirements
+FlightandAirTransit,Flight Crew Coordination,Additional Notes,Optional,Text,,Large,Additional Notes,Enter Notes
+FlightandAirTransit,Air Traffic Control Communication,ATC Frequency Channels,Mandatory,Text,118.5 MHz,Small,ATC Frequency,Enter Frequency
+FlightandAirTransit,Air Traffic Control Communication,Primary and Backup Communication Systems,Mandatory,Text,VHF Radio,Medium,Communication Systems,Enter Systems
+FlightandAirTransit,Air Traffic Control Communication,Standard Operating Procedures (SOPs),Mandatory,Text,Follow ATC,Large,SOPs,Enter SOPs
+FlightandAirTransit,Air Traffic Control Communication,Emergency Codes and Phrases,Mandatory,Text,Mayday,Medium,Emergency Codes,Enter Codes
+FlightandAirTransit,Air Traffic Control Communication,Pilot Identification and Credentials,Mandatory,Text,ID 1234,Medium,Pilot ID,Enter ID
+FlightandAirTransit,Air Traffic Control Communication,Aircraft Callsign,Mandatory,Text,N123AB,Small,Aircraft Callsign,Enter Callsign
+FlightandAirTransit,Air Traffic Control Communication,Aircraft Type,Mandatory,Text,Boeing 737,Small,Aircraft Type,Enter Type
+FlightandAirTransit,Air Traffic Control Communication,Position,Mandatory,Text,40.7128° N,Small,Position,Enter Position
+FlightandAirTransit,Air Traffic Control Communication,Altitude,Mandatory,Number,35000,Small,Altitude,Enter Altitude
+FlightandAirTransit,Air Traffic Control Communication,Heading,Mandatory,Number,90,Small,Heading,Enter Heading
+FlightandAirTransit,Air Traffic Control Communication,Speed,Mandatory,Number,500,Small,Speed,Enter Speed
+FlightandAirTransit,Air Traffic Control Communication,Intentions,Mandatory,Text,Landing,Medium,Intentions,Enter Intentions
+FlightandAirTransit,Air Traffic Control Communication,Communication Logs,Optional,Text,Log 123,Large,Communication Logs,Enter Logs
+FlightandAirTransit,Air Traffic Control Communication,Weather Briefing Information,Optional,Text,Clear skies,Medium,Weather Info,Enter Weather
+FlightandAirTransit,Air Traffic Control Communication,Airspace Restrictions,Optional,Text,No-fly zone,Medium,Airspace Info,Enter Restrictions
+FlightandAirTransit,Air Traffic Control Communication,Language Proficiency Requirements,Optional,Text,English,Small,Language Info,Enter Language
+FlightandAirTransit,Air Traffic Control Communication,Equipment Redundancy Measures,Optional,Text,Backup radio,Medium,Equipment Info,Enter Measures
+FlightandAirTransit,Air Traffic Control Communication,Pilot Name,Optional,Text,John Doe,Small,Pilot Name,Enter Name
+FlightandAirTransit,Air Traffic Control Communication,Transponder Code,Optional,Text,1234,Small,Transponder Code,Enter Code
+FlightandAirTransit,Air Traffic Control Communication,Squawk Code,Optional,Text,7500,Small,Squawk Code,Enter Squawk
+FlightandAirTransit,Air Traffic Control Communication,Remarks,Optional,Text,,Medium,Remarks,Enter Remarks
+FlightandAirTransit,Emergency Procedures & Contingency,Emergency Exit Locations,Mandatory,Text,"""Front, Rear""",Medium,"""Refer to Safety Manual""","""Enter locations"""
+FlightandAirTransit,Emergency Procedures & Contingency,Emergency Contact Numbers,Mandatory,Number,"""911""",Short,"""For emergencies only""","""Enter emergency numbers"""
+FlightandAirTransit,Emergency Procedures & Contingency,In-Flight Safety Measures,Mandatory,Text,"""Fasten seatbelt""",Long,"""Safety first""","""List safety measures"""
+FlightandAirTransit,Emergency Procedures & Contingency,Evacuation Procedures,Mandatory,Text,"""Use nearest exit""",Long,"""Follow the manual""","""Enter evacuation procedures"""
+FlightandAirTransit,Emergency Procedures & Contingency,Medical Emergency Protocols,Mandatory,Text,"""Call for medical assistance""",Long,"""Refer to Medical Manual""","""Enter medical protocols"""
+FlightandAirTransit,Emergency Procedures & Contingency,Type of Emergency,Mandatory,Dropdown,"""Fire, Medical""",Short,"""Select from list""","""Select emergency type"""
+FlightandAirTransit,Emergency Procedures & Contingency,Severity of the Emergency,Mandatory,Dropdown,"""High, Medium, Low""",Short,"""Select from list""","""Select severity level"""
+FlightandAirTransit,Emergency Procedures & Contingency,Location of the Emergency,Mandatory,Text,"""Cabin, Cockpit""",Medium,"""Specify location""","""Enter emergency location"""
+FlightandAirTransit,Emergency Procedures & Contingency,Number of People Involved,Mandatory,Number,"""5""",Short,"""Enter number""","""Enter number of people"""
+FlightandAirTransit,Emergency Procedures & Contingency,Any Injuries or Deaths,Mandatory,Radio Group,"""Yes, No""",Short,"""Yes/No""","""Any injuries or deaths?"""
+FlightandAirTransit,Emergency Procedures & Contingency,Actions Taken So Far,Mandatory,Text,"""Evacuated passengers""",Long,"""List actions""","""Enter actions taken"""
+FlightandAirTransit,Emergency Procedures & Contingency,Any Special Requests for Assistance,Mandatory,Text,"""Need medical team""",Long,"""Specify request""","""Enter special requests"""
+FlightandAirTransit,Emergency Procedures & Contingency,Safety Equipment Inventory,Optional,Text,"""First Aid Kit, Fire Extinguisher""",Medium,"""Refer to Safety Manual""","""Enter equipment list"""
+FlightandAirTransit,Emergency Procedures & Contingency,Contingency Plans for Technical Failures,Optional,Text,"""Backup generator available""",Long,"""Follow the manual""","""Enter contingency plans"""
+FlightandAirTransit,Emergency Procedures & Contingency,Emergency Landing Procedures,Optional,Text,"""Land at nearest airport""",Long,"""Refer to Emergency Manual""","""Enter landing procedures"""
+FlightandAirTransit,Emergency Procedures & Contingency,Passenger Briefing Materials,Optional,File,"""safety_briefing.pdf""",Large,"""Upload files""","""Upload briefing materials"""
+FlightandAirTransit,Emergency Procedures & Contingency,Crew Training on Emergency Procedures,Optional,Text,"""CPR, Fire Safety""",Medium,"""Refer to Training Manual""","""Enter training programs"""
+FlightandAirTransit,Emergency Procedures & Contingency,Contact Information for the Person Reporting the Emergency,Optional,Number,"""911""",Short,"""For emergencies only""","""Enter contact number"""
+FlightandAirTransit,Emergency Procedures & Contingency,Contact Information for the Person in Charge of the Response,Optional,Number,"""912""",Short,"""For emergencies only""","""Enter contact number"""
+FlightandAirTransit,Emergency Procedures & Contingency,Additional Notes,Optional,Text,"""Extra water supplies available""",Long,"""Additional info""","""Enter additional notes"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Type Used,Mandatory,Dropdown,"""Jet A-1""",Short,"""Select fuel type""","""Choose fuel type"""
+FlightandAirTransit,Fuel Management & Efficiency,Average Fuel Consumption per Flight,Mandatory,Number,"""800 gallons""",Short,"""Enter average consumption""","""Enter fuel consumption"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Efficiency Measures,Mandatory,Text,"""Optimized flight paths""",Medium,"""Describe measures""","""Enter efficiency measures"""
+FlightandAirTransit,Fuel Management & Efficiency,Carbon Emission Data,Mandatory,Text,"""2000 kg CO2""",Short,"""Enter emission data""","""Enter carbon data"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Reserves Policy,Mandatory,Text,"""Reserve 10% fuel""",Medium,"""Describe reserve policy""","""Enter reserve policy"""
+FlightandAirTransit,Fuel Management & Efficiency,Flight Number,Mandatory,Text,"""AA123""",Short,"""Enter flight number""","""Enter flight number"""
+FlightandAirTransit,Fuel Management & Efficiency,Aircraft Type,Mandatory,Dropdown,"""Boeing 737""",Short,"""Select aircraft type""","""Choose aircraft type"""
+FlightandAirTransit,Fuel Management & Efficiency,Departure Airport,Mandatory,Text,"""JFK""",Short,"""Enter departure airport""","""Enter airport code"""
+FlightandAirTransit,Fuel Management & Efficiency,Arrival Airport,Mandatory,Text,"""LAX""",Short,"""Enter arrival airport""","""Enter airport code"""
+FlightandAirTransit,Fuel Management & Efficiency,Departure Date and Time,Mandatory,Date,"""2023-09-15 14:00""",Medium,"""Select date and time""","""Pick departure time"""
+FlightandAirTransit,Fuel Management & Efficiency,Arrival Date and Time,Mandatory,Date,"""2023-09-15 18:00""",Medium,"""Select date and time""","""Pick arrival time"""
+FlightandAirTransit,Fuel Management & Efficiency,Estimated Flight Time,Mandatory,Number,"""4 hours""",Short,"""Enter estimated time""","""Enter flight time"""
+FlightandAirTransit,Fuel Management & Efficiency,Planned Fuel Consumption,Mandatory,Number,"""900 gallons""",Short,"""Enter planned consumption""","""Enter planned fuel"""
+FlightandAirTransit,Fuel Management & Efficiency,Actual Fuel Consumption,Mandatory,Number,"""850 gallons""",Short,"""Enter actual consumption""","""Enter actual fuel"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Efficiency,Mandatory,Number,"""95%""",Short,"""Enter efficiency""","""Enter fuel efficiency"""
+FlightandAirTransit,Fuel Management & Efficiency,Renewable Fuel Options,Optional,Dropdown,"""Biofuel""",Short,"""Select renewable fuel""","""Choose renewable fuel"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Cost Analysis,Optional,Text,"""Cost increased by 10%""",Medium,"""Describe cost analysis""","""Enter cost analysis"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Supplier Information,Optional,Text,"""Supplier: XYZ Corp""",Medium,"""Enter supplier info""","""Enter supplier details"""
+FlightandAirTransit,Fuel Management & Efficiency,Fuel Efficiency Innovations,Optional,Text,"""New engine design""",Medium,"""Describe innovations""","""Enter efficiency innovations"""
+FlightandAirTransit,Fuel Management & Efficiency,Carbon Offset Programs,Optional,Text,"""Tree planting program""",Medium,"""Describe offset programs""","""Enter offset programs"""
+FlightandAirTransit,Fuel Management & Efficiency,Weather Conditions,Optional,Text,"""Windy conditions""",Medium,"""Describe weather""","""Enter weather conditions"""
+FlightandAirTransit,Fuel Management & Efficiency,Traffic Information,Optional,Text,"""High traffic at LAX""",Medium,"""Describe traffic""","""Enter traffic info"""
+FlightandAirTransit,Fuel Management & Efficiency,Operational Factors,Optional,Text,"""Long taxi times""",Medium,"""Describe operational factors""","""Enter operational factors"""
+FlightandAirTransit,Fuel Management & Efficiency,Technical Factors,Optional,Text,"""Engine inefficiency""",Medium,"""Describe technical factors""","""Enter technical factors"""
+FlightandAirTransit,Fuel Management & Efficiency,Additional Notes,Optional,Text,"""Check fuel levels before takeoff""",Large,"""Enter additional notes""","""Enter any additional notes"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Regulatory Agencies,Mandatory,Dropdown,"""FAA""",Short,"""Select regulatory agency""","""Choose an agency"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Compliance Certificates,Mandatory,File,"""compliance.pdf""",Medium,"""Upload certificate""","""Upload compliance certificate"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Safety Audit Reports,Mandatory,File,"""safety_audit.pdf""",Medium,"""Upload safety audit report""","""Upload audit report"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Environmental Regulations Compliance,Mandatory,Text,"""Fully compliant""",Medium,"""Describe environmental compliance""","""Enter compliance status"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Incident Reporting Mechanisms,Mandatory,Text,"""Online portal""",Medium,"""Describe reporting mechanisms""","""Enter reporting mechanisms"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Regulatory Body,Mandatory,Text,"""FAA""",Short,"""Enter regulatory body""","""Enter the body"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Regulation Number,Mandatory,Text,"""Reg-123""",Short,"""Enter regulation number""","""Enter the number"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Regulation Description,Mandatory,Text,"""Safety protocols""",Medium,"""Describe the regulation""","""Enter regulation description"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Compliance Status,Mandatory,Dropdown,"""Compliant""",Short,"""Select compliance status""","""Choose status"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Due Date,Mandatory,Date,"""2023-12-31""",Short,"""Select due date""","""Choose due date"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Responsible Person,Mandatory,Text,"""John Doe""",Short,"""Enter responsible person""","""Enter the person"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Compliance Training Programs for Crew,Optional,Text,"""Safety Training""",Medium,"""Describe training programs""","""Enter training programs"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Regulatory Updates and Amendments,Optional,Text,"""Amendment 2023""",Medium,"""Describe regulatory updates""","""Enter updates"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Third-Party Audits,Optional,Text,"""Audit by XYZ Corp""",Medium,"""Describe third-party audits""","""Enter audits"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Compliance Deadlines,Optional,Date,"""2023-12-31""",Short,"""Select compliance deadline""","""Choose deadline"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Whistleblower Policies,Optional,Text,"""Anonymous Reporting""",Medium,"""Describe whistleblower policies""","""Enter policies"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Compliance Evidence,Optional,File,"""evidence.pdf""",Medium,"""Upload compliance evidence""","""Upload evidence"""
+FlightandAirTransit,Regulatory Compliance & Reporting,Additional Notes,Optional,Text,"""See attached""",Medium,"""Enter additional notes""","""Enter notes"""
+

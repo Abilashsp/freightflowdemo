@@ -36,7 +36,7 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                   )}
                   onClick={() => handleclick(subItem.id)}
                 >
-                  <Link href={`/p/${subItem.href}`}>
+                  <Link href={`/s/form/${subItem.href}`}>
                     <div>{subItem.name}</div>
                   </Link>
                 </div>
