@@ -36,13 +36,10 @@ export default function Page() {
       <h1 className="pb-6 text-2xl text-center">{path}</h1>
       {data && (
         <>
-          <div className="space-y-12">
+          <div>
             {Object.keys(data).map((section) => {
               return (
-                <div
-                  key={section}
-                  className="grid grid-cols-1 pb-12 border-b gap-x-8 gap-y-10 border-gray-900/10 md:grid-cols-3"
-                >
+                <div key={section} className="p-12 border-b border-gray-900/10">
                   <div>
                     <h2 className="text-base font-semibold leading-7 text-gray-900">
                       {section}
@@ -50,7 +47,7 @@ export default function Page() {
                     <p className="mt-1 text-sm leading-6 text-gray-600"></p>
                   </div>
 
-                  <div className="grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 md:col-span-2">
+                  <div className="grid grid-cols-1 mt-10 gap-x-6 gap-y-8 sm:grid-cols-6">
                     {data[section].map((field) => {
                       const {
                         "Field Name": Field_Name,
@@ -61,7 +58,7 @@ export default function Page() {
                         Prompt,
                       } = field;
                       return (
-                        <div key={Field_Name} className="sm:col-span-4">
+                        <div key={Field_Name} className="sm:col-span-3">
                           <label
                             htmlFor={Field_Name}
                             className="block text-sm font-medium leading-6 text-gray-900"
@@ -84,7 +81,7 @@ export default function Page() {
                               />
                             </div>
                           </div>
-                          </div>
+                        </div>
                       );
                     })}
                   </div>
