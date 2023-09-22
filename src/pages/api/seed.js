@@ -2685,7 +2685,7 @@ const model = [
     "Sample Value": "AA123",
     "Size of Field": "10",
     Tooltip: "Enter the flight number",
-    Prompt: "e.g., AA123",
+    Prompt: "AA123",
   },
   {
     Page: "AirlineCoordination",
@@ -2696,7 +2696,7 @@ const model = [
     "Sample Value": "JFK",
     "Size of Field": "50",
     Tooltip: "Select the departure airport",
-    Prompt: "e.g., JFK",
+    Prompt: "JFK",
   },
   {
     Page: "AirlineCoordination",
@@ -2707,7 +2707,7 @@ const model = [
     "Sample Value": "LAX",
     "Size of Field": "50",
     Tooltip: "Select the arrival airport",
-    Prompt: "e.g., LAX",
+    Prompt: "LAX",
   },
   {
     Page: "AirlineCoordination",
@@ -2718,7 +2718,7 @@ const model = [
     "Sample Value": "14:30",
     "Size of Field": "",
     Tooltip: "Enter the departure time",
-    Prompt: "e.g., 14:30",
+    Prompt: "14:30",
   },
   {
     Page: "AirlineCoordination",
@@ -2729,7 +2729,7 @@ const model = [
     "Sample Value": "16:45",
     "Size of Field": "",
     Tooltip: "Enter the arrival time",
-    Prompt: "e.g., 16:45",
+    Prompt: "16:45",
   },
   {
     Page: "AirlineCoordination",
@@ -2740,7 +2740,7 @@ const model = [
     "Sample Value": "Boeing 737",
     "Size of Field": "50",
     Tooltip: "Select the aircraft type",
-    Prompt: "e.g., Boeing 737",
+    Prompt: "Boeing 737",
   },
   {
     Page: "AirlineCoordination",
@@ -2751,7 +2751,7 @@ const model = [
     "Sample Value": "Economy",
     "Size of Field": "50",
     Tooltip: "Select available fare classes",
-    Prompt: "e.g., Economy",
+    Prompt: "Economy",
   },
   {
     Page: "AirlineCoordination",
@@ -2762,7 +2762,7 @@ const model = [
     "Sample Value": "N123AB",
     "Size of Field": "10",
     Tooltip: "Enter the registration number",
-    Prompt: "e.g., N123AB",
+    Prompt: "N123AB",
   },
   {
     Page: "AirlineCoordination",
@@ -2773,7 +2773,7 @@ const model = [
     "Sample Value": "Delta",
     "Size of Field": "50",
     Tooltip: "Select the operating airline",
-    Prompt: "e.g., Delta",
+    Prompt: "Delta",
   },
   {
     Page: "AirlineCoordination",
@@ -2784,7 +2784,7 @@ const model = [
     "Sample Value": "JFK",
     "Size of Field": "50",
     Tooltip: "Select the origin airport",
-    Prompt: "e.g., JFK",
+    Prompt: "JFK",
   },
   {
     Page: "AirlineCoordination",
@@ -2795,7 +2795,7 @@ const model = [
     "Sample Value": "LAX",
     "Size of Field": "50",
     Tooltip: "Select the destination airport",
-    Prompt: "e.g., LAX",
+    Prompt: "LAX",
   },
   {
     Page: "AirlineCoordination",
@@ -2806,7 +2806,7 @@ const model = [
     "Sample Value": "14:30",
     "Size of Field": "",
     Tooltip: "Enter the departure time",
-    Prompt: "e.g., 14:30",
+    Prompt: "14:30",
   },
   {
     Page: "AirlineCoordination",
@@ -2817,7 +2817,7 @@ const model = [
     "Sample Value": "16:45",
     "Size of Field": "",
     Tooltip: "Enter the arrival time",
-    Prompt: "e.g., 16:45",
+    Prompt: "16:45",
   },
   {
     Page: "AirlineCoordination",
@@ -2828,7 +2828,7 @@ const model = [
     "Sample Value": "Boeing 737",
     "Size of Field": "50",
     Tooltip: "Select the aircraft type",
-    Prompt: "e.g., Boeing 737",
+    Prompt: "Boeing 737",
   },
   {
     Page: "AirlineCoordination",
@@ -2839,7 +2839,7 @@ const model = [
     "Sample Value": "N123AB",
     "Size of Field": "10",
     Tooltip: "Enter the registration number",
-    Prompt: "e.g., N123AB",
+    Prompt: "N123AB",
   },
   {
     Page: "AirlineCoordination",
@@ -2850,7 +2850,7 @@ const model = [
     "Sample Value": "Wi-Fi",
     "Size of Field": "100",
     Tooltip: "Select in-flight amenities",
-    Prompt: "e.g., Wi-Fi",
+    Prompt: "Wi-Fi",
   },
   {
     Page: "AirlineCoordination",
@@ -2861,7 +2861,7 @@ const model = [
     "Sample Value": "Vegan",
     "Size of Field": "50",
     Tooltip: "Select meal options",
-    Prompt: "e.g., Vegan",
+    Prompt: "Vegan",
   },
   {
     Page: "AirlineCoordination",
@@ -2872,7 +2872,7 @@ const model = [
     "Sample Value": "Dubai",
     "Size of Field": "50",
     Tooltip: "Enter layovers or stopovers",
-    Prompt: "e.g., Dubai",
+    Prompt: "Dubai",
   },
   {
     Page: "AirlineCoordination",
@@ -2883,7 +2883,7 @@ const model = [
     "Sample Value": "23",
     "Size of Field": "10",
     Tooltip: "Enter baggage allowance",
-    Prompt: "e.g., 23 kg",
+    Prompt: "23 kg",
   },
   {
     Page: "AirlineCoordination",
@@ -2894,7 +2894,7 @@ const model = [
     "Sample Value": "Refundable",
     "Size of Field": "200",
     Tooltip: "Enter cancellation policy",
-    Prompt: "e.g., Refundable",
+    Prompt: "Refundable",
   },
   {
     Page: "AirlineCoordination",
@@ -2905,7 +2905,7 @@ const model = [
     "Sample Value": "14:35",
     "Size of Field": "",
     Tooltip: "Enter the actual departure time",
-    Prompt: "e.g., 14:35",
+    Prompt: "14:35",
   },
   {
     Page: "AirlineCoordination",
@@ -2916,7 +2916,7 @@ const model = [
     "Sample Value": "16:50",
     "Size of Field": "",
     Tooltip: "Enter the actual arrival time",
-    Prompt: "e.g., 16:50",
+    Prompt: "16:50",
   },
   {
     Page: "AirlineCoordination",
@@ -2927,7 +2927,7 @@ const model = [
     "Sample Value": "Delayed",
     "Size of Field": "20",
     Tooltip: "Select the flight status",
-    Prompt: "e.g., Delayed",
+    Prompt: "Delayed",
   },
   {
     Page: "AirlineCoordination",
@@ -2938,7 +2938,7 @@ const model = [
     "Sample Value": "Electronics",
     "Size of Field": "100",
     Tooltip: "Enter cargo details",
-    Prompt: "e.g., Electronics",
+    Prompt: "Electronics",
   },
   {
     Page: "AirlineCoordination",
@@ -2949,7 +2949,7 @@ const model = [
     "Sample Value": "200",
     "Size of Field": "10",
     Tooltip: "Enter passenger details",
-    Prompt: "e.g., 200",
+    Prompt: "200",
   },
   {
     Page: "AirlineCoordination",
@@ -2960,7 +2960,7 @@ const model = [
     "Sample Value": "5",
     "Size of Field": "10",
     Tooltip: "Enter crew details",
-    Prompt: "e.g., 5",
+    Prompt: "5",
   },
   {
     Page: "AirlineCoordination",
@@ -2971,7 +2971,7 @@ const model = [
     "Sample Value": "On time",
     "Size of Field": "200",
     Tooltip: "Enter any additional remarks",
-    Prompt: "e.g., On time",
+    Prompt: "On time",
   },
   {
     Page: "AirlineCoordination",
@@ -2982,7 +2982,7 @@ const model = [
     "Sample Value": "Summer Sale",
     "Size of Field": "200",
     Tooltip: "Enter current promotions",
-    Prompt: "e.g., Summer Sale",
+    Prompt: "Summer Sale",
   },
   {
     Page: "AirlineCoordination",
@@ -2993,7 +2993,7 @@ const model = [
     "Sample Value": "Winter Fest",
     "Size of Field": "200",
     Tooltip: "Enter upcoming campaigns",
-    Prompt: "e.g., Winter Fest",
+    Prompt: "Winter Fest",
   },
   {
     Page: "AirlineCoordination",
@@ -3004,7 +3004,7 @@ const model = [
     "Sample Value": "SkyMiles",
     "Size of Field": "100",
     Tooltip: "Enter loyalty programs",
-    Prompt: "e.g., SkyMiles",
+    Prompt: "SkyMiles",
   },
   {
     Page: "AirlineCoordination",
@@ -3015,7 +3015,7 @@ const model = [
     "Sample Value": "Visa",
     "Size of Field": "100",
     Tooltip: "Enter partnerships",
-    Prompt: "e.g., Visa",
+    Prompt: "Visa",
   },
   {
     Page: "AirlineCoordination",
@@ -3026,7 +3026,7 @@ const model = [
     "Sample Value": "T&C Apply",
     "Size of Field": "500",
     Tooltip: "Enter terms and conditions",
-    Prompt: "e.g., T&C Apply",
+    Prompt: "T&C Apply",
   },
   {
     Page: "AirlineCoordination",
@@ -3037,7 +3037,7 @@ const model = [
     "Sample Value": "Summer2023",
     "Size of Field": "50",
     Tooltip: "Enter campaign name",
-    Prompt: "e.g., Summer2023",
+    Prompt: "Summer2023",
   },
   {
     Page: "AirlineCoordination",
@@ -3048,7 +3048,7 @@ const model = [
     "Sample Value": "2023-06-01",
     "Size of Field": "",
     Tooltip: "Enter campaign start date",
-    Prompt: "e.g., 2023-06-01",
+    Prompt: "2023-06-01",
   },
   {
     Page: "AirlineCoordination",
@@ -3059,7 +3059,7 @@ const model = [
     "Sample Value": "2023-08-31",
     "Size of Field": "",
     Tooltip: "Enter campaign end date",
-    Prompt: "e.g., 2023-08-31",
+    Prompt: "2023-08-31",
   },
   {
     Page: "AirlineCoordination",
@@ -3070,7 +3070,7 @@ const model = [
     "Sample Value": "50000",
     "Size of Field": "10",
     Tooltip: "Enter campaign budget",
-    Prompt: "e.g., 50000",
+    Prompt: "50000",
   },
   {
     Page: "AirlineCoordination",
@@ -3081,7 +3081,7 @@ const model = [
     "Sample Value": "Adults",
     "Size of Field": "50",
     Tooltip: "Enter target audience",
-    Prompt: "e.g., Adults",
+    Prompt: "Adults",
   },
   {
     Page: "AirlineCoordination",
@@ -3092,7 +3092,7 @@ const model = [
     "Sample Value": "Increase Sales",
     "Size of Field": "200",
     Tooltip: "Enter campaign goals",
-    Prompt: "e.g., Increase Sales",
+    Prompt: "Increase Sales",
   },
   {
     Page: "AirlineCoordination",
@@ -3103,7 +3103,7 @@ const model = [
     "Sample Value": "Summer 2022",
     "Size of Field": "200",
     Tooltip: "Enter past campaigns",
-    Prompt: "e.g., Summer 2022",
+    Prompt: "Summer 2022",
   },
   {
     Page: "AirlineCoordination",
@@ -3114,7 +3114,7 @@ const model = [
     "Sample Value": "Great Service",
     "Size of Field": "500",
     Tooltip: "Enter customer testimonials",
-    Prompt: "e.g., Great Service",
+    Prompt: "Great Service",
   },
   {
     Page: "AirlineCoordination",
@@ -3125,7 +3125,7 @@ const model = [
     "Sample Value": "https://...",
     "Size of Field": "100",
     Tooltip: "Enter promotional video URL",
-    Prompt: "e.g., https://...",
+    Prompt: "https://...",
   },
   {
     Page: "AirlineCoordination",
@@ -3136,7 +3136,7 @@ const model = [
     "Sample Value": "user@email.com",
     "Size of Field": "",
     Tooltip: "Enter email for newsletter",
-    Prompt: "e.g., user@email.com",
+    Prompt: "user@email.com",
   },
   {
     Page: "AirlineCoordination",
@@ -3147,7 +3147,7 @@ const model = [
     "Sample Value": "Twitter",
     "Size of Field": "100",
     Tooltip: "Enter social media campaigns",
-    Prompt: "e.g., Twitter",
+    Prompt: "Twitter",
   },
   {
     Page: "AirlineCoordination",
@@ -3158,7 +3158,7 @@ const model = [
     "Sample Value": "Online",
     "Size of Field": "50",
     Tooltip: "Enter marketing channels",
-    Prompt: "e.g., Online",
+    Prompt: "Online",
   },
   {
     Page: "AirlineCoordination",
@@ -3169,7 +3169,7 @@ const model = [
     "Sample Value": "image.jpg",
     "Size of Field": "",
     Tooltip: "Upload creative assets",
-    Prompt: "e.g., image.jpg",
+    Prompt: "image.jpg",
   },
   {
     Page: "AirlineCoordination",
@@ -3180,7 +3180,7 @@ const model = [
     "Sample Value": "CTR, ROI",
     "Size of Field": "100",
     Tooltip: "Enter performance metrics",
-    Prompt: "e.g., CTR, ROI",
+    Prompt: "CTR, ROI",
   },
   {
     Page: "AirlineCoordination",
@@ -3191,7 +3191,7 @@ const model = [
     "Sample Value": "Well Executed",
     "Size of Field": "200",
     Tooltip: "Enter any remarks",
-    Prompt: "e.g., Well Executed",
+    Prompt: "Well Executed",
   },
   {
     Page: "AirlineCoordination",
@@ -3202,7 +3202,7 @@ const model = [
     "Sample Value": "Airline Co.",
     "Size of Field": "200",
     Tooltip: "Enter partner organizations",
-    Prompt: "e.g., Airline Co.",
+    Prompt: "Airline Co.",
   },
   {
     Page: "AirlineCoordination",
@@ -3213,7 +3213,7 @@ const model = [
     "Sample Value": "SkyMiles",
     "Size of Field": "200",
     Tooltip: "Enter affiliate programs",
-    Prompt: "e.g., SkyMiles",
+    Prompt: "SkyMiles",
   },
   {
     Page: "AirlineCoordination",
@@ -3224,7 +3224,7 @@ const model = [
     "Sample Value": "SkyShare",
     "Size of Field": "500",
     Tooltip: "Enter collaborative initiatives",
-    Prompt: "e.g., SkyShare",
+    Prompt: "SkyShare",
   },
   {
     Page: "AirlineCoordination",
@@ -3235,7 +3235,7 @@ const model = [
     "Sample Value": "info@air.com",
     "Size of Field": "",
     Tooltip: "Enter contact information",
-    Prompt: "e.g., info@air.com",
+    Prompt: "info@air.com",
   },
   {
     Page: "AirlineCoordination",
@@ -3246,7 +3246,7 @@ const model = [
     "Sample Value": "agreement.pdf",
     "Size of Field": "",
     Tooltip: "Upload legal agreements",
-    Prompt: "e.g., agreement.pdf",
+    Prompt: "agreement.pdf",
   },
   {
     Page: "AirlineCoordination",
@@ -3257,7 +3257,7 @@ const model = [
     "Sample Value": "SkyPartners",
     "Size of Field": "100",
     Tooltip: "Enter partner/affiliate name",
-    Prompt: "e.g., SkyPartners",
+    Prompt: "SkyPartners",
   },
   {
     Page: "AirlineCoordination",
@@ -3268,7 +3268,7 @@ const model = [
     "Sample Value": "Airline",
     "Size of Field": "",
     Tooltip: "Select partner/affiliate type",
-    Prompt: "e.g., Airline",
+    Prompt: "Airline",
   },
   {
     Page: "AirlineCoordination",
@@ -3279,7 +3279,7 @@ const model = [
     "Sample Value": "contact@sky.com",
     "Size of Field": "",
     Tooltip: "Enter specific contact information",
-    Prompt: "e.g., contact@sky.com",
+    Prompt: "contact@sky.com",
   },
   {
     Page: "AirlineCoordination",
@@ -3290,7 +3290,7 @@ const model = [
     "Sample Value": "SkySuccess",
     "Size of Field": "500",
     Tooltip: "Enter success stories",
-    Prompt: "e.g., SkySuccess",
+    Prompt: "SkySuccess",
   },
   {
     Page: "AirlineCoordination",
@@ -3301,7 +3301,7 @@ const model = [
     "Sample Value": "SkyFuture",
     "Size of Field": "500",
     Tooltip: "Enter upcoming collaborations",
-    Prompt: "e.g., SkyFuture",
+    Prompt: "SkyFuture",
   },
   {
     Page: "AirlineCoordination",
@@ -3312,7 +3312,7 @@ const model = [
     "Sample Value": "SkyResource",
     "Size of Field": "200",
     Tooltip: "Enter resource sharing details",
-    Prompt: "e.g., SkyResource",
+    Prompt: "SkyResource",
   },
   {
     Page: "AirlineCoordination",
@@ -3323,7 +3323,7 @@ const model = [
     "Sample Value": "SkyFAQ",
     "Size of Field": "500",
     Tooltip: "Enter FAQs",
-    Prompt: "e.g., SkyFAQ",
+    Prompt: "SkyFAQ",
   },
   {
     Page: "AirlineCoordination",
@@ -3334,7 +3334,7 @@ const model = [
     "Sample Value": "sky.com/news",
     "Size of Field": "100",
     Tooltip: "Enter media coverage",
-    Prompt: "e.g., sky.com/news",
+    Prompt: "sky.com/news",
   },
   {
     Page: "AirlineCoordination",
@@ -3345,7 +3345,7 @@ const model = [
     "Sample Value": "sky.com",
     "Size of Field": "100",
     Tooltip: "Enter partner website",
-    Prompt: "e.g., sky.com",
+    Prompt: "sky.com",
   },
   {
     Page: "AirlineCoordination",
@@ -3356,7 +3356,7 @@ const model = [
     "Sample Value": "logo.png",
     "Size of Field": "",
     Tooltip: "Upload partner logo",
-    Prompt: "e.g., logo.png",
+    Prompt: "logo.png",
   },
   {
     Page: "AirlineCoordination",
@@ -3367,7 +3367,7 @@ const model = [
     "Sample Value": "Active",
     "Size of Field": "",
     Tooltip: "Select partner status",
-    Prompt: "e.g., Active",
+    Prompt: "Active",
   },
   {
     Page: "AirlineCoordination",
@@ -3378,7 +3378,7 @@ const model = [
     "Sample Value": "SkyNote",
     "Size of Field": "200",
     Tooltip: "Enter additional remarks",
-    Prompt: "e.g., SkyNote",
+    Prompt: "SkyNote",
   },
   {
     Page: "AirlineCoordination",

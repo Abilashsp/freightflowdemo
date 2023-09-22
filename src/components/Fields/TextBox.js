@@ -18,14 +18,14 @@ const TextBox = (props) => {
             *
           </span>
         )}
-        {Tooltip && (
+        {/* {Tooltip && (
           <span
             className="float-right text-xs text-blue-500 align-super"
             title={Tooltip}
           >
             !
           </span>
-        )}
+        )} */}
       </label>
       <div className="mt-1">
         <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
@@ -37,6 +37,9 @@ const TextBox = (props) => {
             placeholder={Prompt}
           />
         </div>
+        {Tooltip && Tooltip.toLowerCase() !== Field_Name.toLowerCase() && (
+          <p className="mt-1 ml-2 text-xs text-blue-500">{Tooltip}</p>
+        )}
       </div>
     </>
   );

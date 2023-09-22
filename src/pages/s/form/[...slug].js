@@ -61,7 +61,7 @@ export default function Page() {
                 >
                   <div>
                     <h2
-                      className={`px-6 py-2 text-base font-semibold leading-7 text-gray-900 border-b-2 border-gray-900/10`}
+                      className={`px-6 py-2 text-base font-semibold leading-10 bg-blue-200  text-blue-900 border-b-2 border-gray-900/10`}
                     >
                       {section}
                     </h2>
