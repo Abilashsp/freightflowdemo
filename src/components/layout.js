@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <div className="flex justify-between h-screen">
       <Navbar />
-      <main className="w-screen h-screen bg-white ">{children}</main>
+      <main className="w-screen h-screen p-6 overflow-y-auto bg-white">{children}</main>
     </div>
   );
 }
