@@ -2,14 +2,33 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { groupBy } from "lodash";
+import * as Fields from "@/components/Fields";
 
-import * as Fields from "../../../components/Fields";
-const { TextBox, CheckBox, Select } = Fields;
+const {
+  CheckBox,
+  TextBox,
+  Select,
+  NumberBox,
+  Email,
+  UrlField,
+  DateField,
+  TimeField,
+  FileField,
+  WeekField,
+} = Fields;
 
 const FieldAlias = {
   Text: TextBox,
   Checkbox: CheckBox,
   Dropdown: Select,
+  URL: UrlField,
+  Number: NumberBox,
+  Email,
+  Url: UrlField,
+  Date: DateField,
+  Time: TimeField,
+  File: FileField,
+  Week: WeekField,
 };
 
 const renderField = (props) => {
