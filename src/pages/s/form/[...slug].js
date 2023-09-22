@@ -4,11 +4,12 @@ import { useRouter } from "next/router";
 import { groupBy } from "lodash";
 
 import * as Fields from "../../../components/Fields";
-const { TextBox, CheckBox } = Fields;
+const { TextBox, CheckBox, Select } = Fields;
 
 const FieldAlias = {
   Text: TextBox,
   Checkbox: CheckBox,
+  Dropdown: Select,
 };
 
 const renderField = (props) => {
