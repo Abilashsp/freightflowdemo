@@ -50,7 +50,7 @@ export default function RightNav() {
 
   return (
     <>
-      <div className=" border-2 bg-gray-200">
+      <div className="   border-2 bg-gray-200">
         <div className="sticky top-0 z-40 lg:mx-auto lg:px-4 rounded-xl mt-2">
           <div className="flex h-16 items-center gap-x-4 border-b border-gray-200 bg-gray-200 px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-0 lg:shadow-none">
 
