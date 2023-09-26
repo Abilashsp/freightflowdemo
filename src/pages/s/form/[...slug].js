@@ -143,7 +143,7 @@ export default function Page() {
                     className="absolute inset-0 flex items-center"
                     aria-hidden="true"
                   >
-                    <div className="h-1 mt-4 mt-3 w-full bg-indigo-600 " />
+                    <div className="h-1 mt-4 w-full bg-indigo-600 " />
                   </div>
 
                   <a
@@ -178,12 +178,16 @@ export default function Page() {
       {data && (
         <>
           {Object.keys(data).map((section, sIndx) => {
+            
             if (section === value) {
               return (
+
                 <div
+                
                   key={section}
-                  className="pb-4 mt-6 border rounded border-gray-900/10"
+                  className="pb-4 mt-6 border  rounded border-gray-900/10 h-screen"
                 >
+                  
                   <div>
                     <h2
                       className={`px-6 py-2 text-base font-semibold leading-10 bg-blue-200 text-blue-900 border-b-2 border-gray-900/10`}
@@ -198,10 +202,10 @@ export default function Page() {
                     ))}
                   </div>
 
-                  <div class="flex justify-around mt-6 gap-x-6">
+                  <div class="flex justify-around mt-6 gap-x-6 ">
                   <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handleprevious(e, sIndx)}>
                      <BsFillCaretLeftFill className="w-7 h-5"/>
-                      <span class="text-white">Prev</span>
+                      <span class="text-white">Prevs</span>
                     </button>
 
 
