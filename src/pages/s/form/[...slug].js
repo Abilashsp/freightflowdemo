@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { groupBy } from "lodash";
 import { CheckIcon } from '@heroicons/react/20/solid'
-import { BsFillCaretRightFill,BsFillCaretLeftFill} from 'react-icons/bs';
+import { BsFillCaretRightFill, BsFillCaretLeftFill } from 'react-icons/bs';
 
 import * as Fields from "../../../components/Fields";
 const { TextBox, CheckBox, Select, RadioBox } = Fields;
@@ -109,7 +109,7 @@ export default function Page() {
   }
 
   return (
-    <form className="">
+    <form className="h-auto border border-slate-400 rounded-lg">
       {isLoading && (
         <div
           className="inline-block h-8 w-8 animate-spin flex items-center justify-center rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
@@ -122,9 +122,9 @@ export default function Page() {
           </span>
         </div>
       )}
-      <h1 className="pb-6 text-2xl text-center">{path}</h1>
+      <h1 className="px-4 text-white bg-blue-600 rounded dark:bg-blue-500 py-4 text-2xl font-bold  ">{path}</h1>
 
-      <nav aria-label="Progress">
+      {/* <nav aria-label="Progress">
         <ol role="list" className="flex items-center">
           {data &&
             Object.keys(data).map((step, stepIdx) => (
@@ -173,74 +173,158 @@ export default function Page() {
               </li>
             ))}
         </ol>
-      </nav>
+      </nav> */}
 
-      {data && (
-        <>
-          {Object.keys(data).map((section, sIndx) => {
-            
-            if (section === value) {
-              return (
 
-                <div
-                
-                  key={section}
-                  className="pb-4 mt-6 border  rounded border-gray-900/10 h-screen"
+
+
+
+      <div className="flex justify-evenly">
+
+
+        <div className="space-y-10 divide-y divide-gray-900/10  py-6 px-8 w-4/5 h-screen overflow-y-auto ">
+
+          {data && (
+            <>
+              {Object.keys(data).map((section, sIndx) => {
+
+                if (section === value) {
+                  return (
+
+                    <div
+
+                      key={section}
+                      className="bg-white shadow-sm border-2 ring-gray-900/5 sm:rounded-xl md:col-span-2  "
+                    >
+
+                      <div>
+                        <h2
+                          className="text-xl font-semibold leading-7 text-gray-900b  bg-green-300 py-4 px-4 rounded-xl mx-10 mt-4 text-center "
+                        >
+                          {section}
+                        </h2>
+                        <p className="mt-1 text-sm leading-6 text-gray-600"></p>
+                      </div>
+                      <div className="grid grid-cols-1 px-6 mt-10 gap-x-3 gap-y-3 sm:grid-cols-6 ">
+                        {data[section].map((field) => (
+                          <div className="sm:col-span-2">{renderField(field)}</div>
+                        ))}
+                      </div>
+
+                      <div class="flex justify-around mt-6 gap-x-6 ">
+                        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handleprevious(e, sIndx)}>
+                          <BsFillCaretLeftFill className="w-7 h-5" />
+                          <span class="text-white">Prevs</span>
+                        </button>
+
+
+                        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handlenext(e, sIndx)}>
+                          <span class="text-white">Next</span>
+                          <BsFillCaretRightFill className="w-7 h-5" />
+
+                        </button>
+                      </div>
+
+                      <div className="flex items-center justify-end mt-6 gap-x-6 ">
+                        <button
+                          type="button"
+                          className="text-sm font-semibold leading-6 text-gray-900"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          type="submit"
+                          className="px-3 py-2 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                          onClick={(e) => clickSave(e)}
+                        >
+                          Save
+                        </button>
+                      </div>
+                    </div>
+
+
+                  );
+                } else {
+                  return null;
+                }
+              })}
+            </>
+          )}
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <nav className="h-screen overflow-y-auto mt-5 ml-4 ">
+          <h2
+            className="text-sm font-semibold leading-7 text-gray-900b  bg-blue-300 py-2 px-4 rounded-xl mx-10 mt-4  text-center "
+          >
+            Page Navigate
+          </h2>
+
+          <ol role="list" className="overflow-hidden bg-blue-100 px-2 py-2 rounded-lg mr-4 border-2">
+            {data &&
+              Object.keys(data).map((step, stepIdx) => (
+                <li
+                  key={step}
+                  className={classNames(
+                    stepIdx !== Object.keys(data).length - 1
+                      ? "pr-8 sm:pr-20"
+                      : "",
+                    "relative"
+                  )}
                 >
-                  
-                  <div>
-                    <h2
-                      className={`px-6 py-2 text-base font-semibold leading-10 bg-blue-200 text-blue-900 border-b-2 border-gray-900/10`}
-                    >
-                      {section}
-                    </h2>
-                    <p className="mt-1 text-sm leading-6 text-gray-600"></p>
-                  </div>
-                  <div className="grid grid-cols-1 px-6 mt-10 gap-x-3 gap-y-3 sm:grid-cols-6">
-                    {data[section].map((field) => (
-                      <div className="sm:col-span-2">{renderField(field)}</div>
-                    ))}
-                  </div>
+                  <>
+                    <a className="group relative flex items-start " onClick={() => handleValue(step)}>
+                      <span className="flex h-9 items-center">
+                        <span className={
+                          completedSections[step] ? "relative z-10 flex h-8 w-8 items-center justify-center rounded-full bg-green-600 group-hover:bg-green-600 mt-4" : "relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-500 bg-white group-hover:border-gray-400 mt-4"} >
+                          {!completedSections[step] && <span className="h-2.5 w-2.5 rounded-full bg-blue-300 group-hover:bg-blue-700 " />}
+                          {completedSections[step] && <CheckIcon className="h-5 w-5 text-white " aria-hidden="true" />}
+                        </span>
 
-                  <div class="flex justify-around mt-6 gap-x-6 ">
-                  <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handleprevious(e, sIndx)}>
-                     <BsFillCaretLeftFill className="w-7 h-5"/>
-                      <span class="text-white">Prevs</span>
-                    </button>
+                      </span>
 
+                      <span className="ml-8 flex min-w-0 flex-col ">
+                        <span className="text-sm font-medium mt-4 ">{step}</span>
+                      </span>
+                    </a>
+                    {stepIdx !== Object.keys(data).length - 1 ? (
+                      <div className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600" aria-hidden="true" />
+                    ) : null}
+                  </>
 
-                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handlenext(e, sIndx)}>
-                    <span class="text-white">Next</span>
-                     <BsFillCaretRightFill className="w-7 h-5"/>
-                      
-                    </button>
-                  </div>
-
-                  <div className="flex items-center justify-end mt-6 gap-x-6 ">
-                    <button
-                      type="button"
-                      className="text-sm font-semibold leading-6 text-gray-900"
-                    >
-                      Cancel
-                    </button>
-                    <button
-                      type="submit"
-                      className="px-3 py-2 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                      onClick={(e) => clickSave(e)}
-                    >
-                      Save
-                    </button>
-                  </div>
-                </div>
+                </li>
+              ))}
+          </ol>
+        </nav>
 
 
-              );
-            } else {
-              return null;
-            }
-          })}
-        </>
-      )}
-    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </form >
   );
 }

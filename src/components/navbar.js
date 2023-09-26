@@ -24,7 +24,7 @@ const navigation = [
       {id:12, current: false, name: 'Booking Information', href: '/BookingManagement', },
       {id:12, current: false, name: 'PackagingSolutions', href: '/PackagingSolutions', },
       {id:12, current: false, name: 'TransportationServices', href: '/TransportationServices', },
-      {id:12, current: false, name: 'Airport Security & Handling', href: '#', },
+      {id:12, current: false, name: 'Airport Security & Handling', href: '/AirportSecurityandHandling', },
       {id:12, current: false, name: 'AirlineCoordination', href: '/AirlineCoordination', },
       {id:12, current: false, name: 'FlightandAirTransit', href: '/FlightandAirTransit', },
       {id:12, current: false, name: 'Customs & Arrival Services', href: '#', },

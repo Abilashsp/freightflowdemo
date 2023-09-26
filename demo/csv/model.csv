@@ -1826,3 +1826,560 @@ FlightandAirTransit,Regulatory Compliance & Reporting,Whistleblower Policies,Opt
 FlightandAirTransit,Regulatory Compliance & Reporting,Compliance Evidence,Optional,File,"""evidence.pdf""",Medium,"""Upload compliance evidence""","""Upload evidence"""
 FlightandAirTransit,Regulatory Compliance & Reporting,Additional Notes,Optional,Text,"""See attached""",Medium,"""Enter additional notes""","""Enter notes"""
 
+AirportSecurityHandling,Security Measures,Protocols,Mandatory,Text,"""TSA guidelines""",200,Security Protocols,Enter protocols
+AirportSecurityHandling,Security Measures,Screening Methods,Mandatory,Text,"""X-ray""",100,Screening Methods,Enter methods
+AirportSecurityHandling,Security Measures,Personnel Training,Mandatory,Text,"""Basic Training""",200,Personnel Training,Enter training
+AirportSecurityHandling,Security Measures,Restricted Areas,Mandatory,Text,"""Terminal A""",100,Restricted Areas,Enter areas
+AirportSecurityHandling,Security Measures,Emergency Procedures,Mandatory,Text,"""Fire Drill""",200,Emergency Procedures,Enter procedures
+AirportSecurityHandling,Security Measures,Compliance Standards,Mandatory,Text,"""ISO 9001""",100,Compliance Standards,Enter standards
+AirportSecurityHandling,Security Measures,Measure Name,Mandatory,Text,"""Metal Detector""",100,Security Measure Name,Enter name
+AirportSecurityHandling,Security Measures,Measure Description,Mandatory,Text,"""Detects metal""",200,Security Measure Description,Enter description
+AirportSecurityHandling,Security Measures,Measure Type,Mandatory,Dropdown,"""Physical""",,Security Measure Type,Select type
+AirportSecurityHandling,Security Measures,Measure Frequency,Mandatory,Dropdown,"""Daily""",,Security Measure Frequency,Select frequency
+AirportSecurityHandling,Security Measures,Measure Effectiveness,Mandatory,Number,"""95""",,Security Measure Effectiveness,Enter effectiveness
+AirportSecurityHandling,Security Measures,Measure Cost,Mandatory,Number,"""1000""",,Security Measure Cost,Enter cost
+AirportSecurityHandling,Security Measures,Equipment,Optional,Text,"""Metal Detectors""",200,Security Equipment,Enter equipment types
+AirportSecurityHandling,Security Measures,Visitor Guidelines,Optional,Text,"""No liquids""",200,Visitor Guidelines,Enter visitor guidelines
+AirportSecurityHandling,Security Measures,Incident Reports,Optional,Text,"""Fire Drill Report""",200,Incident Reports,Enter incident reports
+AirportSecurityHandling,Security Measures,Third-Party Services,Optional,Text,"""Security Co. Ltd""",100,Third-Party Services,Enter third-party services
+AirportSecurityHandling,Security Measures,Additional Measures,Optional,Text,"""Extra Guards""",100,Additional Measures,Enter additional measures
+AirportSecurityHandling,Security Measures,Measure Benefits,Optional,Text,"""Increased Safety""",200,Security Measure Benefits,Enter benefits
+AirportSecurityHandling,Security Measures,Measure Challenges,Optional,Text,"""High Costs""",200,Security Measure Challenges,Enter challenges
+AirportSecurityHandling,Security Measures,Measure Recommendations,Optional,Text,"""Better Cameras""",200,Security Measure Recommendations,Enter recommendations
+AirportSecurityHandling,Handling Services,Service Type,Mandatory,Dropdown,"Cargo, Passenger",Medium,Select service type,Choose option
+AirportSecurityHandling,Handling Services,Service Provider,Mandatory,Text,ABC Co.,Medium,Enter provider,Enter text
+AirportSecurityHandling,Handling Services,Contact Information,Mandatory,Text,[email protected],Medium,Contact info,Enter text
+AirportSecurityHandling,Handling Services,Operating Hours,Mandatory,Text,9am - 5pm,Small,Operation hours,Enter text
+AirportSecurityHandling,Handling Services,Location,Mandatory,Text,Terminal 1,Medium,Enter location,Enter text
+AirportSecurityHandling,Handling Services,Security Measures,Mandatory,Text,Metal Detectors,Large,Security info,Enter text
+AirportSecurityHandling,Handling Services,Pricing,Mandatory,Number,$50,Small,Enter price,Enter number
+AirportSecurityHandling,Handling Services,Handling Service Name,Mandatory,Text,Luggage Service,Medium,Service name,Enter text
+AirportSecurityHandling,Handling Services,Handling Service Description,Mandatory,Text Area,Luggage transport,Large,Service details,Enter text
+AirportSecurityHandling,Handling Services,Handling Service Type,Mandatory,Dropdown,"Ground, Air",Medium,Select type,Choose option
+AirportSecurityHandling,Handling Services,Handling Service Frequency,Mandatory,Number,Daily,Small,Enter frequency,Enter number
+AirportSecurityHandling,Handling Services,Handling Service Cost,Mandatory,Number,$20,Small,Enter cost,Enter number
+AirportSecurityHandling,Handling Services,Additional Services,Optional,Text,"WiFi, Lounge",Medium,Additional services,Enter text
+AirportSecurityHandling,Handling Services,Payment Methods,Optional,Dropdown,"Cash, Credit Card",Small,Payment methods,Choose option
+AirportSecurityHandling,Handling Services,Customer Reviews,Optional,Text Area,"""Great service""",Large,Customer reviews,Enter text
+AirportSecurityHandling,Handling Services,Photos,Optional,File,[Image],Large,Upload photos,Choose file
+AirportSecurityHandling,Handling Services,FAQ,Optional,Text Area,What are the hours?,Large,FAQ,Enter text
+AirportSecurityHandling,Handling Services,Terms and Conditions,Optional,Text Area,T&C,Large,Terms & Conditions,Enter text
+AirportSecurityHandling,Handling Services,Accessibility Features,Optional,Checkbox,"Ramps, Braille",Medium,Accessibility,Select items
+AirportSecurityHandling,Handling Services,Handling Service Benefits,Optional,Text,"Fast, Reliable",Medium,Service benefits,Enter text
+AirportSecurityHandling,Handling Services,Handling Service Challenges,Optional,Text,"Slow, Expensive",Medium,Service challenges,Enter text
+AirportSecurityHandling,Handling Services,Handling Service Recommendations,Optional,Text,Improve WiFi,Medium,Recommendations,Enter text
+AirportSecurityHandling,Regulations & Compliance,Regulation Name,Mandatory,Text,TSA Regulations,Medium,Enter regulation name,Enter text
+AirportSecurityHandling,Regulations & Compliance,Issuing Authority,Mandatory,Text,TSA,Medium,Enter issuing authority,Enter text
+AirportSecurityHandling,Regulations & Compliance,Effective Date,Mandatory,Date,01/01/2023,Small,Effective date,Select date
+AirportSecurityHandling,Regulations & Compliance,Summary,Mandatory,Text Area,Security measures...,Large,Enter summary,Enter text
+AirportSecurityHandling,Regulations & Compliance,Compliance Requirements,Mandatory,Text Area,Follow security...,Large,Compliance requirements,Enter text
+AirportSecurityHandling,Regulations & Compliance,Penalties for Non-Compliance,Mandatory,Text Area,"Fines, license...",Large,Penalties for non-compliance,Enter text
+AirportSecurityHandling,Regulations & Compliance,Document Links,Mandatory,URL,www.example.com,Medium,Document links,Enter URL
+AirportSecurityHandling,Regulations & Compliance,Regulation Description,Mandatory,Text Area,Detailed rules...,Large,Regulation description,Enter text
+AirportSecurityHandling,Regulations & Compliance,Regulation Authority,Mandatory,Text,FAA,Medium,Enter regulation authority,Enter text
+AirportSecurityHandling,Regulations & Compliance,Regulation Compliance Status,Mandatory,Dropdown,"Compliant, Non-Compliant",Medium,Compliance status,Choose option
+AirportSecurityHandling,Regulations & Compliance,Expiration Date,Optional,Date,12/31/2025,Small,Expiration Date,Select date
+AirportSecurityHandling,Regulations & Compliance,Related Regulations,Optional,Text,FAA Part 139,Medium,Related Regulations,Enter text
+AirportSecurityHandling,Regulations & Compliance,FAQ,Optional,Text Area,What's new?,Large,FAQ,Enter text
+AirportSecurityHandling,Regulations & Compliance,Updates and Amendments,Optional,Text Area,New security measures,Large,Updates & Amendments,Enter text
+AirportSecurityHandling,Regulations & Compliance,Resources,Optional,Text,"PDFs, Links",Medium,Resources,Enter text
+AirportSecurityHandling,Regulations & Compliance,Testimonials,Optional,Text Area,"""Very useful""",Large,Testimonials,Enter text
+AirportSecurityHandling,Regulations & Compliance,Contact for Queries,Optional,Text,email@example.com,Medium,Contact for Queries,Enter text
+AirportSecurityHandling,Regulations & Compliance,Regulation Compliance Challenges,Optional,Text Area,Staff training,Large,Compliance Challenges,Enter text
+AirportSecurityHandling,Regulations & Compliance,Regulation Compliance Recommendations,Optional,Text,More staff training,Medium,Compliance Recommendations,Enter text
+AirportSecurityHandling,Contact Information,Contact Name,Mandatory,Text,John Doe,Medium,Enter contact name,Enter text
+AirportSecurityHandling,Contact Information,Phone Number,Mandatory,Number,555-555-5555,Medium,Enter phone number,Enter number
+AirportSecurityHandling,Contact Information,Email Address,Mandatory,Email,email@example.com,Medium,Enter email address,Enter email
+AirportSecurityHandling,Contact Information,Physical Address,Mandatory,Text,123 Main St,Large,Enter physical address,Enter text
+AirportSecurityHandling,Contact Information,Operating Hours,Mandatory,Text,9am-5pm,Medium,Enter operating hours,Enter text
+AirportSecurityHandling,Contact Information,Contact Name,Mandatory,Text,Jane Doe,Medium,Enter contact name,Enter text
+AirportSecurityHandling,Contact Information,Contact Title,Mandatory,Text,Manager,Medium,Enter contact title,Enter text
+AirportSecurityHandling,Contact Information,Contact Email,Mandatory,Email,contact@example.com,Medium,Enter contact email,Enter email
+AirportSecurityHandling,Contact Information,Contact Phone Number,Mandatory,Number,444-444-4444,Medium,Enter contact phone,Enter number
+AirportSecurityHandling,Contact Information,Fax Number,Optional,Number,555-123-4567,Medium,Enter fax number,Enter number
+AirportSecurityHandling,Contact Information,Social Media Handles,Optional,Text,@airport_security,Medium,Social media handles,Enter text
+AirportSecurityHandling,Contact Information,Website URL,Optional,URL,www.airport.com,Medium,Enter website URL,Enter URL
+AirportSecurityHandling,Contact Information,Emergency Contact,Optional,Number,911,Small,Emergency contact,Enter number
+AirportSecurityHandling,Contact Information,Language Support,Optional,Text,"English, Spanish",Medium,Language support,Enter text
+AirportSecurityHandling,Contact Information,Map Location,Optional,URL,"40.7128, -74.0060",Medium,Map location,Enter coordinates or URL
+AirportSecurityHandling,Contact Information,Contact Form,Optional,File,contact_form.pdf,Medium,Contact form,Upload/Enter URL
+AirportSecurityHandling,Contact Information,Contact Department,Optional,Dropdown,Security,Small,Contact department,Select from dropdown
+AirportSecurityHandling,Contact Information,Contact Address,Optional,Text,456 Secondary St,Large,Contact address,Enter text
+AirportSecurityHandling,Airport Security,Security Level,Mandatory,Dropdown,"High, Medium, Low",Small,Select security level,Select from dropdown
+AirportSecurityHandling,Airport Security,Security Measures,Mandatory,Text,Metal detectors,Large,Describe security measures,Enter text
+AirportSecurityHandling,Airport Security,Screening Procedures,Mandatory,Text,X-ray screening,Medium,Describe screening procedures,Enter text
+AirportSecurityHandling,Airport Security,Restricted Items,Mandatory,Text,Sharp objects,Large,List restricted items,Enter text
+AirportSecurityHandling,Airport Security,ID Requirements,Mandatory,Text,Passport,Medium,List ID requirements,Enter text
+AirportSecurityHandling,Airport Security,Contact for Security Concerns,Mandatory,Email,security@airport.com,Medium,Enter contact for security concerns,Enter contact details
+AirportSecurityHandling,Airport Security,Name,Mandatory,Text,Airport Security Co.,Medium,Enter name of security entity,Enter text
+AirportSecurityHandling,Airport Security,Description,Mandatory,Text,Security measures in detail,Large,Describe the security measures,Enter text
+AirportSecurityHandling,Airport Security,Type,Mandatory,Dropdown,"Digital, Physical",Small,Select type of security system,Select from dropdown
+AirportSecurityHandling,Airport Security,Frequency,Mandatory,Number,Every 30 minutes,Small,Enter frequency of security checks,Enter number
+AirportSecurityHandling,Airport Security,Effectiveness,Mandatory,Number,9 out of 10,Small,Rate the effectiveness,Enter number
+AirportSecurityHandling,Airport Security,Cost,Mandatory,Number,"$100,000",Medium,Enter cost of security measures,Enter number/currency
+AirportSecurityHandling,Airport Security,Security Tips,Optional,Text,Keep your ID handy,Medium,Tips for better security,Enter text
+AirportSecurityHandling,Airport Security,Lost & Found,Optional,Text,Lost items counter at T1,Medium,Lost & Found Information,Enter text
+AirportSecurityHandling,Airport Security,Complaints and Feedback,Optional,Text,Feedback box near exit,Large,Submit complaints or feedback,Enter text
+AirportSecurityHandling,Airport Security,FAQ,Optional,Text,What IDs are accepted?,Large,FAQs related to airport security,Enter text
+AirportSecurityHandling,Airport Security,Emergency Procedures,Optional,Text,Fire exits are marked,Large,Emergency procedures,Enter text
+AirportSecurityHandling,Airport Security,Additional Services,Optional,Text,Escort services,Medium,Additional services available,Enter text
+AirportSecurityHandling,Airport Security,Updates and Notices,Optional,Text,Security alert for today,Large,Latest updates and notices,Enter text
+AirportSecurityHandling,Airport Security,Benefits,Optional,Text,Increased safety,Large,Benefits of airport security,Enter text
+AirportSecurityHandling,Airport Security,Challenges,Optional,Text,Crowding issues,Large,Security challenges faced,Enter text
+AirportSecurityHandling,Airport Security,Recommendations,Optional,Text,More screening machines,Large,Recommendations for security,Enter text
+AirportSecurityHandling,Cargo Handling,Cargo Type,Mandatory,Dropdown,Perishable Goods,Small,Type of cargo,Select from list
+AirportSecurityHandling,Cargo Handling,Service Provider,Mandatory,Text,ABC Logistics,Medium,Provider of service,Enter text
+AirportSecurityHandling,Cargo Handling,Contact Information,Mandatory,Text,-8468,Medium,Contact details,Enter text
+AirportSecurityHandling,Cargo Handling,Operating Hours,Mandatory,Text,9:00 AM - 5:00 PM,Small,Hours of operation,Enter text
+AirportSecurityHandling,Cargo Handling,Location,Mandatory,Text,Terminal 2,Small,Location of service,Enter text
+AirportSecurityHandling,Cargo Handling,Security Measures,Mandatory,Text,X-ray scanning,Large,Security measures in place,Enter text
+AirportSecurityHandling,Cargo Handling,Pricing,Mandatory,Text,$100 per kg,Small,Service pricing,Enter text
+AirportSecurityHandling,Cargo Handling,Name,Mandatory,Text,ABC Cargo Services,Medium,Name of handling service,Enter text
+AirportSecurityHandling,Cargo Handling,Description,Mandatory,Text,Handles perishable goods,Large,Description of service,Enter text
+AirportSecurityHandling,Cargo Handling,Type,Mandatory,Dropdown,Inbound,Small,Type of cargo handling,Select from list
+AirportSecurityHandling,Cargo Handling,Frequency,Mandatory,Text,Daily,Small,Frequency of service,Enter text
+AirportSecurityHandling,Cargo Handling,Cost,Mandatory,Text,$200 per container,Small,Detailed cargo handling cost,Enter text
+AirportSecurityHandling,Cargo Handling,Additional Services,Optional,Text,Packing,Medium,Additional services available,Enter text
+AirportSecurityHandling,Cargo Handling,Payment Methods,Optional,Checkbox,Credit Card,Small,Methods of payment,Select applicable methods
+AirportSecurityHandling,Cargo Handling,Customer Reviews,Optional,Text Area,"""Excellent service""",Large,Reviews from customers,Enter text
+AirportSecurityHandling,Cargo Handling,Photos,Optional,File,service1.jpg,,Photos of the service,Upload images
+AirportSecurityHandling,Cargo Handling,FAQ,Optional,Text Area,"""How to book?""",Large,Frequently Asked Questions,Enter text
+AirportSecurityHandling,Cargo Handling,Terms and Conditions,Optional,Text Area,"""Read before booking""",Large,Terms and Conditions,Enter text
+AirportSecurityHandling,Cargo Handling,Accessibility Features,Optional,Checkbox,Wheelchair Accessible,Small,Features for better accessibility,Select applicable features
+AirportSecurityHandling,Cargo Handling,Benefits,Optional,Text Area,"""Fast delivery""",Large,Advantages of the cargo service,Enter text
+AirportSecurityHandling,Cargo Handling,Challenges,Optional,Text Area,"""Weather conditions""",Large,Challenges faced in cargo handling,Enter text
+AirportSecurityHandling,Cargo Handling,Recommendations,Optional,Text Area,"""Add more staff""",Large,Suggestions for improving the service,Enter text
+AirportSecurityHandling,Passenger Handling,Service Type,Mandatory,Dropdown,Baggage Handling,Small,Select the type of service,Choose from the list
+AirportSecurityHandling,Passenger Handling,Service Provider,Mandatory,Text,ABC Services,Medium,Enter the service provider,Enter text
+AirportSecurityHandling,Passenger Handling,Contact Information,Mandatory,Text,123-456-7890,Medium,Enter contact details,Enter text or numbers
+AirportSecurityHandling,Passenger Handling,Location,Mandatory,Text,Terminal 1,Small,Enter the location of the service,Enter text
+AirportSecurityHandling,Passenger Handling,Security Measures,Mandatory,Text,Metal Detectors,Medium,Security measures in place,Enter text
+AirportSecurityHandling,Passenger Handling,Pricing,Mandatory,Text,$50,Small,Enter the cost of the service,Enter numeric values
+AirportSecurityHandling,Passenger Handling,Name,Mandatory,Text,QuickPass,Medium,Name of the specific service,Enter text
+AirportSecurityHandling,Passenger Handling,Description,Mandatory,Text Area,"""Quick and efficient""",Large,Detailed description of the service,Enter text
+AirportSecurityHandling,Passenger Handling,Type,Mandatory,Dropdown,Premium,Small,Category of the passenger handling service,Choose from the list
+AirportSecurityHandling,Passenger Handling,Frequency,Mandatory,Dropdown,Daily,Small,Frequency of the service,Choose from the list
+AirportSecurityHandling,Passenger Handling,Cost,Mandatory,Text,$100,Small,Total cost of the service,Enter numeric values
+AirportSecurityHandling,Passenger Handling,Additional Services,Optional,Text Area,Extra baggage service,Medium,List of additional services,Enter text
+AirportSecurityHandling,Passenger Handling,Payment Methods,Optional,Checkbox,Credit Card,Small,Select the available payment methods,Choose options
+AirportSecurityHandling,Passenger Handling,Customer Reviews,Optional,Text Area,"""Excellent service""",Large,Reviews from customers,Enter text
+AirportSecurityHandling,Passenger Handling,Photos,Optional,File,image.jpg,Large,Upload photos related to the service,Upload image files
+AirportSecurityHandling,Passenger Handling,FAQ,Optional,Text Area,What is the cost?,Medium,FAQs related to the service,Enter text
+AirportSecurityHandling,Passenger Handling,Terms and Conditions,Optional,Text Area,"""You must agree...""",Large,Terms and conditions for the service,Enter text
+AirportSecurityHandling,Passenger Handling,Accessibility Features,Optional,Text Area,Wheelchair access,Medium,Features for accessibility,Enter text
+AirportSecurityHandling,Passenger Handling,Benefits,Optional,Text Area,Time-saving,Medium,Benefits of the service,Enter text
+AirportSecurityHandling,Passenger Handling,Challenges,Optional,Text Area,Limited capacity,Medium,Challenges related to the service,Enter text
+AirportSecurityHandling,Passenger Handling,Recommendations,Optional,Text Area,Book in advance,Medium,Recommendations for using the service,Enter text
+AirportSecurityHandling,Ground Handling Details,Service Type,Mandatory,Dropdown,Baggage Handling,Small,Select the type of service provided,Select service type
+AirportSecurityHandling,Ground Handling Details,Service Provider,Mandatory,Text,ABC Services,Medium,Name of the service provider,Enter provider name
+AirportSecurityHandling,Ground Handling Details,Contact Information,Mandatory,Text,123-456-7890,Medium,Enter contact details,Enter contact
+AirportSecurityHandling,Ground Handling Details,Operating Hours,Mandatory,Text,9am-5pm,Small,Hours during which service is active,Enter hours
+AirportSecurityHandling,Ground Handling Details,Location,Mandatory,Text,Terminal 1,Small,Location of the service,Enter location
+AirportSecurityHandling,Ground Handling Details,Security Measures,Mandatory,Text Area,"Cameras, Guards",Medium,Security measures implemented,Describe measures
+AirportSecurityHandling,Ground Handling Details,Pricing,Mandatory,Number,$100,Small,Cost of the service,Enter cost
+AirportSecurityHandling,Ground Handling Details,Ground Handling Name,Mandatory,Text,ABC Ground Handling,Medium,Name of the ground handling service,Enter name
+AirportSecurityHandling,Ground Handling Details,Ground Handling Description,Mandatory,Text Area,Handles baggage,Large,Description of the service,Enter description
+AirportSecurityHandling,Ground Handling Details,Ground Handling Type,Mandatory,Dropdown,"Baggage, Cargo",Small,Category of ground handling,Select type
+AirportSecurityHandling,Ground Handling Details,Ground Handling Frequency,Mandatory,Text,Daily,Small,How often the service is provided,Enter frequency
+AirportSecurityHandling,Ground Handling Details,Ground Handling Cost,Mandatory,Number,$1000,Small,Total cost of the service,Enter total cost
+AirportSecurityHandling,Ground Handling Details,Additional Services,Optional,Text Area,"WiFi, Meal Service",Medium,Additional services offered,Enter additional services
+AirportSecurityHandling,Ground Handling Details,Payment Methods,Optional,Checkbox,"Credit, Cash",Small,Payment methods accepted,Check applicable
+AirportSecurityHandling,Ground Handling Details,Customer Reviews,Optional,Text Area,"""Great service!""",Large,Customer reviews,Enter customer reviews
+AirportSecurityHandling,Ground Handling Details,Photos,Optional,File,image.jpg,,Upload photos,Upload photos
+AirportSecurityHandling,Ground Handling Details,FAQ,Optional,Text Area,"""What is included?""",Medium,Common questions,Enter FAQ
+AirportSecurityHandling,Ground Handling Details,Terms and Conditions,Optional,Text Area,"""Must be 18""",Large,Terms and conditions,Enter terms
+AirportSecurityHandling,Ground Handling Details,Accessibility Features,Optional,Text Area,Wheelchair ramp,Medium,Accessibility features,Enter features
+AirportSecurityHandling,Ground Handling Details,Ground Handling Benefits,Optional,Text Area,"""Efficient""",Medium,Benefits of the service,Enter benefits
+AirportSecurityHandling,Ground Handling Details,Ground Handling Challenges,Optional,Text Area,"""Staff shortage""",Medium,Service challenges,Enter challenges
+AirportSecurityHandling,Ground Handling Details,Ground Handling Recommendations,Optional,Text Area,"""More staff""",Medium,Recommended improvements,Enter recommendations
+AirportSecurityHandling,Aircraft Handling,Service Type,Mandatory,Dropdown,"Refueling, Towing",Small,Select a service type,Choose service type
+AirportSecurityHandling,Aircraft Handling,Service Provider,Mandatory,Text,ABC Handling Co.,Medium,Enter the service provider,Enter provider name
+AirportSecurityHandling,Aircraft Handling,Contact Information,Mandatory,Text,#ERROR!,Medium,Contact details for inquiries,Enter contact info
+AirportSecurityHandling,Aircraft Handling,Operating Hours,Mandatory,Text,9:00 AM - 5:00 PM,Small,Operating hours,Enter operating hours
+AirportSecurityHandling,Aircraft Handling,Location,Mandatory,Text,Hangar 3,Small,Location of service,Enter location
+AirportSecurityHandling,Aircraft Handling,Security Measures,Mandatory,Text Area,"CCTV, Guards",Medium,Security measures,Enter security measures
+AirportSecurityHandling,Aircraft Handling,Pricing,Mandatory,Number,$200,Small,Cost of service,Enter pricing
+AirportSecurityHandling,Aircraft Handling,Name,Mandatory,Text,Refueling Service,Medium,Service name,Enter service name
+AirportSecurityHandling,Aircraft Handling,Description,Mandatory,Text Area,Refueling planes,Large,Service description,Enter description
+AirportSecurityHandling,Aircraft Handling,Type,Mandatory,Dropdown,"Passenger, Cargo",Small,Category of handling,Choose type
+AirportSecurityHandling,Aircraft Handling,Frequency,Mandatory,Dropdown,"Daily, Weekly",Small,Service frequency,Choose frequency
+AirportSecurityHandling,Aircraft Handling,Cost,Mandatory,Number,$500,Small,Overall cost,Enter cos
+AirportSecurityHandling,Aircraft Handling,Additional Services,Optional,Checkbox,"Cleaning, Catering",Small,Extra services,Choose additional services
+AirportSecurityHandling,Aircraft Handling,Payment Methods,Optional,Checkbox,"Credit, Cash",Small,Payment options,Choose payment methods
+AirportSecurityHandling,Aircraft Handling,Customer Reviews,Optional,Text Area,"""Great service!""",Large,Customer reviews,Enter reviews
+AirportSecurityHandling,Aircraft Handling,Photos,Optional,File,image.jpg,Medium,Upload photos,Upload service photos
+AirportSecurityHandling,Aircraft Handling,FAQ,Optional,Text Area,"""What is the cost?""",Medium,FAQs,Enter FAQs
+AirportSecurityHandling,Aircraft Handling,Terms and Conditions,Optional,Text Area,"""T&C apply""",Large,Terms & Conditions,Enter terms & conditions
+AirportSecurityHandling,Aircraft Handling,Accessibility Features,Optional,Checkbox,"Ramp, Elevator",Small,Accessibility features,Choose features
+AirportSecurityHandling,Aircraft Handling,Benefits,Optional,Text Area,"Fast, Reliable",Medium,Service benefits,Enter benefits
+AirportSecurityHandling,Aircraft Handling,Challenges,Optional,Text Area,"Weather, Delays",Medium,Service challenges,Enter challenges
+AirportSecurityHandling,Aircraft Handling,Recommendations,Optional,Text Area,More staff,Medium,Service recommendations,Enter recommendations
+AirportSecurityHandling,FAQs,Question,Mandatory,Text,"""What is the cost?""",Medium,FAQ Question,Enter a question
+AirportSecurityHandling,FAQs,Answer,Mandatory,Text Area,"""$20 per hour""",Medium,FAQ Answer,Enter an answer
+AirportSecurityHandling,FAQs,Category,Mandatory,Dropdown,"Security, Handling",Small,FAQ Category,Select a category
+AirportSecurityHandling,FAQs,Related Questions,Optional,Text,"""What are the rates?""",Medium,Related Questions,Enter related questions
+AirportSecurityHandling,FAQs,Last Updated,Optional,Date,2023-09-22,Small,Last Updated,Select date
+AirportSecurityHandling,FAQs,Source,Optional,URL,www.example.com,Small,Source,Enter source
+AirportSecurityHandling,FAQs,Contact for More Info,Optional,Email,info@example.com,Small,Contact Info,Enter contact info
+AirportSecurityHandling,FAQs,Attachments,Optional,File,"doc,pdf",Small,Attachments,Upload file
+AirportSecurityHandling,FAQs,User Ratings,Optional,Number,4,Small,User Ratings,Select rating
+AirportSecurityHandling,FAQs,Comments Section,Optional,Text Area,"""Good info!""",Medium,Comments,Enter comments
+AirportSecurityHandling,FAQs,Category,Optional,Dropdown,Security,Small,Category,Select category
+AirportSecurityHandling,FAQs,Tags,Optional,Text,"Security, Pricing",Small,Tags,Enter tags
+AirportSecurityHandling,FAQs,Related FAQs,Optional,URL,www.example.com/faq2,Small,Related FAQs,Enter related FAQs link
+AirportSecurityHandling,Testimonials,Author Name,Mandatory,Text,"""John Doe""",Small,Author Name,Enter your name
+AirportSecurityHandling,Testimonials,Testimonial Content,Mandatory,Text Area,"""Great Service!""",Large,Testimonial Content,Write your testimonial
+AirportSecurityHandling,Testimonials,Date,Mandatory,Date,2023-09-22,Small,Date,Select date
+AirportSecurityHandling,Testimonials,Name,Mandatory,Text,"""Jane Doe""",Small,Name,Enter alternate name
+AirportSecurityHandling,Testimonials,Testimonial,Mandatory,Text Area,"""Excellent security""",Large,Testimonial,Write your testimonial
+AirportSecurityHandling,Testimonials,Author Title,Optional,Text,"""CEO""",Small,Author Title,Enter your title
+AirportSecurityHandling,Testimonials,Author Photo,Optional,File,--,Medium,Author Photo,Upload your photo
+AirportSecurityHandling,Testimonials,Company/Organization,Optional,Text,"""Tech Corp""",Small,Company/Organization,Enter your company
+AirportSecurityHandling,Testimonials,Service Used,Optional,Text,"""Security Check""",Small,Service Used,Enter the service used
+AirportSecurityHandling,Testimonials,Rating,Optional,Dropdown,"""5""",Small,Rating,Select a rating (1-5)
+AirportSecurityHandling,Testimonials,Website Link,Optional,URL,"""www.example.com""",Medium,Website Link,Enter your website link
+AirportSecurityHandling,Testimonials,Title,Optional,Text,"""Manager""",Small,Title,Enter alternative title
+AirportSecurityHandling,Testimonials,Company,Optional,Text,"""XYZ Ltd.""",Small,Company,Enter alternative company
+AirportSecurityHandling,Testimonials,Location,Optional,Text,"""New York""",Small,Location,Enter your location
+AirportSecurityHandling,Testimonials,Rating,Optional,Dropdown,"""4""",Small,Rating,Select alternative rating
+AirportSecurityHandling,Testimonials,Photo,Optional,File,--,Medium,Photo,Upload alternative photo
+AirportSecurityHandling,Media Gallery,Media Type,Mandatory,Dropdown,"""Photo""",Small,Media Type,Select media type
+AirportSecurityHandling,Media Gallery,Title,Mandatory,Text,"""Airport Overview""",Medium,Title,Enter media title
+AirportSecurityHandling,Media Gallery,Description,Mandatory,Text,"""Aerial view""",Large,Description,Enter media description
+AirportSecurityHandling,Media Gallery,Upload Date,Mandatory,Date,"""2023-09-22""",Small,Upload Date,Select upload date
+AirportSecurityHandling,Media Gallery,Source,Mandatory,URL,"""Official Website""",Medium,Source,Enter media source
+AirportSecurityHandling,Media Gallery,Media Type,Mandatory,Dropdown,"""Video""",Small,Media Type,Select media type (Duplicate)
+AirportSecurityHandling,Media Gallery,Media File,Mandatory,File,--,Large,Media File,Upload media file
+AirportSecurityHandling,Media Gallery,Tags,Optional,Text,"""Airport, Security""",Medium,Tags,Enter relevant tags
+AirportSecurityHandling,Media Gallery,Licence Information,Optional,Text,"""CC-BY-SA""",Medium,Licence Information,Enter licence details
+AirportSecurityHandling,Media Gallery,Related Media,Optional,URL,"""Airport Security Video""",Medium,Related Media,Link or name related media
+AirportSecurityHandling,Media Gallery,Resolution/Quality,Optional,Text,"""1080p""",Small,Resolution/Quality,Enter media resolution
+AirportSecurityHandling,Media Gallery,Download Link,Optional,URL,"""http://example.com/download""",Medium,Download Link,Provide download link
+AirportSecurityHandling,Media Gallery,User Ratings,Optional,Number,"""4.5""",Small,User Ratings,Enter user rating
+AirportSecurityHandling,Media Gallery,Comments Section,Optional,File,,,Comments Section,Enable for comments
+AirportSecurityHandling,Media Gallery,Media Title,Optional,Text,"""Airport Security 101""",Medium,Media Title,Enter alternative title
+AirportSecurityHandling,Media Gallery,Media Description,Optional,Text,"""Security measures in detail""",Large,Media Description,Enter alternative description
+AirportSecurityHandling,Media Gallery,Media Credits,Optional,Text,"""John Doe, Photographer""",Medium,Media Credits,Enter media credits
+AirportSecurityHandling,Media Gallery,Media Tags,Optional,Text,"""Safety, Checks""",Medium,Media Tags,Enter additional tags
+AirportSecurityHandling,Media Gallery,Media Caption,Optional,Text,"""Airport at dawn""",Medium,Media Caption,Enter media caption
+AirportSecurityHandling,Career Opportunities Details,Job Title,Mandatory,Text,"""Security Officer""",Medium,Job Title,Enter the title of the job position
+AirportSecurityHandling,Career Opportunities Details,Job Description,Mandatory,Text,"""Responsible for security..""",Large,Job Description,Provide a detailed job description
+AirportSecurityHandling,Career Opportunities Details,Qualifications,Mandatory,Text,"""Bachelor's in Security""",Large,Qualifications,List down the required qualifications
+AirportSecurityHandling,Career Opportunities Details,Application Deadline,Mandatory,Date,"""2023-10-01""",Small,Deadline,Enter the last date to apply
+AirportSecurityHandling,Career Opportunities Details,How to Apply,Mandatory,Text,"""Email your resume to...""",Large,How to Apply,Describe how to apply for the job
+AirportSecurityHandling,Career Opportunities Details,Job Requirements,Mandatory,Text,"""First-aid certified""",Medium,Requirements,Specify the job requirements
+AirportSecurityHandling,Career Opportunities Details,Job Benefits,Mandatory,Text,"""Health insurance""",Medium,Benefits,Describe the benefits of the job
+AirportSecurityHandling,Career Opportunities Details,Job Application Link,Mandatory,URL,"""http://applyhere.com""",Medium,Application Link,Provide the link for job application
+AirportSecurityHandling,Career Opportunities Details,Salary Range,Optional,Number,"""50000-70000""",Small,Salary Range,Enter the estimated salary range
+AirportSecurityHandling,Career Opportunities Details,Location,Optional,Text,"""New York, NY""",Medium,Location,Specify the job location
+AirportSecurityHandling,Career Opportunities Details,Experience Required,Optional,Number,"""2""",Small,Experience,Enter the years of experience required
+AirportSecurityHandling,Career Opportunities Details,Benefits,Optional,Text,"""Healthcare, 401k""",Medium,Benefits,List additional benefits offered
+AirportSecurityHandling,Career Opportunities Details,Contact Information,Optional,Email,"""hr@example.com""",Medium,Contact Info,Provide contact details for queries
+AirportSecurityHandling,Career Opportunities Details,Attachments,Optional,File,"""JobDescription.pdf""",Medium,Attachments,Attach relevant documents
+AirportSecurityHandling,Career Opportunities Details,User Ratings,Optional,Number,"""4.5""",Small,User Ratings,Provide or display user ratings
+AirportSecurityHandling,Career Opportunities Details,Comments Section,Optional,Text,"""Great opportunity!""",Large,Comments,Section for user comments
+AirportSecurityHandling,Career Opportunities Details,Job Category,Optional,Dropdown,"""Security""",Small,Category,Select the job category from the list
+AirportSecurityHandling,Career Opportunities Details,Job Location,Optional,Text,"""Terminal 1, Room 5""",Medium,Detailed Location,Provide more detailed job location
+AirportSecurityHandling,Career Opportunities Details,Job Type,Optional,Dropdown,"""Full-time""",Small,Job Type,Select the type of employment
+AirportSecurityHandling,Career Opportunities Details,Job Salary,Optional,Number,"""60000""",Small,Exact Salary,Enter the exact salary (if applicable)
+AirportSecurityHandling,Career Opportunities Details,Job Posting Date,Optional,Date,"""2023-09-20""",Small,Posting Date,Enter the date the job was posted
+AirportSecurityHandling,Career Opportunities Details,Job Closing Date,Optional,Date,"""2023-10-20""",Small,Closing Date,Enter the date the job application closes
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Name,Mandatory,Text,"""Global Security Inc.""",Medium,Partner Name,Enter the name of the partner or affiliate
+AirportSecurityHandling,Partners & Affiliates,Description,Mandatory,Text,"""Provides security solutions...""",Large,Description,Provide a brief description of the partner
+AirportSecurityHandling,Partners & Affiliates,Contact Information,Mandatory,Email,"""contact@globalsecurity.com""",Medium,Contact Info,Enter the contact details for the partner
+AirportSecurityHandling,Partners & Affiliates,Website Link,Mandatory,URL,"""http://www.globalsecurity.com""",Medium,Website,Enter the website URL of the partner
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Name,Mandatory,Text,"""Security Pros""",Medium,Partner Name,Enter the name of the partner or affiliate
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Website,Mandatory,URL,"""http://www.securitypros.com""",Medium,Website,Enter the website URL of the partner
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Description,Mandatory,Text,"""Expert in airport security...""",Large,Description,Provide a detailed description of the partner
+AirportSecurityHandling,Partners & Affiliates,Logo,Optional,File,logo.png,Small,Logo,Upload the logo of the partner or affiliate
+AirportSecurityHandling,Partners & Affiliates,Type of Partnership,Optional,Dropdown,"""Strategic"", ""Technical"", ""Financial""",Medium,Partnership Type,Select the type of partnership
+AirportSecurityHandling,Partners & Affiliates,Duration of Partnership,Optional,Date ,"""01/01/2022 - 12/31/2022""",Medium,Duration,Specify the duration of the partnership
+AirportSecurityHandling,Partners & Affiliates,Projects/Collaborations,Optional,Text,"""Airport Security Upgrade""",Large,Projects,Describe any projects or collaborations
+AirportSecurityHandling,Partners & Affiliates,Testimonials,Optional,Text,"""Great working with them""",Medium,Testimonials,Add testimonials about the partner
+AirportSecurityHandling,Partners & Affiliates,Social Media Links,Optional,URL,"""http://twitter.com/example""",Medium,Social Media,Enter social media URLs
+AirportSecurityHandling,Partners & Affiliates,Additional Resources,Optional,URL,"""http://example.com/resource""",Medium,Additional Resources,Attach or link any additional resources
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Logo,Optional,File,logo2.png,Small,Logo,Upload another logo of the partner or affiliate
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Contact Information,Optional,Email,"""secondary@example.com""",Medium,Additional Contact,Enter additional contact details
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Benefits,Optional,Text,"""Access to new markets""",Large,Benefits,Describe the benefits of the partnership
+AirportSecurityHandling,Partners & Affiliates,Partner/Affiliate Testimonials,Optional,Text,"""Extremely reliable""",Medium,More Testimonials,Add more testimonials about the partner
+AirportSecurityHandling,Emergency Response,Emergency Type,Mandatory,Dropdown,"""Fire"", ""Medical""",Medium,Emergency Type,Select the type of emergency
+AirportSecurityHandling,Emergency Response,Contact Information,Mandatory,Text,"""emergency@example.com""",Medium,Contact Information,Enter the emergency contact details
+AirportSecurityHandling,Emergency Response,Response Procedures,Mandatory,Text,"""Evacuate the building""",Large,Response Procedures,Enter the emergency response procedures
+AirportSecurityHandling,Emergency Response,Location of Emergency Exits,Mandatory,Text,"""East wing, 2nd Floor""",Medium,Exit Locations,Specify the locations of emergency exits
+AirportSecurityHandling,Emergency Response,First Aid Locations,Mandatory,Text,"""Medical room""",Medium,First Aid,Enter the locations for first aid supplies
+AirportSecurityHandling,Emergency Response,Plan Name,Mandatory,Text,"""Fire Response Plan""",Medium,Plan Name,Enter the name of the emergency response plan
+AirportSecurityHandling,Emergency Response,Plan Description,Mandatory,Text,"""Plan for fires""",Large,Plan Description,Describe the emergency response plan
+AirportSecurityHandling,Emergency Response,Plan Type,Mandatory,Dropdown,"""Fire"", ""Medical""",Medium,Plan Type,Select the type of emergency response plan
+AirportSecurityHandling,Emergency Response,Plan Frequency,Mandatory,Number,"""6 months""",Small,Frequency,Enter how often the plan is reviewed or tested
+AirportSecurityHandling,Emergency Response,Plan Effectiveness,Mandatory,Number,"""95%""",Small,Effectiveness,Enter the effectiveness measure of the emergency plan
+AirportSecurityHandling,Emergency Response,Plan Cost,Mandatory,Number,"""$1000""",Small,Plan Cost,Enter the cost associated with the emergency response plan
+AirportSecurityHandling,Emergency Response,Emergency Maps,Optional,File,Map.jpg,Medium,Emergency Maps,Upload emergency routes map
+AirportSecurityHandling,Emergency Response,Equipment Locations,Optional,Text,"""First aid kits on 2nd floor""",Medium,Equipment Locations,Specify locations for emergency equipment
+AirportSecurityHandling,Emergency Response,Training Programs,Optional,Text,"""Fire training on July""",Large,Training Programs,Enter information on training programs
+AirportSecurityHandling,Emergency Response,FAQ,Optional,Text,"""How to use fire extinguisher""",Medium,FAQ,Enter FAQs related to emergency response
+AirportSecurityHandling,Emergency Response,Testimonials Emergency Responses,Optional,Text,"""Saved by quick response""",Medium,Testimonials,Enter testimonials on emergency responses
+AirportSecurityHandling,Emergency Response,Updates and Notices,Optional,Text,"""New fire drill on Dec 1""",Medium,Updates,Enter the latest updates and notices
+AirportSecurityHandling,Emergency Response,Additional Resources,Optional,URL,"""http://emergencyresources.com""",Small,Additional Resources,Enter URL for additional resources
+AirportSecurityHandling,Emergency Response,Plan Benefits,Optional,Text,"""Quick response times""",Medium,Plan Benefits,Describe the benefits of the emergency response plan
+AirportSecurityHandling,Emergency Response,Plan Challenges,Optional,Text,"""Resource limitations""",Medium,Plan Challenges,Describe the challenges of the emergency response plan
+AirportSecurityHandling,Emergency Response,Plan Recommendations,Optional,Text,"""More drills""",Medium,Plan Recommendations,Provide recommendations for improving the emergency plan
+AirportSecurityHandling,Animal Handling,Animal Type,Mandatory,Dropdown,"Dog, Cat, Bird",Small,Animal Type,Select the type of animal
+AirportSecurityHandling,Animal Handling,Service Provider,Mandatory,Text,PetCare Inc.,Medium,Service Provider,Enter the name of the service provider
+AirportSecurityHandling,Animal Handling,Contact Information,Mandatory,Text,555-1234,Medium,Contact Information,Enter contact information
+AirportSecurityHandling,Animal Handling,Operating Hours,Mandatory,Text,9AM - 5PM,Small,Operating Hours,Specify the operating hours
+AirportSecurityHandling,Animal Handling,Location,Mandatory,Text,Terminal A,Small,Location,Enter the location of the service
+AirportSecurityHandling,Animal Handling,Security Measures,Mandatory,Text,"CCTV, trained staff",Medium,Security Measures,Describe the security measures
+AirportSecurityHandling,Animal Handling,Pricing,Mandatory,Text,$50/hr,Small,Pricing,Enter pricing details
+AirportSecurityHandling,Animal Handling,Animal Handling Name,Mandatory,Text,PetCare Premium,Medium,Handling Name,Enter the specific name of the animal handling service
+AirportSecurityHandling,Animal Handling,Animal Handling Description,Mandatory,Text,Safe and secure,Large,Handling Description,Describe the animal handling service
+AirportSecurityHandling,Animal Handling,Animal Handling Type,Mandatory,Dropdown,"Daycare, Transit",Small,Handling Type,Select the type of handling service
+AirportSecurityHandling,Animal Handling,Animal Handling Frequency,Mandatory,Text,Daily,Small,Handling Frequency,Specify the frequency of the service
+AirportSecurityHandling,Animal Handling,Animal Handling Cost,Mandatory,Text,$100/day,Small,Handling Cost,Enter the specific cost of the animal handling service
+AirportSecurityHandling,Animal Handling,Additional Services,Optional,Text,"Grooming, Training",Medium,Additional Services,Enter any additional services available
+AirportSecurityHandling,Animal Handling,Payment Methods,Optional,Text,"Credit Card, Cash",Small,Payment Methods,List acceptable payment methods
+AirportSecurityHandling,Animal Handling,Customer Reviews,Optional,Text,"""Great service!""",Large,Customer Reviews,Enter or paste customer reviews
+AirportSecurityHandling,Animal Handling,Photos,Optional,File,"img1.jpg, img2.jpg",Medium,Photos,Upload photos of the facility or animals
+AirportSecurityHandling,Animal Handling,FAQ,Optional,Text,Q: Costs? A: $50/hr,Large,FAQ,Enter frequently asked questions and answers
+AirportSecurityHandling,Animal Handling,Terms and Conditions,Optional,Text,See Document,Large,Terms and Conditions,Enter or link to terms and conditions
+AirportSecurityHandling,Animal Handling,Accessibility Features,Optional,Text,Wheelchair Accessible,Medium,Accessibility Features,Describe any features for accessibility
+AirportSecurityHandling,Animal Handling,Animal Handling Benefits,Optional,Text,"Safe, Affordable",Medium,Handling Benefits,List the benefits of using this animal handling service
+AirportSecurityHandling,Animal Handling,Animal Handling Challenges,Optional,Text,Limited Space,Medium,Handling Challenges,List any challenges or limitations
+AirportSecurityHandling,Animal Handling,Animal Handling Recommendations,Optional,Text,Needs more staff,Medium,Handling Recommendations,Provide any recommendations for improving the service
+AirportSecurityHandling,Hazardous Material Handling Details,Material Type,Mandatory,Dropdown,"Chemical, Biological",Small,Material Type,Select the type of hazardous material
+AirportSecurityHandling,Hazardous Material Handling Details,Service Provider,Mandatory,Text,XYZ Corp.,Medium,Service Provider,Enter the name of the service provider
+AirportSecurityHandling,Hazardous Material Handling Details,Contact Information,Mandatory,Text,#ERROR!,Medium,Contact Information,Enter the contact information for the service provider
+AirportSecurityHandling,Hazardous Material Handling Details,Operating Hours,Mandatory,Text,9:00 AM - 5:00 PM,Small,Operating Hours,Enter the operating hours of the service
+AirportSecurityHandling,Hazardous Material Handling Details,Location,Mandatory,Text,Terminal 3,Small,Location,Enter the location of the service
+AirportSecurityHandling,Hazardous Material Handling Details,Security Measures,Mandatory,Text,"CCTV, Guards",Medium,Security Measures,Describe the security measures in place
+AirportSecurityHandling,Hazardous Material Handling Details,Pricing,Mandatory,Number,$200 per hour,Small,Pricing,Enter the pricing for the service
+AirportSecurityHandling,Hazardous Material Handling Details,Name,Mandatory,Text,HazardPro,Medium,Service Name,Enter the name of the hazardous material handling service
+AirportSecurityHandling,Hazardous Material Handling Details,Description,Mandatory,Text,Handles chemicals safely,Large,Service Description,Enter a description for the service
+AirportSecurityHandling,Hazardous Material Handling Details,Type,Mandatory,Dropdown,"Chemical, Biological",Small,Service Type,Select the type of hazardous material handling service
+AirportSecurityHandling,Hazardous Material Handling Details,Frequency,Mandatory,Text,"Daily, Weekly",Medium,Service Frequency,Enter how often the service is available
+AirportSecurityHandling,Hazardous Material Handling Details,Cost,Mandatory,Number,$500 setup fee,Small,Additional Costs,Enter any additional costs for the service
+AirportSecurityHandling,Hazardous Material Handling Details,Additional Services,Optional,Text,"Packaging, Storage",Medium,Additional Services,Enter any additional services offered
+AirportSecurityHandling,Hazardous Material Handling Details,Payment Methods,Optional,Dropdown,"Credit Card, Cash",Small,Payment Methods,Select the methods of payment accepted
+AirportSecurityHandling,Hazardous Material Handling Details,Customer Reviews,Optional,Text,"""Great service!""",Large,Customer Reviews,Enter reviews from customers if available
+AirportSecurityHandling,Hazardous Material Handling Details,Photos,Optional,File,[image file],Large,Photos,Upload photos related to the service
+AirportSecurityHandling,Hazardous Material Handling Details,FAQ,Optional,Text,"""What is the cost?""",Large,FAQ,Enter frequently asked questions about the service
+AirportSecurityHandling,Hazardous Material Handling Details,Terms and Conditions,Optional,Text,"""No refunds""",Large,Terms and Conditions,Enter the terms and conditions for the service
+AirportSecurityHandling,Hazardous Material Handling Details,Accessibility Features,Optional,Text,Wheelchair accessible,Medium,Accessibility Features,Describe any accessibility features
+AirportSecurityHandling,Hazardous Material Handling Details,Benefits,Optional,Text,Safe and secure,Medium,Benefits,Enter the benefits of using the service
+AirportSecurityHandling,Hazardous Material Handling Details,Challenges,Optional,Text,Costly,Medium,Challenges,Enter any challenges or limitations of the service
+AirportSecurityHandling,Hazardous Material Handling Details,Recommendations,Optional,Text,"""Needs faster response""",Large,Recommendations,Enter recommendations for the service
+AirportSecurityHandling,VIP Handling Details,Service Type,Mandatory,Dropdown,"Premium, Basic",Small,Service Type,Select the type of VIP service offered
+AirportSecurityHandling,VIP Handling Details,Service Provider,Mandatory,Text,"""VIP Lounge Inc.""",Medium,Service Provider,Enter the name of the company providing the service
+AirportSecurityHandling,VIP Handling Details,Contact Information,Mandatory,Text,info@viplounge.com,Medium,Contact Information,Enter the contact details for the service
+AirportSecurityHandling,VIP Handling Details,Operating Hours,Mandatory,Text,9:00 AM - 5:00 PM,Small,Operating Hours,Enter the operating hours for the service
+AirportSecurityHandling,VIP Handling Details,Location,Mandatory,Text,Terminal 1,Small,Location,Specify the location of the service
+AirportSecurityHandling,VIP Handling Details,Security Measures,Mandatory,Text,"Bodyguards, Cameras",Medium,Security Measures,Describe the security measures in place
+AirportSecurityHandling,VIP Handling Details,Pricing,Mandatory,Text,$100/hr,Small,Pricing,Specify the pricing for the service
+AirportSecurityHandling,VIP Handling Details,VIP Handling Name,Mandatory,Text,"""Executive Lounge""",Medium,VIP Handling Name,Enter the name of the VIP handling package
+AirportSecurityHandling,VIP Handling Details,VIP Handling Description,Mandatory,Text,"""Luxury lounge...""",Large,VIP Handling Description,Provide a detailed description of the service
+AirportSecurityHandling,VIP Handling Details,VIP Handling Type,Mandatory,Dropdown,"Lounge, Escort",Small,VIP Handling Type,Choose the type of VIP handling service
+AirportSecurityHandling,VIP Handling Details,VIP Handling Frequency,Mandatory,Text,"Daily, Weekly",Small,VIP Handling Frequency,Indicate how often the service is available
+AirportSecurityHandling,VIP Handling Details,VIP Handling Cost,Mandatory,Text,$500,Small,VIP Handling Cost,Specify the total cost of the service
+AirportSecurityHandling,VIP Handling Details,Additional Services,Optional,Text,"WiFi, Meal Plans",Medium,Additional Services,List any additional services available
+AirportSecurityHandling,VIP Handling Details,Payment Methods,Optional,Checkbox,"Credit, Cash",Small,Payment Methods,Select the payment methods accepted
+AirportSecurityHandling,VIP Handling Details,Customer Reviews,Optional,Text,"""Excellent service!""",Large,Customer Reviews,Enter or paste customer reviews here
+AirportSecurityHandling,VIP Handling Details,Photos,Optional,File,"[JPEG, PNG files]",Medium,Photos,Upload photos of the service area
+AirportSecurityHandling,VIP Handling Details,FAQ,Optional,Text,"""What is VIP handling?""",Large,FAQ,Enter Frequently Asked Questions
+AirportSecurityHandling,VIP Handling Details,Terms and Conditions,Optional,Text,"""Terms here...""",Large,Terms and Conditions,Enter the terms and conditions of the service
+AirportSecurityHandling,VIP Handling Details,Accessibility Features,Optional,Text,"Ramps, Elevators",Medium,Accessibility Features,Describe any features for disabled access
+AirportSecurityHandling,VIP Handling Details,VIP Handling Benefits,Optional,Text,"""Comfort, Privacy""",Medium,VIP Handling Benefits,List the advantages or benefits of the service
+AirportSecurityHandling,VIP Handling Details,VIP Handling Challenges,Optional,Text,"""Costly, Limited Space""",Medium,VIP Handling Challenges,List any challenges or disadvantages
+AirportSecurityHandling,VIP Handling Details,VIP Handling Recommendations,Optional,Text,"""More staff needed""",Large,VIP Handling Recommendations,Enter recommendations for improving the service
+AirportSecurityHandling,Special Events Handling,Event Type,Mandatory,Dropdown,"Wedding, Conference",Small,Event Type,Select the type of event
+AirportSecurityHandling,Special Events Handling,Event Organiser,Mandatory,Text,John Doe,Medium,Event Organiser,Enter the name of the event organiser
+AirportSecurityHandling,Special Events Handling,Contact Information,Mandatory,Text,1234567890,Medium,Contact Information,Enter valid contact information
+AirportSecurityHandling,Special Events Handling,Event Date,Mandatory,Date,2023-12-25,Small,Event Date,Pick a valid date for the event
+AirportSecurityHandling,Special Events Handling,Event Location,Mandatory,Text,Hall A,Medium,Event Location,Enter the location of the event
+AirportSecurityHandling,Special Events Handling,Security Measures,Mandatory,Text,Metal Detectors,Medium,Security Measures,Describe the security measures in place
+AirportSecurityHandling,Special Events Handling,Pricing,Mandatory,Number,1000,Small,Pricing,Enter the pricing details for event handling
+AirportSecurityHandling,Special Events Handling,Special Events Handling Name,Mandatory,Text,VIP Events,Medium,Special Events Handling Name,Enter the name of the handling service
+AirportSecurityHandling,Special Events Handling,Special Events Handling Description,Mandatory,Text,For all special occasions,Large,Special Events Handling Description,Describe the handling service
+AirportSecurityHandling,Special Events Handling,Special Events Handling Type,Mandatory,Dropdown,"Full Service, Partial",Small,Special Events Handling Type,Select the type of handling service
+AirportSecurityHandling,Special Events Handling,Special Events Handling Frequency,Mandatory,Dropdown,"Monthly, Yearly",Small,Special Events Handling Frequency,Select how often this type of event is held
+AirportSecurityHandling,Special Events Handling,Special Events Handling Cost,Mandatory,Number,2000,Small,Special Events Handling Cost,Enter the cost of the handling service
+AirportSecurityHandling,Special Events Handling,Additional Services,Optional,Checkbox,"Catering, Parking",Small,Additional Services,Select any additional services offered
+AirportSecurityHandling,Special Events Handling,Payment Methods,Optional,Dropdown,"Cash, Card",Small,Payment Methods,Choose the available payment methods
+AirportSecurityHandling,Special Events Handling,Customer Reviews,Optional,Text Area,"""Great service!""",Large,Customer Reviews,Enter reviews from customers
+AirportSecurityHandling,Special Events Handling,Photos,Optional,File,(Binary Data),Large,Photos,Upload photos related to the event
+AirportSecurityHandling,Special Events Handling,FAQ,Optional,Text Area,"""What is included?""",Medium,FAQ,Enter commonly asked questions
+AirportSecurityHandling,Special Events Handling,Terms and Conditions,Optional,Text Area,"""No Refunds""",Medium,Terms and Conditions,Enter the terms and conditions
+AirportSecurityHandling,Special Events Handling,Accessibility Features,Optional,Text,"Ramps, Elevators",Small,Accessibility Features,List the features for disabled access
+AirportSecurityHandling,Special Events Handling,Special Events Handling Benefits,Optional,Text,"Efficient, Reliable",Small,Handling Benefits,Describe the benefits of the special events handling service
+AirportSecurityHandling,Special Events Handling,Special Events Handling Challenges,Optional,Text,"Cost, Availability",Small,Handling Challenges,Describe the challenges of the special events handling service
+AirportSecurityHandling,Special Events Handling,Special Events Handling Recommendations,Optional,Text,"""Needs more staff""",Medium,Handling Recommendations,Enter recommendations for improving the special events handling service
+AirportSecurityHandling,Security Screening & Inspection,Screening Type,Mandatory,Dropdown,"X-Ray, Metal Detector",Small,Screening Type,Select the type of security screening
+AirportSecurityHandling,Security Screening & Inspection,Inspection Procedures,Mandatory,Text Area,"Baggage Check, ID Verification",Medium,Inspection Procedures,Describe the procedures for security inspection
+AirportSecurityHandling,Security Screening & Inspection,Location,Mandatory,Dropdown,"Terminal 1, Terminal 2",Small,Location,Select the location of the security screening
+AirportSecurityHandling,Security Screening & Inspection,Operating Hours,Mandatory,Time,09:00-17:00,Small,Operating Hours,Enter the operating hours for security screening
+AirportSecurityHandling,Security Screening & Inspection,Contact Information,Mandatory,Text,security@example.com,Medium,Contact Information,Enter the contact information for the screening facility
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Name,Mandatory,Text,Security Zone A,Small,Security Area Name,Enter the name for the security screening and inspection area
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Description,Mandatory,Text Area,Strictly for International Flights,Medium,Area Description,Describe the purpose and characteristics of the security area
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Type,Mandatory,Dropdown,"Domestic, International",Small,Area Type,Select the type of area (Domestic or International)
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Frequency,Mandatory,Number,24,Small,Operational Frequency,Enter the frequency with which security operations are carried out
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Cost,Mandatory,Number,20 USD,Small,Service Cost,Enter the cost associated with the security screening service
+AirportSecurityHandling,Security Screening & Inspection,Additional Checks,Optional,Text Area,"""Temperature check, ID Scan""",Medium,Additional Checks,Describe any additional checks that are in place.
+AirportSecurityHandling,Security Screening & Inspection,Wait Times,Optional,Number,"""15""",Small,Wait Times,Enter approximate wait times for security screening.
+AirportSecurityHandling,Security Screening & Inspection,Restricted Items,Optional,Text Area,"""Knives, Liquids >100ml""",Medium,Restricted Items,List items that are not allowed through screening.
+AirportSecurityHandling,Security Screening & Inspection,FAQ,Optional,Text Area,"""What IDs are acceptable?""",Large,FAQ,Enter FAQs related to security screening.
+AirportSecurityHandling,Security Screening & Inspection,Customer Reviews,Optional,Text Area,"""Good service; felt secure""",Medium,Customer Reviews,Collect or display reviews from customers.
+AirportSecurityHandling,Security Screening & Inspection,Photos/Videos,Optional,File,"""security_photo.jpg""",Large,Photos/Videos,Upload relevant media content related to security screening.
+AirportSecurityHandling,Security Screening & Inspection,Updates and Notices,Optional,Text Area,"""New X-Ray machine installed""",Medium,Updates and Notices,Share the latest information or notices.
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Benefits,Optional,Text Area,"""Efficient, Safe""",Medium,Benefits,Describe the benefits of security screening.
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Challenges,Optional,Text Area,"""Long waits, false alarms""",Medium,Challenges,Describe any challenges related to security screening.
+AirportSecurityHandling,Security Screening & Inspection,Security Screening & Inspection Recommendations,Optional,Text Area,"""More staff during peak hours""",Medium,Recommendations,Offer suggestions for improving the screening process.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Type,Mandatory,Dropdown,"""Perishable, Electronics""",Small,Cargo Type,Select the type of cargo to be handled.
+AirportSecurityHandling,Cargo Handling & Storage,Service Provider,Mandatory,Text,"""Global Cargo Services""",Medium,Service Provider,Enter the name of the service provider.
+AirportSecurityHandling,Cargo Handling & Storage,Contact Information,Mandatory,Text,"""info@globalcargo.com""",Medium,Contact Information,Enter the contact information for the service provider.
+AirportSecurityHandling,Cargo Handling & Storage,Operating Hours,Mandatory,Text,"""9:00 AM - 6:00 PM""",Small,Operating Hours,Specify the operating hours for cargo handling and storage.
+AirportSecurityHandling,Cargo Handling & Storage,Location,Mandatory,Text,"""Warehouse A, Section 3""",Medium,Location,Enter the specific location for cargo handling and storage.
+AirportSecurityHandling,Cargo Handling & Storage,Security Measures,Mandatory,Text Area,"""CCTV, Armed Guards""",Medium,Security Measures,Describe the security measures in place.
+AirportSecurityHandling,Cargo Handling & Storage,Pricing,Mandatory,Number,"""200""",Small,Pricing,Enter the cost of cargo handling and storage service.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Name,Mandatory,Text,"""GlobalCargo Premium""",Medium,Service Name,Enter a specific name for the cargo handling and storage service.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Description,Mandatory,Text Area,"""Fast and secure cargo handling.""",Large,Service Description,Provide a detailed description of the cargo handling and storage service.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Type,Mandatory,Dropdown,"""Short-term, Long-term""",Small,Service Type,Select the nature of the cargo handling and storage service.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Frequency,Mandatory,Dropdown,"""Daily, Weekly, Monthly""",Small,Frequency,Select how often the service is offered.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Cost,Mandatory,Text Area,"""$100 setup, $50/hr""",Medium,Cost Details,Provide a detailed breakdown of costs associated with the service
+AirportSecurityHandling,Cargo Handling & Storage,Additional Services,Optional,Text Area,"""Packaging, Delivery""",Medium,Additional Services,List any additional services offered.
+AirportSecurityHandling,Cargo Handling & Storage,Payment Methods,Optional,Dropdown,"""Credit Card, PayPal""",Small,Payment Methods,Select the accepted forms of payment.
+AirportSecurityHandling,Cargo Handling & Storage,Customer Reviews,Optional,Text Area,"""Great Service!""",Large,Customer Reviews,Add any customer reviews or testimonials.
+AirportSecurityHandling,Cargo Handling & Storage,Photos,Optional,File,-,Medium,Photos,Upload photos related to the service.
+AirportSecurityHandling,Cargo Handling & Storage,FAQ,Optional,Text Area,"""What are your operating hours?""",Large,FAQ,Provide frequently asked questions and answers.
+AirportSecurityHandling,Cargo Handling & Storage,Terms and Conditions,Optional,Text Area,"""All services are non-refundable.""",Large,Terms and Conditions,List the terms and conditions for using the service.
+AirportSecurityHandling,Cargo Handling & Storage,Accessibility Features,Optional,Text Area,"""Ramps, Wide Doors""",Medium,Accessibility Features,Describe any accessibility features available.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Benefits,Optional,Text Area,"""Fast, Secure""",Medium,Benefits,Describe the benefits of using this service.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Challenges,Optional,Text Area,"""Expensive, Limited Hours""",Medium,Challenges,Describe any challenges or drawbacks of using this service.
+AirportSecurityHandling,Cargo Handling & Storage,Cargo Handling & Storage Recommendations,Optional,Text Area,"""Book in advance""",Medium,Recommendations,Offer recommendations for potential customers.
+AirportSecurityHandling,Customs Documentation & Clearance,Document Type,Mandatory,Dropdown,"""Passport, Visa""",Small,Document Type,Select the type of document required.
+AirportSecurityHandling,Customs Documentation & Clearance,Issuing Authority,Mandatory,Text,"""U.S. Department of State""",Small,Issuing Authority,Enter the issuing authority for the document.
+AirportSecurityHandling,Customs Documentation & Clearance,Contact Information,Mandatory,Text,"""info@example.com""",Medium,Contact Information,Enter contact information for further inquiries.
+AirportSecurityHandling,Customs Documentation & Clearance,Operating Hours,Mandatory,Text,"""9 AM - 5 PM""",Small,Operating Hours,Enter the operating hours for customs clearance.
+AirportSecurityHandling,Customs Documentation & Clearance,Location,Mandatory,Text,"""Terminal 3""",Small,Location,Enter the location for customs clearance.
+AirportSecurityHandling,Customs Documentation & Clearance,Customs Documentation & Clearance Name,Mandatory,Text,"""FastClear Customs""",Small,Name,Enter the name of the customs documentation & clearance service.
+AirportSecurityHandling,Customs Documentation & Clearance,Customs Documentation & Clearance Description,Mandatory,Text Area,"""Quick customs service...""",Medium,Description,Provide a brief description of the service.
+AirportSecurityHandling,Customs Documentation & Clearance,Customs Documentation & Clearance Type,Mandatory,Dropdown,"""Standard, Express""",Small,Type,Select the type of service provided.
+AirportSecurityHandling,Customs Documentation & Clearance,Customs Documentation & Clearance Frequency,Mandatory,Text,"""Daily""",Small,Frequency,Enter how frequently the service operates.
+AirportSecurityHandling,Customs Documentation & Clearance,Customs Documentation & Clearance Cost,Mandatory,Number,"""100""",Small,Cost,Enter the cost for the service.
+AirportSecurityHandling,Customs Documentation & Clearance,Additional Services,Optional,Checkbox,"""Expedited, Assistance""",Medium,Additional Services,Select any additional services required.
+AirportSecurityHandling,Customs Documentation & Clearance,Payment Methods,Optional,Dropdown,"""Credit Card, Cash""",Small,Payment Methods,Choose your preferred method of payment.
+AirportSecurityHandling,Customs Documentation & Clearance,Customer Reviews,Optional,Text Area,"""Great service...""",Large,Customer Reviews,Read or write a review of the service.
+AirportSecurityHandling,Customs Documentation & Clearance,Photos,Optional,File,N/A,Medium,Photos,Upload photos relevant to the customs area.
+AirportSecurityHandling,Customs Documentation & Clearance,FAQ,Optional,Text Area,"""What documents are needed?""",Medium,FAQ,Read or post frequently asked questions.
+AirportSecurityHandling,Customs Documentation & Clearance,Terms and Conditions,Optional,Text Area,"""All luggage is subject...""",Large,Terms and Conditions,View or agree to the terms and conditions.
+AirportSecurityHandling,Customs Documentation & Clearance,Accessibility Features,Optional,Checkbox,"""Ramps, Support Staff""",Medium,Accessibility Features,Select any accessibility features needed.
+AirportSecurityHandling,Customs Documentation & Clearance,Cargo Handling & Storage Benefits,Optional,Text Area,"""Safe and secure...""",Medium,Benefits,Enter or read about the benefits of this service.
+AirportSecurityHandling,Customs Documentation & Clearance,Cargo Handling & Storage Challenges,Optional,Text Area,"""Takes time to process...""",Medium,Challenges,Enter or read about the challenges of this service.
+AirportSecurityHandling,Customs Documentation & Clearance,Cargo Handling & Storage Recommendations,Optional,Text Area,"""Plan ahead...""",Medium,Recommendations,Enter or read about the recommendations for this service.
+AirportSecurityHandling,Specialized Handling Requirements,Requirement Type,Mandatory,Dropdown,"""Medical, Fragile Goods""",Small,Requirement Type,Select the type of specialized handling required.
+AirportSecurityHandling,Specialized Handling Requirements,Service Provider,Mandatory,Text,"""XYZ Services""",Small,Service Provider,Enter the name of the service provider.
+AirportSecurityHandling,Specialized Handling Requirements,Contact Information,Mandatory,Text,"""info@xyz.com""",Small,Contact Information,Enter the contact information for the service provider.
+AirportSecurityHandling,Specialized Handling Requirements,Operating Hours,Mandatory,Range,"""9:00 AM - 5:00 PM""",Small,Operating Hours,Specify the operating hours for the service.
+AirportSecurityHandling,Specialized Handling Requirements,Location,Mandatory,Text,"""Terminal 3, Area C""",Medium,Location,Specify the location where the service is available.
+AirportSecurityHandling,Specialized Handling Requirements,Security Measures,Mandatory,Text Area,"""CCTV, Guards""",Medium,Security Measures,Describe the security measures in place.
+AirportSecurityHandling,Specialized Handling Requirements,Pricing,Mandatory,Number,"""200""",Small,Pricing,Enter the cost of the specialized handling service.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Name,Mandatory,Text,"""Medical Assist""",Small,Service Name,Enter a name for the specialized handling service.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Description,Mandatory,Text Area,"""Assistance for medical needs""",Large,Service Description,Provide a detailed description of the specialized handling service.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Type,Mandatory,Dropdown,"""One-time, Recurring""",Small,Service Type,Specify whether the service is one-time or recurring.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Frequency,Mandatory,Dropdown,"""Daily, Weekly""",Small,Service Frequency,Indicate the frequency of the service.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Cost,Mandatory,Number,"""50""",Small,Service Cost,Specify any additional costs for the service
+AirportSecurityHandling,Specialized Handling Requirements,Additional Services,Optional,Text Area,"""Priority Boarding""",Medium,Additional Services,List any additional services offered.
+AirportSecurityHandling,Specialized Handling Requirements,Payment Methods,Optional,Checkbox,"""Cash, Credit Card""",Small,Payment Methods,Choose the accepted forms of payment.
+AirportSecurityHandling,Specialized Handling Requirements,Customer Reviews,Optional,Text Area,"""Great service!""",Large,Customer Reviews,Include feedback or reviews from customers.
+AirportSecurityHandling,Specialized Handling Requirements,Photos,Optional,File,-,Medium,Photos,Upload images related to the service.
+AirportSecurityHandling,Specialized Handling Requirements,FAQ,Optional,Text Area,"""What is priority boarding?""",Large,FAQ,Include any frequently asked questions about the service.
+AirportSecurityHandling,Specialized Handling Requirements,Terms and Conditions,Optional,Text Area,"""T&Cs Apply""",Large,Terms and Conditions,Describe the terms and conditions related to the service.
+AirportSecurityHandling,Specialized Handling Requirements,Accessibility Features,Optional,Text,"""Wheelchair Accessible""",Small,Accessibility Features,Mention any features for accessibility.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Benefits,Optional,Text Area,"""Quick, Efficient""",Medium,Service Benefits,List the advantages of the specialized handling service.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Challenges,Optional,Text Area,"""Expensive""",Medium,Service Challenges,Mention any challenges or drawbacks of the service.
+AirportSecurityHandling,Specialized Handling Requirements,Specialized Handling Requirements Recommendations,Optional,Text Area,"""Offer Discounts""",Medium,Service Recommendations,Include any suggestions for improving the specialized handling service.
+AirportSecurityHandling,Loading & Unloading Operations,Operation Type,Mandatory,Dropdown,"""Cargo"", ""Passenger"", ""Fuel""",Small,Operation Type,Choose the type of loading/unloading operation.
+AirportSecurityHandling,Loading & Unloading Operations,Service Provider,Mandatory,Text,"""XYZ Logistics""",Small,Service Provider,Enter the name of the company providing the service.
+AirportSecurityHandling,Loading & Unloading Operations,Contact Information,Mandatory,Text,"""Email or Phone Number""",Medium,Contact Information,Provide contact details for the service provider.
+AirportSecurityHandling,Loading & Unloading Operations,Operating Hours,Mandatory,Time,"""9:00 AM - 5:00 PM""",Small,Operating Hours,Indicate the hours during which operations occur.
+AirportSecurityHandling,Loading & Unloading Operations,Location,Mandatory,Text,"""Terminal 3, Bay 4""",Medium,Location,Specify the location of the operation.
+AirportSecurityHandling,Loading & Unloading Operations,Security Measures,Mandatory,Text Area,"""CCTV, Guards""",Medium,Security Measures,Describe the security measures in place.
+AirportSecurityHandling,Loading & Unloading Operations,Pricing,Mandatory,Number,"""$200 or Negotiable""",Small,Pricing,Provide the cost details for the service.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Name,Mandatory,Text,"""Cargo Load 2023""",Small,Operations Name,Give a name to the specific loading/unloading operation.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Description,Mandatory,Text Area,"""Loading of consumer goods""",Large,Operations Description,Provide a description for the specific operation.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Type,Mandatory,Dropdown,"""Commercial, Private""",Small,Operations Type,Choose the category of the loading/unloading operation.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Frequency,Mandatory,Text,"""Daily, Weekly""",Small,Operations Frequency,Indicate how often the operation occurs.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Cost,Mandatory,Number,"""$200 per ton""",Small,Operations Cost,Provide detailed cost information for the operation.
+AirportSecurityHandling,Loading & Unloading Operations,Equipment Used,Optional,Text,"""Forklift, Crane""",Medium,Equipment Used,List the equipment used for the operation.
+AirportSecurityHandling,Loading & Unloading Operations,Payment Methods,Optional,Checkbox,"""Cash, Credit Card""",Small,Payment Methods,Select the accepted forms of payment.
+AirportSecurityHandling,Loading & Unloading Operations,Customer Reviews,Optional,Text Area,"""Great service!""",Large,Customer Reviews,"Share reviews from customers, if available."
+AirportSecurityHandling,Loading & Unloading Operations,Photos,Optional,File,N/A,,Photos,Upload photos related to the operation.
+AirportSecurityHandling,Loading & Unloading Operations,FAQ,Optional,Text Area,"""What are the operating hours?""",Large,FAQ,Provide answers to frequently asked questions.
+AirportSecurityHandling,Loading & Unloading Operations,Terms and Conditions,Optional,Text Area,"""Terms and Conditions Text""",Large,Terms and Conditions,Specify the terms and conditions for the service.
+AirportSecurityHandling,Loading & Unloading Operations,Accessibility Features,Optional,Text,"""Wheelchair ramp""",Medium,Accessibility Features,Describe any accessibility features.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Benefits,Optional,Text Area,"""Efficient, Cost-effective""",Medium,Operations Benefits,Enumerate the benefits of the operation.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Challenges,Optional,Text Area,"""Weather, Staff shortage""",Medium,Operations Challenges,List the challenges faced in the operation.
+AirportSecurityHandling,Loading & Unloading Operations,Loading & Unloading Operations Recommendations,Optional,Text Area,"""Improve staff training""",Medium,Operations Recommendations,Provide recommendations for improving the operation.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Monitoring Type,Mandatory,Dropdown,"""Video, RFID, GPS""",Small,Monitoring Type,Select the type of monitoring used.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Service Provider,Mandatory,Text,"""SecureWatch Inc.""",Medium,Service Provider,Enter the name of the service provider.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Contact Information,Mandatory,Text,"""email@example.com, 123-4567""",Medium,Contact Information,Provide contact details for the service provider.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Operating Hours,Mandatory,Text,"""9 AM - 5 PM""",Small,Operating Hours,Specify the operating hours for this service.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Location,Mandatory,Text,"""Terminal 1, Gate A""",Medium,Location,Enter the location of the monitoring system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Security Measures,Mandatory,Text Area,"""Encryption, Two-factor Auth""",Medium,Security Measures,Describe the security protocols used.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Name,Mandatory,Text,"""SecureTrack""",Medium,System Name,Provide a name for the monitoring system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Description,Mandatory,Text Area,"""A state-of-the-art system...""",Medium,System Description,Describe the monitoring system in detail.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Type,Mandatory,Dropdown,"""Surveillance, Analytics""",Small,System Type,Classify the type of monitoring system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Frequency,Mandatory,Number,"""24/7""",Small,Monitoring Frequency,Indicate how often monitoring occurs.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Cost,Mandatory,Number,"""$1000/month""",Small,Cost,
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Tracking Tools,Optional,Text,"""GPS, RFID Tags""",Medium,Tracking Tools,Specify the tools used for tracking and monitoring.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,User Guide,Optional,File,"""user_guide.pdf""",Large,User Guide,Upload the user guide for the monitoring system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Customer Reviews,Optional,Text Area,"""Very effective system...""",Large,Customer Reviews,Add reviews from customers if available.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Photos/Videos,Optional,File,"""system.jpg, demo.mp4""",Large,Photos/Videos,Upload photos or videos of the system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,FAQ,Optional,Text Area,"""How to set up?...""",Large,FAQ,Add frequently asked questions related to the system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Updates and Notices,Optional,Text Area,"""System Update on Sep 30""",Medium,Updates and Notices,Provide any important updates or notices.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Terms and Conditions,Optional,Text Area,"""User must comply with...""",Large,Terms and Conditions,Add the terms and conditions for using the system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Benefits,Optional,Text Area,"""24/7 tracking, real-time alerts""",Medium,Benefits,Describe the benefits of the monitoring system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Challenges,Optional,Text Area,"""Initial setup cost""",Medium,Challenges,Describe any challenges or limitations of the system.
+AirportSecurityHandling,Real-Time Monitoring & Tracking,Real-Time Monitoring & Tracking Recommendations,Optional,Text Area,"""Regular maintenance""",Medium,Recommendations,Provide any recommendations for users of the system.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Type,Mandatory,Dropdown,"""Fire, Medical, Security""",Small,Emergency Type,Select the type of emergency.
+AirportSecurityHandling,Emergency Response & Contingency,Response Team,Mandatory,Text,"""Fire Brigade, Medical Team""",Medium,Response Team,Specify the team responsible for responding.
+AirportSecurityHandling,Emergency Response & Contingency,Contact Information,Mandatory,Text,"""555-1234""",Small,Contact Information,Provide contact details for the response team.
+AirportSecurityHandling,Emergency Response & Contingency,Operating Hours,Mandatory,Text,"""24/7""",Small,Operating Hours,Indicate the operating hours of the response team.
+AirportSecurityHandling,Emergency Response & Contingency,Location,Mandatory,Text,"""Terminal 1, Room 201""",Medium,Location,Specify the location of the response team.
+AirportSecurityHandling,Emergency Response & Contingency,Response Time,Mandatory,Text,"""5-10 minutes""",Small,Response Time,Indicate the estimated response time.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Name,Mandatory,Text,"""Fire Safety Plan""",Medium,Plan Name,Specify the name of the emergency response and contingency plan.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Description,Mandatory,Text Area,"""This plan covers fire safety...""",Large,Plan Description,Provide a detailed description of the emergency response and contingency plan.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Type,Mandatory,Dropdown,"""Internal, External""",Small,Plan Type,Select the type of the emergency plan.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Frequency,Mandatory,Text,"""Annually""",Small,Plan Frequency,Indicate how often the plan is updated or audited.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Cost,Mandatory,Number,"""5000""",Small,Plan Cost,Provide the cost for implementing or maintaining the plan.
+AirportSecurityHandling,Emergency Response & Contingency,Equipment,Optional,Text,"""First Aid Kit, Fire Extinguisher""",Medium,Equipment,List the equipment used in emergency situations.
+AirportSecurityHandling,Emergency Response & Contingency,Training,Optional,Text Area,"""CPR, Fire Safety""",Large,Training,Describe the types of training provided to the response team.
+AirportSecurityHandling,Emergency Response & Contingency,Customer Reviews,Optional,Text Area,"""Very efficient service...""",Large,Customer Reviews,Include customer reviews related to emergency response.
+AirportSecurityHandling,Emergency Response & Contingency,Photos/Videos,Optional,File,"""image.jpg, video.mp4""",,Photos/Videos,Upload photos or videos illustrating emergency response actions.
+AirportSecurityHandling,Emergency Response & Contingency,FAQ,Optional,Text Area,"""What is the response time?""",Large,FAQ,List the Frequently Asked Questions.
+AirportSecurityHandling,Emergency Response & Contingency,Updates and Notices,Optional,Text,"""Updated Fire Safety Plan""",Medium,Updates and Notices,Provide any updates or notices regarding the emergency plan.
+AirportSecurityHandling,Emergency Response & Contingency,Terms and Conditions,Optional,Text Area,"""By using this service...""",Large,Terms and Conditions,Specify the terms and conditions for using the emergency services.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Benefits,Optional,Text Area,"""Quick response, skilled team""",Large,Plan Benefits,Describe the benefits of the emergency response and contingency plan.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Challenges,Optional,Text Area,"""Resource limitations""",Large,Plan Challenges,Describe the challenges faced in implementing the emergency plan.
+AirportSecurityHandling,Emergency Response & Contingency,Emergency Response & Contingency Plan Recommendations,Optional,Text Area,"""Improve training""",Large,Plan Recommendations,Provide recommendations for improving the emergency response and contingency plan
+AirportSecurityHandling,Coordination with Airlines & Agents,Airline/Agent Name,Mandatory,Text,"""Delta Air Lines""",Medium,Airline/Agent Name,Enter the name of the airline or agent involved in the coordination.
+AirportSecurityHandling,Coordination with Airlines & Agents,Service Type,Mandatory,Dropdown,"""Ground Handling""",Small,Service Type,Select the type of service provided for coordination.
+AirportSecurityHandling,Coordination with Airlines & Agents,Contact Information,Mandatory,Text,"""example@email.com""",Medium,Contact Information,Enter the contact details for the airline or agent.
+AirportSecurityHandling,Coordination with Airlines & Agents,Operating Hours,Mandatory,Text,"""9AM-5PM""",Small,Operating Hours,Enter the operating hours for the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Location,Mandatory,Text,"""Terminal 1, Gate 5""",Medium,Location,Enter the location where the coordination service is provided.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Name,Mandatory,Text,"""Coordination Service 1""",Medium,Coordination Service Name,Enter the name of the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Description,Mandatory,Text Area,"""Handles ticketing and ground services""",Large,Coordination Service Description,Enter a description for the coordination service provided.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Type,Mandatory,Dropdown,"""Ticketing""",Small,Coordination Type,Select the type of coordination service provided.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Frequency,Mandatory,Text,"""Daily""",Small,Coordination Frequency,Enter how often the coordination service is provided.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Cost,Mandatory,Number,"""$200""",Small,Coordination Cost,Enter the cost associated with the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Additional Services,Optional,Text Area,"""VIP lounge, Fast Track""",Medium,Additional Services,Describe any additional services offered.
+AirportSecurityHandling,Coordination with Airlines & Agents,Payment Methods,Optional,Text,"""Credit Card, Cash""",Medium,Payment Methods,List accepted methods of payment.
+AirportSecurityHandling,Coordination with Airlines & Agents,Customer Reviews,Optional,Text Area,"""Great Service!""",Large,Customer Reviews,Add customer reviews if applicable.
+AirportSecurityHandling,Coordination with Airlines & Agents,Photos/Videos,Optional,File,(File),,Photos/Videos,Upload photos or videos relevant to the service.
+AirportSecurityHandling,Coordination with Airlines & Agents,FAQ,Optional,Text Area,"""What is Fast Track?""",Large,FAQ,Add frequently asked questions and answers.
+AirportSecurityHandling,Coordination with Airlines & Agents,Updates and Notices,Optional,Text Area,"""New services added""",Large,Updates and Notices,Provide the latest updates and notices related to the service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Terms and Conditions,Optional,Text Area,"""T&C content""",Large,Terms and Conditions,Add terms and conditions if applicable.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Benefits,Optional,Text Area,"""Efficient, Cost-saving""",Large,Coordination Benefits,Describe the benefits of the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Challenges,Optional,Text Area,"""Resource allocation""",Large,Coordination Challenges,Describe any challenges faced in the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Recommendations,Optional,Text Area,"""Better communication""",Large,Coordination Recommendations,Provide recommendations for improving the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Contact information,Optional,Text,"""contact@example.com""",Medium,Additional Contact Information,Add additional contact information if available.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Procedures,Optional,Text Area,"""Step 1: Check-in...""",Large,Coordination Procedures,Describe the procedures followed in the coordination service.
+AirportSecurityHandling,Coordination with Airlines & Agents,Coordination with Airlines & Agents Metrics for success,Optional,Text Area,"""Customer Satisfaction""",Large,Metrics for Success,List the metrics used to measure the success of the coordination service.
+
