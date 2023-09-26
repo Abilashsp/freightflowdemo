@@ -30,6 +30,8 @@ export default function Page() {
   const [save, setSave] = useState(false);
   const [completedSections, setCompletedSections] = useState({});
 
+  const [next, setnext] = useState(1);
+
   const handleValue = (section) => {
     setValue(section);
   };
@@ -45,6 +47,31 @@ export default function Page() {
     }
   };
 
+  const handlenext = (e, index) => {
+    e.preventDefault();
+    if (Object.keys(data)) {
+      setValue(Object.keys(data)[index + 1]);
+    }
+    else{
+      setValue(Object.keys(data)[0]);
+    }
+
+  }
+
+
+  const handleprevious = (e, index) => {
+    e.preventDefault();
+    if (data) {
+      setValue(Object.keys(data)[index - 1]);
+    }
+
+  }
+
+
+
+
+
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -56,6 +83,10 @@ export default function Page() {
         const jsonData = await res.json();
         const formSchema = groupBy(jsonData, "Section");
         setData(formSchema);
+
+        if (formSchema && Object.keys(formSchema).length > 0) {
+          setValue(Object.keys(formSchema)[0]);
+        }
         setLoading(false);
       } catch (error) {
         console.error(error);
@@ -70,7 +101,7 @@ export default function Page() {
   }
 
   return (
-    <form>
+    <form className="">
       {isLoading && (
         <div
           className="inline-block h-8 w-8 animate-spin flex items-center justify-center rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
@@ -173,7 +204,16 @@ export default function Page() {
                       Save
                     </button>
                   </div>
+                  <div class="inline-flex">
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"  onClick={(e) => handleprevious(e, sIndx)}>
+                      Prev
+                    </button>
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r"  onClick={(e) => handlenext(e, sIndx)}>
+                      Next
+                    </button>
+                  </div>
                 </div>
+
               );
             } else {
               return null;
