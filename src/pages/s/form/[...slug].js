@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { groupBy } from "lodash";
 import { CheckIcon } from '@heroicons/react/20/solid'
+import { BsFillCaretRightFill,BsFillCaretLeftFill} from 'react-icons/bs';
 
 import * as Fields from "../../../components/Fields";
 const { TextBox, CheckBox, Select, RadioBox } = Fields;
@@ -32,6 +33,10 @@ export default function Page() {
 
   const [next, setnext] = useState(1);
 
+
+
+
+
   const handleValue = (section) => {
     setValue(section);
   };
@@ -49,20 +54,23 @@ export default function Page() {
 
   const handlenext = (e, index) => {
     e.preventDefault();
-    if (Object.keys(data)) {
-      setValue(Object.keys(data)[index + 1]);
+    const keys = Object.keys(data);
+    console.log("keys", keys)
+    if (keys) {
+      const lastIndex = keys.length - 1;
+      console.log("lastindex", lastIndex)
+      const newIndex = index + 1 <= lastIndex ? index + 1 : lastIndex;
+      setValue(keys[newIndex]);
     }
-    else{
-      setValue(Object.keys(data)[0]);
-    }
-
-  }
-
+  };
 
   const handleprevious = (e, index) => {
     e.preventDefault();
-    if (data) {
-      setValue(Object.keys(data)[index - 1]);
+    const keys = Object.keys(data);
+    if (keys) {
+      const firstIndex = 0;
+      const newIndex = index - 1 >= firstIndex ? index - 1 : 0;
+      setValue(keys[newIndex]);
     }
 
   }
@@ -189,7 +197,22 @@ export default function Page() {
                       <div className="sm:col-span-2">{renderField(field)}</div>
                     ))}
                   </div>
-                  <div className="flex items-center justify-end mt-6 gap-x-6">
+
+                  <div class="flex justify-around mt-6 gap-x-6">
+                  <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handleprevious(e, sIndx)}>
+                     <BsFillCaretLeftFill className="w-7 h-5"/>
+                      <span class="text-white">Prev</span>
+                    </button>
+
+
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={(e) => handlenext(e, sIndx)}>
+                    <span class="text-white">Next</span>
+                     <BsFillCaretRightFill className="w-7 h-5"/>
+                      
+                    </button>
+                  </div>
+
+                  <div className="flex items-center justify-end mt-6 gap-x-6 ">
                     <button
                       type="button"
                       className="text-sm font-semibold leading-6 text-gray-900"
@@ -204,15 +227,8 @@ export default function Page() {
                       Save
                     </button>
                   </div>
-                  <div class="inline-flex">
-                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"  onClick={(e) => handleprevious(e, sIndx)}>
-                      Prev
-                    </button>
-                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r"  onClick={(e) => handlenext(e, sIndx)}>
-                      Next
-                    </button>
-                  </div>
                 </div>
+
 
               );
             } else {
