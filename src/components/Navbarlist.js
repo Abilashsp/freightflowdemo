@@ -25,7 +25,7 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
   return (
     <div>
       <ul role="list" className="flex flex-1 flex-col gap-y-7">
-        {console.log(index)}
+        {/* {console.log(index)} */}
         <li key={index}>
           <ul role="list" className="-mx-2 space-y-1">
             {!subItem.childrens ? (
