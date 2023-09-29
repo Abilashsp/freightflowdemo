@@ -1,4 +1,8 @@
+import { useRef } from "react";
+
 const TextBox = (props) => {
+  const inputRef = useRef(null);
+
   const {
     className,
     "Field Name": Field_Name,
@@ -7,7 +11,21 @@ const TextBox = (props) => {
     Validate,
     Tooltip,
     Prompt,
+    section,
+    record,
   } = props;
+  let _value = "";
+
+  if (Field_Name && section && record && record[section]) {
+    _value = record[section][Field_Name];
+
+    if (_value === "Yes") _value = true;
+    if (_value === "No") _value = false;
+    console.log(Field_Name, _value);
+
+    // TODO : Need move this to Formik
+    // inputRef.current.value = _value;
+  }
   return (
     <>
       <label
@@ -20,25 +38,19 @@ const TextBox = (props) => {
             *
           </span>
         )}
-        {/* {Tooltip && (
-          <span
-            className="float-right text-xs text-blue-500 align-super"
-            title={Tooltip}
-          >i9iouy
-            !
-          </span>
-        )} */}
       </label>
       <div className="mt-1">
         <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
           <input
+            ref={inputRef}
+            id={Field_Name}
             type={type}
             name={Field_Name}
-            id={Field_Name}
             className={` block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6`}
             placeholder={Prompt}
           />
         </div>
+        {_value}
         {Tooltip && Tooltip.toLowerCase() !== Field_Name.toLowerCase() && (
           <p className="mt-1 ml-2 text-xs text-blue-500">{Tooltip}</p>
         )}

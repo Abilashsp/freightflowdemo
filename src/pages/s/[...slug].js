@@ -26,8 +26,8 @@ export default function Page() {
       }
     };
 
-    fetchData();
-  }, [filePath, router]);
+    if (path) fetchData();
+  }, [path, filePath, router]);
 
   return (
     <div className="px-4 sm:px-6 lg:px-8">
@@ -74,7 +74,7 @@ export default function Page() {
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
-                  {data?.data?.map((r) => (
+                  {data?.data?.map((r, rIdx) => (
                     <tr>
                       {data?.schemal?.map((h) => (
                         <td className="px-3 py-4 text-sm text-gray-500 whitespace-nowrap">
@@ -102,8 +102,11 @@ export default function Page() {
                               Link
                             </a>
                           )}
-                            {h["Data Type"] === "Email" && (
-                            <a href={`mailto:${r[h["Field Name"]]}`} target="_blank">
+                          {h["Data Type"] === "Email" && (
+                            <a
+                              href={`mailto:${r[h["Field Name"]]}`}
+                              target="_blank"
+                            >
                               {r[h["Field Name"]]}
                             </a>
                           )}
@@ -116,7 +119,7 @@ export default function Page() {
                       ))}
                       <td className="relative py-4 pl-3 pr-4 text-sm font-medium text-right whitespace-nowrap sm:pr-6">
                         <a
-                          href="#"
+                          href={`./form/${data?.schemal[0].Page}/${rIdx + 1}`}
                           className="text-indigo-600 hover:text-indigo-900"
                         >
                           Edit<span className="sr-only">, {r[0]}</span>

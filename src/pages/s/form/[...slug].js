@@ -31,23 +31,23 @@ const FieldAlias = {
   Week: WeekField,
 };
 
-const renderField = (props) => {
+const renderField = (props, section, record) => {
   const { "Data Type": data_type } = props;
   const Field = FieldAlias[data_type];
-  if (Field) return <Field {...props} />;
+  if (Field) return <Field {...props} section={section} record={record} />;
   console.log(data_type, Field);
-  return <TextBox {...props} />;
+  return <TextBox {...props} section={section} record={record} />;
 };
 
 export default function Page() {
   const router = useRouter();
-  const path = router?.query?.slug?.join("/");
-  const filePath = `/api/model?path=${path}`;
+  const path = router?.query?.slug;
   const [data, setData] = useState(null);
+  const [record, setRecord] = useState(null);
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData = async (filePath) => {
       try {
         if (!filePath) return;
         const res = await fetch(filePath);
@@ -62,14 +62,36 @@ export default function Page() {
         console.error(error);
       }
     };
+    const fetchRecordData = async (filePath) => {
+      try {
+        if (!filePath) return;
+        const res = await fetch(filePath);
+        if (!res.ok) {
+          throw new Error("File not found");
+        }
+        const jsonData = await res.json();
+        setRecord(jsonData);
+        setLoading(false);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    if (router?.query?.slug) {
+      console.log(router?.query?.slug);
+      const filePath = `/api/model?path=${path[0]}`;
+      fetchData(filePath);
 
-    fetchData();
-  }, [filePath, router]);
+      if (path[1]) {
+        const recordPath = `/api/record?path=${path[0]}&id=${path[1]}`;
+        fetchRecordData(recordPath);
+      }
+    }
+  }, [path, router]);
 
   return (
     <form>
-      <h1 className="pb-6 text-2xl text-center">{path}</h1>
-      {data && (
+      <h1 className="pb-6 text-2xl text-center">{path && path[0]}</h1>
+      {data && record && (
         <>
           <div>
             {Object.keys(data).map((section, sIndx) => {
@@ -88,7 +110,13 @@ export default function Page() {
                   </div>
                   <div className="grid grid-cols-1 px-6 mt-10 gap-x-3 gap-y-3 sm:grid-cols-6">
                     {data[section].map((field) => (
-                      <div className="sm:col-span-2">{renderField(field)}</div>
+                      <div className="sm:col-span-2">
+                        {renderField(
+                          field,
+                          section.split(" ").join("_"),
+                          record.record
+                        )}
+                      </div>
                     ))}
                   </div>
                 </div>
