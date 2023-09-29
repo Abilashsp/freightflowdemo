@@ -6,7 +6,7 @@ const Checkbox = (props) => {
     Tooltip,
   } = props;
   return (
-    <div className="mt-6 space-y-6">
+    <div className="mt-8 space-y-6">
       <div className="relative flex gap-x-3">
         <div className="flex items-center h-6">
           <input
@@ -17,7 +17,7 @@ const Checkbox = (props) => {
           />
         </div>
         <div className="text-sm leading-6">
-          <label htmlFor={Field_Name} className="font-medium text-gray-900">
+          <label htmlFor={Field_Name} className="font-medium text-gray-900 cursor-pointer">
             {Field_Name}
           </label>
           {Validate && (
