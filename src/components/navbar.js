@@ -16,6 +16,26 @@ import {
 
 
 const navigation = [
+   {
+    name: 'List Of Forms',
+    icon: FolderIcon,
+   id:1, current: false,
+    children: [
+      {id:12, current: false, name: 'Booking Information', href: '/BookingManagement', },
+      {id:12, current: false, name: 'PackagingSolutions', href: '/PackagingSolutions', },
+      {id:12, current: false, name: 'TransportationServices', href: '/TransportationServices', },
+      {id:12, current: false, name: 'Airport Security & Handling', href: '/AirportSecurityandHandling', },
+      {id:12, current: false, name: 'AirlineCoordination', href: '/AirlineCoordination', },
+      {id:12, current: false, name: 'FlightandAirTransit', href: '/FlightandAirTransit', },
+      {id:12, current: false, name: 'Customs & Arrival Services', href: '#', },
+      
+ 
+     
+     
+
+      
+    ],
+  },
 
 
 
@@ -73,14 +93,14 @@ const navigation = [
     icon: FolderIcon,
    id:1, current: false,
     children: [
-      {id:28, current: false, name: 'Security Screening & Inspection', href: '	air_security_handling/security_screen_insp', },
+      {id:28, current: false, name: 'Security Screening & Inspection', href: 'air_security_handling/security_screen_insp', },
       {id:29, current: false, name: 'Cargo Handling & Storage', href: '	air_security_handling/cargo_handle_storage',},
-      {id:30, current: false, name: 'Customs Documentation & Clearance', href: '	air_security_handling/custom_docs_clerance', },
-      {id:31, current: false, name: 'Specialized Handling Requirements', href: '	air_security_handling/specialized_han_requirement', },
+      {id:30, current: false, name: 'Customs Documentation & Clearance', href: 'air_security_handling/custom_docs_clerance', },
+      {id:31, current: false, name: 'Specialized Handling Requirements', href: 'air_security_handling/specialized_han_requirement', },
       {id:32, current: false, name: 'Loading & Unloading Operations', href: '	air_security_handling/loading_unloading_operation',  },
-      {id:33, current: false, name: 'Real-Time Monitoring & Tracking', href: '	air_security_handling/realtime_monitor_tra',},
-      {id:34, current: false, name: 'Emergency Response & Contingency', href: '	air_security_handling/emergency_respon_contingency',  },
-      {id:35, current: false, name: 'Coordination with Airlines & Agents', href: '	air_security_handling/cordination_airline_agent',  },
+      {id:33, current: false, name: 'Real-Time Monitoring & Tracking', href: 'air_security_handling/realtime_monitor_tra',},
+      {id:34, current: false, name: 'Emergency Response & Contingency', href: 'air_security_handling/emergency_respon_contingency',  },
+      {id:35, current: false, name: 'Coordination with Airlines & Agents', href: 'air_security_handling/cordination_airline_agent',  },
     ],
   },
   {
@@ -217,7 +237,8 @@ const navigation = [
       {id:106, current: false, name: 'Security & Access Control', href: 'warehousing_solutions/security_access_control', childrens: [{ name: ' Security Protocols', href: 'warehousing_solutions/security_access_control/security_protocols' },{ name: ' Access Permissions', href: '	warehousing_solutions/security_access_control/access_permissions' },{ name: 'Surveillance Monitoring', href: 'warehousing_solutions/security_access_control/surveillance_monitoring' },{ name: 'Incident Reports', href: '	warehousing_solutions/security_access_control/incident_reports' }] },
       {id:107, current: false, name: 'Reporting & Analytics', href: '	warehousing_solutions/reporting_analytics', childrens: [{ name: ' Operational Reports', href: '	warehousing_solutions/reporting_analytics/operational_reports' },{ name: ' Performance Analytics', href: 'warehousing_solutions/reporting_analytics/performance_analytics' },{ name: ' Trend Analysis', href: '	warehousing_solutions/reporting_analytics/trend_analysis' },{ name: ' Custom Dashboards', href: '	warehousing_solutions/reporting_analytics/custom_dashboards' },] },
     ],
-  },
+  }
+ 
 
 
 

@@ -25,6 +25,7 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
   return (
     <div>
       <ul role="list" className="flex flex-1 flex-col gap-y-7">
+        {/* {console.log(index)} */}
         <li key={index}>
           <ul role="list" className="-mx-2 space-y-1">
             {!subItem.childrens ? (
@@ -36,8 +37,16 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                   )}
                   onClick={() => handleclick(subItem.id)}
                 >
-                  <Link href={`/p/${subItem.href}`}>
-                    <div>{subItem.name}</div>
+                  <Link href={`/s/form/${subItem.href}`}className='flex items-start'>
+                  <span className='relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-500 hover:bg-blue-700 bg-white group-hover:border-gray-400 mt-4'>
+                          {index?(<div className="absolute left-4 -top-8 -ml-px  h-8 w-0.5 bg-indigo-600" aria-hidden="true" />):null}
+                          <span className="h-2.5 w-2.5 rounded-full bg-blue-300 hover:bg-blue-700 " />
+                          </span>
+                          <span className="ml-8 flex min-w-0 flex-col ">
+                        <span className="text-sm font-medium mt-4 whitespace-nowrap">{subItem.name}</span>
+                      
+                      </span>
+
                   </Link>
                 </div>
               </li>
@@ -67,8 +76,17 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                           'flex items-center w-full  text-left ml-4 rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700'
                         )}>
 
-                          <Link href={`/p/${subChildItem.href}`}>{subChildItem.name}</Link>
+                          <Link href={`/p/${subChildItem.href}`} className='flex items-start'><span className='relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-500 hover:bg-blue-700 bg-white group-hover:border-gray-400 mt-4'>
+                          <div className="absolute left-4 -top-8 -ml-px  h-8 w-0.5 bg-indigo-600" aria-hidden="true" />
+                          <span className="h-2.5 w-2.5 rounded-full bg-blue-300 hover:bg-blue-700 " />
+                          </span>
+                          <span className="ml-8 flex min-w-0 flex-col ">
+                        <span className="text-sm font-medium mt-4 whitespace-nowrap">{subChildItem.name}</span>
+                      
+                      </span>
 
+                          </Link>
+                        
                         </li>
                       ))}
                     </Disclosure.Panel>

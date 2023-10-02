@@ -3,6 +3,7 @@ import database from "./seed";
 export default function handler(req, res) {
   console.log("req", req.query);
   const path = req?.query?.path;
+ console.log(path)
 
   const schemal = database.model.filter(
     (r) => r.Page.toLowerCase() === path.split("_").join(" ").toLowerCase()
