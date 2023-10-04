@@ -45,6 +45,7 @@ export default function Page() {
   const [data, setData] = useState(null);
   const [record, setRecord] = useState(null);
   const [isLoading, setLoading] = useState(true);
+  console.log("data",data)
 
   useEffect(() => {
     const fetchData = async (filePath) => {
@@ -55,6 +56,7 @@ export default function Page() {
           throw new Error("File not found");
         }
         const jsonData = await res.json();
+        console.log("jsondata",jsonData)
         const formSchema = groupBy(jsonData, "Section");
         setData(formSchema);
         setLoading(false);
@@ -78,7 +80,9 @@ export default function Page() {
     };
     if (router?.query?.slug) {
       console.log(router?.query?.slug);
+      // console.log("api path",`/api/model?path=${path[1]}`)
       const filePath = `/api/model?path=${path[0]}`;
+      
       fetchData(filePath);
 
       if (path[1]) {

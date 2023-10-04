@@ -14,6 +14,7 @@ export default function handler(req, res) {
     .map(({ Section }) => Section.split(" ").join("_"));
 
   pageSection = _.uniq(pageSection);
+  console.log("pagesections",pageSection)
 
   const record = {};
   if (pageSection && pageSection.length) {

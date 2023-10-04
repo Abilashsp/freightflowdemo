@@ -6,8 +6,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const people = [{ name: "Leslie Alexander", username: "@lesliealexander" },
-{ name: "Abilash", username: "@Abilash07" }];
+const people = [{ name: "Leslie Alexander", username: "@lesliealexander" }];
 
 const Select = (props) => {
   const {

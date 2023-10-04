@@ -1,27 +1,22 @@
-import{Formik,Form,Field,ErrorMessage}from "formik"
-import { useState } from "react";
+import { useRef } from "react";
 
 const TextBox = (props) => {
-  const[inputvalues,setinputvalues]=useState([]);
+  const inputRef = useRef(null);
 
-
-const handleinput=(data)=>{
-
-setinputvalues(data)
-console.log(inputvalues)
- 
-}
   const {
+    className,
     "Field Name": Field_Name,
     "Data Type": data_type,
+    type = "text",
     Validate,
     Tooltip,
     Prompt,
-    "Sample Value":sample_value,
-  section,
-    record
+    section,
+    record,
   } = props;
-    if (Field_Name && section && record && record[section]) {
+  let _value = "";
+
+  if (Field_Name && section && record && record[section]) {
     _value = record[section][Field_Name];
   }
   return (
@@ -31,23 +26,12 @@ console.log(inputvalues)
         className="block text-sm font-medium leading-6 text-gray-900"
       >
         {Field_Name}
-        {Validate==="Mandatory" && (
+        {Validate && (
           <span className="pl-1 text-xs text-red-500" title={Tooltip}>
             *
           </span>
         )}
       </label>
-      <Formik
-      initialValues={{}}
-      validate={(values)=>{
-      handleinput(values)
-      }
-     
-    }
-      
-      
-      >
-        <Form onSubmit={handleinput}>
       <div className="mt-1">
         <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
           {!_value && (
@@ -67,14 +51,11 @@ console.log(inputvalues)
               {_value}
             </span>
           )}
-
         </div>
         {Tooltip && Tooltip.toLowerCase() !== Field_Name.toLowerCase() && (
           <p className="mt-1 ml-2 text-xs text-blue-500">{Tooltip}</p>
         )}
       </div>
-      </Form>
-      </Formik>
     </>
   );
 };
