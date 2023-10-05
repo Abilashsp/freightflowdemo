@@ -37,7 +37,7 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                   )}
                   onClick={() => handleclick(subItem.id)}
                 >
-                  <Link href={`/s/form/${subItem.href}`}className='flex items-start'>
+                  <Link href={`/s/${subItem.href}`}className='flex items-start'>
                   <span className='relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-500 hover:bg-blue-700 bg-white group-hover:border-gray-400 mt-4'>
                           {index?(<div className="absolute left-4 -top-8 -ml-px  h-8 w-0.5 bg-indigo-600" aria-hidden="true" />):null}
                           <span className="h-2.5 w-2.5 rounded-full bg-blue-300 hover:bg-blue-700 " />

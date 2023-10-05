@@ -1,0 +1,11 @@
+id,Primary Material,Secondary Material,Cushioning Material,Packaging Material,Quantity,Dimensions,Weight,Tape Material,Tape Width,Recyclable Indicator,Biodegradable Indicator,Special Instructions,Supplier Information
+1,Cardboard,Plastic,Bubble wrap,Box,100,12x12x12,2 lbs,Polypropylene,2 inches,Yes,No,Keep dry.,CardPak Suppliers Inc.
+2,Wood,Steel,Straw,Crate,50,48x48x48,45 lbs,Reinforced paper,3 inches,Yes,Yes,Avoid heavy stacking.,WoodWorks LLC.
+3,Plastic,N/A,Foam pellets,Bag,200,15x20,0.3 lbs,Vinyl,1 inch,Yes,No,Keep away from sharp objects.,PlastiPack Corp.
+4,Metal,Plastic,Shredded paper,Canister,75,5x10,3 lbs,Metallic tape,1.5 inches,No,No,Avoid dropping.,MetalMate Enterprises.
+5,Glass,Rubber,Silica gel,Bottle,150,3x8,1 lb,Cloth tape,1 inch,Yes,Yes,Handle with care.,GlassGuardian Ltd.
+6,Cardboard,N/A,Inflatable air,Envelope,250,10x13,0.5 lbs,Polyethylene,2 inches,Yes,No,Do not overfill.,CardCrafters Co.
+7,Polyester,Cardboard,Foam sheets,Packet,300,8x10,0.2 lbs,Fabric tape,1.5 inches,Yes,No,Store in cool place.,PolyPerfect Inc.
+8,Wood,Plastic,Foam blocks,Barrel,60,24x36,20 lbs,Acrylic tape,2.5 inches,Yes,No,Ensure lid is secure.,BarrelBros Ltd.
+9,Plastic,N/A,Corrugated inserts,Tube,90,3x36,1.2 lbs,Rubber adhesive tape,2 inches,Yes,No,Seal both ends.,TuboTech Supplies.
+10,Steel,Aluminum,Polystyrene,Drum,40,24x36,25 lbs,Metallic tape,3 inches,No,No,Store upright.,SteelSecure Inc.

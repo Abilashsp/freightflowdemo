@@ -1,0 +1,11 @@
+id,Design Options,Material Choices,Minimum Order Quantity,Lead Time,Cost,File Format for Design,Packing option ID,Name,Description,Dimensions,Maximum quantity,Is mandatory,Color Palette,Text Customization,Special Features,Sample Availability,Bulk Discount,Sustainability Options,Image,Recommended for
+1,Printable,Cardboard,100,5 days,$2.50,PNG,DC001,PrintBox,Customized print box for branding,10x10x10,500,No,CMYK,Yes,Laminated Finish,Yes,10% for 500+,Recyclable,imgDC001.jpg,Merchandise
+2,Embossed,Leather,25,10 days,$15.00,SVG,DC002,LuxePouch,High-end leather pouch for luxury items,8x10,50,Yes,Browns,No,Gold Accents,Yes,5% for 100+,Biodegradable,imgDC002.jpg,Jewelry
+3,Laminated,Polyester,300,7 days,$3.00,PDF,DC003,LamiPack,Water-resistant pack suitable for outdoor products,12x15,1500,No,Blues,Yes,UV Protected,Yes,12% for 1000+,Partly Recyclable,imgDC003.jpg,Outdoor products
+4,Matte,Metal,200,12 days,$8.00,AI,DC004,MetalMate,Metal container with a matte finish for premium feel,5x5,400,Yes,Silvers,No,Cushioned Interior,No,8% for 800+,Reusable,imgDC004.jpg,Cosmetics
+5,UV Printed,Glass,150,14 days,$7.50,PSD,DC005,GlassPrint,UV printed glass bottle for beverages,3x8,350,No,CMYK,Yes,UV resistant print,No,6% for 500+,Recyclable,imgDC005.jpg,Beverages
+6,Engraved,Wood,30,20 days,$20.00,DXF,DC006,WoodCraft,Wooden box with detailed engravings for luxury goods,15x10x5,60,No,Naturals,No,Handcrafted,Yes,3% for 60+,Biodegradable,imgDC006.jpg,Handcrafted goods
+7,Glossy Finish,Paper,1000,4 days,$1.00,CDR,DC007,GlossEnvelope,Shiny envelope ideal for official invitations,10x4,5000,No,Reds and Golds,Yes,Watermark,No,15% for 5000+,Recyclable,imgDC007.jpg,Invitations
+8,Textured,Plastic,400,8 days,$4.50,JPG,DC008,TexturePack,Plastic packaging with a unique texture for tactile experience,10x10x5,1800,No,Whites,No,Ribbed Surface,Yes,10% for 1500+,Partly Recyclable,imgDC008.jpg,Toys
+9,Recycled,Recycled Material,250,7 days,$3.50,TIFF,DC009,EcoWrap,Eco-friendly wrap made from recycled materials,20x20,1000,Yes,Greens,Yes,Eco Label,Yes,5% for 900+,100% Recyclable,imgDC009.jpg,Eco-friendly products
+10,Holographic,Plastic,500,10 days,$5.00,PDF,DC010,HoloPack,Unique packaging with a holographic finish for a futuristic look,10x10x10,2200,No,Multicolor,No,3D Effect,Yes,7% for 2000+,Partly Recyclable,imgDC010.jpg,Electronics

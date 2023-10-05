@@ -1,0 +1,11 @@
+id,Packaging Type,Material Used,Dimensions,Weight,Seal Type,Packaging Material,Quantity,Dimensions,Weight,Color,Brand,Recyclable Indicator,Special Instructions,Barcode,QR Code,Special Instructions
+1,Box,Cardboard,12x12x12,2 lbs,Tape,Cardboard,100,12x12x12,2 lbs,Brown,BoxCo,Yes,Handle with care.,123456789001,QR001,Keep dry.
+2,Envelope,Paper,10x13,0.5 lbs,Self-sealing,Paper,250,10x13,0.5 lbs,White,EnviroPack,No,Do not bend.,123456789002,QR002,Do not staple.
+3,Bubble Mailer,Plastic/Poly,8x11,0.8 lbs,Self-sealing,Plastic/Poly,150,8x11,0.8 lbs,Grey,SecureMail,Yes,Handle gently.,123456789003,QR003,Avoid sharp objects.
+4,Drum,Steel,24x36,25 lbs,Metallic seal,Steel,20,24x36,25 lbs,Black,DrumTech,Yes,Keep upright.,123456789004,QR004,Avoid dropping.
+5,Pallet Wrap,Plastic,500x20,15 lbs,N/A,Plastic,1 roll,500x20,15 lbs,Clear,WrapRight,No,Stretch before wrapping.,123456789005,QR005,Keep away from heat.
+6,Tube,Cardboard,3x36,1.2 lbs,Plastic cap,Cardboard,50,3x36,1.2 lbs,Brown,TuboMax,Yes,Seal both ends.,123456789006,QR006,Protect from moisture.
+7,Canister,Metal,5x10,3 lbs,Pressure seal,Metal,75,5x10,3 lbs,Silver,CanCan,Yes,Pressurized contents.,123456789007,QR007,No puncturing.
+8,Bag,Plastic,15x20,0.3 lbs,Zip-lock,Plastic,200,15x20,0.3 lbs,Blue,BaggyBest,No,Reseal after use.,123456789008,QR008,Store in cool place.
+9,Crate,Wood,48x48x48,45 lbs,Metallic latch,Wood,10,48x48x48,45 lbs,Natural,CrateCraft,Yes,Heavy item.,123456789009,QR009,Use forklift.
+10,Bottle,Glass,3x8,1 lb,Screw cap,Glass,50,3x8,1 lb,Clear,BottleBrite,Yes,Handle with care.,123456789010,QR010,Avoid sunlight.

@@ -1,0 +1,11 @@
+id,Label Format,Label Orientation,Label Dimensions,Text Font,Label Type,Label Number,Barcode,Shipping Mark,Hazardous Materials Label,Text Size,Text Color,Background Color,Border Style,Additional Graphics,Special Instructions,Special Handling Instructions
+1,Portrait,Vertical,4x6,Arial,Shipping,L001,123456789001,SM001,Flammable,12,Black,White,Solid,Logo,Do not cover.,Keep dry.
+2,Landscape,Horizontal,6x4,Times New Roman,Product,L002,123456789002,SM002,None,10,Blue,Beige,Dashed,QR Code,Position upright.,Avoid direct sunlight.
+3,Portrait,Vertical,5x7,Calibri,Return,L003,123456789003,SM003,Toxic,14,Red,Grey,Dotted,None,Do not fold.,Handle with care.
+4,Landscape,Horizontal,8x3,Verdana,Warning,L004,123456789004,SM004,Corrosive,11,White,Black,Solid,Company Logo,Place on package top.,Keep visible.
+5,Portrait,Vertical,3x5,Courier New,Address,L005,123456789005,SM005,None,12,Green,Yellow,Double,None,Do not write over.,Place on package side.
+6,Landscape,Horizontal,7x2,Georgia,Invoice,L006,123456789006,SM006,Explosive,13,Brown,Pink,Inset,Barcode,Attach securely.,Do not remove.
+7,Portrait,Vertical,4x6,Tahoma,Hazardous,L007,123456789007,SM007,Flammable,10,Orange,Purple,Outset,QR Code,Visible at all times.,Handle with gloves.
+8,Landscape,Horizontal,6x4,Helvetica,Asset,L008,123456789008,SM008,None,12,Black,Green,Solid,Logo,Stick firmly.,Do not cover.
+9,Portrait,Vertical,5x7,Garamond,Warranty,L009,123456789009,SM009,Oxidizer,14,Purple,White,Dashed,None,Scan upon receipt.,Do not tear.
+10,Landscape,Horizontal,8x3,Lucida Console,Nutritional,L010,123456789010,SM010,None,11,Yellow,Red,Double,Barcode,Keep away from moisture.,Avoid direct heat.

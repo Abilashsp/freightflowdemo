@@ -6,6 +6,7 @@ export default function handler(req, res) {
   console.log("req", req.query);
   const path = req?.query?.path;
   const id = +req?.query?.id - 1;
+  console.log("id",id)
 
   let pageSection = database.model
     .filter(
@@ -20,6 +21,7 @@ export default function handler(req, res) {
   if (pageSection && pageSection.length) {
     pageSection.map((section) => {
       record[section] = database[section][id];
+      console.log(record[section])
     });
   }
   res.status(200).json({ pageSection, record });

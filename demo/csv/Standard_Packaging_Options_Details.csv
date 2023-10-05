@@ -1,0 +1,11 @@
+id,Package Type,Dimensions,Weight Limit,Material,Cost,Availability,Packing option ID,Name,Description,Dimensions (length, width, height),Weight,Maximum quantity,Color Options,Customization Options,Environmental Impact,Additional Features,Bulk Order Discounts,Lead Time,Image,Is mandatory,Recommended for
+1,Box,12x12x12,10 lbs,Cardboard,$1.00,In Stock,PO001,Standard Box,Sturdy cardboard box,12, 12, 12,1.5 lbs,50,Brown,Printable,Recyclable,Reinforced corners,Yes,5% off for 500+,2 days,img001.jpg,No,Fragile items
+2,Envelope,10x13,1 lb,Paper,$0.50,In Stock,PO002,Large Envelope,Padded envelope for documents,10, 13, N/A,0.3 lbs,100,White,Printable,Biodegradable,Self-seal,Yes,10% off for 1000+,1 day,img002.jpg,Yes,Documents
+3,Bubble Mailer,8x11,2 lbs,Plastic/Poly,$0.75,In Stock,PO003,Protective Mailer,Mail with bubble protection,8, 11, N/A,0.4 lbs,30,Grey,None,Partly Recyclable,Bubble lined,No,7% off for 500+,3 days,img003.jpg,No,Electronics
+4,Drum,24x36,60 lbs,Steel,$25.00,Low Stock,PO004,Large Drum,Suitable for liquids and grains,24, 24, 36,10 lbs,1,Black,None,Non-Biodegradable,Tight-seal lid,No,None,7 days,img004.jpg,No,Bulk materials
+5,Pallet Wrap,500x20,N/A,Plastic,$15.00,In Stock,PO005,Stretch Wrap,For pallet wrapping,500, 20, N/A,15 lbs,1 roll,Clear,None,Non-Biodegradable,Stretchable,No,10% off for 10+ rolls,4 days,img005.jpg,Yes,Large shipments
+6,Tube,3x36,5 lbs,Cardboard,$2.00,Out of Stock,PO006,Document Tube,For posters and plans,3, 3, 36,0.5 lbs,5,Brown,Printable,Recyclable,Cap ends,No,None,5 days,img006.jpg,No,Posters
+7,Canister,5x10,8 lbs,Metal,$5.00,In Stock,PO007,Metal Canister,Pressure resistant,5, 5, 10,2 lbs,10,Silver,None,Partly Recyclable,Pressure seal,Yes,5% off for 100+,6 days,img007.jpg,No,Liquids/Gases
+8,Bag,15x20,3 lbs,Plastic,$0.30,In Stock,PO008,Plastic Bag,General purpose bag,15, 20, N/A,0.1 lbs,20,Blue,Green,Red,None,Non-Biodegradable,Zip-lock,No,10% off for 1000+,1 day,img008.jpg,No,Clothing
+9,Crate,48x48x48,100 lbs,Wood,$30.00,In Stock,PO009,Wooden Crate,Heavy-duty protection,48, 48, 48,15 lbs,1,Natural,Printable,Biodegradable,Latch lock,No,5% off for 20+,10 days,img009.jpg,No,Heavy machinery
+10,Bottle,3x8,2 lbs,Glass,$1.50,In Stock,PO010,Glass Bottle,Suitable for liquids,3, 3, 8,0.8 lbs,25,Clear,Blue,Green,Printable,Recyclable,Screw cap,No,2% off for 500+,3 days,img010.jpg,No,Beverages

@@ -1,0 +1,11 @@
+id,Compliance Type,Compliance Certificate,Compliance Code,Expiration Date,Export Control Classification Number (ECCN),Issuing Authority,Additional Documents,Compliance Checklist,Special Instructions,Verification Status,Licence Number,Certificate Number,Marks and Numbers,Net Weight,Gross Weight,Shipping Marks,Special Handling Instructions
+1,Safety,ISO 9001,SAF-001,2024-10-01,EAR99,National Safety Board,Safety Audit Report,SAF-CHECK01,Handle with care.,Verified,LIC001,CERT001,M1-100,95,100,SM1001,Do not drop.
+2,Environmental,ISO 14001,ENV-002,2025-01-15,3A001,Environmental Protection Agency,Environmental Impact Assessment,ENV-CHECK02,Recyclable material.,Pending,LIC002,CERT002,M2-200,190,195,SM1002,Keep dry.
+3,Quality,ISO 13485,QLT-003,2026-02-28,2D001,Quality Assurance Institute,Quality Test Results,QLT-CHECK03,For medical use.,Verified,LIC003,CERT003,M3-150,140,145,SM1003,Keep sterile.
+4,Food Safety,ISO 22000,FDS-004,2024-12-31,3C001,Food Safety Organization,Food Analysis Report,FDS-CHECK04,Contains allergens.,Pending,LIC004,CERT004,M4-75,70,72,SM1004,Store cool.
+5,Chemical,REACH,CHM-005,2027-03-15,3B001,Chemical Safety Commission,Chemical Composition,CHM-CHECK05,Toxic substance.,Verified,LIC005,CERT005,M5-250,240,245,SM1005,Handle with gloves.
+6,Electrical,IEC 60601,ELE-006,2024-11-20,3E001,Electrical Safety Association,Electrical Test Results,ELE-CHECK06,High voltage.,Pending,LIC006,CERT006,M6-80,78,82,SM1006,Keep away from water.
+7,Mechanical,ASTM E606,MCH-007,2025-04-30,5A001,Mechanical Testing Institute,Mechanical Analysis,MCH-CHECK07,Heavy machinery.,Verified,LIC007,CERT007,M7-120,115,117,SM1007,Use proper equipment.
+8,Organic,USDA Organic,ORG-008,2024-09-15,1C001,Organic Certification Agency,Organic Farm Report,ORG-CHECK08,Organically grown.,Pending,LIC008,CERT008,M8-90,85,88,SM1008,Avoid pesticides.
+9,Textile,Oeko-Tex Standard 100,TEX-009,2026-06-10,2A001,Textile Safety Association,Textile Composition,TEX-CHECK09,Soft fabric.,Verified,LIC009,CERT009,M9-300,290,295,SM1009,Wash cold.
+10,Electronics,RoHS,ELC-010,2025-07-20,4D001,Electronics Regulatory Body,Electronics Audit Report,ELC-CHECK10,Contains batteries.,Pending,LIC010,CERT010,M10-210,200,210,SM1010,Handle gently.

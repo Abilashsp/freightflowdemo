@@ -1,0 +1,11 @@
+id,Label Type,Barcode,QR Code,Recipient Address,Label Number,Shipping Mark,Hazardous Materials Label,Sender Address,Tracking Number,Special Instructions,Label Color,Label Size,Additional Logos,Special Handling Instructions
+1,Shipping,123456789001,QR001,123 Elm St, Los Angeles, CA, L001,SM001,Flammable,456 Oak Ave, New York, NY,TRK001,Keep dry.,Red,4x6,None,Do not bend.
+2,Product,123456789002,QR002,N/A,L002,SM002,N/A,N/A,N/A,For internal use.,Green,3x5,Company Logo,Keep out of sunlight.
+3,Return,123456789003,QR003,789 Maple Blvd, Chicago, IL,L003,SM003,N/A,101 Pine Ln, Houston, TX,TRK002,Handle with care.,Yellow,4x6,Return Icon,Use original packaging.
+4,Warning,123456789004,QR004,N/A,L004,SM004,Toxic,202 Birch Dr, Phoenix, AZ,N/A,Do not consume.,Orange,4x4,Poison Symbol,Seal tightly.
+5,Address,123456789005,QR005,303 Cedar Rd, Sacramento, CA,L005,SM005,N/A,N/A,N/A,For official use.,Blue,5x7,None,Do not cover.
+6,Invoice,123456789006,QR006,N/A,L006,SM006,N/A,404 Spruce Way, San Antonio, TX,N/A,Contains financial information.,White,8x10,Company Logo,Keep confidential.
+7,Hazardous,123456789007,QR007,N/A,L007,SM007,Corrosive,505 Fir Ct, San Diego, CA,TRK003,Handle with gloves.,Black,5x5,Corrosion Symbol,Use protective gear.
+8,Warranty,123456789008,QR008,N/A,L008,SM008,N/A,606 Redwood Ln, San Jose, CA,N/A,Register online.,Silver,6x8,Warranty Icon,Do not remove.
+9,Asset,123456789009,QR009,N/A,L009,SM009,N/A,707 Cypress Ave, Salt Lake City, UT,N/A,For inventory purposes.,Gold,3x3,Asset Tag,Scan annually.
+10,Nutritional,123456789010,QR010,N/A,L010,SM010,N/A,N/A,N/A,Contains allergens.,White,6x6,Food Pyramid,Check expiry date.

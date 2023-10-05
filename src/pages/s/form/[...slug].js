@@ -82,11 +82,13 @@ export default function Page() {
       console.log(router?.query?.slug);
       // console.log("api path",`/api/model?path=${path[1]}`)
       const filePath = `/api/model?path=${path[0]}`;
+      console.log(`/api/model?path=${path[1]}`)
       
       fetchData(filePath);
 
       if (path[1]) {
         const recordPath = `/api/record?path=${path[0]}&id=${path[1]}`;
+        console.log("recordpath",recordPath)
         fetchRecordData(recordPath);
       }
     }

@@ -16,6 +16,31 @@ import {
 
 
 const navigation = [
+  {
+    name: 'KK List Of Forms',
+    icon: FolderIcon,
+   id:1, current: false,
+    children: [
+      {id:12, current: false, name: 'Booking Information', href: '/Customer_Information', },
+      {id:12, current: false, name: 'PackagingSolutions', href: '/PackagingSolutions', },
+      {id:12, current: false, name: 'TransportationServices', href: '/TransportationServices', },
+      {id:12, current: false, name: 'Airport Security & Handling', href: '/AirportSecurityandHandling', },
+      {id:12, current: false, name: 'AirlineCoordination', href: '/AirlineCoordination', },
+      {id:12, current: false, name: 'FlightandAirTransit', href: '/FlightandAirTransit', },
+      {id:12, current: false, name: 'Customs & Arrival Services', href: '#', },
+      
+ 
+     
+     
+
+      
+    ],
+  },
+
+
+
+
+
    {
     name: 'List Of Forms',
     icon: FolderIcon,
