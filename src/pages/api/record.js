@@ -20,8 +20,9 @@ export default function handler(req, res) {
   const record = {};
   if (pageSection && pageSection.length) {
     pageSection.map((section) => {
-      record[section] = database[section][id];
-      console.log(record[section])
+     const sectionData = database[section];
+      if (sectionData) record[section] = sectionData[id];
+      console.log("section",section)
     });
   }
   res.status(200).json({ pageSection, record });

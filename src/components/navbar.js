@@ -22,12 +22,14 @@ const navigation = [
    id:1, current: false,
     children: [
       {id:12, current: false, name: 'Booking Information', href: '/Customer_Information', },
-      {id:12, current: false, name: 'PackagingSolutions', href: '/PackagingSolutions', },
-      {id:12, current: false, name: 'TransportationServices', href: '/TransportationServices', },
-      {id:12, current: false, name: 'Airport Security & Handling', href: '/AirportSecurityandHandling', },
-      {id:12, current: false, name: 'AirlineCoordination', href: '/AirlineCoordination', },
-      {id:12, current: false, name: 'FlightandAirTransit', href: '/FlightandAirTransit', },
-      {id:12, current: false, name: 'Customs & Arrival Services', href: '#', },
+      {id:12, current: false, name: 'PackagingSolutions', href: '/Packing_List', },
+      {id:12, current: false, name: 'TransportationServices', href: '/Airport_Destinations', },
+      {id:12, current: false, name: 'Airport Security & Handling', href: '/Aircraft_Handling', },
+      {id:12, current: false, name: 'AirlineCoordination', href: '/Airline_Partnerships_and_Agreements', },
+      {id:12, current: false, name: 'FlightandAirTransit', href: '/Additional_Flight_Information', },
+      {id:12, current: false, name: 'Customs & Arrival Services', href: '/Arrival_Coordination_Scheduling', },
+      {id:12, current: false, name: 'Final Delivery & Destination', href: '/Additional_Services', },
+      {id:12, current: false, name: 'Tracking & Reporting', href: '/Destination', },
       
  
      
