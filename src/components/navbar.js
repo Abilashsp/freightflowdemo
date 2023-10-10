@@ -27,8 +27,8 @@ const navigation = [
       {id:12, current: false, name: 'Airport Security & Handling', href: '/Aircraft_Handling', },
       {id:12, current: false, name: 'AirlineCoordination', href: '/Airline_Partnerships_and_Agreements', },
       {id:12, current: false, name: 'FlightandAirTransit', href: '/Additional_Flight_Information', },
-      {id:12, current: false, name: 'Customs & Arrival Services', href: '/Arrival_Coordination_Scheduling', },
-      {id:12, current: false, name: 'Final Delivery & Destination', href: '/Additional_Services', },
+      {id:12, current: false, name: 'Customs & Arrival Services', href: '/Issue_Resolution_and_Support', },
+      {id:12, current: false, name: 'Final Delivery & Destination', href: '/Hours_of_Operation', },
       {id:12, current: false, name: 'Tracking & Reporting', href: '/Destination', },
       
  
