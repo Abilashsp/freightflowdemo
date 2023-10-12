@@ -8,6 +8,7 @@ const TextBox = (props) => {
     "Field Name": Field_Name,
     "Data Type": data_type,
     type = "text",
+    " is_Needed?":Need,
     Validate,
     Tooltip,
     Prompt,
@@ -15,6 +16,7 @@ const TextBox = (props) => {
     record,
   } = props;
   let _value = "";
+
 
   if (Field_Name && section && record && record[section]) {
     _value = record[section][Field_Name];
