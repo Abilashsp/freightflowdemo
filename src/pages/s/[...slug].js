@@ -29,6 +29,7 @@ export default function Page() {
     if (path) fetchData();
   }, [path, filePath, router]);
 
+
   return (
     <div className="px-4 sm:px-6 lg:px-8">
       <div className="sm:flex sm:items-center">
@@ -122,6 +123,7 @@ export default function Page() {
                           href={`./form/${data?.schemal[0]?.Page}/${rIdx + 1}`}
                           className="text-indigo-600 hover:text-indigo-900"
                         >
+                         
                           Edit<span className="sr-only">, {r[0]}</span>
                         </a>
                       </td>

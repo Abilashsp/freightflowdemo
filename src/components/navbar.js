@@ -22,7 +22,7 @@ const navigation = [
    id:1, current: false,
     children: [
       
-      {id:12, current: false, name: 'Customer Informations', href: '/Customer_Informations', },
+      
       {id:12, current: false, name: 'Booking Information', href: '/Customer_Information', },
       {id:12, current: false, name: 'PackagingSolutions', href: '/Packing_List', },
       {id:12, current: false, name: 'TransportationServices', href: '/Airport_Destinations', },
@@ -41,6 +41,25 @@ const navigation = [
     ],
   },
 
+  {
+    name: "Master",
+    icon: FolderIcon,
+   id:1, current: false,
+    children: [
+      {id:12, current: false, name: 'Customer Informations', href: '/Customer_Informations', },
+      {id:12, current: false, name: 'Country', href: '/Country', },
+      {id:12, current: false, name: 'Destination', href: '/Destinations', },
+      {id:12, current: false, name: 'Freight Type', href: '/Freight_Type', },
+      {id:12, current: false, name: 'Carrier List', href: '/Carrier_List', },
+      {id:12, current: false, name: 'Cargo Type ', href: '/Cargo_Type', },
+      {id:12, current: false, name: 'Packaging Type', href: '/Packaging_Type', },
+     
+      
+ 
+
+      
+    ],
+  },
 
 
 

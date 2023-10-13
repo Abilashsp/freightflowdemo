@@ -4,6 +4,7 @@ const Checkbox = (props) => {
   const {
     "Field Name": Field_Name,
     "Data Type": data_type,
+    " is_Needed?":Need,
     Validate,
     Tooltip,
     section,
@@ -23,7 +24,7 @@ const Checkbox = (props) => {
   return (
     <div className="mt-8 space-y-6">
       <div className="relative flex gap-x-3">
-        <div className="flex items-center h-6">
+        <div className={`flex items-center h-6 `}>
           <input
             id={Field_Name}
             name={Field_Name}
