@@ -8,7 +8,7 @@ const TextBox = (props) => {
     "Field Name": Field_Name,
     "Data Type": data_type,
     type = "text",
-    " is_Needed?":Need,
+    "Field_Needed?":Need,
     Validate,
     Tooltip,
     Prompt,
@@ -36,7 +36,7 @@ const TextBox = (props) => {
       </label>
       <div className="mt-1">
         <div className={`flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md
-        ${Need==="No"?"bg-red-700 opacity-70":""}`}>
+        ${Need==="No"?"bg-gray-500 opacity-80 border-2":""}`}>
           {!_value && (
             <input
               ref={inputRef}

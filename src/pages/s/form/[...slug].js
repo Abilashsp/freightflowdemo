@@ -118,7 +118,7 @@ if (data && Object.keys(data).length > 0 && record) {
 
 
 
-  return mappedData.length>0 ?( <form className="bg-slate-100">
+  return mappedData.length>0 ?( <form className="bg-slate-100 rounded-lg">
     
 
       {data && record && (
