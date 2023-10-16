@@ -16,10 +16,12 @@ const Select = (props) => {
     Tooltip,
     Prompt,
     record,
-    section
+    section,
+    "Field_Needed?":Need,
   } = props;
  
 
+console.log(Need==="No")
 
   let _value = "";
   const [query, setQuery] = useState("");
@@ -45,12 +47,12 @@ const Select = (props) => {
 
   return (
     <Combobox as="div" value={selectedValue} onChange={setSelectedValue}>
-      <Combobox.Label className="block text-sm font-medium leading-6 text-gray-900">
+      <Combobox.Label className={`block text-sm font-medium leading-6 text-gray-900 `}>
         {Field_Name}
       </Combobox.Label>
       <div className="relative mt-2">
         <Combobox.Input
-          className="w-full rounded-md border-0 bg-white py-1.5 pl-3 pr-12 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          className={` ${Need==="No"?"bg-gray-500 opacity-80 border-2":"bg-white"} w-full rounded-md border-0  py-1.5 pl-3 pr-12  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6`}
           onChange={(event) => setQuery(event.target.value)}
           displayValue={(person) => person}
         />
@@ -62,7 +64,7 @@ const Select = (props) => {
         </Combobox.Button>
 
         {filteredPeople.length > 0 && (
-          <Combobox.Options className="absolute z-10 w-full py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+          <Combobox.Options className="absolute z-10 w-full py-1 mt-1 overflow-auto text-base  rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ">
             {filteredPeople.map((person) => (
               <Combobox.Option
                 key={person}

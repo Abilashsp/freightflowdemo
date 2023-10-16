@@ -4,7 +4,7 @@ const Checkbox = (props) => {
   const {
     "Field Name": Field_Name,
     "Data Type": data_type,
-    " is_Needed?":Need,
+    "Field_Needed?":Need,
     Validate,
     Tooltip,
     section,
@@ -24,13 +24,13 @@ const Checkbox = (props) => {
   return (
     <div className="mt-8 space-y-6">
       <div className="relative flex gap-x-3">
-        <div className={`flex items-center h-6 `}>
+        <div className={`flex items-center h-6`}>
           <input
             id={Field_Name}
             name={Field_Name}
             type="checkbox"
             checked={hasValue && _value}
-            className="w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-600"
+            className={`w-4 h-4 rounded  ${Need==="No"? "opacity-10 border-2   ":" text-indigo-600 border-black focus:ring-indigo-600"}`}
           />
         </div>
         <div className="text-sm leading-6">
