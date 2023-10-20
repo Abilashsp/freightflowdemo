@@ -11,6 +11,9 @@ const Checkbox = (props) => {
     record,
   } = props;
 
+
+  let promptquotesremove=Tooltip.replace(/['"]+/g, '');
+
   let _value = "";
   let hasValue = false;
 
@@ -45,7 +48,7 @@ const Checkbox = (props) => {
               *
             </span>
           )}
-          {Tooltip && <p className="text-gray-500">{Tooltip}</p>}
+          {Tooltip && <p className="text-gray-500">{promptquotesremove}</p>}
         </div>
       </div>
     </div>

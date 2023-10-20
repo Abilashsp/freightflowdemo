@@ -1,0 +1,114 @@
+Page No,Page,Section,Field Name,Validate,Data Type,Parent Form,Field_Needed?,Tooltip,Prompt
+,Customer Quote,Customer information,Customer ID,Mandatory,Integer,N/A,Yes,Unique identifier for the customer,Enter your Customer ID
+,Customer Quote,Customer information,Customer Name,Mandatory,String,N/A,Yes,Full name of the customer,Enter your full name
+,Customer Quote,Customer information,Contact Number,Mandatory,Integer,N/A,Yes,Customer's contact number,Enter your contact number
+,Customer Quote,Customer information,Email Address,Mandatory,String,N/A,Yes,Customer's email address,Enter your email address
+,Customer Quote,Customer information,Shipping Address,Mandatory,String,N/A,Yes,Address where goods will be shipped,Enter your shipping address
+,Customer Quote,Customer information,Billing Address,Conditional,String,N/A,Yes,Address for billing purposes,Enter your billing address
+,Customer Quote,Customer information,Port of Origin,Mandatory,Dropdown,Refer from Ports Screen,Yes,Port where goods will be shipped from,Select port of origin
+,Customer Quote,Customer information,Port of Destination,Mandatory,Dropdown,Refer from Ports Screen,Yes,Port where goods will be shipped to,Select port of destination
+,Customer Quote,Customer information,Company Name,Optional,String,N/A,No,Name of the customer's company,Enter your company name (if applicable)
+,Customer Quote,Customer information,VAT Number,Optional,String,N/A,No,Value Added Tax number,Enter your VAT number (if applicable)
+,Customer Quote,Customer information,Preferred Currency,Optional,Dropdown,"USD, EUR, GBP",No,Currency for transactions,Select your preferred currency
+,Customer Quote,shipment information,Shipment ID,Mandatory,Integer,N/A,Yes,Unique identifier for the shipment,Enter the Shipment ID
+,Customer Quote,shipment information,Shipment Type,Mandatory,Dropdown,"FCL, LCL",Yes,Type of shipment,Select the shipment type
+,Customer Quote,shipment information,Origin Port,Mandatory,String,List of valid ports,Yes,Port where the shipment will originate,Origin Port
+,Customer Quote,shipment information,Destination Port,Mandatory,String,List of valid ports,Yes,Port where the shipment will be delivered,Destination Port
+,Customer Quote,shipment information,Type of Cargo,Mandatory,String,List of valid cargo types,Yes,Type of cargo that will be shipped,Type of Cargo
+,Customer Quote,shipment information,Commodity,Mandatory,Dropdown,Refer from Commodity Screen,Yes,Type of goods being shipped,Select the commodity
+,Customer Quote,shipment information,Weight,Mandatory,Float,N/A,Yes,Weight of the shipment,Enter the weight of the shipment
+,Customer Quote,shipment information,Volume,Mandatory,Float,N/A,Yes,Volume of the shipment,Enter the volume of the shipment
+,Customer Quote,shipment information,Weight and Volume of Cargo,Mandatory,Numeric,-,Yes,Weight and volume of the cargo,Weight and Volume of Cargo
+,Customer Quote,shipment information,Shipping Date,Mandatory,Date,N/A,Yes,Date when the shipment will be sent,Select the shipping date
+,Customer Quote,shipment information,Desired Shipping Date,Mandatory,Date,-,Yes,Desired shipping date,Desired Shipping Date
+,Customer Quote,shipment information,Carrier,Mandatory,Dropdown,Refer from Carrier Screen,Yes,Shipping carrier,Select the carrier
+,Customer Quote,shipment information,Freight Terms,Mandatory,Dropdown,"CIF, FOB, EXW",Yes,Terms of freight,Select the freight terms
+,Customer Quote,shipment information,Insurance Required,Conditional,Checkbox,N/A,Yes,Whether insurance is required or not,Check if insurance is required
+,Customer Quote,shipment information,Estimated Arrival Date,Optional,Date,N/A,No,Estimated date of arrival,Select the estimated arrival date
+,Customer Quote,shipment information,Incoterms (optional),Optional,String,List of valid Incoterms,No,Incoterms that apply to the shipment,Incoterms
+,Customer Quote,shipment information,Special Instructions,Optional,Text Area,N/A,No,Any special instructions for the shipment,Enter any special instructions
+,Customer Quote,documentation,Bill of Lading Number,Mandatory,String,N/A,Yes,Unique identifier for the Bill of Lading,Enter the Bill of Lading Number
+,Customer Quote,documentation,Commercial Invoice,Mandatory,File,N/A,Yes,Upload the commercial invoice,Upload your commercial invoice
+,Customer Quote,documentation,Packing List,Mandatory,File,N/A,Yes,Upload the packing list,Upload your packing list
+,Customer Quote,documentation,Certificate of Origin,Mandatory,File,N/A,Yes,Upload the certificate of origin,Upload your certificate of origin
+,Customer Quote,documentation,Customs Declaration,Mandatory,File,N/A,Yes,Upload the customs declaration form,Upload your customs declaration
+,Customer Quote,documentation,Consignee Details,Mandatory,Text Area,N/A,Yes,Details of the consignee,Enter the consignee details
+,Customer Quote,documentation,Shipping Form,Mandatory,File,-,Yes,Upload the shipping form,Shipping Form
+,Customer Quote,documentation,Export License,Optional,File,N/A,No,Upload the export license if applicable,Upload your export license
+,Customer Quote,documentation,Inspection Certificate,Optional,File,N/A,No,Upload the inspection certificate if applicable,Upload your inspection certificate
+,Customer Quote,documentation,Letter of Credit,Optional,File,N/A,No,Upload the letter of credit if applicable,Upload your letter of credit
+,Customer Quote,documentation,Shipping Instructions,Optional,Text Area,N/A,No,Any additional shipping instructions,Enter any additional shipping instructions
+,Customer Quote,documentation,Other Documentation,Optional,File,-,No,Upload any other relevant documentation,Other Documentation
+,Customer Quote,Quote Details,Quote ID,Mandatory,Integer,N/A,Yes,Unique identifier for the quote,Enter the Quote ID
+,Customer Quote,Quote Details,Quote Date,Mandatory,Date,N/A,Yes,Date when the quote was generated,Select the quote date
+,Customer Quote,Quote Details,Total Cost,Mandatory,Float,N/A,Yes,Total cost of the shipment,Enter the total cost
+,Customer Quote,Quote Details,Payment Terms,Mandatory,Dropdown,"Net 30, Net 60, COD",Yes,Payment terms for the quote,Select the payment terms
+,Customer Quote,Quote Details,Validity Period,Mandatory,Date,N/A,Yes,Validity period of the quote,Select the validity period
+,Customer Quote,Quote Details,Quote Status,Mandatory,Dropdown,"Open, Closed, In Progress",Yes,Current status of the quote,Select the quote status
+,Customer Quote,Quote Details,Discount,Optional,Float,N/A,No,Any discount applied to the quote,Enter the discount (if applicable)
+,Customer Quote,Quote Details,Additional Charges,Optional,Float,N/A,No,Any additional charges,Enter additional charges (if applicable)
+,Customer Quote,Quote Details,Total Freight Cost,Mandatory,Numeric,-,Yes,Total freight cost of the shipment,Enter the total freight cost
+,Customer Quote,Quote Details,Estimated Delivery Date,Mandatory,Date,-,Yes,Estimated delivery date of the shipment,Select the estimated delivery date
+,Customer Quote,Quote Details,Notes (optional),Optional,String,-,No,Additional notes about the quote,Enter any notes (if applicable)
+,Customer Quote,payment options,Payment Method,Mandatory,Dropdown,"Credit Card, Wire Transfer, PayPal",Yes,Method of payment,Select the payment method
+,Customer Quote,payment options,Payment Terms,Mandatory,Dropdown,"Net 30, Net 60, COD",Yes,Terms under which payment will be made,Select the payment terms
+,Customer Quote,payment options,Preferred Payment Method,Mandatory,String,List of valid payment methods,Yes,Select your preferred payment method,Preferred Payment Method
+,Customer Quote,payment options,Card Number,Conditional,Integer,N/A,Yes,Credit card number (if applicable),Enter your card number
+,Customer Quote,payment options,Expiry Date,Conditional,Date,N/A,Yes,Credit card expiry date (if applicable),Enter the expiry date
+,Customer Quote,payment options,CVV,Conditional,Integer,N/A,Yes,Credit card CVV (if applicable),Enter the CVV
+,Customer Quote,payment options,Bank Name,Conditional,String,N/A,Yes,Name of the bank for wire transfer (if applicable),Enter the bank name
+,Customer Quote,payment options,Bank Account Number,Conditional,Integer,N/A,Yes,Bank account number for wire transfer (if applicable),Enter the bank account number
+,Customer Quote,payment options,PayPal Email,Conditional,String,N/A,Yes,PayPal email address (if applicable),Enter your PayPal email
+,Customer Quote,payment options,Installment Option,Optional,Checkbox,N/A,No,Option for installment payments,Check if you prefer installment payments
+,Customer Quote,payment options,Credit Card Information (optional),Optional,String,-,No,"Enter your credit card information if you selected ""Credit Card"" as your preferred payment method",Credit Card Information
+,Customer Quote,payment options,Debit Card Information (optional),Optional,String,-,No,"Enter your debit card information if you selected ""Debit Card"" as your preferred payment method",Debit Card Information
+,Customer Quote,payment options,Wire Transfer Information (optional),Optional,String,-,No,"Enter your wire transfer information if you selected ""Wire Transfer"" as your preferred payment method",Wire Transfer Information
+,Customer Quote,terms and conditions,Terms and Conditions Text,Mandatory,Text Area,N/A,No,Detailed terms and conditions,Read the terms and conditions
+,Customer Quote,terms and conditions,Accept Terms,Mandatory,Checkbox,N/A,Yes,Checkbox to accept terms and conditions,Check to accept terms and conditions
+,Customer Quote,terms and conditions,Privacy Policy,Mandatory,Text Area,N/A,No,Detailed privacy policy,Read the privacy policy
+,Customer Quote,terms and conditions,Accept Privacy Policy,Mandatory,Checkbox,N/A,Yes,Checkbox to accept privacy policy,Check to accept privacy policy
+,Customer Quote,terms and conditions,Acceptance of Terms and Conditions,Mandatory,String,List of values (Yes/No),Yes,"Select ""Yes"" to accept the terms and conditions",Acceptance of Terms and Conditions
+,Customer Quote,terms and conditions,Terms and Conditions,Mandatory,File,-,Yes,Upload the terms and conditions document,Terms and Conditions
+,Customer Quote,terms and conditions,Cancellation Policy,Optional,Text Area,N/A,No,Detailed cancellation policy,Read the cancellation policy
+,Customer Quote,terms and conditions,Accept Cancellation Policy,Conditional,Checkbox,N/A,Yes,Checkbox to accept cancellation policy,Check to accept cancellation policy
+,Customer Quote,terms and conditions,Additional Terms,Optional,Text Area,N/A,No,Any additional terms,Read any additional terms
+,Customer Quote,terms and conditions,Accept Additional Terms,Conditional,Checkbox,N/A,Yes,Checkbox to accept additional terms,Check to accept additional terms
+,Customer Quote,additional services,Additional Service Type,Optional,Dropdown,"Warehousing, Insurance, Customs Clearance",Yes,Type of additional service,Select the type of additional service
+,Customer Quote,additional services,Service Cost,Conditional,Float,N/A,Yes,Cost of the selected additional service,Enter the cost of the service
+,Customer Quote,additional services,Service Provider,Conditional,String,N/A,Yes,Provider of the selected additional service,Enter the name of the service provider
+,Customer Quote,additional services,Service Start Date,Conditional,Date,N/A,Yes,Start date of the additional service,Select the service start date
+,Customer Quote,additional services,Service End Date,Conditional,Date,N/A,Yes,End date of the additional service,Select the service end date
+,Customer Quote,additional services,Accept Service Terms,Conditional,Checkbox,N/A,Yes,Checkbox to accept service terms,Check to accept service terms
+,Customer Quote,additional services,Service Description,Optional,Text Area,N/A,No,Detailed description of the service,Describe the additional service
+,Customer Quote,additional services,Service Terms,Optional,Text Area,N/A,No,Terms and conditions for the additional service,Read the terms for the additional service
+,Customer Quote,additional services,Cargo Insurance,Optional,String,List of values (Yes/No),Yes,"Select ""Yes"" if you would like to purchase cargo insurance",Cargo Insurance
+,Customer Quote,additional services,Customs Clearance Assistance,Optional,String,List of values (Yes/No),Yes,"Select ""Yes"" if you would like assistance with customs clearance",Customs Clearance Assistance
+,Customer Quote,additional services,Door-to-Door Delivery,Optional,String,List of values (Yes/No),Yes,"Select ""Yes"" if you would like door-to-door delivery",Door-to-Door Delivery
+,Customer Quote,additional services,Other Additional Services (optional),Optional,String,-,No,Enter any other additional services that you would like,Other Additional Services
+,Customer Quote,Logistic Overview,Carrier,Mandatory,Dropdown,Refer from Carrier Screen,Yes,Shipping carrier,Select the carrier
+,Customer Quote,Logistic Overview,Origin,Mandatory,String,List of valid locations,Yes,Enter the origin of the shipment,Origin
+,Customer Quote,Logistic Overview,Destination,Mandatory,String,List of valid locations,Yes,Enter the destination of the shipment,Destination
+,Customer Quote,Logistic Overview,Mode of Transportation,Mandatory,String,List of valid modes of transportation,Yes,Select the mode of transportation,Mode of Transportation
+,Customer Quote,Logistic Overview,Estimated Shipping Time,Mandatory,Integer,N/A,Yes,Estimated time for shipping in days,Enter the estimated shipping time
+,Customer Quote,Logistic Overview,Shipping Route,Mandatory,Dropdown,Refer from Route Screen,Yes,Route of the shipment,Select the shipping route
+,Customer Quote,Logistic Overview,Cargo Type,Mandatory,Dropdown,"General, Hazardous, Perishable",Yes,Type of cargo,Select the cargo type
+,Customer Quote,Logistic Overview,Total Weight,Mandatory,Float,N/A,Yes,Total weight of the shipment,Enter the total weight
+,Customer Quote,Logistic Overview,Total Volume,Mandatory,Float,N/A,Yes,Total volume of the shipment,Enter the total volume
+,Customer Quote,Logistic Overview,Desired Shipping Date,Mandatory,Date,-,Yes,Enter the desired shipping date,Desired Shipping Date
+,Customer Quote,Logistic Overview,Payment Terms,Mandatory,String,List of valid payment terms,Yes,Select the payment terms,Payment Terms
+,Customer Quote,Logistic Overview,Special Handling Required,Optional,Checkbox,N/A,Yes,Whether special handling is required,Check if special handling is required
+,Customer Quote,Logistic Overview,Special Handling Details,Conditional,Text Area,N/A,No,Details of the special handling,Describe the special handling required
+,Customer Quote,Logistic Overview,Transit Points,Optional,Text Area,N/A,No,Points where the shipment will transit,Enter the transit points
+,Customer Quote,Logistic Overview,Additional Services (optional),Optional,String,-,No,Enter any additional services,Additional Services
+,Customer Quote,contacts infromations,Company Name,Mandatory,String,N/A,Yes,Enter the name of your company.,Company Name
+,Customer Quote,contacts infromations,Contact Name,Mandatory,String,N/A,Yes,Full name of the contact person.,Enter the contact name
+,Customer Quote,contacts infromations,Contact Email,Mandatory,String,N/A,Yes,Email address of the contact person.,Enter the contact email
+,Customer Quote,contacts infromations,Contact Phone Number,Mandatory,String,N/A,Yes,Phone number of the contact person.,Enter the contact phone
+,Customer Quote,contacts infromations,Country,Mandatory,String,List of valid countries,Yes,Select the country where your company is located.,Country
+,Customer Quote,contacts infromations,Address,Mandatory,String,N/A,Yes,Address of the company.,Enter the company address
+,Customer Quote,contacts infromations,City,Mandatory,String,N/A,Yes,Enter the city where your company is located.,City
+,Customer Quote,contacts infromations,Zip Code/Postal Code,Mandatory,String,N/A,Yes,Enter the zip code or postal code.,Zip Code/Postal Code
+,Customer Quote,contacts infromations,State/Province (optional),Optional,String,N/A,No,"State or province, if applicable.",State/Province
+,Customer Quote,contacts infromations,Alternate Contact Name,Optional,String,N/A,No,Alternate contact person's name.,Enter an alternate contact
+,Customer Quote,contacts infromations,Alternate Contact Email,Optional,String,N/A,No,Alternate contact person's email.,Enter an alternate email
+,Customer Quote,contacts infromations,Alternate Contact Phone,Optional,String,N/A,No,Alternate contact person's phone.,Enter an alternate phone

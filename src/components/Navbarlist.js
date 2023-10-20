@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
+import Navbarlistchild from './Navbarlistchild';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -12,15 +13,6 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
     setidtrack(id);
   }
 
-  // const [itemsId, setItemsId] = useState(null);
-
-  // useEffect(() => {
-  //   // Find the item with the matching idtrack
-  //   if (Array.isArray(subItem) && idtrack !== null) {
-  //     const foundItem = subItem.find((i) => i.id === idtrack);
-  //     setItemsId(foundItem);
-  //   }
-  // }, [subItem, idtrack]);
 
   return (
     <div>
@@ -38,14 +30,10 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                   onClick={() => handleclick(subItem.id)}
                 >
                   <Link href={`/s/${subItem.href}`}className='flex items-start'>
-                  <span className='relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-500 hover:bg-blue-700 bg-white group-hover:border-gray-400 mt-4'>
-                          {index?(<div className="absolute left-4 -top-8 -ml-px  h-8 w-0.5 bg-indigo-600" aria-hidden="true" />):null}
-                          <span className="h-2.5 w-2.5 rounded-full bg-blue-300 hover:bg-blue-700 " />
-                          </span>
-                          <span className="ml-8 flex min-w-0 flex-col ">
-                        <span className="text-sm font-medium mt-4 whitespace-nowrap">{subItem.name}</span>
+                
+                        <span className="text-sm font-medium mt-4 ">{subItem.name}</span>
                       
-                      </span>
+                      
 
                   </Link>
                 </div>
@@ -57,7 +45,7 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                     <Disclosure.Button
                       className={classNames(
                         subItem.current ? 'bg-red-400' : 'hover:bg-gray-300',
-                        'flex items-center w-full  text-left ml-4 rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700'
+                        'flex items-center w-full   ml-4 rounded-md p-2 gap-x-3 text-lg leading-6 font-semibold text-gray-700 '
                       )}
                     >
                       {subItem.name}
@@ -69,24 +57,14 @@ export default function Navbarlist({ subItem, index, idtrack, setidtrack }) {
                         aria-hidden="true"
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel as="ul" className="mt-1 px-2 ml-6  p-2 gap-x-3 text-sm leading-6 font-semibold text-slate-700">
+                    <Disclosure.Panel as="ul" className=" bg-white  divide-gray-100 py-4 border-2 rounded-lg shadow w-60  dark:bg-gray-950 dark:divide-gray-600">
                       {subItem.childrens.map((subChildItem, subChildIndex) => (
                         <li key={subChildIndex} className={classNames(
-                          subItem.current ? 'bg-red-400' : 'hover:bg-gray-300',
-                          'flex items-center w-full  text-left ml-4 rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700'
+                          subItem.current ? 'bg-red-400' : '',
+                          'relative cursor-default select-none py-2 pl-3 pr-9 rounded-xl  '
                         )}>
-
-                          <Link href={`/p/${subChildItem.href}`} className='flex items-start'><span className='relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-gray-500 hover:bg-blue-700 bg-white group-hover:border-gray-400 mt-4'>
-                          <div className="absolute left-4 -top-8 -ml-px  h-8 w-0.5 bg-indigo-600" aria-hidden="true" />
-                          <span className="h-2.5 w-2.5 rounded-full bg-blue-300 hover:bg-blue-700 " />
-                          </span>
-                          <span className="ml-8 flex min-w-0 flex-col ">
-                        <span className="text-sm font-medium mt-4 whitespace-nowrap">{subChildItem.name}</span>
-                      
-                      </span>
-
-                          </Link>
-                        
+ 
+                        <Navbarlistchild subChildItem={subChildItem} index={subChildIndex}/>
                         </li>
                       ))}
                     </Disclosure.Panel>

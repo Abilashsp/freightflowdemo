@@ -55,9 +55,9 @@ const TextBox = (props) => {
             </span>
           )}
         </div>
-        {Tooltip && Tooltip.toLowerCase() !== Field_Name.toLowerCase() && (
+        {/* {Tooltip && Tooltip.toLowerCase() !== Field_Name.toLowerCase() && (
           <p className="mt-1 ml-2 text-xs text-blue-500">{Tooltip}</p>
-        )}
+        )} */}
       </div>
     </>
   );

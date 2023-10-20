@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { groupBy } from "lodash";
 import * as Fields from "@/components/Fields";
-
+import _ from "lodash";
 const {
   CheckBox,
   TextBox,
@@ -15,6 +15,7 @@ const {
   TimeField,
   FileField,
   WeekField,
+  
 } = Fields;
 
 const FieldAlias = {
@@ -29,6 +30,7 @@ const FieldAlias = {
   Time: TimeField,
   File: FileField,
   Week: WeekField,
+  
 };
 
 const renderField = (props, section, record) => {
@@ -45,7 +47,7 @@ export default function Page() {
   const [data, setData] = useState(null);
   const [record, setRecord] = useState(null);
   const [isLoading, setLoading] = useState(true);
-  console.log("data",data)
+  // console.log("data",data)
   const [open,setopen]=useState(false)
    
   const handleopen=()=>{
@@ -88,7 +90,7 @@ export default function Page() {
       // console.log(router?.query?.slug);
       // console.log("api path",`/api/model?path=${path[1]}`)
       const filePath = `/api/model?path=${path[0]}`;
-      // console.log(`/api/model?path=${path[1]}`)
+      console.log(`/api/model?path=${path[0]}`)
       
       fetchData(filePath);
       mappedData = [];
@@ -102,19 +104,20 @@ export default function Page() {
   }, [path, router]);
   let mappedData =" ";
   let hasValue = false;
+let  pageSection="";
 
 
-
-console.log("hasValue", hasValue);
+// console.log("hasValue", hasValue);
 
 if (data && Object.keys(data).length > 0 && record) {
   mappedData = Object.keys(data).flatMap((section) => {
     return data[section]
       .map((e) => e.Master)
       .filter((value) => value !== undefined);
+   
   });
 }
-  console.log(mappedData)
+  //  console.log(mappedData)
 
 
 
