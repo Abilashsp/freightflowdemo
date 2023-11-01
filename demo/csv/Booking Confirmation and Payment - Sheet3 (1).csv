@@ -1,0 +1,41 @@
+Page No,Page,Section,Field Name,Validate,Data Type,Parent Form,Field_Needed?,Tooltip,Prompt
+,Booking Confirmation and Payment,Transaction group,Booking ID,Mandatory,Text,N/A,Yes,Unique identifier for the booking,Enter Booking ID
+,Booking Confirmation and Payment,Transaction group,Booking Confirmation Number,Mandatory,Text,N/A,Yes,Unique identifier for the booking confirmation,Enter the booking confirmation number
+,Booking Confirmation and Payment,Transaction group,Confirmation Status,Mandatory,Dropdown,"Confirmed, Pending, Cancelled",Yes,Status of the booking confirmation,Select Confirmation Status
+,Booking Confirmation and Payment,Transaction group,Payment Status,Mandatory,Dropdown,"Paid, Unpaid, Partial",Yes,Status of the payment,Select Payment Status
+,Booking Confirmation and Payment,Transaction group,Invoice Number,Mandatory,Text,N/A,Yes,Unique identifier for the invoice,Enter Invoice Number
+,Booking Confirmation and Payment,Transaction group,Amount Due,Mandatory,Number,N/A,Yes,Total amount due for payment,Enter Amount Due
+,Booking Confirmation and Payment,Transaction group,Vessel Name,Mandatory,Text,N/A,Yes,Name of the vessel that will be transporting the goods,Enter the vessel name
+,Booking Confirmation and Payment,Transaction group,Voyage Number,Mandatory,Text,N/A,Yes,Unique identifier for the voyage,Enter the voyage number
+,Booking Confirmation and Payment,Transaction group,Port of Loading,Mandatory,Text,N/A,Yes,Port where the goods will be loaded onto the vessel,Enter the port of loading
+,Booking Confirmation and Payment,Transaction group,Port of Discharge,Mandatory,Text,N/A,Yes,Port where the goods will be unloaded from the vessel,Enter the port of discharge
+,Booking Confirmation and Payment,Transaction group,ETA (Estimated Time of Arrival),Mandatory,Date,N/A,Yes,Estimated date and time of arrival at the port of discharge,Enter the ETA
+,Booking Confirmation and Payment,Transaction group,Payment Terms,Optional,Dropdown,"Net 30, Net 60, Due on Receipt",Yes,Terms for the payment,Select Payment Terms
+,Booking Confirmation and Payment,Transaction group,Order Confirmation,Optional,Text,N/A,Yes,Confirmation for the order,Enter Order Confirmation
+,Booking Confirmation and Payment,Transaction group,Payment Method,Mandatory,Dropdown,"Bank Transfer, Wire Transfer, Check, Credit Card",Yes,Select the payment method that will be used to pay for the booking,Select the payment method
+,Booking Confirmation and Payment,Logistics group,Freight Forwarder,Mandatory,Dropdown,List of Freight Forwarders,Yes,Freight forwarder handling the shipment,Select Freight Forwarder
+,Booking Confirmation and Payment,Logistics group,Freight Forwarder Name,Mandatory,Text,N/A,Yes,Name of the freight forwarder responsible for the booking,Enter the freight forwarder name
+,Booking Confirmation and Payment,Logistics group,Freight Forwarder Contact Information,Mandatory,Text,N/A,Yes,Contact information for the freight forwarder,Enter the freight forwarder contact information
+,Booking Confirmation and Payment,Logistics group,Shipping Company,Mandatory,Dropdown,List of Shipping Companies,Yes,Shipping company responsible for transport,Select Shipping Company
+,Booking Confirmation and Payment,Logistics group,Shipping Company Name,Mandatory,Text,N/A,Yes,Name of the shipping company that will be transporting the goods,Enter the shipping company name
+,Booking Confirmation and Payment,Logistics group,Shipping Company Contact Information,Mandatory,Text,N/A,Yes,Contact information for the shipping company,Enter the shipping company contact information
+,Booking Confirmation and Payment,Logistics group,Mode of Transport,Mandatory,Dropdown,"Air, Sea, Rail, Road",Yes,Mode of transport for the shipment,Select Mode of Transport
+,Booking Confirmation and Payment,Logistics group,Mode of Transportation,Mandatory,Dropdown,"Ocean, Air, Rail",Yes,Select the mode of transportation,Select the mode of transportation
+,Booking Confirmation and Payment,Logistics group,Import/Export,Mandatory,Dropdown,"Import, Export",Yes,Type of logistics operation,Select Import/Export
+,Booking Confirmation and Payment,Logistics group,Port of Origin,Optional,Dropdown,List of Ports,Yes,Port where the shipment originates,Select Port of Origin
+,Booking Confirmation and Payment,Logistics group,Port of Destination,Optional,Dropdown,List of Ports,Yes,Port where the shipment will be delivered,Select Port of Destination
+,Booking Confirmation and Payment,Logistics group,Estimated Time of Departure,Optional,Date,N/A,No,Estimated time of shipment departure,Enter Estimated Time of Departure
+,Booking Confirmation and Payment,Logistics group,Estimated Time of Arrival,Optional,Date,N/A,No,Estimated time of shipment arrival,Enter Estimated Time of Arrival
+,Booking Confirmation and Payment,Logistics group,Container Type,Optional,Dropdown,"20ft Dry, 40ft Dry, 40ft HC, Reefer, Flat Rack, Open Top",No,Select the type of container,Select the container type (optional)
+,Booking Confirmation and Payment,Logistics group,Container Number (optional),Optional,Text,N/A,No,Enter the container number,Enter the container number (optional)
+,Booking Confirmation and Payment,User Interaction group,Customer Name,Mandatory,Dropdown,List of Customers,Yes,Name of the customer involved in the booking,Select Customer
+,Booking Confirmation and Payment,User Interaction group,Customer Name,Mandatory,Text,N/A,Yes,Name of the customer booking the shipment,Enter your name
+,Booking Confirmation and Payment,User Interaction group,Contact Email,Mandatory,Email,N/A,Yes,Email address for communication,Enter Contact Email
+,Booking Confirmation and Payment,User Interaction group,Customer Email Address,Mandatory,Email,N/A,Yes,Email address of the customer,Enter your email address
+,Booking Confirmation and Payment,User Interaction group,Contact Number,Mandatory,Number,N/A,Yes,Contact number for communication,Enter Contact Number
+,Booking Confirmation and Payment,User Interaction group,Customer Phone Number,Mandatory,Text,N/A,Yes,Phone number of the customer,Enter your phone number
+,Booking Confirmation and Payment,User Interaction group,Billing Address,Mandatory,Text,N/A,Yes,Billing address of the customer,Enter your billing address
+,Booking Confirmation and Payment,User Interaction group,Payment Method,Mandatory,Dropdown,"Credit Card, Bank Transfer, PayPal",Yes,Method of payment for the booking,Select Payment Method
+,Booking Confirmation and Payment,User Interaction group,Shipping Address,Optional,Text,N/A,No,Shipping address of the customer,Enter your shipping address (optional)
+,Booking Confirmation and Payment,User Interaction group,Confirmation Status,Optional,Text,"Confirmed, Pending, Cancelled",No,Current status of the booking,View Confirmation Status
+,Booking Confirmation and Payment,User Interaction group,Special Instructions,Optional,Text Area,N/A,No,Any special instructions for the booking,Enter Special Instructions
