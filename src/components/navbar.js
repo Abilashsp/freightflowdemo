@@ -19,262 +19,306 @@ const navigation = [
   {
     name: 'Air',
     icon: FolderIcon,
-   id:1, current: false,
+    id: 1, current: false,
     children: [
-      {id:12, current: false, name: 'Booking Information', href: '/Payment_Information', },
-      {id:12, current: false, name: 'PackagingSolutions', href: '/Packing_List', },
-      {id:12, current: false, name: 'TransportationServices', href: '/Airport_Destinations', },
-      {id:12, current: false, name: 'Airport Security & Handling', href: '/Aircraft_Handling', },
-      {id:12, current: false, name: 'AirlineCoordination', href: '/Airline_Partnerships_and_Agreements', },
-      {id:12, current: false, name: 'FlightandAirTransit', href: '/Additional_Flight_Information', },
-      {id:12, current: false, name: 'Customs & Arrival Services', href: '/Customs_Clearance_Procedures', },
-      {id:12, current: false, name: 'Final Delivery & Destination', href: '/Customs_and_Duties', },
-      {id:12, current: false, name: 'Tracking & Reporting', href: '/Destination', },
+      { id: 12, current: false, name: 'Booking Information', href: '/Payment_Information', },
+      { id: 12, current: false, name: 'PackagingSolutions', href: '/Packing_List', },
+      { id: 12, current: false, name: 'TransportationServices', href: '/Airport_Destinations', },
+      { id: 12, current: false, name: 'Airport Security & Handling', href: '/Aircraft_Handling', },
+      { id: 12, current: false, name: 'AirlineCoordination', href: '/Airline_Partnerships_and_Agreements', },
+      { id: 12, current: false, name: 'FlightandAirTransit', href: '/Additional_Flight_Information', },
+      { id: 12, current: false, name: 'Customs & Arrival Services', href: '/Customs_Clearance_Procedures', },
+      { id: 12, current: false, name: 'Final Delivery & Destination', href: '/Customs_and_Duties', },
+      { id: 12, current: false, name: 'Tracking & Reporting', href: '/Destination', },
     ],
   },
   {
     name: 'SEA',
     icon: FolderIcon,
-   id:1, current: false,
+    id: 1, current: false,
     children: [
-      
-      {id:1, current: false, name: 'Exports', href:'order_management/customer_information',
-      childrens:[
- //1
-        {id:1, current: false, name: 'Preparation', href:'order_management/customer_information',
-        Child:[{current: false, name: 'Place Order', href: '/Customer_Information',
-        Childg:[{current: false, name: 'Quotation', href: '/payment_options'}]
-      
-      }]
-    
+
+      {
+        id: 1, current: false, name: 'Exports', href: '',
+        childrens: [
+          //1
+          {
+            id: 1, current: false, name: 'Preparation', href: '',
+            Child: [{
+              current: false, name: 'Place Order', href: '',
+              Childg: [{ current: false, name: 'Quotation', href: '/payment_options' }]
+
+            }]
+
+          },
+
+
+
+
+
+          //2
+          {
+            id: 1, current: false, name: 'Booking', href: '',
+            Child: [{
+              current: false, name: 'Freight', href: '',
+              Childg: [{ current: false, name: 'Booking', href: '/Logistics' }]
+
+            }]
+
+          },
+
+          //3
+          {
+            id: 1, current: false, name: 'Pre-Shipment', href: '',
+            Child: [{
+              current: false, name: 'Documentation', href: '',
+              Childg: [{ current: false, name: 'Customs Clearance Documentation', href: '/Exporter_Details' }]
+
+            },
+            {
+              current: false, name: 'Inspection', href: '',
+              Childg: [{ current: false, name: 'Cargo Inspection', href: '/Packing_Lists' }]
+
+            }
+            ]
+
+          },
+
+          //4
+          {
+            id: 1, current: false, name: 'Customs', href: '',
+            Child: [{
+              current: false, name: 'Clearance', href: '',
+              Childg: [{ current: false, name: 'Customs Clearance Documentation', href: '/Regulatory_Authorities' }]
+
+            }]
+
+          },
+
+
+
+          //5
+          {
+            id: 1, current: false, name: 'Shipment', href: '',
+            Child: [{
+              current: false, name: 'Loading', href: '',
+              Childg: [{ current: false, name: 'Loading onto Vessel', href: '/Export_And_Import_Entities' }]
+
+            }]
+
+          },
+
+
+          //6
+          {
+            id: 1, current: false, name: 'On-Route', href: '',
+            Child: [{
+              current: false, name: 'Tracking', href: '',
+              Childg: [{ current: false, name: 'Real-Time Cargo Tracking', href: '/Submission' }]
+
+            }]
+
+          },
+
+          //7
+          {
+            id: 1, current: false, name: 'Arrival', href: '',
+            Child: [{
+              current: false, name: 'Unloading', href: '',
+              Childg: [{ current: false, name: 'Unloading at Destination Port', href: '/Cargo_Handlings' }]
+
+            }]
+
+          },
+
+          //8
+          {
+            id: 1, current: false, name: 'Post-Arrival', href: '',
+            Child: [{
+              current: false, name: 'Clearance', href: '',
+              Childg: [{ current: false, name: 'Customs Clearance at Destination', href: '/Core_Process' }]
+
+            },
+            {
+              current: false, name: 'Delivery', href: '',
+              Childg: [{ current: false, name: 'Delivery to Final Destination', href: '/Document_management' }]
+
+            }
+
+
+            ]
+
+          },
+
+
+          //9
+          {
+            id: 1, current: false, name: 'Post-Shipment', href: '',
+            Child: [{
+              current: false, name: 'Claims', href: '',
+              Childg: [{ current: false, name: 'File a Claim', href: '/Export' }]
+
+            },
+            {
+              current: false, name: 'Reporting', href: '',
+              Childg: [{ current: false, name: 'Shipment Report', href: '/Consignment_Information' }]
+
+            }
+
+
+
+            ]
+
+          },
+
+
+
+
+        ],
+
+
       },
 
 
+      {
+        id: 1, current: false, name: 'Imports', href: '',
+        childrens: [
+          //1
+          {
+            id: 1, current: false, name: 'Preparation', href: '',
+            Child: [{
+              current: false, name: 'Place Order', href: '',
+              Childg: [{ current: false, name: 'Supplier Invoice Review', href: '/core_functionality' }]
 
+            }]
 
+          },
 
- //2
- {id:1, current: false, name: 'Booking', href:'order_management/customer_information',
- Child:[{current: false, name: 'Freight', href: '/Customer_Information',
- Childg:[{current: false, name: 'Booking', href: '/Customer_Information'}]
 
-}]
 
-},
 
-//3
-{id:1, current: false, name: 'Pre-Shipment', href:'order_management/customer_information',
-Child:[{current: false, name: 'Documentation', href: '/Customer_Information',
-Childg:[{current: false, name: 'Customs Clearance Documentation', href: '/Customer_Information'}]
 
-},
-{current: false, name: 'Inspection', href: '/Customer_Information',
-Childg:[{current: false, name: 'Cargo Inspection', href: '/Customer_Information'}]
+          //2
+          {
+            id: 1, current: false, name: 'Booking', href: '',
+            Child: [{
+              current: false, name: 'Freight', href: '',
+              Childg: [{ current: false, name: 'Booking Confirmation and Payment', href: '/Transaction_group' }]
 
-}
-]
+            }]
 
-},
-  
-  //4
-  {id:1, current: false, name: 'Customs', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Clearance', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Customs Clearance Documentation', href: '/Customer_Information'}]
+          },
 
-}]
+          //3
+          {
+            id: 1, current: false, name: 'Pre-Shipment', href: '',
+            Child: [{
+              current: false, name: 'Documentation', href: '',
+              Childg: [{ current: false, name: 'Import License Acquisition', href: '/Logistics_Groups' }]
 
-},
-  
-  
-  
-  //5
-  {id:1, current: false, name: 'Shipment', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Loading', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Loading onto Vessel', href: '/Customer_Information'}]
+            },
+            {
+              current: false, name: 'Inspection', href: '',
+              Childg: [{ current: false, name: 'Import Cargo Inspection', href: '/Inspection_Groups' }]
 
-}]
+            }
+            ]
 
-},
-  
-  
-  //6
-  {id:1, current: false, name: 'On-Route', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Place Order', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Quotation', href: '/Customer_Information'}]
+          },
 
-}]
+          //4
+          {
+            id: 1, current: false, name: 'Customs', href: '',
+            Child: [{
+              current: false, name: 'Clearance', href: '',
+              Childg: [{ current: false, name: 'Import Customs Declaration', href: '/Import_Group' }]
 
-},
-  
-  //7
-  {id:1, current: false, name: 'Arrival', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Unloading', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Unloading at Destination Port', href: '/Customer_Information'}]
+            }]
 
-}]
+          },
 
-},
-  
-  //8
-  {id:1, current: false, name: 'Post-Arrival', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Clearance', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Customs Clearance at Destination', href: '/Customer_Information'}]
 
-},
-{current: false, name: 'Delivery', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Delivery to Final Destination', href: '/Customer_Information'}]
 
-}
+          //5
+          {
+            id: 1, current: false, name: 'Shipment', href: '',
+            Child: [{
+              current: false, name: 'Loading', href: '',
+              Childg: [{ current: false, name: 'Loading onto Vessel', href: '/Export_And_Import_Entities' }]
 
+            }]
 
-]
+          },
 
-},
-  
-  
-  //9
-  {id:1, current: false, name: 'Post-Shipment', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Claims', href: '/Customer_Information',
-  Childg:[{current: false, name: 'File a Claim', href: '/Customer_Information'}]
 
-},
-{current: false, name: 'Reporting', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Shipment Report', href: '/Customer_Information'}]
+          //6
+          {
+            id: 1, current: false, name: 'On-Route', href: '',
+            Child: [{
+              current: false, name: 'Tracking', href: '',
+              Childg: [{ current: false, name: 'Real-Time Cargo Tracking', href: '/Submission' }]
 
-}
+            }]
 
+          },
 
+          //7
+          {
+            id: 1, current: false, name: 'Arrival', href: '',
+            Child: [{
+              current: false, name: 'Unloading', href: '',
+              Childg: [{ current: false, name: 'Unloading at Destination Port', href: '/Cargo_Handlings' }]
 
-]
+            }]
 
-},
-  
-  
+          },
 
+          //8
+          {
+            id: 1, current: false, name: 'Post-Arrival', href: '',
+            Child: [{
+              current: false, name: 'Clearance', href: '',
+              Childg: [{ current: false, name: 'Customs Clearance at Destination', href: '/Core_Process' }]
 
-      ],
-      
-      
-      },
+            },
+            {
+              current: false, name: 'Delivery', href: '',
+              Childg: [{ current: false, name: 'Delivery to Consignee', href: '/Party_Details_Group' }]
 
+            }
 
-      {id:1, current: false, name: 'Imports', href:'order_management/customer_information',
-      childrens:[
- //1
-        {id:1, current: false, name: 'Preparation', href:'order_management/customer_information',
-        Child:[{current: false, name: 'Place Order', href: '/Customer_Information',
-        Childg:[{current: false, name: 'Supplier Invoice Review', href: '/Customer_Information'}]
-      
-      }]
-    
-      },
 
+            ]
 
+          },
 
 
+          //9
+          {
+            id: 1, current: false, name: 'Post-Shipment', href: '',
+            Child: [{
+              current: false, name: 'Claims', href: '',
+              Childg: [{ current: false, name: 'File a Claim', href: '/Export' }]
 
- //2
- {id:1, current: false, name: 'Booking', href:'order_management/customer_information',
- Child:[{current: false, name: 'Freight', href: '/Customer_Information',
- Childg:[{current: false, name: 'Booking Confirmation and Payment', href: '/Customer_Information'}]
+            },
+            {
+              current: false, name: 'Reporting', href: '',
+              Childg: [{ current: false, name: 'Shipment Report', href: '/Consignment_Information' }]
 
-}]
+            }
 
-},
 
-//3
-{id:1, current: false, name: 'Pre-Shipment', href:'order_management/customer_information',
-Child:[{current: false, name: 'Documentation', href: '/Customer_Information',
-Childg:[{current: false, name: 'Import License Acquisition', href: '/Customer_Information'}]
 
-},
-{current: false, name: 'Inspection', href: '/Customer_Information',
-Childg:[{current: false, name: 'Import Cargo Inspection', href: '/Customer_Information'}]
+            ]
 
-}
-]
+          },
 
-},
-  
-  //4
-  {id:1, current: false, name: 'Customs', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Clearance', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Import Customs Declaration', href: '/Customer_Information'}]
 
-}]
 
-},
-  
-  
-  
-  //5
-  {id:1, current: false, name: 'Shipment', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Loading', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Loading onto Vessel', href: '/Customer_Information'}]
 
-}]
+        ],
 
-},
-  
-  
-  //6
-  {id:1, current: false, name: 'On-Route', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Tracking', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Real-Time Cargo Tracking', href: '/Customer_Information'}]
 
-}]
-
-},
-  
-  //7
-  {id:1, current: false, name: 'Arrival', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Unloading', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Unloading at Destination Port', href: '/Customer_Information'}]
-
-}]
-
-},
-  
-  //8
-  {id:1, current: false, name: 'Post-Arrival', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Clearance', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Customs Clearance at Destination', href: '/Customer_Information'}]
-
-},
-{current: false, name: 'Delivery', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Delivery to Consignee', href: '/Customer_Information'}]
-
-}
-
-
-]
-
-},
-  
-  
-  //9
-  {id:1, current: false, name: 'Post-Shipment', href:'order_management/customer_information',
-  Child:[{current: false, name: 'Claims', href: '/Customer_Information',
-  Childg:[{current: false, name: 'File a Claim', href: '/Customer_Information'}]
-
-},
-{current: false, name: 'Reporting', href: '/Customer_Information',
-  Childg:[{current: false, name: 'Shipment Report', href: '/Customer_Information'}]
-
-}
-
-
-
-]
-
-},
-  
-  
-
-
-      ],
-      
-      
       },
 
     ],
@@ -282,20 +326,20 @@ Childg:[{current: false, name: 'Import Cargo Inspection', href: '/Customer_Infor
   {
     name: "Master",
     icon: FolderIcon,
-   id:1, current: false,
+    id: 1, current: false,
     children: [
-      {id:12, current: false, name: 'Customer Informations', href: '/Customer_Informations', },
-      {id:12, current: false, name: 'Country', href: '/Country', },
-      {id:12, current: false, name: 'Destination', href: '/Destinations', },
-      {id:12, current: false, name: 'Freight Type', href: '/Freight_Type', },
-      {id:12, current: false, name: 'Carrier List', href: '/Carrier_List', },
-      {id:12, current: false, name: 'Cargo Type ', href: '/Cargo_Type', },
-      {id:12, current: false, name: 'Packaging Type', href: '/Packaging_Type', },
-     
-      
- 
+      { id: 12, current: false, name: 'Customer Informations', href: '/Customer_Informations', },
+      { id: 12, current: false, name: 'Country', href: '/Country', },
+      { id: 12, current: false, name: 'Destination', href: '/Destinations', },
+      { id: 12, current: false, name: 'Freight Type', href: '/Freight_Type', },
+      { id: 12, current: false, name: 'Carrier List', href: '/Carrier_List', },
+      { id: 12, current: false, name: 'Cargo Type ', href: '/Cargo_Type', },
+      { id: 12, current: false, name: 'Packaging Type', href: '/Packaging_Type', },
 
-      
+
+
+
+
     ],
   },
 
@@ -314,12 +358,12 @@ Childg:[{current: false, name: 'Import Cargo Inspection', href: '/Customer_Infor
   //     {id:12, current: false, name: 'AirlineCoordination', href: '/AirlineCoordination', },
   //     {id:12, current: false, name: 'FlightandAirTransit', href: '/FlightandAirTransit', },
   //     {id:12, current: false, name: 'Customs & Arrival Services', href: '#', },
-      
- 
-     
-     
 
-      
+
+
+
+
+
   //   ],
   // },
 
@@ -524,7 +568,7 @@ Childg:[{current: false, name: 'Import Cargo Inspection', href: '/Customer_Infor
   //     {id:107, current: false, name: 'Reporting & Analytics', href: '	warehousing_solutions/reporting_analytics', childrens: [{ name: ' Operational Reports', href: '	warehousing_solutions/reporting_analytics/operational_reports' },{ name: ' Performance Analytics', href: 'warehousing_solutions/reporting_analytics/performance_analytics' },{ name: ' Trend Analysis', href: '	warehousing_solutions/reporting_analytics/trend_analysis' },{ name: ' Custom Dashboards', href: '	warehousing_solutions/reporting_analytics/custom_dashboards' },] },
   //   ],
   // }
- 
+
 
 
 
@@ -537,10 +581,10 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const[idtrack,setidtrack]=useState(null);
+  const [idtrack, setidtrack] = useState(null);
 
   return (
-    <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 max-w-xs h-full">
+    <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 w-1/5 h-full">
       <div className="flex h-16 shrink-0 items-center">
         <h1 className="text-xl font-extrabold leading-none tracking-tight text-gray-900  dark:text-white">Freight<mark class="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">Flow</mark> </h1>
       </div>
@@ -583,10 +627,10 @@ export default function Navbar() {
                           </Disclosure.Button>
                           <Disclosure.Panel as="ul" className="mt-1 px-2">
                             {item.children.map((subItem, index) => (
-                      
+
                               <li key={subItem.id} >
-                                 
-                                < Navbarlist subItem={subItem} index={index} idtrack={idtrack} setidtrack={setidtrack}  />
+
+                                < Navbarlist subItem={subItem} index={index} idtrack={idtrack} setidtrack={setidtrack} />
 
 
                               </li>

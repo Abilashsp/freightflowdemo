@@ -58,25 +58,32 @@ export default function Page() {
               <table className="min-w-full divide-y divide-gray-300">
                 <thead className="bg-gray-50">
                   <tr>
-                    {data?.schemal?.map((h) => (
+                    <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-6">
+                      <span className="sr-only">Edit</span>
+                    </th>
+                    {data?.schemal?.map((h, index) => (
                       <th
+                        key={index} // Add a unique key to each th element when mapping over an array
                         scope="col"
                         className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
                       >
                         {h["Field Name"]}
                       </th>
                     ))}
-                    <th
-                      scope="col"
-                      className="relative py-3.5 pl-3 pr-4 sm:pr-6"
-                    >
-                      <span className="sr-only">Edit</span>
-                    </th>
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {data?.data?.map((r, rIdx) => (
                     <tr>
+                      <td className="relative py-4 pl-3 pr-4 text-sm font-medium text-right whitespace-nowrap sm:pr-6">
+                        <a
+                          href={`./form/${data?.schemal[0]?.Page}/${rIdx + 1}`}
+                          className="text-indigo-600 hover:text-indigo-900"
+                        >
+
+                          Edit<span className="sr-only">, {r[0]}</span>
+                        </a>
+                      </td>
                       {data?.schemal?.map((h) => (
                         <td className="px-3 py-4 text-sm text-gray-500 whitespace-nowrap">
                           {h["Data Type"] === "Checkbox" && (
@@ -116,17 +123,29 @@ export default function Page() {
                               {r[h["Field Name"]]}
                             </a>
                           )}
+                          {h["Data Type"] === "String" && (
+                            <a href={r[h["Field Name"]]} target="_blank">
+                              {r[h["Field Name"]]}
+                            </a>
+                          )}
+                          {h["Data Type"] === "Number" && (
+                            <a href={r[h["Field Name"]]} target="_blank">
+                              {r[h["Field Name"]]}
+                            </a>
+                          )}
+                           {h["Data Type"] === "Date" && (
+                            <a href={r[h["Field Name"]]} target="_blank">
+                              {r[h["Field Name"]]}
+                            </a>
+                          )}
+                            {h["Data Type"] === "File" && (
+                            <a href={r[h["Field Name"]]} target="_blank">
+                              {r[h["Field Name"]]}
+                            </a>
+                          )}
                         </td>
                       ))}
-                      <td className="relative py-4 pl-3 pr-4 text-sm font-medium text-right whitespace-nowrap sm:pr-6">
-                        <a
-                          href={`./form/${data?.schemal[0]?.Page}/${rIdx + 1}`}
-                          className="text-indigo-600 hover:text-indigo-900"
-                        >
-                         
-                          Edit<span className="sr-only">, {r[0]}</span>
-                        </a>
-                      </td>
+
                     </tr>
                   ))}
                 </tbody>
